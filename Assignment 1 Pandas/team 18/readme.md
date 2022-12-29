@@ -56,4 +56,5 @@ This dataset contains 384975 records and 22 columns which are:
 | region_url | Housing region URL |
 | price | Rent per month |
 | type | The type of the house provided |
+
 & many more
