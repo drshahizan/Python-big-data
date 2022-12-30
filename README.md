@@ -32,7 +32,7 @@ Follow this step-by-step guide to work on your project.
 
 ### Step 6: Make a submission
 
-## 🌟 Case Study 1: Answer
+## 🌟 Case Study 1: Solutions
 
 
 | Team | Title | Colab |  GitHub |
