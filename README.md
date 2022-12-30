@@ -113,3 +113,13 @@ This case study is divided into two parts:
 | 9 | Pandas vs Vaex | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
 | 10 | Pandas vs Pyspark | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
 | 11 | Pandas vs Koalas | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
+
+## 🚀 Project
+
+1. You need to use a dataset that is larger than 1 GB. You can get the dataset from [Kaggle](https://www.kaggle.com/datasets) or [Dataset Search](https://datasetsearch.research.google.com/). The dataset file must be of CSV type.
+2. The dataset must be stored in Google Drive.
+3. Make sure you create a link to enable your dataset to be used on Google Colab.
+4. Please create operations related to big data that allow the dataset to be used.
+5. You need to use at least three libraries related to big data processing such as pandas, dask, vaex and mondin.
+6. Please compare the processing results from the selected libraries.
+7. You need to use the concept of Exploratory Data Analysis (EDA) on this project.
