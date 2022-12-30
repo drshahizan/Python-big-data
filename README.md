@@ -1,6 +1,7 @@
 # About Us [![GitHub](https://img.shields.io/github/stars/drshahizan/Python_EDA?color=yellowgreen&logo=github)](https://img.shields.io/github/stars/drshahizan/Python_EDA?color=yellowgreen&logo=github)
 The information on this Github is part of the materials for the subject High Performance Data Processing (SECP3133). This folder contains general big data information as well as big data case studies using Malaysian datasets. This case study was created by a [Bachelor of Computer Science (Data Engineering)](https://comp.utm.my/bachelor-of-computer-science-data-engineering/), Universiti Teknologi Malaysia student.
-## 🚀 Case Study 1 : Intructions
+
+## 🚀 Case Study 1 : Pandas - Data Processing
 
 Your submission will be evaluated using the following criteria:
 
@@ -58,3 +59,15 @@ Follow this step-by-step guide to work on your project.
 | SQ | Number of Cases and Incidents Rate of Communicable Disease by State | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
 | TUK | ABC | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
 | UWU | Property Listings in Kuala Lumpur | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
+
+## 🚀 Case Study 2 : Alternatives to Pandas for Processing Large Datasets
+
+Pandas library has became the de facto library for data manipulation in python and is widely used by data scientist and analyst. However, there are times when the dataset is too large and Pandas may run into memory errors. Here are 8 alternatives to Pandas for dealing with large datasets. For each alternative library, we will examine how to load data from CSV and perform a simple groupby operation. Fortunately many of these libraries have similar syntax as Pandas hence making the learning curve less steep.
+1. Data Table
+2. Polars
+3. Vaex
+4. Pyspark
+5. Koalas
+6. cuDF
+7. Dask
+8. Modin
