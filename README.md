@@ -126,7 +126,7 @@ This case study is divided into two parts:
 
 ## 🌟 Project: Solutions
 
-| Team | libraries for data science | Colab |  GitHub |
+| Team | Libraries for data science | Colab |  GitHub |
 | ----- | ----- | ------ | ------ | 
 | 1 | DataTable | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
 | 2 | Polars | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
