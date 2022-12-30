@@ -4,7 +4,8 @@
 1. Hong Pei Geok A20EC0044
 2. Vincent Boo Ee Khai A20EC0231
 
-# Car Sales
+# Car Sales🚘
+
 
 This project aims to investigate the car sales in Russia by region. The dataset consists of 17 columns and 1048572 rows. It is considered as big data and occupies the memory 310.82MB. The dataset is obtained from Kaggle which contains many kinds of dataset ranging from agriculture to education. We have selected this dataset because we like to know how the factors affect car sales. We will perform a series of steps like data processing, data cleaning and visualization on this dataset. Google Colab will be used in this project.
 
