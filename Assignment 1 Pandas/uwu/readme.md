@@ -1,4 +1,4 @@
-<h1>Airline Delay & Cancellation in 2017</h1>
+<h1>Airline Delay in 2017</h1>
 All data files are downloaded from OST website, which stores flights on-time performance from 1987 to 2018. However, we chose only 2017 data file, since it is large enough to perform methods in handling big data.
 
 We are motivated to do EDA on this dataset because we, ourselves are curious about the insights that can be obtain from this dataset. The dataset also has many columns with numerical values which we believe, could give more meaningful analysis.
