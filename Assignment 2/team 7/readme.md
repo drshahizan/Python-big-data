@@ -40,4 +40,17 @@ LLVM-based user-defined functions.
 <hr>
 
 <h1>Installation</h1>
-`!pip install datatable`
+<code> !pip install datatable </code>
+<br />
+and continue by importing 
+<br />
+<code> import datatable as dt </code>
+
+<hr>
+
+<h1>Content</h1>
+1. DataTable-file1
+- Implementing the Data Table
+<br />
+2. DataTable-file2
+- Implementing and comparing processing time of Data Table with Pandas
