@@ -39,4 +39,28 @@ Among the features we wish to implement with datatable are:
 ## **Dataset**
 The dataset can be downloaded from Kaggle: <a href="https://www.kaggle.com/datasets/hhs/health-insurance-marketplace?select=Rate.csv">Rate.csv</a>
 #### Attribute Information:
-
+| Acronym | Description |
+| --- | --- |
+| **BusinessYear** |     |
+|**StateCode** |    |
+| **IssuerId** |  |
+| **SourceName** |   |
+| **VersionNum** |   |
+| **ImportDate** |     |
+| **IssuerId2** |    |
+| **FederalTIN** |   |
+| **RateEffectiveDate** |     |
+|**RateExpirationDate** |   |
+| **PlanId** |  |
+| **RatingAreaId** |   |
+| **Tobacco** |  |
+| **Age** |     |
+| **IndividualRate** |    |
+| **IndividualTobaccoRate** |   |
+| **Couple** |   |
+|**PrimarySubscriberAndOneDependent** |   |
+| **PrimarySubscriberAndTwoDependents** |  |
+| **CoupleAndOneDependent** |  |
+| **CoupleAndTwoDependents** |   |
+| **CoupleAndThreeOrMoreDependents** |     |
+| **RowNumber** |   |
