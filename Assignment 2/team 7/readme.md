@@ -1,8 +1,5 @@
-<h1>Data Table as an alternative to Pandas</h1>
-
-![DataTable](https://datatable.readthedocs.io/en/latest/_static/py_datatable_logo.png)
-
-<table>
+## Group Members: 
+<table align = "center">
   <tr>
     <th>Name</th>
     <th>Matric</th>
@@ -24,6 +21,10 @@
     <th>A20EC0026</th>
   </tr>
 </table>
+
+<h1>Data Table as an alternative to Pandas</h1>
+
+![DataTable](https://datatable.readthedocs.io/en/latest/_static/py_datatable_logo.png)
 
 Python package datatable was inspired from its counterpart R package data.table. It was developped with the aim to analyse BigData efficiently. Following is about datatable package.(Taken from datatable github page)
 
