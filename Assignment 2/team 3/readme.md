@@ -1,23 +1,77 @@
-# Alternative to Pandas (Vaex)
----
+# **Dataset: Health Insurance Marketplace**
+
 ## _Group 3_
-- Muhammad Imran Hakim Bin Mohb Shukri 
-- Afif Hazmie Arsyad Bin Agus
-- Kong Jia Rou
-- Rasmin Kaur Sandhu
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Matric</th>
+  </tr>
+  <tr>
+    <th>Muhammad Imran Hakim Bin Mohb Shukri </th>
+    <th>A20EC0</th>
+  </tr>
+  <tr>
+    <th>Afif Hazmie Arsyad Bin Agus</th>
+    <th>A20EC0</th>
+  </tr>
+    <tr>
+    <th>Kong Jia Rou</th>
+    <th>A20EC0198</th>
+  </tr>
+    <tr>
+    <th>Rasmin Kaur Sandhu</th>
+    <th>A20EC0</th>
+  </tr>
+</table>
+
 ---
 **Introduction**
 ---
 The use of Python and Pandas, its most well-liked data wrangling library, is growing rapidly. Python and Pandas make data exploration and transformation easier when compared to rivals like Java. But scalability and efficiency problems with Python and Pandas are well recognised. It therefore comes as no surprise that numerous developers are attempting to increase Python and Pandas' capability in various ways. In this project, we are comparing Pandas and Vaex. Vaex is a partial substitute for Pandas that makes advantage of slow evaluation and memory mapping to let programmers work with huge datasets on common computers.
+
+This folder contains two files:<br>
+File 1: Basic concept of Vaex and code implementation<br>
+File 2: Comparison between Pandas and Vaex
 
 We are going to compare both libraries based on :
 - Reading Files
 - Data Cleaning
 - Data Transformation
 - Visualization
+
 ---
 **Dataset**
-For this project we decided to use a medical dataset [Rate.csv](https://drive.google.com/file/d/110mZHE08iW3Kbio-XCcASizLcpU2qFAV/view?usp=share_link). Medical datasets are electronic collections of data that are related to the healthcare industry. It uses a virtual memory approach to allow processing of large datasets that do not fit in memory. Vaex also provides a variety of functions for data visualization and exploration. Pandas is another popular Python library for data manipulation and analysis. It is well-suited for small to medium-sized datasets that can be loaded into memory, but it can become slow and unwieldy when working with large datasets. In this assignment, we will show you how which library are the most suitable to use with large dataset.
+
+For this project we decided to use a medical dataset [Rate.csv](https://www.kaggle.com/datasets/hhs/health-insurance-marketplace?select=Rate.csv). 
+
+***Attribute information:***
+| Attribute | Description |
+| --- | --- |
+| **BusinessYear** |     |
+|**StateCode** |    |
+| **IssuerId** |  |
+| **SourceName** |   |
+| **VersionNum** |   |
+| **ImportDate** |     |
+| **IssuerId2** |    |
+| **FederalTIN** |   |
+| **RateEffectiveDate** |     |
+|**RateExpirationDate** |   |
+| **PlanId** |  |
+| **RatingAreaId** |   |
+| **Tobacco** |  |
+| **Age** |     |
+| **IndividualRate** |    |
+| **IndividualTobaccoRate** |   |
+| **Couple** |   |
+|**PrimarySubscriberAndOneDependent** |   |
+| **PrimarySubscriberAndTwoDependents** |  |
+| **CoupleAndOneDependent** |  |
+| **CoupleAndTwoDependents** |   |
+| **CoupleAndThreeOrMoreDependents** |     |
+| **RowNumber** |   |
+
+Medical datasets are electronic collections of data that are related to the healthcare industry. It uses a virtual memory approach to allow processing of large datasets that do not fit in memory. Vaex also provides a variety of functions for data visualization and exploration. Pandas is another popular Python library for data manipulation and analysis. It is well-suited for small to medium-sized datasets that can be loaded into memory, but it can become slow and unwieldy when working with large datasets. In this assignment, we will show you how which library are the most suitable to use with large dataset.
 
 | Functions | Pandas | Vaex |
 | ------ | ------ | ------ |
