@@ -63,18 +63,18 @@ The information on this Github is part of the materials for the subject High Per
 
 ## Lab
 **Pandas**
-- [Lab 1: 1,000,000 Sales Records](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_1_1_million_Sales_Records.ipynb)
-- [Lab 2: NYC Yellow Taxi Trip Data](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_2_3_technique_handle_large_dataset.ipynb)
-- [Lab 3: NYC Taxi Trip Duration EDA notebook](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_3_NYC_EDA.ipynb)
-- [Lab 4: Strategies to Deal With Large Datasets Using Pandas](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_4_NYC_Large_Datasets.ipynb)
-- [Lab 5: eCommerce behavior data from multi category store (285 million users)](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_5_Dataset_285_million_users.ipynb)
+- [Lab 1: 1,000,000 Sales Records](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_1_1_million_Sales_Records.ipynb)
+- [Lab 2: NYC Yellow Taxi Trip Data](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_2_3_technique_handle_large_dataset.ipynb)
+- [Lab 3: NYC Taxi Trip Duration EDA notebook](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_3_NYC_EDA.ipynb)
+- [Lab 4: Strategies to Deal With Large Datasets Using Pandas](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_4_NYC_Large_Datasets.ipynb)
+- [Lab 5: eCommerce behavior data from multi category store (285 million users)](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_5_Dataset_285_million_users.ipynb)
 
 **Modin**
-- [Lab 1: How to use Modin](https://github.com/drshahizan/Python-big-data/blob/main/2%20Modin/lab_1.ipynb)
-- [Lab 2: Speed improvements](https://github.com/drshahizan/Python-big-data/blob/main/2%20Modin/lab_2.ipynb)
-- [Lab 3: Not Implemented](https://github.com/drshahizan/Python-big-data/blob/main/2%20Modin/lab_3.ipynb)
-- [Lab 4: Experimental Features](https://github.com/drshahizan/Python-big-data/blob/main/2%20Modin/lab_4.ipynb)
-- [Lab 5: Modin for Distributed Pandas](https://github.com/drshahizan/Python-big-data/blob/main/2%20Modin/lab_5_IntelModin.ipynb)
+- [Lab 1: How to use Modin](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_1.ipynb)
+- [Lab 2: Speed improvements](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_2.ipynb)
+- [Lab 3: Not Implemented](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_3.ipynb)
+- [Lab 4: Experimental Features](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_4.ipynb)
+- [Lab 5: Modin for Distributed Pandas](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_5_IntelModin.ipynb)
 
 
 ## 🚀 Case Study 1 : Pandas - Data Processing
