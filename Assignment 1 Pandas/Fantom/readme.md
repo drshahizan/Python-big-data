@@ -8,7 +8,7 @@ Group Members: <b>
 </b> 
 
 <h1>Google Playstore App </h1>
-This project aims to investigate the performance of athlete that participate in Tokyo Olympics 2020. The dataset consists of 6 columns and 93 rows. The size of the dataset is only 2.06KB. We ahve selected this dataset because we like to know does the Japan athlete perform better when their country is hosting Olympics. We will perform a series of steps like data processing, data cleaning and visualization on this dataset. Google Colab and Github will be used in this project.
+This project aims to investigate the performance of each app in Google Playstore before 2021 June. This dataset consists of 24 columns and 1048575 rows. The size of the dataset is 676.46 MB. We ahve selected this dataset because we like to know the highest rating and download for each category of app and which app is worth to buy. We will perform a series of steps like data processing, data cleaning and visualization on this dataset. Google Colab and Github will be used in this project.
 
 <ul> <h3>Tools: </h3>
 	<li>Google Colab </li>
