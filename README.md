@@ -22,7 +22,7 @@ The information on this Github is part of the materials for the subject High Per
   - [Project](https://github.com/drshahizan/Python-big-data/tree/main/Project)
 
 ## Notes
-### Pandas: Big Data
+### Big Data: Pandas
 - [Top 10 Python Libraries Data Scientists should know](https://www.edureka.co/blog/python-libraries/)
 - [Top 5 Python Libraries For Big Data](https://www.geeksforgeeks.org/top-5-python-libraries-for-big-data/)
 - [Python Pandas Dataframe Tutorial for Beginners](https://www.projectpro.io/article/python-pandas-dataframe-tutorials/405)
@@ -40,6 +40,10 @@ The information on this Github is part of the materials for the subject High Per
 - [Video: 3 Tips to Read Very Large CSV as Pandas Dataframe](https://www.youtube.com/watch?v=GmG3dXhehJc&t=1s)
 - [Kaggle: Largest Datasets](https://www.kaggle.com/code/benhamner/competitions-with-largest-datasets)
 - [EDA for Amazon books reviews](https://www.kaggle.com/code/mohamedbakhet/eda-for-amazon-books-reviews/notebook)
+
+### Big Data: Alternatives to Pandas for Processing Large Datasets
+- [8 Alternatives to Pandas for Processing Large Datasets](https://towardsdatascience.com/8-alternatives-to-pandas-for-processing-large-datasets-928fc927b08c)
+- [Tutorial compilation for handling larger datasets](https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/275712)
 
 ### Big Data: Case study
 - [7 Amazing companies that really get big data](https://www.bernardmarr.com/img/bigdata-case-studybook_final.pdf)
