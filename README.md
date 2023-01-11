@@ -10,6 +10,17 @@ Don't forget to hit the :star: if you like this repo.
 # About Us
 The information on this Github is part of the materials for the subject High Performance Data Processing (SECP3133). This folder contains general big data information as well as big data case studies using Malaysian datasets. This case study was created by a [Bachelor of Computer Science (Data Engineering)](https://comp.utm.my/bachelor-of-computer-science-data-engineering/), Universiti Teknologi Malaysia student.
 
+### Contents:
+  - [Github Profile](#github-profile-)
+  - [Tools](#tools)
+  - [Articles](#articles-)
+  - [Assignment](#tutorials-)
+    - [Assignment1: Pandas - Data Processing](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%201)
+    - [Assignment2:A lternatives to Pandas for Processing Large Datasets]
+      - [Solution 2a](#tutorials-)        
+      - [Solution 2b](#tutorials-)
+  - [Project](https://github.com/drshahizan/Python-big-data/tree/main/Project)
+
 ## 🚀 Case Study 1 : Pandas - Data Processing
 
 Your submission will be evaluated using the following criteria:
