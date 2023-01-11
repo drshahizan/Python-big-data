@@ -15,16 +15,33 @@ This project aims to investigate the performance of athlete that participate in 
 	<li>Github </li>
 </ul>
 
-<h3> Dataset: </h3> Tokyo Medals 2021.csv <br>
-(https://github.com/drshahizan/Python-big-data/blob/main/Assignment%201%20Pandas/Fantom/Tokyo%20Medals%202021.csv)
+<h3> Dataset: </h3> Google-Playstore.csv <br>
+(https://drive.google.com/file/d/1BX8czff8cGrEFA3KP7LrAbPSmWmRiMk1/view?usp=sharing)
 
 #### Attribute Information:
 | Acronym | Description |
 | --- | --- |
-| **Country** |    Name of the Country |
-|**Gold Medal** | Number of Gold Medal Won  |
-| **Silver Medal** | Number of Silver Medal Won |
-| **Bronze Medal** |  Number of Bronze Medal Won|
-| **Total** |  Total Number of Medal Won |
-| **Rank by Total** |  Ranking of the Country |
-
+| **App Name** |    Name of the App |
+|**App ID** | Package Name  |
+| **Category** | App Category |
+| **Rating** |  Average Rating |
+| **Rating Count** |  Number of Rating |
+| **Installs** |  Approximate Install Count |
+| **Minimum Installs** |    Approximate minimum app install count |
+|**Maximum Installs** | Approximate maximum app install count  |
+| **Free** | Whether app is Free or Paid |
+| **Price** |  App Price |
+| **Currency** |  App Currency |
+| **Size** |  Size of Application Package |
+| **Minimum Android** |    Minimum Android version supported |
+|**Developer ID** | Developer ID in Google Playstore  |
+| **Developer Website** | Website of the developer |
+| **Developer Email** |  Email-id of developer |
+| **Released** |  App launch date on Google Playstore |
+| **Last Updated** |  Last app update date |
+| **Content Rating** |    Maturity level of app |
+|**Privacy** | Privacy policy from developer  |
+| **Ad Supported** | Ad support in app |
+| **In App Purchases** |  In-App Purchases in app |
+| **Editors Choice** |  Whether rated as Editor Choice |
+| **Scraped Time** |  Scraped date-time in GMT |
