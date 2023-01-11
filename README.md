@@ -74,9 +74,9 @@ The information on this Github is part of the materials for the subject High Per
 
 ### Big Data: Case study
 - [7 Amazing companies that really get big data](https://www.bernardmarr.com/img/bigdata-case-studybook_final.pdf)
-- []()
-- []()
-- []()
+- [Data Science Case Studies: Solved using Python](https://thecleverprogrammer.com/2021/02/19/data-science-case-studies-solved-using-python/)
+- [10 Real World Data Science Case Studies Projects with Example](https://www.projectpro.io/article/data-science-case-studies-projects-with-examples-and-solutions/519)
+- [Top 8 Data Science Case Studies for Data Science Enthusiasts](https://www.knowledgehut.com/blog/data-science/top-data-science-case-studies)
 
 ## Lab
 **Pandas**
