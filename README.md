@@ -59,16 +59,6 @@ Pandas library has became the de facto library for data manipulation in python a
 7. Dask
 8. Modin
 
-This case study is divided into two parts:
-1. Case Study: 2a
-  * Please use the appropriate dataset.
-  * You need to carry out an explanation related to the basic concept of the library.
-  * Please show the code step by step of its implementation.
-2. Case Study: 2b
-  * You are required to compare Pandas with the selected library
-  * Make sure you use the same dataset when making comparisons.
-  * You can also use visualization to show the comparison.
-
 ## 🌟 Case Study 2a: Solutions
 
 | Team | Title | Colab |  GitHub |
