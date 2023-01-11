@@ -49,11 +49,11 @@ The information on this Github is part of the materials for the subject High Per
 - [Tutorial compilation for handling larger datasets](https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/275712)
 
 #### Modin
-- [Modin]()
-- [Github Modin]()
-- [How to Speed Up Pandas with Modin]()
-- [Kaggle: Speed up Pandas Workflow with Modin]()
-- [Video: Do these Pandas Alternatives actually work?]()
+- [Modin](https://modin.readthedocs.io/en/stable/)
+- [Github Modin](https://github.com/modin-project/modin)
+- [How to Speed Up Pandas with Modin](https://towardsdatascience.com/how-to-speed-up-pandas-with-modin-84aa6a87bcdb)
+- [Kaggle: Speed up Pandas Workflow with Modin](https://www.kaggle.com/code/lordozvlad/speed-up-pandas-workflow-with-modin/notebook)
+- [Video: Do these Pandas Alternatives actually work?](https://youtu.be/LEhMQhCv3Kg)
 
 ### Big Data: Case study
 - [7 Amazing companies that really get big data](https://www.bernardmarr.com/img/bigdata-case-studybook_final.pdf)
