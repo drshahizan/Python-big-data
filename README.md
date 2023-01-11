@@ -49,11 +49,18 @@ The information on this Github is part of the materials for the subject High Per
 - [Tutorial compilation for handling larger datasets](https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/275712)
 
 #### Modin
-- [Modin]()
-- [Github Modin]()
-- [How to Speed Up Pandas with Modin]()
-- [Kaggle: Speed up Pandas Workflow with Modin]()
-- [Video: Do these Pandas Alternatives actually work?]()
+- [Modin](https://modin.readthedocs.io/en/stable/)
+- [Github Modin](https://github.com/modin-project/modin)
+- [How to Speed Up Pandas with Modin](https://towardsdatascience.com/how-to-speed-up-pandas-with-modin-84aa6a87bcdb)
+- [Kaggle: Speed up Pandas Workflow with Modin](https://www.kaggle.com/code/lordozvlad/speed-up-pandas-workflow-with-modin/notebook)
+- [Video: Do these Pandas Alternatives actually work?](https://youtu.be/LEhMQhCv3Kg)
+
+#### Dask
+- [Video - Dask: An Introduction]()
+- [Dask | Scale the Python tools you love]()
+- [Dask – How to handle large dataframes in python using parallel computing]()
+- [Dask (software)]()
+- [Parallel Computing with Dask: A Step-by-Step Tutorial]()
 
 ### Big Data: Case study
 - [7 Amazing companies that really get big data](https://www.bernardmarr.com/img/bigdata-case-studybook_final.pdf)
@@ -63,18 +70,18 @@ The information on this Github is part of the materials for the subject High Per
 
 ## Lab
 **Pandas**
-- [Lab 1: 1,000,000 Sales Records](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_1_1_million_Sales_Records.ipynb)
-- [Lab 2: NYC Yellow Taxi Trip Data](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_2_3_technique_handle_large_dataset.ipynb)
-- [Lab 3: NYC Taxi Trip Duration EDA notebook](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_3_NYC_EDA.ipynb)
-- [Lab 4: Strategies to Deal With Large Datasets Using Pandas](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_4_NYC_Large_Datasets.ipynb)
-- [Lab 5: eCommerce behavior data from multi category store (285 million users)](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_5_Dataset_285_million_users.ipynb)
+- [Lab 1: 1,000,000 Sales Records](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_1_1_million_Sales_Records.ipynb)
+- [Lab 2: NYC Yellow Taxi Trip Data](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_2_3_technique_handle_large_dataset.ipynb)
+- [Lab 3: NYC Taxi Trip Duration EDA notebook](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_3_NYC_EDA.ipynb)
+- [Lab 4: Strategies to Deal With Large Datasets Using Pandas](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_4_NYC_Large_Datasets.ipynb)
+- [Lab 5: eCommerce behavior data from multi category store (285 million users)](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_5_Dataset_285_million_users.ipynb)
 
 **Modin**
-- [Lab 1: How to use Modin](https://github.com/drshahizan/Python-big-data/blob/main/2%20Modin/lab_1.ipynb)
-- [Lab 2: Speed improvements](https://github.com/drshahizan/Python-big-data/blob/main/2%20Modin/lab_2.ipynb)
-- [Lab 3: Not Implemented](https://github.com/drshahizan/Python-big-data/blob/main/2%20Modin/lab_3.ipynb)
-- [Lab 4: Experimental Features](https://github.com/drshahizan/Python-big-data/blob/main/2%20Modin/lab_4.ipynb)
-- [Lab 5: Modin for Distributed Pandas](https://github.com/drshahizan/Python-big-data/blob/main/2%20Modin/lab_5_IntelModin.ipynb)
+- [Lab 1: How to use Modin](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_1.ipynb)
+- [Lab 2: Speed improvements](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_2.ipynb)
+- [Lab 3: Not Implemented](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_3.ipynb)
+- [Lab 4: Experimental Features](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_4.ipynb)
+- [Lab 5: Modin for Distributed Pandas](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_5_IntelModin.ipynb)
 
 
 ## 🚀 Case Study 1 : Pandas - Data Processing
