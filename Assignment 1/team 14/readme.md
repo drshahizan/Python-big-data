@@ -1,4 +1,4 @@
-## Title : Google Playstore Summary
+## Title : Google Playstore Application Summary
 ### Pixelated
 1. Terence Loorthanathan (A20EC0165)
 2. Rishma Fathima Binti Basher (A20EC0137)
@@ -49,6 +49,6 @@ Dataset taken from Kaggle, Google Playstore App Dataset<br>
 
 | Team | Title | Colab |  GitHub |
 | ----- | ----- | ------ | ------ | 
-| Pixelated | Number of deaths in Malaysia from 2001 to 2018 Open In Colab | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://colab.research.google.com/drive/1F3H-k0uWp8cmbCqE052IsUsPLSoPhwx8?usp=sharing#scrollTo=mKeF0Y006kL4) |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%201/team%2014) |
+| Pixelated | Google Playstore Application Summary Open In Colab | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://colab.research.google.com/drive/1F3H-k0uWp8cmbCqE052IsUsPLSoPhwx8?usp=sharing#scrollTo=mKeF0Y006kL4) |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%201/team%2014) |
 
 
