@@ -7,7 +7,7 @@ Group Members: <b>
 	3. Low Junyi A20EC0071
 </b> 
 
-<h1>Tokyo Olympics 2020 </h1>
+<h1>Google Playstore App </h1>
 This project aims to investigate the performance of athlete that participate in Tokyo Olympics 2020. The dataset consists of 6 columns and 93 rows. The size of the dataset is only 2.06KB. We ahve selected this dataset because we like to know does the Japan athlete perform better when their country is hosting Olympics. We will perform a series of steps like data processing, data cleaning and visualization on this dataset. Google Colab and Github will be used in this project.
 
 <ul> <h3>Tools: </h3>
@@ -15,10 +15,11 @@ This project aims to investigate the performance of athlete that participate in 
 	<li>Github </li>
 </ul>
 
-<h3> Dataset: </h3> Google-Playstore.csv <br>
-(https://drive.google.com/file/d/1BX8czff8cGrEFA3KP7LrAbPSmWmRiMk1/view?usp=sharing)
+<h3>Dataset: <br><br>
+	<a href="https://drive.google.com/file/d/1BX8czff8cGrEFA3KP7LrAbPSmWmRiMk1/view?usp=sharing"> Google-Playstore.csv </a></h3>
 
-#### Attribute Information:
+
+### Attribute Information:
 | Acronym | Description |
 | --- | --- |
 | **App Name** |    Name of the App |
