@@ -23,10 +23,10 @@ The information on this Github is part of the materials for the subject High Per
 
 ## Notes
 ### Pandas: Big Data
-- [Top 10 Python Libraries Data Scientists should know]()
-- [Top 5 Python Libraries For Big Data]()
-- [Python Pandas Dataframe Tutorial for Beginners]()
-- [4 strategies how to deal with large datasets in Pandas]()
+- [Top 10 Python Libraries Data Scientists should know](https://www.edureka.co/blog/python-libraries/)
+- [Top 5 Python Libraries For Big Data](https://www.geeksforgeeks.org/top-5-python-libraries-for-big-data/)
+- [Python Pandas Dataframe Tutorial for Beginners](https://www.projectpro.io/article/python-pandas-dataframe-tutorials/405)
+- [4 strategies how to deal with large datasets in Pandas](https://www.codementor.io/@guidotournois/4-strategies-to-deal-with-large-datasets-using-pandas-qdw3an95k)
 - [Scaling to large dataset]()
 - [3 ways to deal with large datasets in Python]()
 - [Reducing Pandas memory usage]()
