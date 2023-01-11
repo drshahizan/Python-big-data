@@ -20,6 +20,27 @@ The information on this Github is part of the materials for the subject High Per
       - [Solution 2b](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202b)
   - [Project](https://github.com/drshahizan/Python-big-data/tree/main/Project)
 
+## Notes
+### Pandas: Big Data
+- [Top 10 Python Libraries Data Scientists should know]()
+- [Top 5 Python Libraries For Big Data]()
+- [Python Pandas Dataframe Tutorial for Beginners]()
+- [4 strategies how to deal with large datasets in Pandas]()
+- [Scaling to large dataset]()
+- [3 ways to deal with large datasets in Python]()
+- [Reducing Pandas memory usage]()
+- [How To Handle Large Datasets in Python With Pandas]()
+- [Efficient Pandas: Using Chunksize for Large Datasets]()
+- Video: How to work with big data files (5gb+) in Python Pandas!]()
+- Loading large datasets in Panda]()
+- [Video: How to Read Very Big Files With SQL and Pandas in Python]()
+- [Scaling to large datasets]()
+- [Video: How to Handle Very Large Datasets in Python Pandas (Tips & Tricks)]()
+- [Video: 3 Tips to Read Very Large CSV as Pandas Dataframe]()
+- [Kaggle: Largest Datasets]()
+- [EDA for Amazon books reviews]()
+
+
 ## 🚀 Case Study 1 : Pandas - Data Processing
 
 Your submission will be evaluated using the following criteria:
