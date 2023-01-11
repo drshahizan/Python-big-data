@@ -47,6 +47,13 @@ The information on this Github is part of the materials for the subject High Per
 - [8 Alternatives to Pandas for Processing Large Datasets](https://towardsdatascience.com/8-alternatives-to-pandas-for-processing-large-datasets-928fc927b08c)
 - [Tutorial compilation for handling larger datasets](https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/275712)
 
+#### Modin
+- [Modin]()
+- [Github Modin]()
+- [How to Speed Up Pandas with Modin]()
+- [Kaggle: Speed up Pandas Workflow with Modin]()
+- [Video: Do these Pandas Alternatives actually work?]()
+
 ### Big Data: Case study
 - [7 Amazing companies that really get big data](https://www.bernardmarr.com/img/bigdata-case-studybook_final.pdf)
 - []()
