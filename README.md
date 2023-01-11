@@ -11,13 +11,13 @@ Don't forget to hit the :star: if you like this repo.
 The information on this Github is part of the materials for the subject High Performance Data Processing (SECP3133). This folder contains general big data information as well as big data case studies using Malaysian datasets. This case study was created by a [Bachelor of Computer Science (Data Engineering)](https://comp.utm.my/bachelor-of-computer-science-data-engineering/), Universiti Teknologi Malaysia student.
 
 ### Contents:
-  - [Notes](#notes-)
+  - [Notes](#notes)
     - [Big Data: Pandas](#big-data:-pandas-)
     - [Big Data: Alternatives to Pandas for Processing Large Datasets]
-  - [Lab]
+  - [Lab](#lab)
     - [Pandas]
     - [Modin]
-  - [Assignment](#assignments-)
+  - [Assignment](#assignment-)
     - [Assignment1: Pandas - Data Processing](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%201)
     - [Assignment2: Alternatives to Pandas for Processing Large Datasets]
       - [Solution 2a](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202a)        
@@ -104,7 +104,7 @@ The information on this Github is part of the materials for the subject High Per
 - [Lab: Modin vs Pandas](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_6_IntelModin_Vs_Pandas.ipynb)
 - [Lab: Large datasets (100MB to 1TB+) Pandas_Modin_Dask_Vaex](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_6_Pandas_Modin_Dask_Vaex.ipynb)
 
-## 🚀 Case Study 1 : Pandas - Data Processing
+## 🚀 Assignment 1 : Pandas - Data Processing
 
 Your submission will be evaluated using the following criteria:
 
@@ -114,7 +114,7 @@ Your submission will be evaluated using the following criteria:
 * Your submission must include explanations using markdown cells, apart from the code.
 * Your work must not be plagiarized i.e. copy-pasted from somewhere else.
 
-## 🌟 Case Study 1: Solutions
+## 🌟 Assignment 1: Solutions
 
 
 | Team | Title | Colab |  GitHub |
