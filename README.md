@@ -66,6 +66,12 @@ The information on this Github is part of the materials for the subject High Per
 - [DatatableTon](https://github.com/vopani/datatableton)
 - [Getting started with Python datatable](https://www.kaggle.com/code/sudalairajkumar/getting-started-with-python-datatable)
 
+### 🎖️ Comparison between libraries
+- [Faster Pandas with parallel processing: cuDF vs. Modin](https://towardsdatascience.com/faster-pandas-with-parallel-processing-cudf-vs-modin-f2318c594084)
+- [Scaling Interactive Data Science with Modin and Ray](https://youtu.be/ycSf1IbBGWk)
+- [Scaling Pandas: Comparing Dask, Ray, Modin, Vaex, and RAPIDS](https://www.datarevenue.com/en-blog/pandas-vs-dask-vs-vaex-vs-modin-vs-rapids-vs-ray)
+
+
 ### Big Data: Case study
 - [7 Amazing companies that really get big data](https://www.bernardmarr.com/img/bigdata-case-studybook_final.pdf)
 - []()
@@ -93,7 +99,11 @@ The information on this Github is part of the materials for the subject High Per
 - (Lab 3: Introducing Dask DataFrames)[https://github.com/drshahizan/Python-big-data/blob/main/Dask/Lab_3.ipynb]
 - (Lab 4: Learning Dask With Python Distributed Computing)[https://github.com/drshahizan/Python-big-data/blob/main/Dask/Lab_4.ipynb]
 - (Lab 5: Parallelize code with dask.delayed)[https://github.com/drshahizan/Python-big-data/blob/main/Dask/Lab_5.ipynb]
-- 
+
+**Comparison between libraries**
+- [Lab: Modin vs Pandas](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_6_IntelModin_Vs_Pandas.ipynb)
+- [Lab: Large datasets (100MB to 1TB+) Pandas_Modin_Dask_Vaex](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_6_Pandas_Modin_Dask_Vaex.ipynb)
+
 ## 🚀 Case Study 1 : Pandas - Data Processing
 
 Your submission will be evaluated using the following criteria:
