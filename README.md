@@ -55,6 +55,13 @@ The information on this Github is part of the materials for the subject High Per
 - [Kaggle: Speed up Pandas Workflow with Modin](https://www.kaggle.com/code/lordozvlad/speed-up-pandas-workflow-with-modin/notebook)
 - [Video: Do these Pandas Alternatives actually work?](https://youtu.be/LEhMQhCv3Kg)
 
+#### Dask
+- [Video - Dask: An Introduction]()
+- [Dask | Scale the Python tools you love]()
+- [Dask – How to handle large dataframes in python using parallel computing]()
+- [Dask (software)]()
+- [Parallel Computing with Dask: A Step-by-Step Tutorial]()
+
 ### Big Data: Case study
 - [7 Amazing companies that really get big data](https://www.bernardmarr.com/img/bigdata-case-studybook_final.pdf)
 - []()
