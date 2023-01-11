@@ -12,12 +12,12 @@ The information on this Github is part of the materials for the subject High Per
 
 ### Contents:
   - [Notes]
-    - [Big Data: Pandas]
+    - [Big Data: Pandas](#Big-Data:-Pandas-)
     - [Big Data: Alternatives to Pandas for Processing Large Datasets]
   - [Lab]
     - [Pandas]
     - [Modin]
-  - [Assignment](#tutorials-)
+  - [Assignment](#assignments-)
     - [Assignment1: Pandas - Data Processing](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%201)
     - [Assignment2:A lternatives to Pandas for Processing Large Datasets]
       - [Solution 2a](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202a)        
