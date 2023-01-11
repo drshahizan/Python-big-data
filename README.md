@@ -48,6 +48,7 @@ The information on this Github is part of the materials for the subject High Per
 - []()
 
 ## Lab
+**Pandas**
 - [Lab 1: 1,000,000 Sales Records](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_1_1_million_Sales_Records.ipynb)
 - [Lab 2: NYC Yellow Taxi Trip Data](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_2_3_technique_handle_large_dataset.ipynb)
 - [Lab 3: NYC Taxi Trip Duration EDA notebook](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_3_NYC_EDA.ipynb)
