@@ -47,6 +47,13 @@ The information on this Github is part of the materials for the subject High Per
 - []()
 - []()
 
+## Lab
+- [Lab 1: 1,000,000 Sales Records](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_1_1_million_Sales_Records.ipynb)
+- [Lab 2: NYC Yellow Taxi Trip Data](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_2_3_technique_handle_large_dataset.ipynb)
+- [Lab 3: NYC Taxi Trip Duration EDA notebook](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_3_NYC_EDA.ipynb)
+- [Lab 4: Strategies to Deal With Large Datasets Using Pandas](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_4_NYC_Large_Datasets.ipynb)
+- [Lab 5: eCommerce behavior data from multi category store (285 million users)](https://github.com/drshahizan/Python-big-data/blob/main/1%20Pandas/Lab_5_Dataset_285_million_users.ipynb)
+
 ## 🚀 Case Study 1 : Pandas - Data Processing
 
 Your submission will be evaluated using the following criteria:
