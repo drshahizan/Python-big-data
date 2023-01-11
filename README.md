@@ -81,9 +81,15 @@ The information on this Github is part of the materials for the subject High Per
 - [Lab 2: Speed improvements](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_2.ipynb)
 - [Lab 3: Not Implemented](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_3.ipynb)
 - [Lab 4: Experimental Features](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_4.ipynb)
-- [Lab 5: Modin for Distributed Pandas](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_5_IntelModin.ipynb)
+- [Lab 5: Modin for Distributed Pandas](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_5.ipynb)
 
-
+**Dask**
+- (Lab 1: Introducing Dask)[https://github.com/drshahizan/Python-big-data/blob/main/Dask/Lab_1.ipynb]
+- (Lab 2: Loading Data Into DataFrames)[https://github.com/drshahizan/Python-big-data/blob/main/Dask/Lab_2.ipynb]
+- (Lab 3: Introducing Dask DataFrames)[https://github.com/drshahizan/Python-big-data/blob/main/Dask/Lab_3.ipynb]
+- (Lab 4)[https://github.com/drshahizan/Python-big-data/blob/main/Dask/Lab_4.ipynb]
+- (Lab 5)[https://github.com/drshahizan/Python-big-data/blob/main/Dask/Lab_5.ipynb]
+- 
 ## 🚀 Case Study 1 : Pandas - Data Processing
 
 Your submission will be evaluated using the following criteria:
