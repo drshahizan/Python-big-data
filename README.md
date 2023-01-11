@@ -41,6 +41,11 @@ The information on this Github is part of the materials for the subject High Per
 - [Kaggle: Largest Datasets](https://www.kaggle.com/code/benhamner/competitions-with-largest-datasets)
 - [EDA for Amazon books reviews](https://www.kaggle.com/code/mohamedbakhet/eda-for-amazon-books-reviews/notebook)
 
+### Big Data: Case study
+- [7 Amazing companies that really get big data](https://www.bernardmarr.com/img/bigdata-case-studybook_final.pdf)
+- []()
+- []()
+- []()
 
 ## 🚀 Case Study 1 : Pandas - Data Processing
 
