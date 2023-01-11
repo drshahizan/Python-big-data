@@ -62,6 +62,10 @@ The information on this Github is part of the materials for the subject High Per
 - [Dask (software)]()
 - [Parallel Computing with Dask: A Step-by-Step Tutorial]()
 
+#### Datatable
+- (DatatableTon)[https://github.com/vopani/datatableton]
+- (Getting started with Python datatable)[https://www.kaggle.com/code/sudalairajkumar/getting-started-with-python-datatable]
+
 ### Big Data: Case study
 - [7 Amazing companies that really get big data](https://www.bernardmarr.com/img/bigdata-case-studybook_final.pdf)
 - []()
