@@ -40,9 +40,9 @@ Dataset taken from Kaggle, Google Playstore App Dataset<br>
     
  >Challenges that had to be faced when analysing this dataset:
 
-    1. The date datatype was stored as object so had to change it. 
-    2. There was a too much of free application compared to paid application, therefore it was biased. 
-    3. There was too much data and our first time handling it without supervision. 
+   
+    1. There was a too much of free application compared to paid application, therefore it was biased. 
+    2. There was too much data and our first time handling it without supervision. 
 
 
 ### Assignment: Phyton Big Data
