@@ -3,7 +3,7 @@
 <br>
 <img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%201/Pixelated/Pictures/Google_Play_logo.jpg"  style="text-align:center;" height="200" />
 
-<br><br>
+<br>
 
 ### Pixelated
 1. Terence Loorthanathan (A20EC0165)
