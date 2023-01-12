@@ -12,7 +12,7 @@ We wish to compare the compare the residential property price in Kuala Lumpur.be
 - scikit-learn
 - matplotlib.pyplot
 - seaborn
-**Group Members:
+**Group Members:**
 
 - CHONG KAI ZHE A20EC0186
 - RASMIN KAUR SANDHU A19ET0216
