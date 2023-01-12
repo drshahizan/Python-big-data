@@ -1,36 +1,74 @@
-## 🚀 Case Study 1 : Pandas - Data Processing
+# **Group 9: Vaex as an alternative to Pandas**
+<img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/Rojak/vaex.png"  width="300" height="100"><img>
 
-Your submission will be evaluated using the following criteria:
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Matric</th>
+  </tr>
+  <tr>
+    <th>Eddie Wong Chung Pheng </th>
+    <th>A20EC0031</th>
+  </tr>
+  <tr>
+    <th>Vincent Boo Ee Khai</th>
+    <th>A20EC0231</th>
+  </tr>
+    <tr>
+    <th>Madihah binti Che Zabri </th>
+    <th>A20EC0074</th>
+  </tr>
+  <tr>
+    <th>Nurarissa Dayana binti Mohd Sukri</th>
+    <th>A20EC0120</th>
+  </tr>
+    <th></th>
+    <th></th>
+  </tr>
+    <tr>
+    <th></th>
+    <th></th>
+  </tr>
+</table>
 
-* Dataset must contain at least larger than 100MB
-* Please implement data processing related to the concept of big data.
-* You must ask and answer at least 5 questions about the dataset
-* Your submission must include explanations using markdown cells, apart from the code.
-* Your work must not be plagiarized i.e. copy-pasted from somewhere else.
+The assignment is divided into 2 parts:<br>
+<ul>
+  <li>File 1: Explanation and Implementation of the basic concept of Vaex <br></li>
+  <li>File 2: Comparison between Pandas and Vaex</li>
+</ul>
 
-## 🌟 Case Study 1: Solutions
+## Vaex
+Vaex is a python library for lazy Out-of-Core DataFrames (similar to Pandas), to visualize and explore big tabular datasets. It can calculate statistics such as mean, sum, count, standard deviation etc, on an N-dimensional grid up to a billion () objects/rows per second. Visualization is done using histograms, density plots and 3d volume rendering, allowing interactive exploration of big data. Vaex uses memory mapping, a zero memory copy policy, and lazy computations for best performance (no memory wasted).
 
+---
+**Dataset**
+---
+The dataset is obtained from Kaggle: <a href="https://www.kaggle.com/datasets/hhs/health-insurance-marketplace?select=Rate.csv">Rate.csv</a>  <br>
+The size of the dataset is <b> 1.97 GB</b>.
 
-| Team | Title | Colab |  GitHub |
-| ----- | ----- | ------ | ------ | 
-| 404 Error | Property in Kuala Lumpur | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| Alrite | ABC | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| BEFE | ABC | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| Boboiboy | Property Listings in Kuala Lumpur | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://colab.research.google.com/drive/1Ta8kvxB4NlMHO204WZtrnfnVToPVr2J5?usp=sharing) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python_EDA/tree/main/Malaysia%20EDA/Boboiboy) |
-| COLBY | ABC | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| FANTOM | ABC | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| HAHA | Foreign Direct Investment In Malaysia | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| HD | ABC | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| KIA | Malaysia State Election 2018 | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| LAB | Fraudulent Transaction Prediction | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| MAAM | ABC | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| MEOW | ABC | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| MM | Malaysia's 14th State Election Result | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| PIXALATED | ABC | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| POTATO | ABC | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| QnX | ABC | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| SAMVERSE | ABC | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| SMOL | Population in Malaysia from 2010-2019 | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| SQ | Number of Cases and Incidents Rate of Communicable Disease by State | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| TUK | Fraud Detection in Online Payment | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| UWU | Airline Delay 2017 | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://https://colab.research.google.com/github/drshahizan/Python-big-data/blob/main/Assignment%201%20Pandas/uwu/AirlineDelay2017.ipynb) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
+#### Attribute Information:
+| Acronym | Description |
+| --- | --- |
+| **BusinessYear** |   The year for which the rate information applies.  |
+|**StateCode** |  The two-letter code for the state in which the health insurance plan is offered.  |
+| **IssuerId** | A unique identifier for the insurer offering the health insurance plan. |
+| **SourceName** |  The source of the rate information (e.g. the insurer, the state insurance department). |
+| **VersionNum** | A version number for the rate information.  |
+| **ImportDate** |  The date on which the rate information was imported into the Marketplace database.   |
+| **IssuerId2** | A unique identifier for the insurer offering the health insurance plan.  |
+| **FederalTIN** | Federal income taxes  |
+| **RateEffectiveDate** |  The date for which the rate information is effective.   |
+|**RateExpirationDate** |  The expire date for the rate. |
+| **PlanId** | A unique identifier for the health insurance plan. |
+| **RatingAreaId** | The age of the insured person for which the rate information applies.  |
+| **Tobacco** | The rate information applies to tobacco users or non-tobacco users. |
+| **Age** |   The age of the insured person for which the rate information applies.  |
+| **IndividualRate** |  The monthly premium (cost) for the health insurance plan for an individual.  |
+| **IndividualTobaccoRate** | The monthly premium for the health insurance plan for an individual tobacco user.  |
+| **Couple** | The monthly premium for the health insurance plan for a couple.  |
+|**PrimarySubscriberAndOneDependent** |  The primary subscriber for the health insurance plan and one dependent. |
+| **PrimarySubscriberAndTwoDependents** | The primary subscriber for the health insurance plan and two dependent. |
+| **CoupleAndOneDependent** | The monthly premium for the health insurance plan for a couple and one dependent. |
+| **CoupleAndTwoDependents** | The monthly premium for the health insurance plan for a couple and two dependents.  |
+| **CoupleAndThreeOrMoreDependents** |  The monthly premium for the health insurance plan for a couple and three or more dependents.   |
+| **RowNumber** | The row number of rate information.  |
