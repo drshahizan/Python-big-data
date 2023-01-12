@@ -19,6 +19,9 @@
     <th>A20EC0074</th>
   </tr>
   <tr>
+    <th>Nurarissa Dayana binti Mohd Sukri</th>
+    <th>A20EC0120</th>
+  </tr>
     <th></th>
     <th></th>
   </tr>
