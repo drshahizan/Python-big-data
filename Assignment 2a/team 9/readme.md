@@ -15,6 +15,10 @@
     <th>A20EC0231</th>
   </tr>
     <tr>
+    <th>Madihah binti Che Zabri </th>
+    <th>A20EC0074</th>
+  </tr>
+  <tr>
     <th></th>
     <th></th>
   </tr>
