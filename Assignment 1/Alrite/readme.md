@@ -4,7 +4,7 @@ In this project, we are going to do an exploratory data analysis of the Property
 
 We wish to compare the compare the residential property price in Kuala Lumpur.between different locations.
 
-##The technique/tool used we used in this EDA such as:
+## The technique/tool used we used in this EDA such as:
 
 - pandas
 - scipy
@@ -12,7 +12,8 @@ We wish to compare the compare the residential property price in Kuala Lumpur.be
 - scikit-learn
 - matplotlib.pyplot
 - seaborn
-**Group Members:
+
+**Group Members:**
 
 - CHONG KAI ZHE A20EC0186
 - RASMIN KAUR SANDHU A19ET0216
