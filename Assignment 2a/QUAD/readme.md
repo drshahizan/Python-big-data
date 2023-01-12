@@ -1,4 +1,4 @@
-#Introduction to Polars
+# Introduction to Polars 🐻‍❄️
 
 - **Polars** is both lazy and semi-lazy. It allows you to accomplish most of your work eagerly, similar to Pandas, but it also provides a sophisticated expression syntax that will be optimised and processed within the query engine.
 
