@@ -1,8 +1,6 @@
 ![image](https://user-images.githubusercontent.com/120556342/211182736-a99ae2f7-2f1c-488a-a388-9cb2efc2afa1.png)
 # **Python Datatable library on Health Insurance Marketplace Dataset**
-There will be two files in this assignment:<br>
-File 1: Basic concept of Datatable and code to code implementation<br>
-File 2: Comparison between Pandas and Datatable
+This assignment will explain about the basic concept of Datatable and code to code implementation.
 
 ## **Group Members**
 <table>
