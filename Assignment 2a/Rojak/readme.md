@@ -1,5 +1,5 @@
 # **Group 9: Vaex as an alternative to Pandas**
-<img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/team%209/vaex.png"  width="300" height="100"><img>
+<img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/Rojak/vaex.png"  width="300" height="100"><img>
 
 <table>
   <tr>
