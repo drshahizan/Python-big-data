@@ -1,41 +1,51 @@
-![image](https://user-images.githubusercontent.com/120556342/211182736-a99ae2f7-2f1c-488a-a388-9cb2efc2afa1.png)
-# **Python Datatable library on Health Insurance Marketplace Dataset**🏥
-This assignment will explain about the basic concept of Datatable and code to code implementation.
+# **Group 9: Vaex as an alternative to Pandas**
+<img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/Rojak/vaex.png"  width="300" height="100"><img>
 
-## **Group Members**
 <table>
   <tr>
     <th>Name</th>
     <th>Matric</th>
   </tr>
   <tr>
-    <th>ADAM WAFII BIN AZUAR</th>
-    <th>A20EC0003</th>
+    <th>Eddie Wong Chung Pheng </th>
+    <th>A20EC0031</th>
   </tr>
   <tr>
-    <th>HONG PEI GEOK</th>
-    <th>A20EC0044</th>
+    <th>Vincent Boo Ee Khai</th>
+    <th>A20EC0231</th>
   </tr>
     <tr>
-    <th>MIKHEL ADAM BIN MUHAMMAD EZRIN</th>
-    <th>A20EC0237</th>
+    <th>Madihah binti Che Zabri </th>
+    <th>A20EC0074</th>
+  </tr>
+  <tr>
+    <th>Nurarissa Dayana binti Mohd Sukri</th>
+    <th>A20EC0120</th>
+  </tr>
+    <th></th>
+    <th></th>
   </tr>
     <tr>
-    <th>QAISARA BINTI ROHZAN</th>
-    <th>A20EC0133</th>
+    <th></th>
+    <th></th>
   </tr>
 </table>
 
-## **Datatable**
-Datatable is the premier package for manipulating large tabular datasets. Large datasets can be aggregated quickly, columns can be added/updated/removed with low latency, ordered joins can be made quickly, and file reading can be done quickly.<br><br>
-Among the features we wish to implement with datatable are:
-1. Fast data reading from CSV and other formats.
-2. Efficient algorithms for sorting/grouping/joining.
-3. Minimal amount of data copying, copy-on-write semantics for shared data.
-4. Use "rowindex" views in filtering/sorting/grouping/joining operators to avoid unnecessary data copying.
+The assignment is divided into 2 parts:<br>
+<ul>
+  <li>File 1: Explanation and Implementation of the basic concept of Vaex <br></li>
+  <li>File 2: Comparison between Pandas and Vaex</li>
+</ul>
 
-## **Dataset**
-The dataset can be downloaded from Kaggle: <a href="https://www.kaggle.com/datasets/hhs/health-insurance-marketplace?select=Rate.csv">Rate.csv</a>
+## Vaex
+Vaex is a python library for lazy Out-of-Core DataFrames (similar to Pandas), to visualize and explore big tabular datasets. It can calculate statistics such as mean, sum, count, standard deviation etc, on an N-dimensional grid up to a billion () objects/rows per second. Visualization is done using histograms, density plots and 3d volume rendering, allowing interactive exploration of big data. Vaex uses memory mapping, a zero memory copy policy, and lazy computations for best performance (no memory wasted).
+
+---
+**Dataset**
+---
+The dataset is obtained from Kaggle: <a href="https://www.kaggle.com/datasets/hhs/health-insurance-marketplace?select=Rate.csv">Rate.csv</a>  <br>
+The size of the dataset is <b> 1.97 GB</b>.
+
 #### Attribute Information:
 | Acronym | Description |
 | --- | --- |
