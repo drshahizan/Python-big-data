@@ -1,3 +1,7 @@
+<img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fraw.githubusercontent.com%2Fpola-rs%2Fpolars-static%2Fmaster%2Flogos%2Fpolars_github_logo_rect_dark_name.svg&imgrefurl=https%3A%2F%2Fgithub.com%2Fpola-rs%2Fpolars&tbnid=MCfyT2yHsQwe4M&vet=12ahUKEwjDyITylcL8AhUVMbcAHd2LDDIQMygFegUIARC1AQ..i&docid=iBJXAWbzEP6oHM&w=1965&h=454&q=polars%20python%20image&ved=2ahUKEwjDyITylcL8AhUVMbcAHd2LDDIQMygFegUIARC1AQ"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+     
 # Introduction to Polars 🐻‍❄️
 
 - **Polars** is both lazy and semi-lazy. It allows you to accomplish most of your work eagerly, similar to Pandas, but it also provides a sophisticated expression syntax that will be optimised and processed within the query engine.
