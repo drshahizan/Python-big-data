@@ -56,6 +56,6 @@ Dataset taken from Kaggle, Google Playstore App Dataset<br>
 
 | Team | Title | Colab |  GitHub |
 | ----- | ----- | ------ | ------ | 
-| Pixelated | Google Playstore Application Summary | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://colab.research.google.com/drive/1F3H-k0uWp8cmbCqE052IsUsPLSoPhwx8?usp=sharing#scrollTo=mKeF0Y006kL4) |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%201/team%2014) |
+| Pixelated | Google Playstore Application Summary | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://colab.research.google.com/drive/1F3H-k0uWp8cmbCqE052IsUsPLSoPhwx8?usp=sharing#scrollTo=mKeF0Y006kL4) |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/blob/main/Assignment%201/Pixelated/Assignment_big_data(Pixelated).ipynb) |
 
 
