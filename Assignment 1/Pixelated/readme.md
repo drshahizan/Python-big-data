@@ -1,13 +1,7 @@
 ## Title : Google Playstore Application Summary
 
 <br>
-<img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%201/Pixelated/Pictures/Google_Play_logo.jpg"  
-style = "display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;" 
-height="200" 
-/>
+<img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%201/Pixelated/Pictures/Google_Play_logo.jpg"  style="text-align:center;" height="200" />
 
 <br><br>
 
