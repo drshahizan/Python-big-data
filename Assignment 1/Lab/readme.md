@@ -1,4 +1,4 @@
-## Group Lab: Fraudulent Transaction Prediction Analysis 💳
+## Fraudulent Transaction Analysis and Prediction 💳
 
 This file contains fraudulent transaction analysis. Fraudulent transaction is an unauthorized use of an individual's account or payment information by a third party to make a purchase or transfer funds without the individual's knowledge constitutes a fraudulent transaction. The victim of a fraudulent transaction may lose money, personal property, or personal information. This theft can have severe consequences that extend beyond monetary losses. This study will examine the fraudulent transaction data of a financial institution and provide insight into the findings.
 
