@@ -17,7 +17,7 @@ This dataset is about the Summary of Google Play Store Applications. This datase
     <td>A20EC0035</td>
   </tr>
     <tr>
-    <td>App Name</td>
+    <td>NAYLI NABIHAH BINTI JASNI</td>
     <td>Name of the app</td>
   </tr>
   </table>
