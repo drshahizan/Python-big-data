@@ -1,24 +1,24 @@
 ## Group Members: 
-<table align>
+<table border="solid">
   <tr>
     <th>Name</th>
-    <th>Matric</th>
+    <th>Matric Number</th>
   </tr>
   <tr>
-    <th>Farah Irdina Binti Ahmad Baharudin</th>
-    <th>A20EC0035</th>
+    <td>FARAH IRDINA BINTI AHMAD BAHARUDIN</td>
+    <td>A20EC0035</td>
   </tr>
   <tr>
-    <th>Nurfarrahin Binti Che Alias</th>
-    <th>A20EC0121</th>
+    <td>LOW JUNYI</td>
+    <td>A20EC0071</td>
   </tr>
-    <tr>
-    <th>Low Junyi</th>
-    <th>A20EC0071</th>
+  <tr>
+    <td>NURFARRAHIN BINTI CHE ALIAS</td>
+    <td>A20EC0121</td>
   </tr>
-    <tr>
-    <th>Yong Zhi Yan</th>
-    <th>A20EC0172</th>
+  <tr>
+    <td>YONG ZHI YAN</td>
+    <td>A20EC0172</td>
   </tr>
 </table>
 
@@ -28,26 +28,25 @@
 <br>
 PySpark is the Python API for Apache Spark, an open-source distributed data processing system designed for large-scale data processing. Some of the key features of PySpark are listed as below:
 <ul>
-<li>PySpark provides <b>real-time computation</b> on big data since it focuses on in-memory processing, and shows low latency. </li>
+  <li>PySpark provides <b>real-time computation</b> on big data since it focuses on in-memory processing, and shows low latency. </li>
 
-<li>PySpark framework is able to <b>support multiple languages</b> such as Scala, Java, Python, and R, hence making it compatible in handling various kinds of huge datasets. </li>
+  <li>PySpark framework is able to <b>support multiple languages</b> such as Scala, Java, Python, and R, hence making it compatible in handling various kinds of huge datasets. </li>
 
-<li>PySpark has <b>powerful caching and disk constancy</b></li>
+  <li>PySpark has <b>powerful caching and disk constancy</b></li>
 
-<li>PySpark can achieve <b>high data processing speed</b>, which is around 100 times faster in memory and 10 times faster on the disk. </li>
+  <li>PySpark can achieve <b>high data processing speed</b>, which is around 100 times faster in memory and 10 times faster on the disk. </li>
 
 </ul>
 
 <h3>Application of PySpark in real life</h3>
-
-
-
-<hr>
+<ul>
+  <li></li>
+  
+</ul>
 
 <h1>Install PySpark</h1>
 <code>!pip install pyspark</code>
 
-<hr>
 
 <h1>Content</h1>
 File 1: Pyspark on Health Insurance Marketplace
