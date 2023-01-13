@@ -11,7 +11,7 @@
 > 1. CHONG KAI ZHE
 > 2. TERENCE A/L LOORTHANATHAN (A20EC0165)
 > 3. RISHMA FATHIMA BINTI BASHER
-> 4. NUR SYAMALIA FAIQAH BINTI MOHD KAMAL
+> 4. NUR SYAMALIA FAIQAH BINTI MOHD KAMAL (A20EC0118) 
 
  **Polars** is both lazy and semi-lazy. It allows you to accomplish most of your work eagerly, similar to Pandas, but it also provides a sophisticated expression syntax that will be optimised and processed within the query engine.
 
