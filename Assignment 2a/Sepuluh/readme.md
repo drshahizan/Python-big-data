@@ -32,7 +32,7 @@ PySpark is the Python API for Apache Spark, an open-source distributed data proc
 
   <li>PySpark framework is able to <b>support multiple languages</b> such as Scala, Java, Python, and R, hence making it compatible in handling various kinds of huge datasets. </li>
 
-  <li>PySpark has <b>powerful caching and disk constancy</b></li>
+  <li>PySpark has <b>powerful caching and disk constancy.</b></li>
 
   <li>PySpark can achieve <b>high data processing speed</b>, which is around 100 times faster in memory and 10 times faster on the disk. </li>
 
@@ -40,7 +40,25 @@ PySpark is the Python API for Apache Spark, an open-source distributed data proc
 
 <h3>Application of PySpark in real life</h3>
 <ul>
-  <li></li>
+  <li><b>Entertainment Industry</b>
+    <ul>
+      <li>Netflix company used PySpark for real-time processing of personalized movies or web series to its customers.</li>
+      <li>It processes approximately 450 billion events per day. </li>
+    </ul>
+  </li>
+  
+  <li><b>Commercial Sector</b>
+    <ul>
+      <li>Bank and other financial sectors use PySpark in obtaining and analysing their customers' social media to get useful information which aid in decision making for credit risk assessment, targeted ad and customer segmentation. </li>
+      <li>Here, Spark is important in Fraud Detection. </li>
+    </ul>
+  </li>
+  
+  <li><b>Healthcare</b>
+    <ul>
+      <li>PySpark is used to analyse the patients' records and previous medical reports to predict possible health issues in future. </li>
+    </ul>
+  </li>
   
 </ul>
 
