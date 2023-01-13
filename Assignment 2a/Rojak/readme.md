@@ -10,7 +10,7 @@
     <th>Eddie Wong Chung Pheng </th>
     <th>A20EC0031</th>
   </tr>
-  <tr>
+  <tr> 
     <th>Vincent Boo Ee Khai</th>
     <th>A20EC0231</th>
   </tr>
