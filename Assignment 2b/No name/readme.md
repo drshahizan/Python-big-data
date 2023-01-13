@@ -1,28 +1,110 @@
-## 🚀 Case Study 2 : Alternatives to Pandas for Processing Large Datasets
+## Group Members: 
+<table align = "center">
+  <tr>
+    <th>Name</th>
+    <th>Matric</th>
+  </tr>
+  <tr>
+    <th>Madina Suraya binti Zharin</th>
+    <th>A20EC0203</th>
+  </tr>
+  <tr>
+    <th>Nur Izzah Mardhiah binti Rashidi</th>
+    <th>A20EC0116</th>
+  </tr>
+    <tr>
+    <th>Tan Yong Sheng</th>
+    <th>A20EC0157</th>
+  </tr>
+    <tr>
+    <th>Chloe Racquelmae Kennedy</th>
+    <th>A20EC0026</th>
+  </tr>
+</table>
 
-Pandas library has became the de facto library for data manipulation in python and is widely used by data scientist and analyst. However, there are times when the dataset is too large and Pandas may run into memory errors. Here are 8 alternatives to Pandas for dealing with large datasets. For each alternative library, we will examine how to load data from CSV and perform a simple groupby operation. Fortunately many of these libraries have similar syntax as Pandas hence making the learning curve less steep.
-1. Data Table
-2. Polars
-3. Vaex
-4. Pyspark
-5. Koalas
-6. cuDF
-7. Dask
-8. Modin
+<h1>Data Table as an alternative to Pandas (Pandas VS Datatable)</h1> 
 
-## 🌟 Case Study 2b: Solutions
+![DataTable](https://datatable.readthedocs.io/en/latest/_static/py_datatable_logo.png)
 
-| Team | Title | Colab |  GitHub |
-| ----- | ----- | ------ | ------ | 
-| 1 | Pandas vs DataTable | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 2 | Pandas vs Polars | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 3 | Pandas vs Vaex | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 4 | Pandas vs Pyspark | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://colab.research.google.com/drive/1Ta8kvxB4NlMHO204WZtrnfnVToPVr2J5?usp=sharing) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python_EDA/tree/main/Malaysia%20EDA/Boboiboy) |
-| 5 | Pandas vs Koalas | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 6 | Pandas vs cuDF | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 7 | Pandas vs DataTable | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 8 | Pandas vs Polars | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 9 | Pandas vs Vaex | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 10 | Pandas vs Pyspark | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 11 | Pandas vs Koalas | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
+Python package datatable was inspired from its counterpart R package data.table. It was developped with the aim to analyse BigData efficiently. Following is about datatable package.(Taken from datatable github page)
 
+The set of features that we want to implement with datatable is at least the following:
+
+- Column-oriented data storage.
+
+- Native-C implementation for all datatypes, including strings. Packages such as pandas and numpy already do that for numeric columns, but not for strings.
+
+- Support for date-time and categorical types. Object type is also supported, but promotion into object discouraged.
+
+- All types should support null values, with as little overhead as possible.
+
+- Data should be stored on disk in the same format as in memory. This will allow us to memory-map data on disk and work on out-of-memory datasets transparently.
+
+- Work with memory-mapped datasets to avoid loading into memory more data than necessary for each particular operation.
+
+- Fast data reading from CSV and other formats.
+
+- Multi-threaded data processing: time-consuming operations should attempt to utilize all cores for maximum efficiency.
+
+- Efficient algorithms for sorting/grouping/joining.
+
+- Expressive query syntax (similar to data.table).
+
+- LLVM-based lazy computation for complex queries (code generated, compiled and executed on-the-fly).
+LLVM-based user-defined functions.
+
+- Minimal amount of data copying, copy-on-write semantics for shared data.
+
+- Use "rowindex" views in filtering/sorting/grouping/joining operators to avoid unnecessary data copying.
+
+- Interoperability with pandas / numpy / pure python: the users should have the ability to convert to another data-processing framework with ease.
+
+- Restrictions: Python 3.5+, 64-bit systems only.
+
+<hr>
+
+<h1>Installation</h1>
+<code> !pip install datatable </code>
+<br />
+and continue by importing 
+<br />
+<code> import datatable as dt </code>
+
+<hr>
+
+<h1>Content</h1>
+DataTable-file2
+- Implementing and comparing processing time of Data Table with Pandas
+
+### Purpose
+Datatable is a go-to package for manipulating any large tabular datasets. It is widely used for fast aggregation of large datasets, low latency add/update/remove of columns, quicker ordered joins, and a fast file reader. The distribution provides compatibility and integration with the existing Pandas code. The sample code demonstrates how to perform some basic dataframe operations using Pandas and Datatable. we will compare the performance difference between the two methods.
+
+src: https://www.kaggle.com/datasets/hhs/health-insurance-marketplace    
+dataset: Rate.csv
+
+#### Attribute Information:
+| Acronym | Description |
+| --- | --- |
+| **BusinessYear** |   The year for which the rate information applies.  |
+|**StateCode** |  The two-letter code for the state in which the health insurance plan is offered.  |
+| **IssuerId** | A unique identifier for the insurer offering the health insurance plan. |
+| **SourceName** |  The source of the rate information (e.g. the insurer, the state insurance department). |
+| **VersionNum** | A version number for the rate information.  |
+| **ImportDate** |  The date on which the rate information was imported into the Marketplace database.   |
+| **IssuerId2** | A unique identifier for the insurer offering the health insurance plan.  |
+| **FederalTIN** | Federal income taxes  |
+| **RateEffectiveDate** |  The date for which the rate information is effective.   |
+|**RateExpirationDate** |  The expire date for the rate. |
+| **PlanId** | A unique identifier for the health insurance plan. |
+| **RatingAreaId** | The age of the insured person for which the rate information applies.  |
+| **Tobacco** | The rate information applies to tobacco users or non-tobacco users. |
+| **Age** |   The age of the insured person for which the rate information applies.  |
+| **IndividualRate** |  The monthly premium (cost) for the health insurance plan for an individual.  |
+| **IndividualTobaccoRate** | The monthly premium for the health insurance plan for an individual tobacco user.  |
+| **Couple** | The monthly premium for the health insurance plan for a couple.  |
+|**PrimarySubscriberAndOneDependent** |  The primary subscriber for the health insurance plan and one dependent. |
+| **PrimarySubscriberAndTwoDependents** | The primary subscriber for the health insurance plan and two dependent. |
+| **CoupleAndOneDependent** | The monthly premium for the health insurance plan for a couple and one dependent. |
+| **CoupleAndTwoDependents** | The monthly premium for the health insurance plan for a couple and two dependents.  |
+| **CoupleAndThreeOrMoreDependents** |  The monthly premium for the health insurance plan for a couple and three or more dependents.   |
+| **RowNumber** | The row number of rate information.  |
