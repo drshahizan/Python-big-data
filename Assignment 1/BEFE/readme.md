@@ -7,6 +7,21 @@ This dataset is about the Summary of Google Play Store Applications. This datase
 * FARAH IRDINA BINTI AHMAD BAHARUDIN - A20EC0035
 * NAYLI NABIHAH BINTI JASNI - A20EC0105
 
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Matric Number</th>
+  </tr>
+    <tr>
+    <td>FARAH IRDINA BINTI AHMAD BAHARUDIN</td>
+    <td>Name of the app</td>
+  </tr>
+    <tr>
+    <td>App Name</td>
+    <td>Name of the app</td>
+  </tr>
+  </table>
+
 <!DOCTYPE html>
 <html>
 <head>
