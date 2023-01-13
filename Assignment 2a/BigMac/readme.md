@@ -8,11 +8,11 @@
   </tr>
   <tr>
     <th>Muhammad Imran Hakim Bin Mohb Shukri </th>
-    <th>A20EC0</th>
+    <th>A20EC0213</th>
   </tr>
   <tr>
     <th>Afif Hazmie Arsyad Bin Agus</th>
-    <th>A20EC0</th>
+    <th>A20EC0176</th>
   </tr>
     <tr>
     <th>Kong Jia Rou</th>
@@ -29,7 +29,7 @@
 ---
 The use of Python and Pandas, its most well-liked data wrangling library, is growing rapidly. Python and Pandas make data exploration and transformation easier when compared to rivals like Java. But scalability and efficiency problems with Python and Pandas are well recognised. It therefore comes as no surprise that numerous developers are attempting to increase Python and Pandas' capability in various ways. In this project, we are comparing Pandas and Vaex. Vaex is a partial substitute for Pandas that makes advantage of slow evaluation and memory mapping to let programmers work with huge datasets on common computers.
 
-This folder contains two files:<br>
+This folder contain file 1:<br>
 File 1: Basic concept of Vaex and code implementation<br>
 
 We are going to compare both libraries based on :
