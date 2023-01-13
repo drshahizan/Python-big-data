@@ -27,7 +27,7 @@ Polars goes to great lengths to:
 For more information about Polars, you can view from [Polars](https://pola-rs.github.io/polars-book/user-guide/index.html).
 
 # Dataset **nyc-yellow-taxi-trip-data** 
-(Sources): [Kaggle](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data)
+Sources: [Kaggle](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data)
 
 Data Collection:
 In this dataset, we have collected the data for 4 months particularly:
