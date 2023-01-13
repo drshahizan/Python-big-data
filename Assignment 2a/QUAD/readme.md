@@ -7,7 +7,7 @@
  </p>
 </br>
 
-🚀 Group Members QUAD (Team 8)
+## 🚀 Group Members QUAD (Team 8)
 > 1. CHONG KAI ZHE
 > 2. TERENCE A/L LOORTHANATHAN
 > 3. RISHMA FATHIMA BINTI BASHER
