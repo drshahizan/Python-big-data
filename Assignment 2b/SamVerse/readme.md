@@ -1,28 +1,78 @@
-## 🚀 Case Study 2 : Alternatives to Pandas for Processing Large Datasets
+## Group Members: 
+<table align = "center">
+  <tr>
+    <th>Name</th>
+    <th>Matric</th>
+  </tr>
+  <tr>
+    <th>LUQMAN ARIFF BIN NOOR AZHAR</th>
+    <th>A20EC0202</th>
+  </tr>
+  <tr>
+    <th>AHMAD AIMAN HAFIZI BIN MUHAMMAD</th>
+    <th>A20EC0177</th>
+  </tr>
+    <tr>
+    <th>LEE CAI XUAN</th>
+    <th>A20EC0062</th>
+  </tr>
+    <tr>
+    <th>MYZA NAZIFA BINTI NAZRY</th>
+    <th>A20EC0219</th>
+  </tr>
+</table>
 
-Pandas library has became the de facto library for data manipulation in python and is widely used by data scientist and analyst. However, there are times when the dataset is too large and Pandas may run into memory errors. Here are 8 alternatives to Pandas for dealing with large datasets. For each alternative library, we will examine how to load data from CSV and perform a simple groupby operation. Fortunately many of these libraries have similar syntax as Pandas hence making the learning curve less steep.
-1. Data Table
-2. Polars
-3. Vaex
-4. Pyspark
-5. Koalas
-6. cuDF
-7. Dask
-8. Modin
+<h1>PySpark as an alternative to Pandas</h1>
 
-## 🌟 Case Study 2b: Solutions
+![Pyspark](https://miro.medium.com/max/1200/1*qgkjkj6BLVS1uD4mw_sTEg.png)
 
-| Team | Title | Colab |  GitHub |
-| ----- | ----- | ------ | ------ | 
-| 1 | Pandas vs DataTable | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 2 | Pandas vs Polars | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 3 | Pandas vs Vaex | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 4 | Pandas vs Pyspark | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://colab.research.google.com/drive/1Ta8kvxB4NlMHO204WZtrnfnVToPVr2J5?usp=sharing) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python_EDA/tree/main/Malaysia%20EDA/Boboiboy) |
-| 5 | Pandas vs Koalas | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 6 | Pandas vs cuDF | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 7 | Pandas vs DataTable | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 8 | Pandas vs Polars | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 9 | Pandas vs Vaex | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 10 | Pandas vs Pyspark | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 11 | Pandas vs Koalas | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
+PySpark is an interface for Apache Spark in Python. It enables you to write Spark applications using Python API and also provides the PySpark shell for interactively analyzing data in a distributed environment. PySpark supports most of Spark’s features such as Spark SQL, DataFrame, Streaming, MLlib (Machine Learning) and Spark Core.
 
+The key features of PySpark are as follows:
+
+- In-memory computation
+
+- Distributed processing using parallelize
+
+- Can be used with many cluster managers (Spark, Yarn, Mesos e.t.c)
+
+- Fault-tolerant
+
+- Immutable
+
+- Lazy evaluation
+
+- Cache & persistence
+
+- Inbuild-optimization when using DataFrames
+
+
+<hr>
+
+<h1>Installation</h1>
+<code> !pip install pyspark </code>
+
+<hr>
+
+<h1>Content</h1>
+DataTable-File2
+
+For this assignment, we have decided to use the dataset, 1000000 Sales Records which provides the information regarding the information of sales record from various countries such as the region, country, item type, sales channel, order priority, order date and so on. We will be implementing and comparing the processing time of PySpark with Pandas.
+
+#### Attribute Information:
+| Attribute | Description |
+| --- | --- |
+| **Region** |   The region of the sales originated.  |
+|**Country** |   The country of the sales originated. |
+| **Item Type** | The type of item being sold. |
+| **Sales Channel** |  The type of channels used by the company. |
+| **Order Priority** | The priority of the order.  |
+| **Order Date** |  The date on which the item has been ordered.   |
+| **Order ID** | The unique identifier for the order.  |
+| **Ship Date** | The date on which the item will be shipped.  |
+| **Units Sold** |  The number of units of item has been sold.   |
+|**Unit Price** |  The price the item has been sold. |
+| **Unit Cost** | The expense incurred for item by the company. |
+| **Total Revenue** | The total amount of money the company brings in from selling the item.  |
+| **Total Cost** | The total cost that has been incurred by the company. |
+| **Total Profit** |   The total profit gainned by the company.  |
