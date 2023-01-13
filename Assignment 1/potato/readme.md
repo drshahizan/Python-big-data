@@ -23,7 +23,7 @@ This project aims to investigate the flight delays and cancellations in United S
 <a href="https://www.kaggle.com/datasets/usdot/flight-delays?select=flights.csv">Flight Delays and Cancellations at 2015</a>
 
 
-#### Attribute Information:
+Attribute Information:
 
 | Attribute | Description |
 | --- | --- |
@@ -37,8 +37,8 @@ This project aims to investigate the flight delays and cancellations in United S
 | **ORIGIN_AIRPORT** |   Starting Airport |
 |**DESTINATION_AIRPORT** |   Destination Airport |
 | **SCHEDULED_DEPARTURE** |    Planned Departure Time |
-|**DEPARTURE_TIME** |   Month of the Flight Trip |
-| **DEPARTURE_DELAY** | WHEEL_OFF - TAXI_OUT |
+|**DEPARTURE_TIME** |   WHEEL_OFF - TAXI_OUT |
+| **DEPARTURE_DELAY** | Total Delay on Departure |
 | **TAXI_OUT** |  The time duration elapsed between departure from the origin airport gate and wheels off |
 | **WHEELS_OFF** |  The time point that the aircraft's wheels leave the ground |
 | **SCHEDULED_TIME** |    Planned time amount needed for the flight trip |
