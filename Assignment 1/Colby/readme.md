@@ -71,4 +71,3 @@ Dataset:
             <td>NAME_HOUSING_TYPE</td>
             <td>Housing Type of Client</td>
         </tr>
-</table>
