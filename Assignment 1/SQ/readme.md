@@ -28,6 +28,7 @@ The dataset consists of **212087 records and 11 columns**:
 | **oldbalanceOrg** |balance before the transaction |
 | **newbalanceOrig** |balance after the transaction   |
 | **nameDest** |recipient of the transaction |
+| **oldbalanceDest** |initial balance of recipient before the transaction |
 
 </br>
 
