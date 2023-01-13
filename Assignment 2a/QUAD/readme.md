@@ -26,4 +26,36 @@ Polars goes to great lengths to:
 
 For more information about Polars, you can view from [Polars](https://pola-rs.github.io/polars-book/user-guide/index.html).
 
-Dataset nyc-yellow-taxi-trip-data (Sources): [Kaggle](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data)
+# Dataset **nyc-yellow-taxi-trip-data** 
+(Sources): [Kaggle](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data)
+
+Data Collection:
+In this dataset, we have collected the data for 4 months particularly:
+- Jan 2015: 1.8 GB
+- Jan 2016: 1.6 GB
+- Feb 2016: 1.7 GB
+- Mar 2016: 1.8 GB
+
+In this notebook, we use 'yellow_tripdata_2015-01.csv'. This dataset contain 12748986 records and 19 columns. The variables are:
+
+| Field Name	| Description |
+|-------------|-------------|
+|VendorID |	A code indicating the TPEP provider that provided the record (Creative Mobile Technologies & VeriFone Inc. )|
+|tpep_pickup_datetime	| The date and time when the meter was engaged. |
+|tpep_dropoff_datetime	| The date and time when the meter was disengaged. |
+| Passenger_count |	The number of passengers in the vehicle. This is a driver-entered value. |
+| Trip_distance |	The elapsed trip distance in miles reported by the taximeter.|
+| Pickup_longitude	| Longitude where the meter was engaged. |
+| Pickup_latitude	| Latitude where the meter was engaged. |
+| RateCodeID |	The final rate code in effect at the end of the trip. |
+|Store_and_fwd_flag |	This flag indicates whether the trip record was held in vehicle memory before sending to the vendor, aka “store and forward,” because the vehicle did not have a connection to the server. (Y= store and forward trip N= not a store and forward trip ) |
+| Dropoff_longitude	| Longitude where the meter was disengaged. |
+| Dropoff_ latitude |	Latitude where the meter was disengaged. |
+| Payment_type |	A numeric code signifying how the passenger paid for the trip. |
+| Fare_amount |	The time-and-distance fare calculated by the meter. |
+| Extra |	Miscellaneous extras and surcharges. Currently, this only includes. the $0.50 and $1 rush hour and overnight charges. |
+| MTA_tax	| 0.50 MTA tax that is automatically triggered based on the metered rate in use. |
+| Improvement_surcharge	| 0.30 improvement surcharge assessed trips at the flag drop. the improvement surcharge began being levied in 2015. |
+| Tip_amount |	Tip amount – This field is automatically populated for credit card tips.Cash tips are not included. |
+| Tolls_amount |	Total amount of all tolls paid in trip. |
+| Total_amount |	The total amount charged to passengers. Does not include cash tips. |
