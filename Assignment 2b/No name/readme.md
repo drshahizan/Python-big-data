@@ -22,7 +22,7 @@
   </tr>
 </table>
 
-<h1>Data Table as an alternative to Pandas</h1>
+<h1>Data Table as an alternative to Pandas (Pandas VS Datatable)</h1> 
 
 ![DataTable](https://datatable.readthedocs.io/en/latest/_static/py_datatable_logo.png)
 
