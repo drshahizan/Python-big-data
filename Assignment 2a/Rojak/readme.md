@@ -65,3 +65,5 @@ The size of the dataset is <b> 1.97 GB</b>.
 | **CoupleAndTwoDependents** | The monthly premium for the health insurance plan for a couple and two dependents.  |
 | **CoupleAndThreeOrMoreDependents** |  The monthly premium for the health insurance plan for a couple and three or more dependents.   |
 | **RowNumber** | The row number of rate information.  |
+
+
