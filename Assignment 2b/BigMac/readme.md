@@ -12,7 +12,7 @@
   </tr>
   <tr>
     <th>Afif Hazmie Arsyad Bin Agus</th>
-    <th>A20EC0</th>
+    <th>A20EC0176</th>
   </tr>
     <tr>
     <th>Kong Jia Rou</th>
