@@ -8,10 +8,10 @@
 </br>
 
 Group Members: 😊
-- CHONG KAI ZHE
-- TERENCE A/L LOORTHANATHAN
-- RISHMA FATHIMA BINTI BASHER
-- NUR SYAMALIA FAIQAH BINTI MOHD KAMAL (A20EC0118)
+> - CHONG KAI ZHE
+> - TERENCE A/L LOORTHANATHAN
+> - RISHMA FATHIMA BINTI BASHER
+> - NUR SYAMALIA FAIQAH BINTI MOHD KAMAL (A20EC0118)
 
 - **Polars** is both lazy and semi-lazy. It allows you to accomplish most of your work eagerly, similar to Pandas, but it also provides a sophisticated expression syntax that will be optimised and processed within the query engine.
 
