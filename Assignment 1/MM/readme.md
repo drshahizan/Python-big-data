@@ -69,7 +69,67 @@ The U.S. Department of Transportation's (DOT) Bureau of Transportation Statistic
   </tr>
    <tr>
     <td>ELAPSED_TIME</td>
-    <td>Air_time + Taxi_in</td>
+    <td>Air_time + Taxi_in + Taxi_out</td>
+  </tr>
+   <tr>
+    <td>AIR_TIME</td>
+    <td>The time duration between wheels_off and wheels_on time</td>
+  </tr>
+   <tr>
+    <td>DISTANCE</td>
+    <td>Diastance between two airports</td>
+  </tr>
+   <tr>
+    <td>WHEELS_ON</td>
+    <td>The time point that the aircraft's wheels touch on the ground</td>
+  </tr>
+   <tr>
+    <td>TAXI_IN</td>
+    <td>The time duration elapsed between wheels-on and gate arrival at the destination airport</td>
+  </tr>
+  <tr>
+    <td>SCHEDULED_ARRIVAL</td>
+    <td>Planned arrival time</td>
+  </tr>
+  <tr>
+    <td>ARRIVAL_TIME</td>
+    <td>Wheels_on+Taxi_in</td>
+  </tr>
+  <tr>
+    <td>ARRIVAL_DELAY</td>
+    <td>ARRIVAL_TIME-SCHEDULED_ARRIVAL</td>
+  </tr>
+  <tr>
+    <td>DIVERTED</td>
+    <td>Aircraft landed on airport that out of schedule</td>
+  </tr>
+  <tr>
+    <td>CANCELLED</td>
+    <td>Flight Cancelled (1 = cancelled)</td>
+  </tr>
+  <tr>
+    <td>CANCELLATION_REASON</td>
+    <td>Reason for Cancellation of flight: A - Airline/Carrier; B - Weather; C - National Air System; D - Security</td>
+  </tr>
+   <tr>
+    <td>AIR_SYSTEM_DELAY</td>
+    <td>Delay caused by air system</td>
+  </tr>
+   <tr>
+    <td>SECURITY_DELAY</td>
+    <td>Delay caused by security</td>
+  </tr>
+   <tr>
+    <td>AIRLINE_DELAY</td>
+    <td>Delay caused by the airline</td>
+  </tr>
+   <tr>
+    <td>LATE_AIRCRAFT_DELAY</td>
+    <td>Delay caused by aircraft</td>
+  </tr>
+   <tr>
+    <td>WEATHER_DELAY</td>
+    <td>Delay caused by weather</td>
   </tr>
 </table>
 
