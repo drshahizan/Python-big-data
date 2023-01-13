@@ -26,7 +26,7 @@
 
 ![PySpark](https://static.javatpoint.com/tutorial/pyspark/images/pyspark.png)
 <br>
-PySpark is the Python API for Apache Spark, an open-source distributed data processing system designed for large-scale data processing. Some of the key features of PySpark are listed as below:
+PySpark is the Python API for Apache Spark, an open-source distributed data processing system designed for large-scale data processing. Some of the <b>key features</b> of PySpark are listed as below:
 <ul>
   <li>PySpark provides <b>real-time computation</b> on big data since it focuses on in-memory processing, and shows low latency. </li>
 
