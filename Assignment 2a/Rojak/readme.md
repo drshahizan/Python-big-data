@@ -1,7 +1,7 @@
 # **Group 9: Vaex as an alternative to Pandas**
 <img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/Rojak/vaex.png"  width="300" height="100"><img>
 
-<table>
+<table> 
   <tr>
     <th>Name</th>
     <th>Matric No</th>
