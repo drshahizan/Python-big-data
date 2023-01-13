@@ -47,6 +47,30 @@ The U.S. Department of Transportation's (DOT) Bureau of Transportation Statistic
     <td>SCHEDULED_DEPARTURE</td>
     <td>Planned departure time</td>
   </tr>
+   <tr>
+    <td>DEPARTURE_TIME</td>
+    <td>Wheel_Off - Taxi_Out</td>
+  </tr>
+   <tr>
+    <td>DEPARTURE_DELAY</td>
+    <td>Total Delay on Departure</td>
+  </tr>
+   <tr>
+    <td>TAXI_OUT</td>
+    <td>The time duration elapsed between departure from the origin airport gate and wheels off</td>
+  </tr>
+   <tr>
+    <td>WHEELS_OFF</td>
+    <td>The time point that the aircraft's wheels leave the ground</td>
+  </tr>
+   <tr>
+    <td>SCHEDULED_TIME</td>
+    <td>Planned time amount needed for the flight trip</td>
+  </tr>
+   <tr>
+    <td>ELAPSED_TIME</td>
+    <td>Air_time + Taxi_in</td>
+  </tr>
 </table>
 
 
