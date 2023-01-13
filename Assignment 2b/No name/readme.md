@@ -73,10 +73,7 @@ and continue by importing
 <hr>
 
 <h1>Content</h1>
-1. DataTable-file1
-- Implementing the Data Table
-<br />
-2. DataTable-file2
+DataTable-file2
 - Implementing and comparing processing time of Data Table with Pandas
 
 #### Attribute Information:
