@@ -8,14 +8,14 @@
 </br>
 
 Group Members: 😊
-> - CHONG KAI ZHE
-> - TERENCE A/L LOORTHANATHAN
-> - RISHMA FATHIMA BINTI BASHER
-> - NUR SYAMALIA FAIQAH BINTI MOHD KAMAL (A20EC0118)
+> 1. CHONG KAI ZHE
+> 2. TERENCE A/L LOORTHANATHAN
+> 3. RISHMA FATHIMA BINTI BASHER
+> 4. NUR SYAMALIA FAIQAH BINTI MOHD KAMAL (A20EC0118)
 
-- **Polars** is both lazy and semi-lazy. It allows you to accomplish most of your work eagerly, similar to Pandas, but it also provides a sophisticated expression syntax that will be optimised and processed within the query engine.
+ **Polars** is both lazy and semi-lazy. It allows you to accomplish most of your work eagerly, similar to Pandas, but it also provides a sophisticated expression syntax that will be optimised and processed within the query engine.
 
-Polars' purpose is to deliver a lightning-fast DataFrame library that makes use of all available cores on your machine. Unlike dask, which attempts to parallelize existing single-threaded libraries such as NumPy and Pandas, Polars is intended from the ground up for parallelization of queries on DataFrames.
+- Polars' purpose is to deliver a lightning-fast DataFrame library that makes use of all available cores on your machine. Unlike dask, which attempts to parallelize existing single-threaded libraries such as NumPy and Pandas, Polars is intended from the ground up for parallelization of queries on DataFrames.
 
 Polars goes to great lengths to:
 
