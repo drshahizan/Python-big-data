@@ -7,7 +7,7 @@
  </p>
 </br>
 
-Group Members: 😊
+🚀 Group Members QUAD (Team 8)
 > 1. CHONG KAI ZHE
 > 2. TERENCE A/L LOORTHANATHAN
 > 3. RISHMA FATHIMA BINTI BASHER
@@ -26,4 +26,4 @@ Polars goes to great lengths to:
 
 For more information about Polars, you can view from [Polars](https://pola-rs.github.io/polars-book/user-guide/index.html).
 
-Dataset: [Kaggle](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data)
+Dataset (Sources): [Kaggle](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data)
