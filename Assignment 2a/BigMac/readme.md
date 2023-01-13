@@ -31,7 +31,6 @@ The use of Python and Pandas, its most well-liked data wrangling library, is gr
 
 This folder contains two files:<br>
 File 1: Basic concept of Vaex and code implementation<br>
-File 2: Comparison between Pandas and Vaex
 
 We are going to compare both libraries based on :
 - Reading Files
