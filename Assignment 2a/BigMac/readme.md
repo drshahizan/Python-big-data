@@ -43,6 +43,33 @@ We are going to compare both libraries based on :
 
 For this project we decided to use a medical dataset [Rate.csv](https://www.kaggle.com/datasets/hhs/health-insurance-marketplace?select=Rate.csv). 
 
+#### Attribute Information:
+| Acronym | Description |
+| --- | --- |
+| **BusinessYear** |   The year for which the rate information applies.  |
+|**StateCode** |  The two-letter code for the state in which the health insurance plan is offered.  |
+| **IssuerId** | A unique identifier for the insurer offering the health insurance plan. |
+| **SourceName** |  The source of the rate information (e.g. the insurer, the state insurance department). |
+| **VersionNum** | A version number for the rate information.  |
+| **ImportDate** |  The date on which the rate information was imported into the Marketplace database.   |
+| **IssuerId2** | A unique identifier for the insurer offering the health insurance plan.  |
+| **FederalTIN** | Federal income taxes  |
+| **RateEffectiveDate** |  The date for which the rate information is effective.   |
+|**RateExpirationDate** |  The expire date for the rate. |
+| **PlanId** | A unique identifier for the health insurance plan. |
+| **RatingAreaId** | The age of the insured person for which the rate information applies.  |
+| **Tobacco** | The rate information applies to tobacco users or non-tobacco users. |
+| **Age** |   The age of the insured person for which the rate information applies.  |
+| **IndividualRate** |  The monthly premium (cost) for the health insurance plan for an individual.  |
+| **IndividualTobaccoRate** | The monthly premium for the health insurance plan for an individual tobacco user.  |
+| **Couple** | The monthly premium for the health insurance plan for a couple.  |
+|**PrimarySubscriberAndOneDependent** |  The primary subscriber for the health insurance plan and one dependent. |
+| **PrimarySubscriberAndTwoDependents** | The primary subscriber for the health insurance plan and two dependent. |
+| **CoupleAndOneDependent** | The monthly premium for the health insurance plan for a couple and one dependent. |
+| **CoupleAndTwoDependents** | The monthly premium for the health insurance plan for a couple and two dependents.  |
+| **CoupleAndThreeOrMoreDependents** |  The monthly premium for the health insurance plan for a couple and three or more dependents.   |
+| **RowNumber** | The row number of rate information.  |
+
 Medical datasets are electronic collections of data that are related to the healthcare industry. It uses a virtual memory approach to allow processing of large datasets that do not fit in memory. Vaex also provides a variety of functions for data visualization and exploration. Pandas is another popular Python library for data manipulation and analysis. It is well-suited for small to medium-sized datasets that can be loaded into memory, but it can become slow and unwieldy when working with large datasets. In this assignment, we will show you how which library are the most suitable to use with large dataset.
 
 | Functions | Pandas | Vaex |
