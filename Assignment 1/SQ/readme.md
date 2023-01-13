@@ -34,3 +34,6 @@ The dataset consists of **212087 records and 11 columns**:
 | **isFlaggedFraud** | fraud alert |
 
 </br>
+
+Tools:
+- Google Colab
