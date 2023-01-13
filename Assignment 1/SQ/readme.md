@@ -31,6 +31,7 @@ The dataset consists of **212087 records and 11 columns**:
 | **oldbalanceDest** |initial balance of recipient before the transaction |
 | **newbalanceDest** |the new balance of recipient after the transaction   |
 | **isFraud** |fraud transaction   |
+| **isFlaggedFraud** | fraud alert |
 
 </br>
 
