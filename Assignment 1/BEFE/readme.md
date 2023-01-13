@@ -4,8 +4,6 @@ This dataset is about the Summary of Google Play Store Applications. This datase
 
 
 ## Group members:
-* FARAH IRDINA BINTI AHMAD BAHARUDIN - A20EC0035
-* NAYLI NABIHAH BINTI JASNI - A20EC0105
 
 <table>
   <tr>
