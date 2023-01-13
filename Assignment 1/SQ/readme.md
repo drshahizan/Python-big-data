@@ -26,6 +26,7 @@ The dataset consists of **212087 records and 11 columns**:
 | **amount** |the amount of the transaction   |
 | **nameOrig** |customer starting the transaction | 
 | **oldbalanceOrg** |balance before the transaction |
+| **newbalanceOrig** |balance after the transaction   |
 
 </br>
 
