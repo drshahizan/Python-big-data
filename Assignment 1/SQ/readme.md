@@ -35,5 +35,7 @@ The dataset consists of **212087 records and 11 columns**:
 
 </br>
 
-Tools:
+Tools: 🔎
 - Google Colab
+
+> Sources: [Kaggle: Online Payments Fraud Detection](https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset)
