@@ -72,28 +72,28 @@ File 1: Pyspark on Health Insurance Marketplace
 #### Attribute Information:
 | Acronym | Description |
 | --- | --- |
-| **BusinessYear** |   The year for which the rate information applies.  |
-|**StateCode** |  The two-letter code for the state in which the health insurance plan is offered.  |
-| **IssuerId** | A unique identifier for the insurer offering the health insurance plan. |
+| **BusinessYear** |   The year of the business.  |
+|**StateCode** |  The two-letter code for the state where the health insurance plan is offered.  |
+| **IssuerId** | Unique identifier of insurer who offers the health insurance plan. |
 | **SourceName** |  The source of the rate information (e.g. the insurer, the state insurance department). |
 | **VersionNum** | A version number for the rate information.  |
 | **ImportDate** |  The date on which the rate information was imported into the Marketplace database.   |
-| **IssuerId2** | A unique identifier for the insurer offering the health insurance plan.  |
+| **IssuerId2** | Another unique identifier of the insurer who offers the health insurance plan.  |
 | **FederalTIN** | Federal income taxes  |
-| **RateEffectiveDate** |  The date for which the rate information is effective.   |
-|**RateExpirationDate** |  The expire date for the rate. |
-| **PlanId** | A unique identifier for the health insurance plan. |
+| **RateEffectiveDate** |  The effective date of the rate.   |
+|**RateExpirationDate** |  The expiration date of the rate. |
+| **PlanId** | Unique identifier for the health insurance plan. |
 | **RatingAreaId** | The age of the insured person for which the rate information applies.  |
-| **Tobacco** | The rate information applies to tobacco users or non-tobacco users. |
-| **Age** |   The age of the insured person for which the rate information applies.  |
+| **Tobacco** | The rate which applies to tobacco person and non-tobacco person. |
+| **Age** |   The rate according to the age of the insured person.  |
 | **IndividualRate** |  The monthly premium (cost) for the health insurance plan for an individual.  |
 | **IndividualTobaccoRate** | The monthly premium for the health insurance plan for an individual tobacco user.  |
-| **Couple** | The monthly premium for the health insurance plan for a couple.  |
-|**PrimarySubscriberAndOneDependent** |  The primary subscriber for the health insurance plan and one dependent. |
-| **PrimarySubscriberAndTwoDependents** | The primary subscriber for the health insurance plan and two dependent. |
-| **CoupleAndOneDependent** | The monthly premium for the health insurance plan for a couple and one dependent. |
-| **CoupleAndTwoDependents** | The monthly premium for the health insurance plan for a couple and two dependents.  |
-| **CoupleAndThreeOrMoreDependents** |  The monthly premium for the health insurance plan for a couple and three or more dependents.   |
+| **Couple** | The monthly premium for the health insurance plan for couple.  |
+|**PrimarySubscriberAndOneDependent** |  The primary subscriber for the health insurance plan with one dependent. |
+| **PrimarySubscriberAndTwoDependents** | The primary subscriber for the health insurance plan with two dependent. |
+| **CoupleAndOneDependent** | The monthly premium for the health insurance plan for couple with one dependent. |
+| **CoupleAndTwoDependents** | The monthly premium for the health insurance plan for couple with two dependents.  |
+| **CoupleAndThreeOrMoreDependents** |  The monthly premium for the health insurance plan for couple with three or more dependents.   |
 | **RowNumber** | The row number of rate information.  |
 
 
