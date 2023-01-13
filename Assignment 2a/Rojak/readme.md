@@ -4,7 +4,7 @@
 <table>
   <tr>
     <th>Name</th>
-    <th>Matric</th>
+    <th>Matric No</th>
   </tr>
   <tr>
     <th>Eddie Wong Chung Pheng </th>
