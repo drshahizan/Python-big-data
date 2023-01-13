@@ -22,6 +22,7 @@ The dataset consists of **212087 records and 11 columns**:
 |    VARIABLES   |   ABOUT   |
 |----------------|-------------------------------|
 | **step** |represents a unit of time where 1 step equals 1 hour  |
+| **type** |type of online transaction   |
 
 </br>
 
