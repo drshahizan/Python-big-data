@@ -17,7 +17,13 @@
 
 <h1>Flight Delays and Cancellations at 2015</h1>
 
-<h3>Content</h3>
+This project aims to investigate the flight delays and cancellations in United States (U.S.) at 2015. The dataset consists of 5819079 rows and 31 columns. It is considered as big data and occupies the memory 564 MB. We choose this dataset because we are interested in finding the accurateness in time of the flights in U.S.. We will handle the data through data processing, data cleaning, and data visualization. To carry out this project, we will be using Google Colab and then post it to Github once we have done it.  
+
+<b>Dataset:<b>
+<a href="https://www.kaggle.com/datasets/usdot/flight-delays?select=flights.csv">Flight Delays and Cancellations at 2015</a>
+
+
+#### Attribute Information:
 
 | Attribute | Description |
 | --- | --- |
