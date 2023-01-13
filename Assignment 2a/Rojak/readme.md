@@ -22,13 +22,6 @@
     <th>Nurarissa Dayana binti Mohd Sukri</th>
     <th>A20EC0120</th>
   </tr>
-    <th></th>
-    <th></th>
-  </tr>
-    <tr>
-    <th></th>
-    <th></th>
-  </tr>
 </table>
 
 The assignment is divided into 2 parts:<br>
