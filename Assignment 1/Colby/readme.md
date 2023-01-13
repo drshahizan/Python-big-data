@@ -5,7 +5,7 @@ Group members:
 2. Lee Cai Xuan A20EC0062
 
 Banking Loan Credit
-This project aims to examine the trends whether customers are capable to pay their installements on time to ensure that clients who are able to repay their loan will be accepted. The dataset consists of 307511 rows and 122 columns with a size of 166.13MB and is acquired from Kaggle. From this dataset, we could investigate how company like banks utilizes data to reduce the risk of financial loss when lending money to clients via data preparation, cleaning, and visualization.
+This project aims to examine the trends whether customers are capable to pay their installements on time to ensure that clients who are able to repay their loan will be accepted. The dataset consists of 307511 rows and 122 columns with a size of 166.13MB and is acquired from Kaggle. From this dataset, we could investigate how company like banks utilizes data to reduce the risk of financial loss when lending money to clients via data preparation, cleaning, and visualization
 
 Dataset:
 [[application_data.csv]](https://drive.google.com/file/d/1bKM5DAAsdvz9g9cJ4m269Fm7tyHL6fQH/view?usp=sharing)
