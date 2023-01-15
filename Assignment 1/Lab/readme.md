@@ -26,7 +26,7 @@ Using the dataset, we develop a model for predicting fraudulent transactions at 
 The dataset is found from kaggle datasets [Fraudulent Transactions Dataset](https://www.kaggle.com/datasets/chitwanmanchanda/fraudulent-transactions-data)
 
 ## Dataset Dictionary:
-----------------
+
 |Attribute|Description|
 |:--------|:----------|
 |`step`|maps a unit of time in the real world. In this case 1 step is 1 hour of time. Total steps 744 (30 days simulation)|
