@@ -42,4 +42,4 @@ The dataset contains information about reviews, categories, price and more. All 
 | **Privacy Policy** |   The Website where users can view the privacy policy for the application. |
 | **Ad Supported** |   If the application has ads included in them. |
 | **In App Purchases** |   If the application includes items or services that can be puchased in the application.|
-| **Editors Choice** |   If the editors choose this application or the opposite.|
+
