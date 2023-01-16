@@ -13,3 +13,9 @@
     <th>A20EC0177</th>
   </tr>
 </table>
+<h1>Google Playstore Management</h1>
+
+The dataset contains information about reviews, categories, price and more. All the data are about the how users perceive on the applications. We will conduct an analysis on these data and find something useful in them.
+
+
+<hr>
