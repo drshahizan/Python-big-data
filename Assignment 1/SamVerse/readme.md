@@ -6,7 +6,7 @@
   </tr>
   <tr>
     <th>LUQMAN ARIFF BIN NOOR AZHAR</th>
-    <th>A20EC0202</th>
+    <th></th>
   </tr>
 <tr>
     <th>AHMAD AIMAN HAFIZI BIN MUHAMMAD</th>
