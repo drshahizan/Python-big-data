@@ -1,7 +1,7 @@
 ## Group Members: 
 <table align = "center">
   <tr> 
-    <th>Nam</th>
+    <th>Name</th>
     <th>Matric</th>
   </tr>
   <tr>
