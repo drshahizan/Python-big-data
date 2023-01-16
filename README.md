@@ -30,7 +30,7 @@ The information on this Github is part of the materials for the subject High Per
   - Comparison between libraries
 - Assignment
   - [Assignment1: Pandas - Data Processing](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%201)
-  - [Assignment2: Alternatives to Pandas for Processing Large Datasets]
+  - Assignment2: Alternatives to Pandas for Processing Large Datasets
     - [Solution 2a](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202a)        
     - [Solution 2b](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202b)
 - [Project](https://github.com/drshahizan/Python-big-data/tree/main/Project)
