@@ -4,10 +4,12 @@ In this project, we are going to do an exploratory data analysis of Nasa Jpl Aes
 
 ## Data Attributes:
 --
-
 | Attribute | Description 
 | ------ | ------ |
 |SPK-ID | Object primary SPK-ID|
+|Object ID| Object internal database ID|
+|Object fullname| Object full name/designation|
+|pdes| Object primary designation|
 
 
 **Group Members:**
