@@ -7,7 +7,7 @@
     <th>Matric</th>
   </tr>
   <tr>
-    <th>Muhammad Imran Hakimi Bin Mohd Shukrii </th>
+    <th>Muhammad Imran Hakimi Bin Mohd Shukri </th>
     <th>A20EC0213</th>
   </tr>
   <tr>
