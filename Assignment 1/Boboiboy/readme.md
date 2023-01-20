@@ -4,7 +4,7 @@ Group Name : Boboiboy
 
 Group Members:
 
-1.  Goo Ye Jui
+1.  Goo Ye Jui A20EC0191
 2.  Kelvin Ee
 
 ### About Dataset 📊
