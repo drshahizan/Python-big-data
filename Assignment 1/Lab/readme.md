@@ -40,6 +40,7 @@ The dataset is found from kaggle datasets [Fraudulent Transactions Dataset](http
 
 |Attribute|Description|
 |:--------|:----------|
+
 |`step`|maps a unit of time in the real world. In this case 1 step is 1 hour of time. Total steps 744 (30 days simulation)|
 |`type`|CASH-IN, CASH-OUT, DEBIT, PAYMENT and TRANSFER|
 |`amount`|amount of the transaction in local currency|
