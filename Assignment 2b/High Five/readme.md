@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/99240177/212251329-77469daa-6e5a-464d-915d-a8cb4be0c674.png)
 
   
-** Group Members: **
+**Group Members:**
 
 <table width = 700>
   <tr>
