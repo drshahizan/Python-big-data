@@ -5,7 +5,7 @@
   
 **Group Members:**
 
-<table width = 700>
+<table>
   <tr>
     <th>Name</th>
     <th>Matric</th>
