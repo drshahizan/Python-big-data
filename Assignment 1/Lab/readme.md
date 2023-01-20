@@ -34,7 +34,7 @@ This file contains fraudulent transaction analysis. Fraudulent transaction is an
 
 Using the dataset, we develop a model for predicting fraudulent transactions at a financial institution and then create an actionable plan based on the model's insights. The case data is available in *CSV* format, with 11 columns and 6362620 rows. The file size is *493.53 MB*. The purpose of this study is to comprehend how financial fraud operates and how it can be prevented in the future.
 
-The dataset is found from kaggle datasets- [Fraudulent Transactions Dataset](https://www.kaggle.com/datasets/chitwanmanchanda/fraudulent-transactions-data)
+The dataset is found from kaggle datasets: [Fraudulent Transactions Dataset](https://www.kaggle.com/datasets/chitwanmanchanda/fraudulent-transactions-data)
 
 ## Dataset Dictionary:
 
