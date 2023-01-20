@@ -5,7 +5,7 @@ Group Name : Boboiboy
 Group Members:
 
 1.  Goo Ye Jui A20EC0191
-2.  Kelvin Ee
+2.  Kelvin Ee A20EC0195
 
 ### About Dataset 📊
 Source: https://www.kaggle.com/datasets/ekibee/car-sales-information?select=region25_en.csv
