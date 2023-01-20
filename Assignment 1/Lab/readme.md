@@ -1,6 +1,6 @@
 ## Group Lab Members:
 
-<table width = 700>
+<table>
 
   <tr>
 
@@ -25,7 +25,6 @@
     <th>A20EC0142</th>
 
   </tr>
-
 </table> 
 
 ## Fraudulent Transaction Analysis and Prediction 💳
