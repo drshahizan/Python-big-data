@@ -8,37 +8,21 @@
 
   <th>Matric</th>
 
-  
-
 <tr>  
 
   <th>Nurarissa Dayana Binti Mohd Sukri</th>
 
-  
-
   <th>A20EC0120</th>
 
-  
-
  </tr>
-
- 
 
  <tr>
 
- 
-
    <th>Sakinah Al'izzah Binti Mohd Asri</th> 
-
-   
 
    <th>A20EC0142</th>
 
-   
-
  </tr>
-
- 
 
  </table>
  
