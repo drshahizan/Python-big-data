@@ -1,6 +1,6 @@
 ## 🚀 Case Study 1 : Pandas - Data Processing
 
-Your submission will be evaluated using the following criteria:
+Your submission will be evaluated using the followin criteria:
 
 * Dataset must contain at least larger than 100MB
 * Please implement data processing related to the concept of big data.
