@@ -6,7 +6,7 @@
 
 The dataset contains car accident information from all 49 states in the USA, and the data was gathered from February 2016 to December 2021. For this analysis, we will use Python and several libraries including mathplotlib, pandas, seaborn, and numpy as well as using sampling to perform our analysis.
 
-## **Downloading the Dataset**
+## **Downloading the Dataset** 
 
 The dataset we'll be using is titled [US Accidents (2016 - 2021)](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents), taken from Kaggle. Instead of downloading the data set onto our own system, we will be using an API command to download the dataset directly into Google Colab.
 
