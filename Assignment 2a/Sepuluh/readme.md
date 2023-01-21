@@ -1,4 +1,4 @@
-## Group Members:
+## Group Members: 
 <table border="solid">
   <tr>
     <th>Name</th>
