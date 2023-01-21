@@ -57,4 +57,4 @@ This dataset contains 384975 records and 22 columns which are:
 | price | Rent per month |
 | type | The type of the house provided |
 
-& many more
+& many more.
