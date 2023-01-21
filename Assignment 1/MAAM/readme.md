@@ -10,7 +10,7 @@ The dataset contains car accident information from all 49 states in the USA, and
 
 The dataset we'll be using is titled [US Accidents (2016 - 2021)](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents), taken from Kaggle. Instead of downloading the data set onto our own system, we will be using an API command to download the dataset directly into Google Colab.
 
-### Dataset Description
+### Dataset Description 
 
 1) `ID`: unique identifier of the accident record 
 2) `Severity`: shows the severity of the accident, a number between 1 and 4, where 1 indicates the least impact on traffic and 4 indicates a significant impact on traffic
