@@ -12,7 +12,7 @@ The dataset we'll be using is titled [US Accidents (2016 - 2021)](https://www.ka
 
 ### Dataset Description
 
-1) `ID`: unique identifier of the accident record
+1) `ID`: unique identifier of the accident record 
 2) `Severity`: shows the severity of the accident, a number between 1 and 4, where 1 indicates the least impact on traffic and 4 indicates a significant impact on traffic
 3) `Start_Time`: shows the start time of the accident in the local time zone
 4) `End_Time`: shows the end time of the accident in the local time zone, referring to when the impact of the accident on traffic flow was dismissed
