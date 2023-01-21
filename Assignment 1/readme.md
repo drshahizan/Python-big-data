@@ -1,4 +1,4 @@
-## 🚀 Case Study 1 : Pandas - Data Processin
+## 🚀 Case Study 1 : Pandas - Data Processing
 
 Your submission will be evaluated using the following criteria:
 
