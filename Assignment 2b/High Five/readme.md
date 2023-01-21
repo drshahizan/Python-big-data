@@ -12,7 +12,7 @@
   </tr>
   <tr>
     <th>AHMAD MUHAIMIN BIN AHMAD HAMBALI</th>
-    <th>A20EC0006</th>
+    <th>A20EC006</th>
   </tr>
   <tr>
     <th>NAYLI NABIHAH BINTI JASNI</th>
