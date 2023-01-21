@@ -2,7 +2,7 @@
 
 Your submission will be evaluated using the following criteria:
 
-* Dataset must contain at least larger than 10MB
+* Dataset must contain at least larger than 100MB
 * Please implement data processing related to the concept of big data.
 * You must ask and answer at least 5 questions about the dataset
 * Your submission must include explanations using markdown cells, apart from the code.
