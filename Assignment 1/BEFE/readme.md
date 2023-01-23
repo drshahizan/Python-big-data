@@ -1,6 +1,6 @@
 ## Summary of Google Play Store Application 
 
-This dataset is about the Summary of Google Play Store Applications. This dataset contains the collection of all applications' data that was collected on June 2021. Throughout the project, we have used multiple libraries such as pandas, numpy, matplotlib and seaborn. This dataset was retrieved from [here](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps).
+This dataset is about the Summary of Google Play Store Applications. This dataset contains the collection of all applications' data that was collected on June 2021. Throughout the project, we have used multiple libraries such as pandas, numpy, matplotlib and seaborn. This dataset was retrieved from [here](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps). The dataset consists of 2312944 rows and 24 columns with a size of 676.46MB and is acquired from Kaggle. From this dataset, we could investigate more about the applications such as total number of application in each content rating and each category and the top 10 apps that has the maximum installs.
 
 
 ## Group members:
