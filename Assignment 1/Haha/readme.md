@@ -36,5 +36,5 @@ This project aims to investigate the car sales in Russia by region. The dataset 
 | **parse_date** |  Date and time of receipt of information about the announcement |
 
 Tools: 🔎
-- Google Collab
+- Google Colab
 - Github
