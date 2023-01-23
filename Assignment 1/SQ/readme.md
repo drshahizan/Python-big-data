@@ -35,7 +35,10 @@ The dataset consists of **212087 records and 11 columns**:
 
 </br>
 
-Tools: 🔎
-- Google Colab
+## Challenges
+- Large datasets can take up a lot of space and require significant computational resources to analyse. 
+- There is possibility that the result of overall may be different from the sampling. 
 
-> Sources: [Kaggle: Online Payments Fraud Detection](https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset)
+Tools: 🔎
+- Google Collab
+- Github
