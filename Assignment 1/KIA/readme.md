@@ -21,7 +21,13 @@
   </tr>
 </table>
 
-The dataset is about the US Road Construction and Closures 2016-2021. It is taken from Kaggle and we are going to analyse the dataset to see the performance of the construction cases throughout the year. For this analysis, we will be using the Python language with the help of libraries such as mathplotlib, pandas, seaborn, numpy and much more.
+The dataset is about the US Road Construction and Closures 2016-2021. It is taken from Kaggle and we are going to analyse the dataset to see the performance of the construction cases throughout the year. For this analysis, we will be using the Python language with the help of libraries such as mathplotlib, pandas, seaborn, numpy and much more. Since the dataset that we used are more than 1GB, we have to use chunking and sampling in order to have a smooth and faster runtime. 
+
+## What we do:
+- Importing data from Kaggle
+- Do some data preparation and cleaning
+- Chunking and Sampling
+- Visualization on the dataset. 
 
 ### Dataset Description
 [`US_Constructions_Dec21.csv `]: State results By candidate 
