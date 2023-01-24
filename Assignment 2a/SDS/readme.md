@@ -4,7 +4,7 @@
 </h1>
 
 <h1 align="center">
-  Alternatives to Pandas for Processing Large Dataset - Polars
+  Koalas as an Alternatives to Pandas on NYC Yellow Taxi Trip Dataset
   <br>
 </h1>
 
