@@ -24,3 +24,9 @@ Attribute Information:
 | **newbalanceDest** |   the new balance of recipient after the transaction |
 |**isFraud** |   fraud transaction |
 
+For this dataset, we further our investigation based on these questions;
+1. Who are the top 10 richest customer who had the biggest lost from the fraud?
+2.  Who are the top 10 richest recipient who had biggest gain when fraud occured?
+3.  Which customer lost the most money
+4.  Top 20 step number that fraud occured
+5.  Which customer commit the largest fraud?
