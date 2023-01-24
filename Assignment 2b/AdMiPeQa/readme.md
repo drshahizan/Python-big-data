@@ -39,6 +39,16 @@ Among the features we wish to compare pandas with datatable are:
 4. Groupby Aggregation
 5. Sorting
 
+## **About Pandas**
+Pandas is a popular library in Python for data manipulation and analysis. It provides data structures such as Series (1-dimensional) and DataFrame (2-dimensional) that allow you to manipulate and analyze data in a similar way to a spreadsheet. It also has functions for handling missing data, reading and writing data to different file formats, and merging, grouping, and reshaping data. Pandas is widely used in data science and is a powerful tool for working with structured data. Let me know if you have any specific questions about using pandas.
+1. Read File
+2. Sorting
+3. Description
+
+## *Conclusion*
+We can concluded that datatable is way more faster compared to pandas in doing these tasks. Pandas can be quite slow when working with large datasets, especially when using certain operations such as groupby or pivot tables. While datatable, on the other hand, is a newer library that was specifically designed for performance and handling large datasets. It uses a different data structure (a multi-dimensional array) and a unique data processing engine to improve performance. It also has a similar syntax and functionality to pandas, making it easy to learn for users already familiar with pandas. In summary, eventhough the dataset we are using is cannot be considered as a large dataset we still believe that datatable may be a better choice. On the other hand, if we need a wide range of data manipulation and analysis functionality, pandas may be more suitable. All in all it always depends on our objectives for the datatset.
+
+
 ## **Dataset**
 The dataset can be downloaded from Kaggle: <a href="https://www.kaggle.com/datasets/hhs/health-insurance-marketplace?select=Rate.csv">Rate.csv</a>
 #### Attribute Information:
@@ -67,7 +77,3 @@ The dataset can be downloaded from Kaggle: <a href="https://www.kaggle.com/datas
 | **CoupleAndTwoDependents** | The monthly premium for the health insurance plan for a couple and two dependents.  |
 | **CoupleAndThreeOrMoreDependents** |  The monthly premium for the health insurance plan for a couple and three or more dependents.   |
 | **RowNumber** | The row number of rate information.  |
-
-## **Result**
-Table below shows the time performance comparison(in ms) between pandas and datatable.<br><br>
-<img width="200" alt="image" src="https://user-images.githubusercontent.com/120556342/214235390-01dac8b2-c447-4f62-9159-730b42002d75.png">
