@@ -8,7 +8,7 @@
 
 ![image](https://user-images.githubusercontent.com/120556342/214077586-13e09ba2-e298-4cd9-a9d0-e769ed265671.png)
 
-This project aims to investigate the car sales in Russia by region. The dataset consists of 17 columns and 1048572 rows. It is considered as big data and occupies the memory 310.82MB. The dataset is obtained from Kaggle which contains many kinds of dataset ranging from agriculture to education. We have selected this dataset because we like to know how the factors affect car sales. We will perform a series of steps like data processing, data cleaning and visualization on this dataset. Google Colab will be used in this project.
+This project aims to investigate the car sales in Russia by region. The dataset consists of 17 columns and 1513200 rows. It is considered as big data and occupies the memory 310.82MB. The dataset is obtained from Kaggle which contains many kinds of dataset ranging from agriculture to education. We have selected this dataset because we like to know how the factors affect car sales. We will perform a series of steps like data processing, data cleaning and visualization on this dataset. Google Colab will be used in this project.
 
 <b>Dataset:<b><br>
 <a href="https://www.kaggle.com/datasets/ekibee/car-sales-information?select=region25_en.csv ">Kaggle: Car Sales</a><br>
