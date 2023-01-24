@@ -78,7 +78,7 @@ For this assignment, we have decided to use the dataset, 1000000 Sales Records w
 | **Total Profit** |   The total profit gainned by the company.  |
 
 <h1>Results</h1>
-#### Time Performance results:
+####Time Performance results:
 
 
 Based on the results above, we can conclude that Pyspark has a better performance compared to Pandas.
