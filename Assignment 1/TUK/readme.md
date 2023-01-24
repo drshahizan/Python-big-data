@@ -5,6 +5,9 @@ Group Members:
 
 For this assignment we have chosen a big data set about Fraud Detection from online transaction. This dataset will detect either the transaction is fraud or not by analyzing the before and after transaction balance.From this data, we will able to detect the amount of fraud, the name of the customer and their balance. To achieve that, data prepping, analysing, visualization, question and answers have been compiled in this file for better understanding. To complete this EDA, there are multiple library used such as Pandas, Matplotlib, seaborn and plotly express.
 
+The dataset size is 186MB and is downloaded from Kaggle. Below attached link to the source dataset;
+https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset
+
 ---
 
 Attribute Information:
