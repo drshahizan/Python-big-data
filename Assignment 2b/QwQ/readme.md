@@ -48,6 +48,7 @@
   <br>
 </h2>
 
+
 For this project we decided to use a medical dataset [Rate.csv](https://www.kaggle.com/datasets/hhs/health-insurance-marketplace?select=Rate.csv). 
 
 #### Attribute Information:
@@ -76,3 +77,7 @@ For this project we decided to use a medical dataset [Rate.csv](https://www.kagg
 | **CoupleAndTwoDependents** | The monthly premium for the health insurance plan for a couple and two dependents.  |
 | **CoupleAndThreeOrMoreDependents** |  The monthly premium for the health insurance plan for a couple and three or more dependents.   |
 | **RowNumber** | The row number of rate information.  |
+
+<h2>Comparison of Polars against Pandas </h2>
+<p>
+In overall, Polars manage to execute with less memory compared to Pandas due to its unique architecture and design. Polars is built on top of Apache Arrow, a columnar memory format that allows for efficient storage and retrieval of data in a column-wise fashion. This means that data is stored in a way that is more compact and requires less memory to store and access. Additionally, Polars utilizes a lazy evaluation strategy, where operations are only executed when necessary, which also helps to reduce memory usage.On the other hand, Pandas is built on top of a row-wise data structure which results in more memory usage. Also, pandas loads the entire data in memory before performing any operation on it, which can cause memory issues with large datasets.</p>
