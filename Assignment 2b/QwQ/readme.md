@@ -54,7 +54,7 @@ This project briefly introduces Polars and compares it to popular Pandas regardi
 </h2>
 
 
-For this project we decided to use a Health Insurance Marketplace dataset that we obtained from[Kaggle](https://www.kaggle.com/datasets/hhs/health-insurance-marketplace?select=Rate.csv). 
+For this project we decided to use a Health Insurance Marketplace dataset that we obtained from [Kaggle](https://www.kaggle.com/datasets/hhs/health-insurance-marketplace?select=Rate.csv). 
 
 #### Attribute Information:
 | Acronym | Description |
