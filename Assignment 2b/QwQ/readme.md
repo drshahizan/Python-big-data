@@ -31,25 +31,30 @@
   Some of the key features of the polars library include:
 
   - Support for various data formats: polars can read and write data from various formats such as CSV, JSON, HDF5, and others.
-
   - Integration with other libraries: polars can work seamlessly with other libraries such as numpy, pandas, and scikit-learn, making it easy to use existing tools and     libraries with polars data.
-
   - Data manipulation and transformation: polars provides a rich set of functions for manipulating and transforming data, including functions for grouping, filtering,     and aggregating data.
-
   - Data visualization: polars integrates with various data visualization libraries such as matplotlib, seaborn, and plotly, allowing you to easily create graphs and       plots from your data.
-
   - Data analysis: polars provides tools for performing various types of data analysis, including statistical analysis, machine learning, and more.
 
   Overall, the polars library is a powerful tool for working with large datasets in Python, and can be a useful addition to any data scientist's toolkit.</a>
 </p> 
 
 <h2>
-  DATASET
+Understanding the differences between the Python libraries Pandas and Polars
+  <br>
+</h2>
+
+This project briefly introduces Polars and compares it to popular Pandas regarding syntax and speed. To get a better view of what is Polars and why it is faster than Pandas, several comparison had been made such as reading data, selecting and filtering data, grouping annd aggregation and data visualization.
+
+
+
+<h2>
+  Dataset
   <br>
 </h2>
 
 
-For this project we decided to use a medical dataset [Rate.csv](https://www.kaggle.com/datasets/hhs/health-insurance-marketplace?select=Rate.csv). 
+For this project we decided to use a Health Insurance Marketplace dataset that we obtained from[Kaggle](https://www.kaggle.com/datasets/hhs/health-insurance-marketplace?select=Rate.csv). 
 
 #### Attribute Information:
 | Acronym | Description |
