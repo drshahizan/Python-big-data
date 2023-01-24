@@ -23,7 +23,7 @@ Don't forget to hit the :star: if you like this repo.
 
 | Team | Library 1 | Library 2 | Library 3 | Dataset |  GitHub |
 | ----- | ----- | ------ | ------ |  ------ |  ------ | 
-| AdMiPeQa | DataTable | 2 | 3 | Dataset | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
+| AdMiPeQa | 1 | 2 | 3 | Dataset | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
 | BigMac | 1 | 2 | 3 | Dataset | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
 | Fantom | 1 | 2 | 3 | Dataset | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
 | KIA | 1 | 2 | 3 | Dataset | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
