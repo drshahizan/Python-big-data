@@ -67,3 +67,7 @@ The dataset can be downloaded from Kaggle: <a href="https://www.kaggle.com/datas
 | **CoupleAndTwoDependents** | The monthly premium for the health insurance plan for a couple and two dependents.  |
 | **CoupleAndThreeOrMoreDependents** |  The monthly premium for the health insurance plan for a couple and three or more dependents.   |
 | **RowNumber** | The row number of rate information.  |
+
+## **Result**
+Table below shows the time performance comparison between pandas and datatable.<br><br>
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/120556342/214235390-01dac8b2-c447-4f62-9159-730b42002d75.png">
