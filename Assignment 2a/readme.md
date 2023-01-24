@@ -32,7 +32,7 @@ Pandas library has became the de facto library for data manipulation in python a
 | No name | DataTable | Health Insurance Marketplace | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202a/No%20name) |
 | QUAD | Polars | NYC yellow taxi trip data | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202a/QUAD) |
 | Rojak | Vaex | Health Insurance Marketplace | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202a/Rojak) |
-| 10 | Pyspark | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
+| SamVerse | Pyspark | 1000000 Sales Records | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202a/SamVerse) |
 | SDS | Koalas | NYC yellow taxi trip data | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202a/SDS) |
 
 ## Contribution 🛠️
