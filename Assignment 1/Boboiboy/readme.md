@@ -36,7 +36,7 @@ The dataset contains 1513200 records and 17 columns which are:
 ### Important Getwaway from this EDA
 
 1. ***Toyota*** is the most listed car brand for sale in Russia.
-2. Most of the car listed are Subcompact and Compact Cars (100-200 horsepowers)
-3. Most of the car in Russia still favors gasoline. It is pretty obvious because the price of gasoline is cheap. 
-4. The poupularity of Electric Car is very low in Russia which is only up to 0.009%.
+2. Most of the car listed are ***Subcompact and Compact Cars (100-200 horsepowers).***
+3. Most of the car in Russia still favors ***gasoline***. It is pretty obvious because the price of gasoline is cheap. 
+4. The poupularity of ***Electric Car*** is very low in Russia which is only up to ***0.009%.***
 
