@@ -26,13 +26,14 @@ This assignment will show the comparison between Pandas and Datatable in perform
   </tr>
 </table>
 
-## **Datatable**
+## **About Datatable**
 Datatable is the premier package for manipulating large tabular datasets. Large datasets can be aggregated quickly, columns can be added/updated/removed with low latency, ordered joins can be made quickly, and file reading can be done quickly.<br><br>
-Among the features we wish to implement with datatable are:
-1. Fast data reading from CSV and other formats.
-2. Efficient algorithms for sorting/grouping/joining.
-3. Minimal amount of data copying, copy-on-write semantics for shared data.
-4. Use "rowindex" views in filtering/sorting/grouping/joining operators to avoid unnecessary data copying.
+Among the features we wish to compare pandas with datatable are:
+1. Read file
+2. Compute metrics of a column
+3. Find unique count of a column
+4. Groupby Aggregation
+5. Sorting
 
 ## **Dataset**
 The dataset can be downloaded from Kaggle: <a href="https://www.kaggle.com/datasets/hhs/health-insurance-marketplace?select=Rate.csv">Rate.csv</a>
