@@ -19,8 +19,8 @@ Don't forget to hit the :star: if you like this repo.
 
 ## 🌟 Project: Solutions
 
-| Team | Library 1 | Dataset |  GitHub |
-| ----- | ----- | ------ | ------ | 
+| Team | Library 1 | Library 2 | Library 3 | Dataset |  GitHub |
+| ----- | ----- | ------ | ------ |  ------ |  ------ | 
 | AdMiPeQa | DataTable |  | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
 | BigMac | Polars |  | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
 | Fantom | Vaex |  | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
