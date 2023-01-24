@@ -47,3 +47,6 @@ Have a single codebase that works both with pandas (tests, smaller datasets) and
 | **isNull** - 1min 7s |  **isNull** - 2.46 s |
 | **fillNa** - 1.48 s |  **fillNa** - 4.64 s |
 | **dropNa** - 885 ms |  **dropNa** - 3.76 s |
+
+#### Conclusion
+Pandas is more optimized for performance for most use cases compared to koalas. Pandas is 2.03x faster than Koalas in reading a dataset. Koalas only performs better than Pandas in Aggregating(2.28x faster) and Grouping(4.03x faster). 
