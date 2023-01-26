@@ -3,7 +3,8 @@
 <p align="center">
   <img src="https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2Fa919ce06-72b3-11eb-b6bc-1d2ce6b7b794.jpg?crop=2250%2C1266%2C0%2C117" />
 </p>
-All data files are downloaded from https://www.transtats.bts.gov/Homepage.asp, which stores flights on-time performance from 1987 to 2018 through https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018. However, we chose only 2017 data file, since it is large enough to perform methods in handling big data.
+
+All data files are downloaded from [Transtats](https://www.transtats.bts.gov/Homepage.asp), which stores flights on-time performance from 1987 to 2018 through [Kaggle](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018). However, we chose only 2017 data file, since it is large enough to perform methods in handling big data.
 
 We are motivated to do EDA on this dataset because we, ourselves are curious about the insights that can be obtain from this dataset. The dataset also has many columns with numerical values which we believe, could give more meaningful analysis.
 
