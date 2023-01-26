@@ -34,7 +34,7 @@ The dataset contains 1513200 records and 17 columns which are:
 | link | Link to the announcement |
 | parse_date | Date and time of receipt of information about the announcement |
 
-### Important Getwaway from this EDA
+### Important Getwaway from this Project
 
 1. ***Toyota*** is the most listed car brand for sale in Russia.
 2. Most of the car listed are ***Subcompact and Compact Cars (100-200 horsepowers).***
