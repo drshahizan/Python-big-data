@@ -10,7 +10,7 @@
 
 This project aims to investigate the car sales in Russia by region. The dataset consists of 17 columns and 1513200 rows. It is considered as big data and occupies the memory 310.82MB. The dataset is obtained from Kaggle which contains many kinds of dataset ranging from agriculture to education. We have selected this dataset because we like to know how the factors affect car sales. We will perform a series of steps like data processing, data cleaning and visualization on this dataset. Google Colab will be used in this project.
 
-<b>Dataset:<b><br>
+<b>Dataset:</b><br>
 <a href="https://www.kaggle.com/datasets/ekibee/car-sales-information?select=region25_en.csv ">Kaggle: Car Sales</a><br>
 <a href="https://drive.google.com/file/d/1DHSpOxU-Ss_a6d5ntHVZn0eg4W1SVBuz/view?usp=share_link ">Drive: Car Sales</a>
 
@@ -35,6 +35,13 @@ This project aims to investigate the car sales in Russia by region. The dataset 
 | **link** |  Link to the announcement |
 | **parse_date** |  Date and time of receipt of information about the announcement |
 
-Tools: 🔎
+<b>Tools: 🔎</b>
 - Google Colab
 - Github
+
+<b>Results:</b><br>
+1. The most popular body type is ***jeep 5 doors*** with the 350766 number of sales.
+2. Most people tend to buy a car with ***less milleage***. 
+3. The ***most recent manufactured car*** will have higher sales compared to the car that was manufactured in the earlier year.
+4. The sales of cars varies across locations but ***Vladivostok*** has the highest sales of cars.
+5. The price will ***increase*** when the engine displacement is ***larger*** and the manufactured year is ***latest***.
