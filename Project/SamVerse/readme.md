@@ -14,10 +14,10 @@
   </tr>
     <tr>
     <th>LEE CAI XUAN</th>
-    <th>A20EC0157</th>
+    <th>A20EC0062</th>
   </tr>
     <tr>
     <th>MYZA NAZIFA BINTI NAZRY</th>
-    <th>A20EC0026</th>
+    <th>A20EC0219</th>
   </tr>
 </table>
