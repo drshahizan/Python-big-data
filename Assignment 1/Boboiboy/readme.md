@@ -1,12 +1,12 @@
-## 🚗Car Sales Data🚗
-In this project, we are going to do an exploratory data analysis of the car sales ads in Russia by region.
-
 Group Name : Boboiboy
 
 Group Members:
 
 1.  Goo Ye Jui A20EC0191
 2.  Kelvin Ee A20EC0195
+
+## 🚗Car Sales Data🚗
+In this project, we are going to do an exploratory data analysis of the car sales ads in Russia by region.
 
 ### About Dataset 📊
 Source: https://www.kaggle.com/datasets/ekibee/car-sales-information?select=region25_en.csv
