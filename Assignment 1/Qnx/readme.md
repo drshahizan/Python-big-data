@@ -1,4 +1,4 @@
-Note: The working file size is too big. Please open in Google Colab to show the full view of the data visualization.
+<b>Note: The working file size is too big. Please open in Google Colab to show the full view of the data visualization.</b>
 
 Group Name：QnX
 
