@@ -1,4 +1,5 @@
 ## 🚗Car Sales Data🚗
+In this project, we are going to do an exploratory data analysis of the car sales ads in Russia by region.
 
 Group Name : Boboiboy
 
