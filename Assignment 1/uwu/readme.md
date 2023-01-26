@@ -147,5 +147,7 @@ In a further project, we would like to examine more data from more years and obt
 
 References:
 
-- Pandas Guide
-- Data Visualization Guide
+    1. [Data Guide](https://pandas.pydata.org/docs/user_guide/text.html)
+    2. [Data Visualization Guide](https://www.analyticsvidhya.com/blog/2021/02/an-intuitive-guide-to-visualization-in-python/)
+    3. [Dataset](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018)
+    
