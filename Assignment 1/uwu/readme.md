@@ -145,9 +145,10 @@ SECP3133-01
 <h2>Reference & Future Work</h2>
 In a further project, we would like to examine more data from more years and obtain more information each airline may have regarding the reason for a delay.
 
+
 References:
 
-    1. [Data Guide](https://pandas.pydata.org/docs/user_guide/text.html)
-    2. [Data Visualization Guide](https://www.analyticsvidhya.com/blog/2021/02/an-intuitive-guide-to-visualization-in-python/)
-    3. [Dataset](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018)
+   1. [Data Guide](https://pandas.pydata.org/docs/user_guide/text.html)
+   2. [Data Visualization Guide](https://www.analyticsvidhya.com/blog/2021/02/an-intuitive-guide-to-visualization-in-python/)
+   3. [Dataset](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018)
     
