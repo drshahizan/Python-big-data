@@ -46,7 +46,7 @@
 
 
 <h2>
-  DATASET
+  About Dataset
   <br>
 </h2>
 
@@ -78,3 +78,11 @@ For this project we decided to use a medical dataset [Rate.csv](https://www.kagg
 | **CoupleAndTwoDependents** | The monthly premium for the health insurance plan for a couple and two dependents.  |
 | **CoupleAndThreeOrMoreDependents** |  The monthly premium for the health insurance plan for a couple and three or more dependents.   |
 | **RowNumber** | The row number of rate information.  |
+
+<h2>Conclusion</h2>
+In conclusion, we can definitely see that Polars is a very fast. If you need to do a lot of data processing on large datasets, you should definitely try Polars.
+
+Future Work: 
+    1. [Polars vs Pandas](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202b/QwQ)
+    
+
