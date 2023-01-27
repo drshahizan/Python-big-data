@@ -1,5 +1,5 @@
 # **Dataset: ---**
-<img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/BigMac/Pandas_logo.svg.png"  width="500" height="200"><img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/BigMac/1_MEcMeVoX9Mdqtk83oLBuEQ.png" width="530" height="200">
+<img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/BigMac/Pandas_logo.svg.png"  width="500" height="200"><img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/BigMac/1_MEcMeVoX9Mdqtk83oLBuEQ.png" width="520" height="200">
 ## _Group 3_
 <table>
   <tr>
