@@ -37,5 +37,21 @@
     <th>review/helpfulness</th>
     <th>Helpfulness rating</th>
   </tr>
+  <tr>
+    <th>review/score</th>
+    <th>Book's rating</th>
+  </tr>
+  <tr>
+    <th>review/time</th>
+    <th>Time given for review</th>
+  </tr>
+  <tr>
+    <th>review/summary</th>
+    <th>Review summary</th>
+  </tr>
+  <tr>
+    <th>review/text</th>
+    <th>Full text review</th>
+  </tr>
 </table>
 
