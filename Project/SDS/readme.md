@@ -29,5 +29,13 @@
     <th>User_id</th>
     <th>Id of the user</th>
   </tr>
+  <tr>
+    <th>profileName</th>
+    <th>Name of the user</th>
+  </tr>
+  <tr>
+    <th>review/helpfulness</th>
+    <th>Helpfulness rating</th>
+  </tr>
 </table>
 
