@@ -1,4 +1,4 @@
-<h1>Amazon Book Reviews</h1>
+<h1>Amazon Book Reviews</h1><p>	&#128218;</p>
 
 
 <h2>Prepared by:</h2>
