@@ -13,5 +13,13 @@
     <th>Columns</th>
     <th>Description</th>
   </tr>
+  <tr>
+    <th>Id</th>
+    <th>The Id of the book</th>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <th>The title of the book</th>
+  </tr>
 </table>
 
