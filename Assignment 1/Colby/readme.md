@@ -72,3 +72,10 @@ Dataset:
             <td>Housing Type of Client</td>
         </tr>
 </table>
+
+#### Result:
+1. Most female defaulters clients own a house.
+2. The percentage of clients that does not work and exceeds 100 total number of clients is 18% (pensioner).
+3. Clients with lower secondary has the highest percentage of defaulters (10.93%).
+4. Clients who are living with parents have a higher chance of having payment difficulties compared to other housing types as it has the most number of clients in terms of defaulters.
+5. Highly educated and married clients are having higher credits than others.
