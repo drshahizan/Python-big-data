@@ -34,7 +34,7 @@ Welcome to our Python project where we will be comparing the use of three popula
 ---
 ## Dataset Information
 
-For this project we decided to use a medical dataset [Airline.csv](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018?select=2014.csv). 
+For this project we decided to use a an airline dataset from Kaggle.com [Airline.csv](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018?select=2014.csv). 
 
 #### Attribute Information:
 | Acronym | Description |
