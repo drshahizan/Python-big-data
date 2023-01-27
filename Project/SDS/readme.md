@@ -21,5 +21,13 @@
     <th>Title</th>
     <th>The title of the book</th>
   </tr>
+  <tr>
+    <th>Price</th>
+    <th>The price of the book</th>
+  </tr>
+  <tr>
+    <th>User_id</th>
+    <th>Id of the user</th>
+  </tr>
 </table>
 
