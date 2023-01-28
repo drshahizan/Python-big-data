@@ -40,5 +40,6 @@ The dataset consists of **212087 records and 11 columns**:
 - There is possibility that the result of overall may be different from the sampling. 
 
 Tools: 🔎
-- Google Collab
-- Github
+| Colab |  GitHub |
+| ------ | ------ | 
+| [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://colab.research.google.com/github/drshahizan/Python-big-data/blob/main/Assignment%201/SQ/Assignment_big_data_SQ.ipynb) |[![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%201/SQ) |
