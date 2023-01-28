@@ -3,7 +3,7 @@
   <br>
 </h1>
 <h1 align="center">
-  ![dataset-cover](https://user-images.githubusercontent.com/97009588/215264901-4e1b869c-a5b3-466b-a9ab-b6a714d51842.jpg)
+  <img src="https://user-images.githubusercontent.com/97009588/215264901-4e1b869c-a5b3-466b-a9ab-b6a714d51842.jpg">
   <br>
 </h1>
 <br>
