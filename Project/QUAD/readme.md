@@ -37,7 +37,7 @@ In this notebook, we use 'yellow_tripdata_2015-01.csv'. This dataset contain 127
 ## 🚀 Group Members QUAD (Team 8)
 > 1. CHONG KAI ZHE (A20EC0186)
 > 2. TERENCE A/L LOORTHANATHAN (A20EC0165)
-> 3. RISHMA FATHIMA BINTI BASHER
+> 3. RISHMA FATHIMA BINTI BASHER (A20EC0137)
 > 4. NUR SYAMALIA FAIQAH BINTI MOHD KAMAL (A20EC0118)
 
 Technique:
