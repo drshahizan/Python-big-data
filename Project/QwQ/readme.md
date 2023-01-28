@@ -1,4 +1,26 @@
+<h2>Team: QwQ</h2>
+<h4>
+
+1.   MUHAMMAD DINIE HAZIM BIN AZALI
+
+2.   RADIN DAFINA BINTI RADIN ZULKAR NAIN
+
+3.   ADRINA ASYIQIN BINTI MD ADHA
+
+4.   KELVIN E
+</h4>
+
+<h2>Libraries Used</h2>
+
+<h3>Koalas</h3>
+<h3>Pyspark</h3>
+<h3>Dask</h3>
+----------------------------------------------------------------------------------------------------------------------
+
 <h2>About Dataset</h2>
+<h4>
+This project aims to study the volume of traffic in NYC at bridge crossings and roadways. The dataset consists of 14 columns and 27.4M rows. It is considered as big data and occupies 3.33GB of memory. The dataset is obtained from Kaggle. We have selected this dataset because we like to analyze the traffic volume in NYC. We will perform a series of steps like data processing, data cleaning and visualization on this dataset. Google Colab will be used in this project.
+</h4>
 <table>
   <tr>
     <th>Columns</th>
@@ -64,3 +86,10 @@
     
 </table>
 
+<h2>Conclusion<h/2>
+
+<h4>
+<p>
+Based on the EDA above, we can conclude that Pyspark library compute the fastest in the overall tasks. PySpark is the best fit which could process operations many times(100x) faster than Pandas. To rank the three in terms of speed of computing, Pyspark takes the first place, Dask, then Koalas.
+</p>
+</h4>
