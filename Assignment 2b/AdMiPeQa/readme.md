@@ -1,5 +1,9 @@
-![image](https://user-images.githubusercontent.com/120556342/211182736-a99ae2f7-2f1c-488a-a388-9cb2efc2afa1.png)
-# **Python Datatable library on Health Insurance Marketplace Dataset**🏥
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/120556342/211182736-a99ae2f7-2f1c-488a-a388-9cb2efc2afa1.png">
+  <br>
+</h1>
+<h1>
+Pandas vs Datatable on Health Insurance Marketplace Dataset🏥</h1>
 This assignment will show the comparison between Pandas and Datatable in performing various operations and the visualization about the comparison will be shown. 
 
 ## **Group Members**
@@ -26,13 +30,24 @@ This assignment will show the comparison between Pandas and Datatable in perform
   </tr>
 </table>
 
-## **Datatable**
+## **About Datatable**
 Datatable is the premier package for manipulating large tabular datasets. Large datasets can be aggregated quickly, columns can be added/updated/removed with low latency, ordered joins can be made quickly, and file reading can be done quickly.<br><br>
-Among the features we wish to implement with datatable are:
-1. Fast data reading from CSV and other formats.
-2. Efficient algorithms for sorting/grouping/joining.
-3. Minimal amount of data copying, copy-on-write semantics for shared data.
-4. Use "rowindex" views in filtering/sorting/grouping/joining operators to avoid unnecessary data copying.
+Among the features we wish to compare pandas with datatable are:
+1. Read file
+2. Compute metrics of a column
+3. Find unique count of a column
+4. Groupby Aggregation
+5. Sorting
+
+## **About Pandas**
+Pandas is a popular library in Python for data manipulation and analysis. It provides data structures such as Series (1-dimensional) and DataFrame (2-dimensional) that allow you to manipulate and analyze data in a similar way to a spreadsheet. It also has functions for handling missing data, reading and writing data to different file formats, and merging, grouping, and reshaping data. Pandas is widely used in data science and is a powerful tool for working with structured data. Let me know if you have any specific questions about using pandas.
+1. Read File
+2. Sorting
+3. Description
+
+## *Conclusion*
+We can concluded that datatable is way more faster compared to pandas in doing these tasks. Pandas can be quite slow when working with large datasets, especially when using certain operations such as groupby or pivot tables. While datatable, on the other hand, is a newer library that was specifically designed for performance and handling large datasets. It uses a different data structure (a multi-dimensional array) and a unique data processing engine to improve performance. It also has a similar syntax and functionality to pandas, making it easy to learn for users already familiar with pandas. In summary, eventhough the dataset we are using is cannot be considered as a large dataset we still believe that datatable may be a better choice. On the other hand, if we need a wide range of data manipulation and analysis functionality, pandas may be more suitable. All in all it always depends on our objectives for the datatset.
+
 
 ## **Dataset**
 The dataset can be downloaded from Kaggle: <a href="https://www.kaggle.com/datasets/hhs/health-insurance-marketplace?select=Rate.csv">Rate.csv</a>

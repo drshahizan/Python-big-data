@@ -1,32 +1,9 @@
-## Group Members: 
-<table align = "center">
-  <tr>
-    <th>Name</th>
-    <th>Matric</th>
-  </tr>
-  <tr>
-    <th>Madina Suraya binti Zharin</th>
-    <th>A20EC0203</th>
-  </tr>
-  <tr>
-    <th>Nur Izzah Mardhiah binti Rashidi</th>
-    <th>A20EC0116</th>
-  </tr>
-    <tr>
-    <th>Tan Yong Sheng</th>
-    <th>A20EC0157</th>
-  </tr>
-    <tr>
-    <th>Chloe Racquelmae Kennedy</th>
-    <th>A20EC0026</th>
-  </tr>
-</table>
+<h1>Data Table As An Alternative To Pandas</h1>
+<p align="center">
+  <img src="https://datatable.readthedocs.io/en/latest/_static/py_datatable_logo.png" />
+</p>
 
-<h1>Data Table as an alternative to Pandas</h1>
-
-![DataTable](https://datatable.readthedocs.io/en/latest/_static/py_datatable_logo.png)
-
-Python package datatable was inspired from its counterpart R package data.table. It was developped with the aim to analyse BigData efficiently. Following is about datatable package.(Taken from datatable github page)
+Python package datatable was inspired from its counterpart R package data.table. It was developped with the aim to analyse BigData efficiently. Following is about datatable package. <i>Taken from datatable Github page</i>
 
 The set of features that we want to implement with datatable is at least the following:
 
@@ -61,7 +38,29 @@ LLVM-based user-defined functions.
 
 - Restrictions: Python 3.5+, 64-bit systems only.
 
-<hr>
+## Group Members: 
+<table align = "center">
+  <tr>
+    <th>Name</th>
+    <th>Matrics No.</th>
+  </tr>
+  <tr>
+    <th>Madina Suraya binti Zharin</th>
+    <th>A20EC0203</th>
+  </tr>
+  <tr>
+    <th>Nur Izzah Mardhiah binti Rashidi</th>
+    <th>A20EC0116</th>
+  </tr>
+    <tr>
+    <th>Tan Yong Sheng</th>
+    <th>A20EC0157</th>
+  </tr>
+    <tr>
+    <th>Chloe Racquelmae Kennedy</th>
+    <th>A20EC0026</th>
+  </tr>
+</table>
 
 <h1>Installation</h1>
 <code> !pip install datatable </code>
@@ -70,16 +69,15 @@ and continue by importing
 <br />
 <code> import datatable as dt </code>
 
-<hr>
 
 <h1>Content</h1>
 DataTable-file1
 - Implementing the Data Table
 
-src: https://www.kaggle.com/datasets/hhs/health-insurance-marketplace    
-dataset: Rate.csv
+Dataset Source: https://www.kaggle.com/datasets/hhs/health-insurance-marketplace    
+File: Rate.csv
 
-#### Attribute Information:
+#### Attributes Information:
 | Acronym | Description |
 | --- | --- |
 | **BusinessYear** |   The year for which the rate information applies.  |

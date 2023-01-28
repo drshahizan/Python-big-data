@@ -1,8 +1,6 @@
 **<h1> PYTHON KOALAS PACKAGE ON HEALTH INSURANCE MARKETPLACE DATASET 🏥</h1>**
 
 
----
-
 **Group Members:**
 
 <br>
@@ -32,7 +30,6 @@
 
 **<h2>What is Python-Koalas? 🐨</h2>**
 
----
 
 python-koalas is a package that provides a data manipulation library for Python. It is designed to be used on top of Apache Spark, a powerful open-source data processing engine for distributed computing. python-koalas offers a familiar API to users of pandas, a popular data manipulation library for Python, and aims to be compatible with a large portion of the pandas API.
 

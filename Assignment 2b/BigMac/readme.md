@@ -1,5 +1,5 @@
 # **Dataset: Health Insurance Marketplace**
-<img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/team%203/Pandas_logo.svg.png"  width="300" height="100"><img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/team%203/1_MEcMeVoX9Mdqtk83oLBuEQ.png" width="350" height="90">
+<img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202b/BigMac/Pandas_logo.svg.png"  width="300" height="100"><img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202b/BigMac/1_MEcMeVoX9Mdqtk83oLBuEQ.png" width="350" height="90">
 ## _Group 3_
 <table>
   <tr>
@@ -7,7 +7,7 @@
     <th>Matric</th>
   </tr>
   <tr>
-    <th>Muhammad Imran Hakim Bin Mohb Shukri </th>
+    <th>Muhammad Imran Hakimi Bin Mohd Shukri </th>
     <th>A20EC0213</th>
   </tr>
   <tr>
@@ -51,3 +51,4 @@ Medical datasets are electronic collections of data that are related to the heal
 | Data transformation | 108 ms| 1.67 ms|
 | Data filtering | 1.88s| 1.46s|
 | Data filtering | 1.88s| 1.46s|
+

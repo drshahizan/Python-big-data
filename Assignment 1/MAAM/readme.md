@@ -6,13 +6,13 @@
 
 The dataset contains car accident information from all 49 states in the USA, and the data was gathered from February 2016 to December 2021. For this analysis, we will use Python and several libraries including mathplotlib, pandas, seaborn, and numpy as well as using sampling to perform our analysis.
 
-## **Downloading the Dataset**
+## **Downloading the Dataset** 
 
 The dataset we'll be using is titled [US Accidents (2016 - 2021)](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents), taken from Kaggle. Instead of downloading the data set onto our own system, we will be using an API command to download the dataset directly into Google Colab.
 
-### Dataset Description
+### Dataset Description 
 
-1) `ID`: unique identifier of the accident record
+1) `ID`: unique identifier of the accident record 
 2) `Severity`: shows the severity of the accident, a number between 1 and 4, where 1 indicates the least impact on traffic and 4 indicates a significant impact on traffic
 3) `Start_Time`: shows the start time of the accident in the local time zone
 4) `End_Time`: shows the end time of the accident in the local time zone, referring to when the impact of the accident on traffic flow was dismissed

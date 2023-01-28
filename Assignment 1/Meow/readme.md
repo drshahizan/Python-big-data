@@ -36,3 +36,11 @@ The dataset contains 123037 records and 21 columns which are:
 | Reviews | Count of reviews |
 | Current_Version_Score | Current version score |
 | Current_Version_Reviews | Current version reviews |
+
+### Investigation	🔬
+There are 5 things that we want to prove from this dataset:
+1. Which app got the longest time between its released and updated time?
+2. Which developer produce the most apps?
+3. What if the common genre for free apps?
+4. What is the average price for each genre?
+5. Which developer creates the most app that are free?

@@ -44,7 +44,7 @@ ________________________________________________________________________________
   TITLE: USA House Listing<br>
 </h2>
 <p align="center">
-  This dataset is about the house listing in United States of America. We found the dataset from Kaggle. The data were analysed using Python programming language with the help from other libraries such as mathplotlib, seaborn, pandas, geopandas and folium.<br>
+  This dataset is about the house listing in United States of America. We found the dataset from Kaggle. The data were analysed using Python programming language with the help from other libraries such as mathplotlib, seaborn, pandas, geopandas and folium. The size of the dataset was 558.44 MB.<br>
 </p>
 
 This dataset contains 384975 records and 22 columns which are:
@@ -57,4 +57,8 @@ This dataset contains 384975 records and 22 columns which are:
 | price | Rent per month |
 | type | The type of the house provided |
 
-& many more
+& many more.
+
+<p align="center">
+  In this project, our goal is to investigate the housing market in the United States. Specifically, we want to understand what types of houses are most commonly built, which regions of the country see the most construction activity, and what are the key characteristics of these houses. To accomplish this, we will be analyzing a variety of data sources. Through this analysis, we hope to gain insights into the current state of the housing market in the United States and identify any potential opportunities or challenges.<br>
+</p>

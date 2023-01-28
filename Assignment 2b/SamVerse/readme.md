@@ -76,3 +76,17 @@ For this assignment, we have decided to use the dataset, 1000000 Sales Records w
 | **Total Revenue** | The total amount of money the company brings in from selling the item.  |
 | **Total Cost** | The total cost that has been incurred by the company. |
 | **Total Profit** |   The total profit gainned by the company.  |
+
+<h1>Results</h1>
+
+#### Time Performance results:
+
+|  | Pandas (unit:µs) | PySpark (unit:µs) |
+| --- | --- | --- |
+| **Reading File** |   11.40  |   9.06  |
+|**Display Dataset** |   8.34 |   8.34  |
+| **Checking Info** | 8.85 |   8.82  |
+| **Checking Null Value** |  9.06 |   6.20  |
+
+
+Based on the results above, we can conclude that Pyspark has a better performance compared to Pandas.

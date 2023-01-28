@@ -1,28 +1,52 @@
-## 🚀 Case Study 2 : Alternatives to Pandas for Processing Large Datasets
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/97009588/211754866-b88f8f71-dbe1-4735-9e5d-5890d747d211.png">
+  <br>
+</h1>
 
-Pandas library has became the de facto library for data manipulation in python and is widely used by data scientist and analyst. However, there are times when the dataset is too large and Pandas may run into memory errors. Here are 8 alternatives to Pandas for dealing with large datasets. For each alternative library, we will examine how to load data from CSV and perform a simple groupby operation. Fortunately many of these libraries have similar syntax as Pandas hence making the learning curve less steep.
-1. Data Table
-2. Polars
-3. Vaex
-4. Pyspark
-5. Koalas
-6. cuDF
-7. Dask
-8. Modin
+<h1 align="center">
+  Koalas vs Pandas on NYC Yellow Taxi Trip Dataset
+  <br>
+</h1>
 
-## 🌟 Case Study 2b: Solutions
+<h2 align="center">
+  Group Members
+  <br>
+</h2>
 
-| Team | Title | Colab |  GitHub |
-| ----- | ----- | ------ | ------ | 
-| 1 | Pandas vs DataTable | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 2 | Pandas vs Polars | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 3 | Pandas vs Vaex | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 4 | Pandas vs Pyspark | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://colab.research.google.com/drive/1Ta8kvxB4NlMHO204WZtrnfnVToPVr2J5?usp=sharing) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python_EDA/tree/main/Malaysia%20EDA/Boboiboy) |
-| 5 | Pandas vs Koalas | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 6 | Pandas vs cuDF | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 7 | Pandas vs DataTable | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 8 | Pandas vs Polars | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 9 | Pandas vs Vaex | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 10 | Pandas vs Pyspark | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 11 | Pandas vs Koalas | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
+<p align="center">
+  <a>ONG HAN WAH</a><br>
+  <a>GOO YE JUI</a><br>
+  <a>MAIZATUL AFRINA SAFIAH BINTI SAIFUL AZWAN</a><br>
+</p>
 
+<h2 align="center">
+  KOALAS
+  <br>
+</h2>
+
+<p align="center">
+  <a>The Koalas project makes data scientists more productive when interacting with big data, by implementing the pandas DataFrame API on top of Apache Spark.
+
+  With this package, you can:
+
+Be immediately productive with Spark, with no learning curve, if you are already familiar with pandas.
+
+Have a single codebase that works both with pandas (tests, smaller datasets) and with Spark (distributed datasets).
+</p> 
+
+#### Comparison between koalas vs pandas:
+| Koalas | Pandas |
+| --- | --- |
+| **Reading Dataset** - 1min 40s |   **Reading Dataset** - 49.1s  |
+| **Display Top 5 Records** - 263ms | **Display Top 5 Records** - 395 µs |
+| **Display Bottom 5 Records** - 2min 7s | **Display Bottom 5 Records** - 231 µs |
+| **Describe Dataset** - 5min 10s |  **Describe Dataset** - 21.2s |
+| **Sum Operation** - 24.3 s |  **Sum Operation** - 36.3 ms |
+| **Aggregate** - 1.73 s |  **Aggregate** - 3.95 s |
+| **Grouping** - 955 ms |  **Grouping** - 3.85 s |
+| **isNull** - 1min 7s |  **isNull** - 2.46 s |
+| **fillNa** - 1.48 s |  **fillNa** - 4.64 s |
+| **dropNa** - 885 ms |  **dropNa** - 3.76 s |
+
+#### Conclusion
+Pandas is more optimized for performance for most use cases compared to koalas. Pandas is 2.03x faster than Koalas in reading a dataset. Koalas only performs better than Pandas in Aggregating(2.28x faster) and Grouping(4.03x faster). 

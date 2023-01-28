@@ -1,3 +1,17 @@
+<h1>Data Table As An Alternative To Pandas (Pandas VS Datatable)</h1> 
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/2560px-Pandas_logo.svg.png" alt="Pandas" width="200"/>
+VS
+<img src="https://datatable.readthedocs.io/en/latest/_static/py_datatable_logo.png" alt="Datatable" width="200"/>
+
+Python package datatable was inspired from its counterpart R package data.table. It was developped with the aim to analyse BigData efficiently. We have implemented the datatable solely [here](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202a/No%20name). 
+
+### Purpose
+Datatable is a go-to package for manipulating any large tabular datasets. It is widely used for fast aggregation of large datasets, low latency add/update/remove of columns, quicker ordered joins, and a fast file reader. The distribution provides compatibility and integration with the existing Pandas code. The sample code demonstrates how to perform some basic dataframe operations using Pandas and Datatable. This time, we would like to compare how efficient Data Table over Pandas in terms of handling with Big Data as it claims to be. We will compare the performance difference between the two libraries.
+
+Dataset Source: https://www.kaggle.com/datasets/hhs/health-insurance-marketplace    
+File: Rate.csv
+
 ## Group Members: 
 <table align = "center">
   <tr>
@@ -22,65 +36,18 @@
   </tr>
 </table>
 
-<h1>Data Table as an alternative to Pandas (Pandas VS Datatable)</h1> 
-
-![DataTable](https://datatable.readthedocs.io/en/latest/_static/py_datatable_logo.png)
-
-Python package datatable was inspired from its counterpart R package data.table. It was developped with the aim to analyse BigData efficiently. Following is about datatable package.(Taken from datatable github page)
-
-The set of features that we want to implement with datatable is at least the following:
-
-- Column-oriented data storage.
-
-- Native-C implementation for all datatypes, including strings. Packages such as pandas and numpy already do that for numeric columns, but not for strings.
-
-- Support for date-time and categorical types. Object type is also supported, but promotion into object discouraged.
-
-- All types should support null values, with as little overhead as possible.
-
-- Data should be stored on disk in the same format as in memory. This will allow us to memory-map data on disk and work on out-of-memory datasets transparently.
-
-- Work with memory-mapped datasets to avoid loading into memory more data than necessary for each particular operation.
-
-- Fast data reading from CSV and other formats.
-
-- Multi-threaded data processing: time-consuming operations should attempt to utilize all cores for maximum efficiency.
-
-- Efficient algorithms for sorting/grouping/joining.
-
-- Expressive query syntax (similar to data.table).
-
-- LLVM-based lazy computation for complex queries (code generated, compiled and executed on-the-fly).
-LLVM-based user-defined functions.
-
-- Minimal amount of data copying, copy-on-write semantics for shared data.
-
-- Use "rowindex" views in filtering/sorting/grouping/joining operators to avoid unnecessary data copying.
-
-- Interoperability with pandas / numpy / pure python: the users should have the ability to convert to another data-processing framework with ease.
-
-- Restrictions: Python 3.5+, 64-bit systems only.
-
-<hr>
-
-<h1>Installation</h1>
+<h2>Installation</h2>
 <code> !pip install datatable </code>
 <br />
 and continue by importing 
 <br />
 <code> import datatable as dt </code>
 
-<hr>
-
-<h1>Content</h1>
+<h2>Content</h2>
 DataTable-file2
 - Implementing and comparing processing time of Data Table with Pandas
 
-### Purpose
-Datatable is a go-to package for manipulating any large tabular datasets. It is widely used for fast aggregation of large datasets, low latency add/update/remove of columns, quicker ordered joins, and a fast file reader. The distribution provides compatibility and integration with the existing Pandas code. The sample code demonstrates how to perform some basic dataframe operations using Pandas and Datatable. we will compare the performance difference between the two methods.
 
-src: https://www.kaggle.com/datasets/hhs/health-insurance-marketplace    
-dataset: Rate.csv
 
 #### Attribute Information:
 | Acronym | Description |
@@ -108,3 +75,17 @@ dataset: Rate.csv
 | **CoupleAndTwoDependents** | The monthly premium for the health insurance plan for a couple and two dependents.  |
 | **CoupleAndThreeOrMoreDependents** |  The monthly premium for the health insurance plan for a couple and three or more dependents.   |
 | **RowNumber** | The row number of rate information.  |
+
+## Results
+
+![image](https://user-images.githubusercontent.com/77196239/214785740-a1b6f52b-1057-44ab-92b1-e0d635626331.png)
+
+- There are a few processes where DataTable execute faster than Pandas which are read data, printing dataframe, process dataframe time, getting unique values.
+
+- Besides, there is a small difference in execution time for data filtering where DataTable is 8.11 µs while Pandas is 8.34 µs.
+
+- The process with largest different in exection time would be looking for unique values for each columns where Pandas takes 8.34 µs while DataTable only takes 5.72 µs to process the result.
+
+- The remaining processes all shows longer execution time for DataTable compared to Pandas. The longest execution time (10 µs) that DataTable took to process is to sort the data based on age in an increasing order.
+
+<b><i>In conclusion, faster execution time indicates better performance. DataTable has better performance than Pandas in terms of reading data.</i></b>

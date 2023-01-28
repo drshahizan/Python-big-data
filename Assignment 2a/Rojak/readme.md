@@ -1,7 +1,7 @@
 # **Group 9: Vaex as an alternative to Pandas**
 <img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/Rojak/vaex.png"  width="300" height="100"><img>
 
-<table>
+<table> 
   <tr>
     <th>Name</th>
     <th>Matric No</th>
@@ -10,7 +10,7 @@
     <th>Eddie Wong Chung Pheng </th>
     <th>A20EC0031</th>
   </tr>
-  <tr>
+  <tr> 
     <th>Vincent Boo Ee Khai</th>
     <th>A20EC0231</th>
   </tr>
@@ -65,3 +65,5 @@ The size of the dataset is <b> 1.97 GB</b>.
 | **CoupleAndTwoDependents** | The monthly premium for the health insurance plan for a couple and two dependents.  |
 | **CoupleAndThreeOrMoreDependents** |  The monthly premium for the health insurance plan for a couple and three or more dependents.   |
 | **RowNumber** | The row number of rate information.  |
+
+

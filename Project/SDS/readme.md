@@ -1,26 +1,83 @@
-## 🚀 Project: Instructions
+<h1 align="center">
+  Project : Amazon Books Review
+  <br>
+</h1>
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/97009588/215264901-4e1b869c-a5b3-466b-a9ab-b6a714d51842.jpg">
+  <br>
+</h1>
+<br>
+<h2 align="center">
+  Group Name
+  <br>
+</h2>
 
-1. You need to use a dataset that is larger than 1 GB. You can get the dataset from [Kaggle](https://www.kaggle.com/datasets) or [Dataset Search](https://datasetsearch.research.google.com/). The dataset file must be of CSV type.
-2. The dataset must be stored in Google Drive.
-3. Make sure you create a link to enable your dataset to be used on Google Colab.
-4. Please create operations related to big data that allow the dataset to be used.
-5. You need to use at least three libraries related to big data processing such as Pandas, Dask, Vaex and Modin.
-6. Please compare the processing results from the selected libraries.
-7. You need to use the concept of Exploratory Data Analysis (EDA) on this project.
+<p align="center">
+  <a>SDS</a><br>
+</p>
 
-## 🌟 Project: Solutions
+<h2 align="center">
+  Group Members
+  <br>
+</h2>
 
-| Team | Libraries for data science | Colab |  GitHub |
-| ----- | ----- | ------ | ------ | 
-| 1 | DataTable | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 2 | Polars | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 3 | Vaex | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 4 | Pyspark | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://colab.research.google.com/drive/1Ta8kvxB4NlMHO204WZtrnfnVToPVr2J5?usp=sharing) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python_EDA/tree/main/Malaysia%20EDA/Boboiboy) |
-| 5 | Koalas | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 6 | cuDF | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 7 | DataTable | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 8 | Polars | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 9 | Vaex | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 10 | Pyspark | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 11 | Koalas | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
+<p align="center">
+  <a>ONG HAN WAH</a><br>
+  <a>GOO YE JUI</a><br>
+  <a>MAIZATUL AFRINA SAFIAH BINTI SAIFUL AZWAN</a><br>
+</p>
 
+---
+# **Introduction**
+
+---
+# **About Dataset**
+---
+<table align="center">
+  <tr>
+    <th>Columns</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>The Id of the book</th>
+  </tr>
+  <tr>
+    <th>Title</th>
+    <th>The title of the book</th>
+  </tr>
+  <tr>
+    <th>Price</th>
+    <th>The price of the book</th>
+  </tr>
+  <tr>
+    <th>User_id</th>
+    <th>Id of the user</th>
+  </tr>
+  <tr>
+    <th>profileName</th>
+    <th>Name of the user</th>
+  </tr>
+  <tr>
+    <th>review/helpfulness</th>
+    <th>Helpfulness rating</th>
+  </tr>
+  <tr>
+    <th>review/score</th>
+    <th>Book's rating</th>
+  </tr>
+  <tr>
+    <th>review/time</th>
+    <th>Time given for review</th>
+  </tr>
+  <tr>
+    <th>review/summary</th>
+    <th>Review summary</th>
+  </tr>
+  <tr>
+    <th>review/text</th>
+    <th>Full text review</th>
+  </tr>
+</table>
+
+# **Conclusion**

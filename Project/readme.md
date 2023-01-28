@@ -1,3 +1,14 @@
+<a href="https://github.com/drshahizan/Python-big-data/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/Python-big-data" alt="Stars Badge"/></a>
+<a href="https://github.com/drshahizan/Python-big-data/network/members"><img src="https://img.shields.io/github/forks/drshahizan/Python-big-data" alt="Forks Badge"/></a>
+<a href="https://github.com/drshahizan/Python-big-data/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/Python-big-data" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/drshahizan/Python-big-data/issues"><img src="https://img.shields.io/github/issues/drshahizan/Python-big-data" alt="Issues Badge"/></a>
+<a href="https://github.com/drshahizan/Python-big-data/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/Python-big-data?color=2b9348"></a>
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/Python-big-data)
+
+Don't forget to hit the :star: if you like this repo.
+
+## [Template: Project big data](https://github.com/drshahizan/Python-big-data/blob/main/Project/Project_big_data.ipynb)
+
 ## 🚀 Project: Instructions
 
 1. You need to use a dataset that is larger than 1 GB. You can get the dataset from [Kaggle](https://www.kaggle.com/datasets) or [Dataset Search](https://datasetsearch.research.google.com/). The dataset file must be of CSV type.
@@ -10,17 +21,26 @@
 
 ## 🌟 Project: Solutions
 
-| Team | Libraries for data science | Colab |  GitHub |
-| ----- | ----- | ------ | ------ | 
-| 1 | DataTable | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 2 | Polars | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 3 | Vaex | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 4 | Pyspark | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://colab.research.google.com/drive/1Ta8kvxB4NlMHO204WZtrnfnVToPVr2J5?usp=sharing) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python_EDA/tree/main/Malaysia%20EDA/Boboiboy) |
-| 5 | Koalas | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 6 | cuDF | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 7 | DataTable | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 8 | Polars | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 9 | Vaex | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 10 | Pyspark | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| 11 | Koalas | [![Open in Colab](https://img.shields.io/static/v1?label=&message=Open%20in%20Colab&labelColor=grey&color=blue&logo=google-colab)](https://) | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
+| Team | Library 1 | Library 2 | Library 3 | Dataset |  GitHub |
+| ----- | ----- | ------ | ------ |  ------ | :------: | 
+| AdMiPeQa | Pandas | Dask | Koalas | Air Flight Analysis | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/AdMiPeQa) |
+| BigMac | Vaex | Koalas | PySpark | Airline Delay and Cancellation Data 2016 - 2018| [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/BigMac) |
+| Fantom | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
+| KIA | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
+| No Name | Pandas | PySpark | Koalas | Amazon Book Review | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/No%20Name) |
+| Phantom Crew | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
+| QUAD | Polars | Koalas | Datatable | NYC yellow taxi trip data | [:octocat:](https://) |
+| QwQ | Koalas | Pyspark | Dask | NYC | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/QwQ) |
+| Rojak | 1 | 2 | 3 | Dataset | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/Rojak) |
+| SDS | 1 | 2 | 3 | Amazon Books Review | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SDS) |
+| SIX | 1 | 2 | 3 | Dataset | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SIX) |
+| SamVerse | 1 | 2 | 3 | Dataset | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SamVerse) |
+| Sepuluh | Pyspark | Polars | 3 | Airline Delay and Cancellation Data 2017 - 2018 | [:octocat:](https://github.com/drshahizan/Python-big-data/blob/main/Project/Sepuluh/Airline_Delay_and_Cancellation_Data_2017_2018.ipynb) |
+| High Five | Koalas | Pandas | Modin | Airline Delay and Cancellation Data 2016 - 2015 | [:octocat:](https://github.com/drshahizan/Python-big-data/blob/main/Project/Sepuluh/Airline_Delay_and_Cancellation_Data_2017_2018.ipynb) |
 
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+![](https://visitor-badge.glitch.me/badge?page_id=drshahizan)
