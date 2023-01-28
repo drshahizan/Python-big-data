@@ -32,6 +32,13 @@
 
 ---
 # **About Dataset**
+<style>
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+</style>
 <table>
   <tr>
     <th>Columns</th>
