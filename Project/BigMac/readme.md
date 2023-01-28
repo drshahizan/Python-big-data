@@ -1,5 +1,11 @@
-# **Dataset: ---**
-<img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/BigMac/Pandas_logo.svg.png"  width="500" height="200"><img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/BigMac/1_MEcMeVoX9Mdqtk83oLBuEQ.png" width="500" height="200">
+# **Dataset: Airline Delay and Cancellation Data(2016 - 2018.csv)**
+<img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/BigMac/Pandas_logo.svg.png"  width="320" height="100"><img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/BigMac/1_MEcMeVoX9Mdqtk83oLBuEQ.png" width="320" height="100"><img src="https://github.com/drshahizan/Python-big-data/blob/main/Assignment%202a/BigMac/1_MEcMeVoX9Mdqtk83oLBuEQ.png" width="320" height="100">
+
+---
+# **Introduction**
+Welcome to our Python project where we will be comparing the use of three popular libraries: Koalas, PySpark, and Vaex. These libraries are widely used in the data science community for data manipulation and analysis. In this project, we will be exploring the strengths and limitations of each library by applying them to a specific dataset. Koalas is a powerful library that allows for easy data manipulation with a familiar pandas-like syntax. PySpark is a library that allows for efficient distributed data processing with the use of Spark. Finally, Vaex is a library that is known for its efficient handling of large datasets. Through this project, we will be comparing the performance and functionality of these libraries to see which one is the best fit for our specific use case. Let's dive in and see how these libraries compare!
+
+---
 ## _Group 3_
 <table>
   <tr>
@@ -23,3 +29,7 @@
     <th>A19ET0216</th>
   </tr>
 </table>
+
+---
+
+
