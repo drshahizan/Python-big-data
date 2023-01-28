@@ -22,21 +22,21 @@ Don't forget to hit the :star: if you like this repo.
 ## 🌟 Project: Solutions
 
 | Team | Library 1 | Library 2 | Library 3 | Dataset |  GitHub |
-| ----- | ----- | ------ | ------ |  ------ |  ------ | 
-| AdMiPeQa | Pandas | Dask | Koalas | Air Flight Analysis | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| BigMac | 1 | 2 | 3 | Airline Delay and Cancellation Data | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| Fantom | 1 | 2 | 3 | Dataset | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| KIA | 1 | 2 | 3 | Dataset | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| No Name | Pandas | PySpark | Koalas | Amazon Book Review | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/tree/main/Project/No%20Name) |
-| Phantom Crew | 1 | 2 | 3 | Dataset | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| QUAD | 1 | 2 | 3 | Dataset | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| QwQ | Koalas | Pyspark | Dask | NYC | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/tree/main/Project/QwQ) |
-| Rojak | 1 | 2 | 3 | Dataset | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| SDS | 1 | 2 | 3 | Amazon Books Review | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| SIX | 1 | 2 | 3 | Dataset | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| SamVerse | 1 | 2 | 3 | Dataset | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://) |
-| Sepuluh | Pyspark | Polars | 3 | Airline Delay and Cancellation Data 2017 - 2018 | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/blob/main/Project/Sepuluh/Airline_Delay_and_Cancellation_Data_2017_2018.ipynb) |
-| High Five | Koalas | Pandas | Modin | Airline Delay and Cancellation Data 2016 - 2015 | [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/blob/main/Project/Sepuluh/Airline_Delay_and_Cancellation_Data_2017_2018.ipynb) |
+| ----- | ----- | ------ | ------ |  ------ | :------: | 
+| AdMiPeQa | Pandas | Dask | Koalas | Air Flight Analysis | [:octocat:](https://) |
+| BigMac | 1 | 2 | 3 | Airline Delay and Cancellation Data | [:octocat:](https://) |
+| Fantom | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
+| KIA | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
+| No Name | Pandas | PySpark | Koalas | Amazon Book Review | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/No%20Name) |
+| Phantom Crew | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
+| QUAD | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
+| QwQ | Koalas | Pyspark | Dask | NYC | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/QwQ) |
+| Rojak | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
+| SDS | 1 | 2 | 3 | Amazon Books Review | [:octocat:](https://) |
+| SIX | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
+| SamVerse | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
+| Sepuluh | Pyspark | Polars | 3 | Airline Delay and Cancellation Data 2017 - 2018 | [:octocat:](https://github.com/drshahizan/Python-big-data/blob/main/Project/Sepuluh/Airline_Delay_and_Cancellation_Data_2017_2018.ipynb) |
+| High Five | Koalas | Pandas | Modin | Airline Delay and Cancellation Data 2016 - 2015 | [:octocat:](https://github.com/drshahizan/Python-big-data/blob/main/Project/Sepuluh/Airline_Delay_and_Cancellation_Data_2017_2018.ipynb) |
 
 
 ## Contribution 🛠️
