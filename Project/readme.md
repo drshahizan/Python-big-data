@@ -21,7 +21,7 @@ Don't forget to hit the :star: if you like this repo.
 
 ## 🌟 Project: Solutions
 
-| Team | Library 1 | Library 2 | Library 3 | Dataset |  GitHub |
+| Team | Library 1 | Library 2 | Library 3 | Dataset |  Open in GitHub |
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
 | AdMiPeQa | Pandas | Dask | Koalas | Air Flight Analysis | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/AdMiPeQa) |
 | BigMac | Vaex | Koalas | PySpark | Airline Delay and Cancellation Data 2016 - 2018| [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/BigMac) |
