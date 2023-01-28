@@ -29,3 +29,10 @@ This project aims to investigate the Air Flight in 2022. The dataset consists of
     <th>A20EC0133</th>
   </tr>
 </table>
+
+<h2>Libraries</h2>
+<h3>1. Pandas</h3>
+<h3>2. Dask</h3>
+<h3>3. Koalas</h3>
+
+<h2>Dataset</h2>
