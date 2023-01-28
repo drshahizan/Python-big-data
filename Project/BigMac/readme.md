@@ -33,9 +33,8 @@ Throughout this project, we will be analysing
 </table>
 
 ---
-
 # **About the Dataset** 
-The U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics tracks the on-time performance of domestic flights operated by large air carriers. Summary information on the number of on-time, delayed, canceled, and diverted flights is published in DOT's monthly Air Travel Consumer Report and in this dataset of 2016 flight delays and cancellations.
 
-Throughout this project, we will be analysing Airline Delay and Cancellation Data from year 2016 - 2018 obtained from Kaggle[https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018?select=2018.csv].
+In this project, we will be analysing Airline Delay and Cancellation from year 2016 - 2018 obtained from Kaggle [https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018?select=2018.csv].
 
+The data is collected by U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics by tracking the on-time performance of domestic flights operated by large air carriers. Summary information on the number of on-time, delayed, canceled, and diverted flights is published in DOT's monthly Air Travel Consumer Report and in this dataset of 2016 flight delays and cancellations.
