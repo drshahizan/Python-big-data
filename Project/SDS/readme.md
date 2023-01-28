@@ -1,7 +1,16 @@
 <h1 align="center">
-  Project :
+  Project : Amazon Books Review
   <br>
 </h1>
+
+<h2 align="center">
+  Group Name
+  <br>
+</h2>
+
+<p align="center">
+  <a>SDS</a><br>
+</p>
 
 <h2 align="center">
   Group Members
