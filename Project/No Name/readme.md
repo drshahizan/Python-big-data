@@ -1,3 +1,10 @@
+## Project: Amazon Book Review
+This file has information about 3M book reviews for 212404 unique book and users who gives these reviews for each book spanning May 1996 - July 2014.This dataset was found from Kaggle and its size is 2.86 GB.
+
+<strong> Data Source: </strong> [Amazon Books Reviews](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews?select=Books_rating.csv)
+<br>
+<strong> File Name: </strong> Books_rating.csv
+
 ## Group Members: 
 <table align = "center">
   <tr>
