@@ -10,9 +10,9 @@
 
 <p align='center'>
 1.   MUHAMMAD DINIE HAZIM BIN AZALI<br>                                                                                                                                 
-2.   RADIN DAFINA BINTI RADIN ZULKAR NAIN<br>
+2.   KELVIN EE<br>
 3.   ADRINA ASYIQIN BINTI MD ADHA<br>
-4.   KELVIN EE<br>
+4.   RADIN DAFINA BINTI RADIN ZULKAR NAIN<br>
 </p>
 
 <h2>Libraries Used</h2>
