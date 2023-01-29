@@ -34,7 +34,7 @@ Don't forget to hit the :star: if you like this repo.
 | Rojak | 1 | 2 | 3 | Dataset | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/Rojak) |
 | SDS | 1 | 2 | 3 | Amazon Books Review | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SDS) |
 | SIX | 1 | 2 | 3 | Dataset | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SIX) |
-| SamVerse | Pandas | PySpark | Koalas | Dataset | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SamVerse) |
+| SamVerse | Pandas | PySpark | Koalas | Spotify Charts | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SamVerse) |
 | Sepuluh | Pyspark | Polars | 3 | Airline Delay and Cancellation Data 2017 - 2018 | [:octocat:](https://github.com/drshahizan/Python-big-data/blob/main/Project/Sepuluh/Airline_Delay_and_Cancellation_Data_2017_2018.ipynb) |
 | High Five | Pandas | Koalas | Modin | Airline Delay and Cancellation Data 2016 - 2015 | [:octocat:](https://github.com/drshahizan/Python-big-data/blob/main/Project/Sepuluh/Airline_Delay_and_Cancellation_Data_2017_2018.ipynb) |
 
