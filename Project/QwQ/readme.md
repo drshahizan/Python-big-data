@@ -2,7 +2,8 @@
 
 ![image](https://user-images.githubusercontent.com/120595244/215332876-47eabd62-29a3-494f-883c-7a46470ed26f.png)
 
-<h2>Team: QwQ</h2>
+<h2>Team Members: QwQ</h2>
+
 <h4>
 
 1.   MUHAMMAD DINIE HAZIM BIN AZALI                                                                                                                                                                                             
