@@ -31,7 +31,7 @@ Don't forget to hit the :star: if you like this repo.
 | Phantom Crew | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
 | QUAD | Polars | Koalas | Datatable | NYC yellow taxi trip data | [:octocat:](https://) |
 | QwQ | Koalas | Pyspark | Dask | NYC | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/QwQ) |
-| Rojak | 1 | 2 | 3 | Dataset | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/Rojak) |
+| Rojak | Pandas | Vaex | Koalas | Dataset | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/Rojak) |
 | SDS | 1 | 2 | 3 | Amazon Books Review | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SDS) |
 | SIX | 1 | 2 | 3 | Dataset | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SIX) |
 | SamVerse | Pandas | PySpark | Koalas | Spotify Charts | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SamVerse) |
