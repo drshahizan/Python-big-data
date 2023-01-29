@@ -39,3 +39,97 @@ This project aims to investigate the Air Flight in 2022. The dataset consists of
 <h2>Dataset</h2>
 <a href="https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022?select=Combined_Flights_2022.csv">Kaggle: Air Flight Dataset</a><br>
 <h4>Attribute Information:</h4>
+<table>
+  <tr>
+    <th>Acronym</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <th>FlightDate</th>
+    <th>Flight Date (yyyymmdd)</th>
+  </tr>
+    <tr>
+    <th>Airline</th>
+    <th>Name of Airline</th>
+  </tr>
+    <tr>
+    <th>OP_CARRIER_FL_NUM</th>
+    <th>Flight Number</th>
+  </tr>
+    <tr>
+    <th>Origin</th>
+    <th>Origin Airport</th>
+  </tr>
+    <tr>
+    <th>Dest</th>
+    <th>Destination Airport</th>
+  </tr>
+    <tr>
+    <th>Cancelled</th>
+    <th>Cancelled Flight Indicator (1=Yes)</th>
+  </tr>
+    <tr>
+    <th>Diverted</th>
+    <th>Diverted Flight Indicator (1=Yes)</th>
+  </tr>
+    <tr>
+    <th>CRSDepTime</th>
+    <th>CRS Departure Time (local time: hhmm)</th>
+  </tr>
+    <tr>
+    <th>DepTime</th>
+    <th>Actual Departure Time (local time: hhmm)</th>
+  </tr>
+    <tr>
+    <th>DepDelayMinutes</th>
+    <th>Difference in minutes between scheduled and actual departure time. Early departures set to 0.</th>
+  </tr>
+    <tr>
+    <th>DepDelay</th>
+    <th>Difference in minutes between scheduled and actual departure time. Early departures show negative numbers.</th>
+  </tr>
+    <tr>
+    <th>ArrTime</th>
+    <th> Actual Arrival Time (local time: hhmm)</th>
+  </tr>
+    <tr>
+    <th>ArrDelayMinutes</th>
+    <th>Difference in minutes between scheduled and actual arrival time. Early arrivals set to 0.</th>
+  </tr>
+    <tr>
+    <th>AirTime</th>
+    <th>Flight Time, in Minutes</th>
+  </tr>
+    <tr>
+    <th>CRSElapsedTime</th>
+    <th>CRS Elapsed Time of Flight, in Minutes</th>
+  </tr>
+    <tr>
+    <th>ActualElapsedTime</th>
+    <th>Elapsed Time of Flight, in Minutes</th>
+  </tr>
+    <tr>
+    <th>Distance</th>
+    <th>Distance between airports (miles)</th>
+  </tr>
+    <tr>
+    <th>Year</th>
+    <th>Year</th>
+  </tr>
+    <tr>
+    <th>Quarter</th>
+    <th>Quarter (1-4)</th>
+  </tr>
+    <tr>
+    <th>Month</th>
+    <th>Month</th>
+  </tr>
+    <tr>
+    <th>DayofMonth</th>
+    <th>Day of Month</th>
+  </tr>
+    <tr>
+    <th>DayOfWeek</th>
+    <th>Day of Week</th>
+  </tr>
+</table> 
