@@ -4,6 +4,10 @@
 
 <h2 align='center'>Team Members: QwQ</h2>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/120595244/215343565-46c61886-4c14-479e-bd13-914a56c20bbd.jpg" alt="QwQ image"/>
+</p>
+
 <p align='center'>
 1.   MUHAMMAD DINIE HAZIM BIN AZALI<br>                                                                                                                                 
 2.   RADIN DAFINA BINTI RADIN ZULKAR NAIN<br>
