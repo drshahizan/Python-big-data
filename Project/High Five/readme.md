@@ -43,6 +43,8 @@ Modin is a library that speeds up data processing in Python, especially for Pand
 
 <br>
 <h4>Dataset description</h4>
+<p>The "Airline Delay and Cancellation Data 2015-2016" found on Kaggle is an 
+extensive collection of data that showcases the performance of different airlines for the two-year span of 2015 to 2016. This dataset is quite comprehensive, as it comprises of information about the delays, cancellations, and a range of other performance metrics of various airlines. The details included in this database are the airline carrier, flight number, departure and arrival airports, departure and arrival times, as well as information about the delays and cancellations experienced.</p>
 
 <table>
   <tr>
