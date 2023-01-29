@@ -18,19 +18,11 @@
   <tr>
     <th>Nurarissa Dayana binti Mohd Sukri</th>
     <th>A20EC0120</th>
-  </tr>
-    <th></th>
-    <th></th>
-  </tr>
-    <tr>
-    <th></th>
-    <th></th>
-  </tr>
 </table>
 
-# Introduction
+## Introduction
 
-# Libraries
-### 1. Pandas
-### 2. Vaex
-### 3. Koalas
+## Libraries
+1. Pandas
+2. Vaex
+3. Koalas
