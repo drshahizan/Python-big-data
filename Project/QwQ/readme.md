@@ -102,9 +102,49 @@ This project aims to study the volume of traffic in NYC at bridge crossings and 
     
 </table>
 
+----------------------------------------------------------------------------------------------------------------------
+
+<h2 align='center'>Overview</h2>
+
+<h3 align='left'>1. Data Preparation & Cleaning</h3>
+<p>In this phase, we installed and utilized all 3 libraries, performing data cleaning tasks including:<br>
+  
+  - Removing null values<br>
+  - Removing duplicated rows<br>
+</p>
+
+<h3 align='left'>2. Exploratory Analysis & Visualization</h3>
+<p>During this phase, we utilized the "describe" function to calculate various statistics, such as mean, sum, range, and others, for numerical columns. Additionally, we conducted exploratory analysis of certain columns within the dataset.<br>
+</p>
+
+<h3 align='left'>3. Asking and Answering Questions</h3>
+<p>We were asking 5 questions throughout this phase and we visualize a chart such as bar chart, line chart and pie chart to answer our question.<br>
+  These are the list of our questions:<br>
+
+  1. Which division has the most cars?<br>
+      - We wanted to know which part of New York has the highest count of cars.<br>
+  <br>
+  
+  2. What is the top 3 street that most cars go?<br>
+      - We wanted to determine the street with the highest number of cars.<br>
+  <br>
+  
+  3. In Brooklyn, what year has the highest count of cars?<br>
+      - Our objective was to identify the year with the highest number of cars recorded in Brooklyn.<br>
+  <br>
+  
+  4. What is the 5 year that has the least request ID?<br>
+      - We wanted to know what year record the lowest request ID.<br>
+  <br>
+  
+  5. Which direction has the most cars headed to?<br>
+      - Our goal was to identify the direction that most cars were headed towards.<br>
+</p>
+
+----------------------------------------------------------------------------------------------------------------------
 <h2 align='center'>Conclusion</h2>
 <p align='center'>
-The dataset shows the Manhattan has the highest amount of cars followed by Queens, and Brooklyn. It is safe to assume that it is among the busiest city. In 2014, it has the higest distribution of administrative placed in New York. We has also found out most cars goes through a dead end. It is very strange to think a place as busy as New York has many Dead Ends, but there had been reports and pictures throughout the Internet about the Dead Ends in New York.
+The dataset shows the Manhattan has the highest amount of cars followed by Queens, and Brooklyn. It is safe to assume that it is among the busiest city. In 2014, it has the highest distribution of administrative placed in New York. We has also found out most cars goes through a dead end. It is very strange to think a place as busy as New York has many Dead Ends, but there had been reports and pictures throughout the Internet about the Dead Ends in New York.
 </p>
 <p align='center'>
 Based on the EDA above, we can conclude that Koalas library compute the fastest in the overall tasks. Koalas is the best fit which could process operations many times(100x) faster than Pandas without getting crash. To rank the three in terms of speed of computing, Koalas takes the first place, PySpark, then Dask.
