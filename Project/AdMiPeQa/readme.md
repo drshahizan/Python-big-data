@@ -1,4 +1,5 @@
-<h1>Air Flight Analysis</h1>
+<h1>Air Flight Analysis  <img width=50px; height=50px src="https://user-images.githubusercontent.com/120556342/215304943-6df48d0a-d866-4f2c-91bf-263d47579dc2.png"></h1>
+
 <p align="center">
   <img width=1000px; height=500px src="https://user-images.githubusercontent.com/120556342/215265584-6f73a09a-ac06-48db-b53c-58bcd370c320.png">
 </p>
