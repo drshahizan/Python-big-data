@@ -26,8 +26,19 @@
     <th>A20EC0200</th>
   </tr>
 </table> 
-
+<br>
 <h2> Libraries: Pandas, Koalas, Modin</h2>
+
+<p>Pandas:
+Pandas is a popular and widely-used data analysis library in Python. It provides data structures for efficiently storing and manipulating large datasets and tools for working with them. It is designed to be flexible, fast and expressive, making it a popular choice for data analysis and manipulation tasks.
+
+Koalas:
+Koalas is a library built on top of Apache Spark and Pandas. It aims to provide a pandas-like API for working with large datasets, leveraging the scalability and performance benefits of Apache Spark. Koalas provides a familiar interface for data analysis and manipulation tasks, making it easier for Pandas users to scale their workloads to big data environments.
+
+Modin:
+Modin is a library that speeds up data processing in Python, especially for Pandas operations. It is designed to work seamlessly with Pandas and drop-in replacement for it. It uses the Ray library to provide parallel processing capabilities to Pandas operations, resulting in substantial speed improvements. Modin can handle large datasets and provides faster results compared to Pandas, making it a popular choice for big data processing tasks.</P>
+
+<br>
 <h2> Dataset </h2>
 
 <br>
