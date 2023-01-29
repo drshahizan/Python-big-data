@@ -15,14 +15,21 @@
 4.   RADIN DAFINA BINTI RADIN ZULKAR NAIN<br>
 </p>
 <br>
+
+----------------------------------------------------------------------------------------------------------------------
+
 <h2 align='center'>Libraries Used</h2>
 
-<h3 align='center'>Koalas</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/databricks/koalas/master/icons/koalas-logo.png" width="140"/>
+<p align='center'>
+  We evaluated several libraries, including pandas, polars, and datatable, but they proved to be insufficient for processing our large data due to crashes. Our final choice of these 3 libraries was based on their ability to handle the size of our data without crashing and to provide efficient processing without long wait times.
 </p>
-<h3>Pyspark</h3>
-<h3>Dask</h3>
+
+<br>
+
+| <h3 align='center'>Koalas</h3> | <h3 align='center'>PySpark</h3>    | <h3 align='center'>Dask</h3>    |
+| :---:   | :---: | :---: |
+| <img src="https://raw.githubusercontent.com/databricks/koalas/master/icons/koalas-logo.png" width="330"/> | <img src="https://user-images.githubusercontent.com/120595244/215350941-4694c41a-dc3b-49f4-95c0-d7aa8b9d18ad.png" width="330"/> | <img src="https://user-images.githubusercontent.com/120595244/215351069-7855f88b-1a32-47cc-852b-9e9ddddb57c2.png" width="330"/>   |
+
 ----------------------------------------------------------------------------------------------------------------------
 <h5><p>Dataset Link: https://www.kaggle.com/datasets/aadimator/nyc-automated-traffic-volume-counts</p></h5>
 <h2>About Dataset</h2>
