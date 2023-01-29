@@ -14,10 +14,13 @@
 3.   ADRINA ASYIQIN BINTI MD ADHA<br>
 4.   RADIN DAFINA BINTI RADIN ZULKAR NAIN<br>
 </p>
+<br>
+<h2 align='center'>Libraries Used</h2>
 
-<h2>Libraries Used</h2>
-
-<h3>Koalas</h3>
+<h3 align='center'>Koalas</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/databricks/koalas/master/icons/koalas-logo.png" width="140"/>
+</p>
 <h3>Pyspark</h3>
 <h3>Dask</h3>
 ----------------------------------------------------------------------------------------------------------------------
