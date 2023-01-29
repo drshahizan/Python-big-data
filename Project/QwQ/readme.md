@@ -31,11 +31,12 @@
 | <img src="https://raw.githubusercontent.com/databricks/koalas/master/icons/koalas-logo.png" width="330"/> | <img src="https://user-images.githubusercontent.com/120595244/215350941-4694c41a-dc3b-49f4-95c0-d7aa8b9d18ad.png" width="330"/> | <img src="https://user-images.githubusercontent.com/120595244/215351069-7855f88b-1a32-47cc-852b-9e9ddddb57c2.png" width="330"/>   |
 
 ----------------------------------------------------------------------------------------------------------------------
-<h5><p>Dataset Link: https://www.kaggle.com/datasets/aadimator/nyc-automated-traffic-volume-counts</p></h5>
-<h2>About Dataset</h2>
-<h4>
+
+<h2 align='center'>About Dataset</h2>
+<p align='center'>This is a link to our dataset: https://www.kaggle.com/datasets/aadimator/nyc-automated-traffic-volume-counts</p>
+<p align='center'>
 This project aims to study the volume of traffic in NYC at bridge crossings and roadways. The dataset consists of 14 columns and 27.4M rows. It is considered as big data and occupies 3.33GB of memory. The dataset is obtained from Kaggle. We have selected this dataset because we like to analyze the traffic volume in NYC. We will perform a series of steps like data processing, data cleaning and visualization on this dataset. Google Colab will be used in this project.
-</h4>
+</p>
 <table>
   <tr>
     <th>Columns</th>
@@ -101,12 +102,10 @@ This project aims to study the volume of traffic in NYC at bridge crossings and 
     
 </table>
 
-<h2>Conclusion<h/2>
-
-<h4>
-<p>
+<h2 align='center'>Conclusion</h2>
+<p align='center'>
 The dataset shows the Manhattan has the highest amount of cars followed by Queens, and Brooklyn. It is safe to assume that it is among the busiest city. In 2014, it has the higest distribution of administrative placed in New York. We has also found out most cars goes through a dead end. It is very strange to think a place as busy as New York has many Dead Ends, but there had been reports and pictures throughout the Internet about the Dead Ends in New York.
-
+</p>
+<p align='center'>
 Based on the EDA above, we can conclude that Koalas library compute the fastest in the overall tasks. Koalas is the best fit which could process operations many times(100x) faster than Pandas without getting crash. To rank the three in terms of speed of computing, Koalas takes the first place, PySpark, then Dask.
 </p>
-</h4>
