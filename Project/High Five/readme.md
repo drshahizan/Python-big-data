@@ -27,7 +27,7 @@
   </tr>
 </table> 
 <br>
-<h2> Libraries: Pandas, Koalas, Modin</h2>
+<h2> Libraries: Pandas 🐼, Koalas 🐨, Modin</h2>
 
 <p>Pandas:
 Pandas is a popular and widely-used data analysis library in Python. It provides data structures for efficiently storing and manipulating large datasets and tools for working with them. It is designed to be flexible, fast and expressive, making it a popular choice for data analysis and manipulation tasks.
