@@ -1,4 +1,4 @@
-<h1>Project: New York City Automated Traffic Volume Counts</h1>
+<h1 align='center'>Project: New York City Automated Traffic Volume Counts</h1>
 
 ![image](https://user-images.githubusercontent.com/120595244/215332876-47eabd62-29a3-494f-883c-7a46470ed26f.png)
 
