@@ -21,3 +21,16 @@
     <th>A20EC0219</th>
   </tr>
 </table>
+
+#### Attribute Information:
+| Attribute | Description |
+| --- | --- |
+| **Title** |   Song Title  |
+|**Rank** |   Latest Ranking of the song on Spotify |
+| **Date** | Latest Date of Song Ranking |
+| **Artist** | Artist Name |
+| **Url** | Spotify Url  |
+| **Region** |  Region of Account on Spotify   |
+| **Chart** | Song Charting on Spotify  |
+| **Trend** | Position Changes of Song Ranking on Spotify  |
+| **Stream** | Total Number of Song Streaming on Spotify  |
