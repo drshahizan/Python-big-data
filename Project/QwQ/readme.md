@@ -2,18 +2,14 @@
 
 ![image](https://user-images.githubusercontent.com/120595244/215332876-47eabd62-29a3-494f-883c-7a46470ed26f.png)
 
-<h2>Team Members: QwQ</h2>
+<h2 align='center'>Team Members: QwQ</h2>
 
-<h4>
-
-1.   MUHAMMAD DINIE HAZIM BIN AZALI                                                                                                                                                                                             
-
-2.   RADIN DAFINA BINTI RADIN ZULKAR NAIN
-
-3.   ADRINA ASYIQIN BINTI MD ADHA
-
-4.   KELVIN E
-</h4>
+<p align='center'>
+1.   MUHAMMAD DINIE HAZIM BIN AZALI<br>                                                                                                                                 
+2.   RADIN DAFINA BINTI RADIN ZULKAR NAIN<br>
+3.   ADRINA ASYIQIN BINTI MD ADHA<br>
+4.   KELVIN EE<br>
+</p>
 
 <h2>Libraries Used</h2>
 
