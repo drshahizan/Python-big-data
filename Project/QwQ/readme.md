@@ -1,11 +1,11 @@
 <h1 align='center'>Project: New York City Automated Traffic Volume Counts</h1>
 
-![image](https://user-images.githubusercontent.com/120595244/215332876-47eabd62-29a3-494f-883c-7a46470ed26f.png)
+<img src="https://user-images.githubusercontent.com/120595244/215332876-47eabd62-29a3-494f-883c-7a46470ed26f.png" width="1000" height="500"/>
 
 <h2 align='center'>Team Members: QwQ</h2>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/120595244/215343565-46c61886-4c14-479e-bd13-914a56c20bbd.jpg" alt="QwQ image"/>
+  <img src="https://user-images.githubusercontent.com/120595244/215343565-46c61886-4c14-479e-bd13-914a56c20bbd.jpg" alt="QwQ image" width="400" height="130"/>
 </p>
 
 <p align='center'>
