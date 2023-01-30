@@ -35,6 +35,7 @@ This dataset contains data for every rated Lichess game played between January 2
 
 <h2>Dataset</h2>
 <a href="https://www.kaggle.com/datasets/maca11/chess-games-from-lichess-20132014?select=Lichess_2013_2014_Complete.csv">Kaggle: 15 Million Chess Games from Lichess (2013-2014)</a><br>
+The dataset above that we had chosen is data from all rated games played in Lichess from January 2013 to December 2014, in total there are around 15,000,000 games.This dataset consists of 1048576 rows and 16 columns and the size of this dataset is 1.99GB.
 
 <h4>Attribute Information:</h4>
 <table>
