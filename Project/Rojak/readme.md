@@ -31,7 +31,7 @@ This dataset is a collection of games played on the online chess platform Liches
 ## Libraries
 1. Pandas
 2. Vaex
-3. Koalas
+3. Polar
 
 <h2>Dataset</h2>
 <a href="https://www.kaggle.com/datasets/maca11/chess-games-from-lichess-20132014?select=Lichess_2013_2014_Complete.csv">Kaggle: 15 Million Chess Games from Lichess (2013-2014)</a><br>
