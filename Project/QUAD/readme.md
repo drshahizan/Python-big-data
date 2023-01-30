@@ -4,7 +4,7 @@
 <p align="center">
 <img src="https://github.com/Terence172/FirstR/blob/main/Pictures/nycTaxi.jpg" style="text-align:center;" height="200" />
 </p>
-<br>
+
 ## 🚀 Group Members QUAD (Team 8)
 > 1. CHONG KAI ZHE (A20EC0186)
 > 2. TERENCE A/L LOORTHANATHAN (A20EC0165)
