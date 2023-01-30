@@ -105,3 +105,70 @@ There are two datasets obtained from kaggle which included in this project, this
 | **Unnamed: 27** | Useless columns in this dataset which can be ignored.  |
 
 
+**************************************************************************************************************************
+
+<h3> Asking and Answering Questions </h3>
+<br>
+<br>
+> - Ask at least 5 interesting questions about your dataset
+> <br>
+> - Answer the questions either by computing the results using Numpy/Pandas or by plotting graphs using Matplotlib/Seaborn
+<br>
+> - Create new columns, merge multiple dataset and perform grouping/aggregation wherever necessary
+<br>
+> - Wherever you're using a library function from Pandas/Numpy/Matplotlib etc. explain briefly what it does
+
+<br>
+<br>
+<h4> Question 1: What is the percentage of flights that were delayed? </h4>
+<br>
+From the 3 libraries that we're using, all three library have almost the same percentage of flights that were delayed which only Polars have lesser decimal value. Below here is the summary of library with their percentage of flights that were delayed and the wall time.
+<br>
+<table border="solid">
+  <tr>
+    <th>Library</th>
+    <th>Percentage of Delayed Flights (%)</th>
+    <th>Wall time</th>
+  </tr>
+  <tr>
+    <td>Pyspark</td>
+    <td>34.59924480052409</td>
+    <td>3min 19s</td>
+  </tr>
+  <tr>
+    <td>Polars</td>
+    <td>34.599245</td>
+    <td>753 ms</td>
+  </tr>
+  <tr>
+    <td>Pandas</td>
+    <td>34.59924480052409</td>
+    <td>743 ms</td>
+  </tr>
+</table>
+<br>
+As we can see from here, Pandas has the least wall time which is 743ms compare with Polars and Pyspark. Pyspark has the longest wall time which is 3min 19s which is way more higher than Polars and Pandas. And lastly for Polars have the least decimal value for the percentage of flights that were delayed which is 34.599245%.
+
+<br>
+<br>
+<h4> Question 2: Which airport had the highest amount of flight time delayed? </h4>
+<br>
+
+<br>
+<br>
+<h4> Question 3: Which month had the most number of flight delays? </h4>
+<br>
+
+<br>
+<br>
+<h4> Question 4: What is the relationship between time delay on departure and time delay on arrival? </h4>
+<br>
+
+<br>
+<br>
+<h4> Question 5: What airlines has the most number in flight delays? </h4>
+<br>
+
+<br>
+<br>
+
