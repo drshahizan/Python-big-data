@@ -71,7 +71,9 @@ PySpark is the Python API for Apache Spark, an open-source distributed data proc
 <h1>Content</h1>
 File 1: Airline Delay and Cancellation Data 2017 - 2018
 
-This dataset is about the Health Insurance Marketplace. The dataset you provided is from the Health Insurance Marketplace on Kaggle, and specifically, it is the Rate.csv file. This dataset includes data on rates for health insurance plans in the Marketplace for the years 2014 to 2022. The data includes information such as the rate, the rating area, the issuer, the plan type, and the metal level. This information can be used to analyze trends in health insurance pricing and plan options over time. This dataset was retrieved from [here](https://www.kaggle.com/datasets/hhs/health-insurance-marketplace?select=Rate.csv). 
+In this project, we will be analysing 
+
+There are two datasets obtained from kaggle which included in this project, this is because the one dataset alone is not big enough to meet the requirement of dataset size (1 GB and above), hence the combination of two datasets with the size of 1.5 GB solve this problem. The datasets retrieved are [Airline Delay and Cancellation Data 2017](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018?select=2017.csv) and [Airline Delay and Cancellation Data 2018](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018?select=2018.csv). 
 
 #### Attribute Information:
 | Acronym | Description |
