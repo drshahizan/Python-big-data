@@ -168,3 +168,14 @@ extensive collection of data that showcases the performance of different airline
   </tr>
   
 </table> 
+
+<h2>List of questions </h2>
+
+<ol>
+  <li>Top 5 Airlines that have the most flight numbers</li>
+  <li>Top 10 days with the most number of delay flights</li>
+  <li>What is the longest and shortest of flight delay time?</li>
+  <li>What is the percentage of delay flight for each airlines?</li>
+  <li>What is the average flight distance for each airlines?**</li>
+  
+</ol>  
