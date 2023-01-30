@@ -30,3 +30,9 @@ For this dataset, we further our investigation based on these questions;
 3.  Which customer lost the most money
 4.  Top 20 step number that fraud occured
 5.  Which customer commit the largest fraud?
+--
+Conclusion
+1. The top 2 types of transaction that causes fraud is 'cash_out' and 'payment'.
+2. The largest amount transferred is made by 'transfer' transaction type. This means that the largest amount of fraud is made by 'transfer'.
+3. The biggest loss from fraud is $21182.00
+4. The largest gain from frau is $10000000.0
