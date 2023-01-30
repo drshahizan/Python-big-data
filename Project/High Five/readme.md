@@ -168,14 +168,30 @@ extensive collection of data that showcases the performance of different airline
   </tr>
   
 </table> 
+<br>
+<h2>Exploratory Analysis and Visualization 📊</h2>
 
-<h2>List of questions </h2>
+<ol>
+  <li>Histogram: Graph of flight Delay Times Distribution</li>
+  <li>Bar Chart: Flight Delays Count by each Airlines</li>
+  <li>Line Chart: Total Delay Flight by each Date</li>
+  <li>Bar Chart: Average Flight Distance by Airlines</li>
+  <li>Pie Chart: Top 5 Airlines with most flight numbers</li>
+</ol>
+
+<br>
+<h2>List of questions ❓</h2>
 
 <ol>
   <li>Top 5 Airlines that have the most flight numbers</li>
   <li>Top 10 days with the most number of delay flights</li>
   <li>What is the longest and shortest of flight delay time?</li>
   <li>What is the percentage of delay flight for each airlines?</li>
-  <li>What is the average flight distance for each airlines?**</li>
-  
-</ol>  
+  <li>What is the average flight distance for each airlines?</li>
+</ol>
+
+<h4>Summary of the questions</h4>
+
+<p>In 2015-2016, the top airline with the most flights was Southwest Airlines (2522917 flights). The day with the highest rate of delayed flights was January 4th, 2015. The longest and shortest delay time was 2214 minutes and 1 minute, respectively. Spirit Airlines had the highest percentage of delayed flights, while Virgin America had the highest average traveled distance and Envoy Air had the least.</p>
+
+
