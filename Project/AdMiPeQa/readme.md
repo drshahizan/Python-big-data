@@ -193,3 +193,11 @@ In conclusion when performing the Exploratory Data Analysis (EDA), Dask is the f
 To put it in simpler words for the performance comparison between the libraries:
 
 > **Dask > Koalas > Pandas**
+
+<br>
+
+🌟<b>For more information: </b><br>
+| Open in Colab |  Open in GitHub |
+|  ------ | :------: | 
+|<a href="https://colab.research.google.com/drive/1AbXa171YIE-AINYH1U1sw7-zNH32AJFd?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|[:octocat:](https://github.com/drshahizan/Python-big-data/blob/main/Project/AdMiPeQa/Project_big_data_AdMiPeQa.ipynb)|
+
