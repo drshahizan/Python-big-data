@@ -76,28 +76,32 @@ This dataset is about the Health Insurance Marketplace. The dataset you provided
 #### Attribute Information:
 | Acronym | Description |
 | --- | --- |
-| **BusinessYear** |   The year of the business.  |
-|**StateCode** |  The two-letter code for the state where the health insurance plan is offered.  |
-| **IssuerId** | Unique identifier of insurer who offers the health insurance plan. |
-| **SourceName** |  The source of the rate information (e.g. the insurer, the state insurance department). |
-| **VersionNum** | A version number for the rate information.  |
-| **ImportDate** |  The date on which the rate information was imported into the Marketplace database.   |
-| **IssuerId2** | Another unique identifier of the insurer who offers the health insurance plan.  |
-| **FederalTIN** | Federal income taxes  |
-| **RateEffectiveDate** |  The effective date of the rate.   |
-|**RateExpirationDate** |  The expiration date of the rate. |
-| **PlanId** | Unique identifier for the health insurance plan. |
-| **RatingAreaId** | The age of the insured person for which the rate information applies.  |
-| **Tobacco** | The rate which applies to tobacco person and non-tobacco person. |
-| **Age** |   The rate according to the age of the insured person.  |
-| **IndividualRate** |  The monthly premium (cost) for the health insurance plan for an individual.  |
-| **IndividualTobaccoRate** | The monthly premium for the health insurance plan for an individual tobacco user.  |
-| **Couple** | The monthly premium for the health insurance plan for couple.  |
-|**PrimarySubscriberAndOneDependent** |  The primary subscriber for the health insurance plan with one dependent. |
-| **PrimarySubscriberAndTwoDependents** | The primary subscriber for the health insurance plan with two dependent. |
-| **CoupleAndOneDependent** | The monthly premium for the health insurance plan for couple with one dependent. |
-| **CoupleAndTwoDependents** | The monthly premium for the health insurance plan for couple with two dependents.  |
-| **CoupleAndThreeOrMoreDependents** |  The monthly premium for the health insurance plan for couple with three or more dependents.   |
-| **RowNumber** | The row number of rate information.  |
+| **FL_DATE** |   The year of the business.  |
+|**OP_CARRIER** |  The two-letter code for the state where the health insurance plan is offered.  |
+| **OP_CARRIER_FL_NUM** | Unique identifier of insurer who offers the health insurance plan. |
+| **ORIGIN** |  The source of the rate information (e.g. the insurer, the state insurance department). |
+| **DEST** | A version number for the rate information.  |
+| **CRS_DEP_TIME** |  The date on which the rate information was imported into the Marketplace database.   |
+| **DEP_TIME** | Another unique identifier of the insurer who offers the health insurance plan.  |
+| **DEP_DELAY** | Federal income taxes  |
+| **TAXI_OUT** |  The effective date of the rate.   |
+|**WHEELS_OFF** |  The expiration date of the rate. |
+| **WHEELS_ON** | Unique identifier for the health insurance plan. |
+| **TAXI_IN** | The age of the insured person for which the rate information applies.  |
+| **ARR_TIME** | The rate which applies to tobacco person and non-tobacco person. |
+| **ARR_DELAY** |   The rate according to the age of the insured person.  |
+| **CANCELLED** |  The monthly premium (cost) for the health insurance plan for an individual.  |
+| **CANCELLATION_CODE** | The monthly premium for the health insurance plan for an individual tobacco user.  |
+| **DIVERTED** | The monthly premium for the health insurance plan for couple.  |
+|**CRS_ELAPSED_TIME** |  The primary subscriber for the health insurance plan with one dependent. |
+| **ACTUAL_ELAPSED_TIME** | The primary subscriber for the health insurance plan with two dependent. |
+| **AIR_TIME** | The monthly premium for the health insurance plan for couple with one dependent. |
+| **DISTANCE** | The monthly premium for the health insurance plan for couple with two dependents.  |
+| **CARRIER_DELAY** |  The monthly premium for the health insurance plan for couple with three or more dependents.   |
+| **WEATHER_DELAY** | The row number of rate information.  |
+| **NAS_DELAY** | The row number of rate information.  |
+| **SECURITY_DELAY** | The row number of rate information.  |
+| **LATE_AIRCRAFT_DELAY** | The row number of rate information.  |
+| **Unnamed: 27** | The row number of rate information.  |
 
 
