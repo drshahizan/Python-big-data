@@ -1,6 +1,8 @@
-<h1>15 Million Chess Games from Lichess (2013-2014) </h1>
+<h1>Chess Games Analysis with Three Python Libraries</h1>
 
 <img src="https://user-images.githubusercontent.com/95403713/215369088-d53ead7f-c979-42ab-a8c0-44715d81e2f7.jpg" width="1000" height="500"/>
+
+This dataset contains data for every rated Lichess game played between January 2013 and December 2014. There were approximately 15,000,000 games in total. It includes the players' names, ratings, the winner, the opening, the number of moves, etc. We will conduct an analysis to gain insights on the games and address our research questions. We hope to discover interesting patterns by analysing the various characteristics of each game, including the type of opening employed, the ratings of the players, and more. This data analysis allows us to comprehend the effects of various moves, strategies, and time controls on game outcomes. This research will also compare the performance of three Python libraries: Pandas, Vaex, and Modin.
 
 <h2>Group Rojak</h2>
 <table>
