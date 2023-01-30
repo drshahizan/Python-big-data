@@ -205,7 +205,7 @@ From the above wall time comparison, we can know that Polars have least wall tim
 <br>
 <br>
 <h4> Question 4: What is the relationship between time delay on departure and time delay on arrival? </h4>
-From the visualisation that we had obtained, both Polars and Pandas have the more similar scatter shot graph and Pyspark has a more different graph. Below here is the library and their wall time.
+From the visualisation that we had obtained, both Polars and Pandas have the more similar scatter plot graph and Pyspark has a more different graph. Below here is the library and their wall time.
 <br>
 <br>
 <table border="solid">
@@ -231,7 +231,7 @@ From the above table, we can know that Polars have the least wall time among the
 <br>
 <br>
 <h4> Question 5: What airlines has the most number in flight delays? </h4>
-From the visualisation that we had obtained, both Polars and Pandas have the more similar scatter shot graph and Pyspark has a more different graph. Below here is the library and their wall time.
+From the visualisation that we had obtained, all library have the same pie chart. Below here is the library and their wall time.
 <br>
 <br>
 <table border="solid">
@@ -260,3 +260,9 @@ From the above table, we can know that Polars have the least wall time among the
 
 
 <h1> Conclusion </h1>
+
+The dataset shows that the percentage of flights that were delayed is 34.59924480052409%.This shows that every 3 flights, there will be one flight will be delayed between 2017 and 2018. While ATL or also recognized as ATLANTA airport has the highest amount of flight time delay which had accumulated to 7308866 between 2017 and 2018. Month with most number of flight delays is July and the least number of flight delays is in the month of September between the year of 2017 - 2018. The scatter plot for all three library have a strong relationship between time delay on departure and time delay on arrival. Lastly from the pie chart from question 5, WN which is also the SouthWest airline have the highest percentage of total number of flight delays between airlines which is around 29.1% and G4 or also recognized as Allegiant Air has the least percentage of total number of flights delay between airlines which is around 0.7%.
+
+<br>
+<br>
+Based on above result from all three library, we can know that Polars can compute fastest especially for visualisation. Follow by Pandas and lastly Pyspark library.
