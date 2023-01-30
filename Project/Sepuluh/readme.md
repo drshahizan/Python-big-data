@@ -236,6 +236,29 @@ From the above wall time comparison, we can know that Polars have least wall tim
 <br>
 <h4> Question 5: What airlines has the most number in flight delays? </h4>
 <br>
+<table border="solid">
+  <tr>
+    <th>Library</th>
+   
+    <th>Wall time</th>
+  </tr>
+  <tr>
+    <td>Pyspark</td>
+
+    <td>1min 30s</td>
+  </tr>
+  <tr>
+    <td>Polars</td>
+ 
+    <td>850s</td>
+  </tr>
+  <tr>
+    <td>Pandas</td>
+ 
+    <td>1.89s</td>
+  </tr>
+</table>
+From the above wall time comparison, we can know that Pandas have least wall time among three libraries with 1.89s wall time while again Pyspark used the most wall time out of three library. In conclusion, Pnadas is a better library to run a visualisation comparison in terms of pie chart compared to other two libraries.
 
 <br>
 <br>
