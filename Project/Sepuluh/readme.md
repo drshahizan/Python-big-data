@@ -238,23 +238,19 @@ From the above wall time comparison, we can know that Polars have least wall tim
 <br>
 <table border="solid">
   <tr>
-    <th>Library</th>
-   
+    <th>Library</th>  
     <th>Wall time</th>
   </tr>
   <tr>
     <td>Pyspark</td>
-
     <td>1min 30s</td>
   </tr>
   <tr>
     <td>Polars</td>
- 
     <td>850s</td>
   </tr>
   <tr>
     <td>Pandas</td>
- 
     <td>1.89s</td>
   </tr>
 </table>
