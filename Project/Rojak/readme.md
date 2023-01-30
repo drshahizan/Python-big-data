@@ -118,7 +118,8 @@ The dataset above that we had chosen is data from all rated games played in Lich
     *it is the standard notation to describe positions of a chess game
     </th>
   </tr>
-
+</table>
+  
   ## Content
   1. Import Dataset
   2. Import Libraries
