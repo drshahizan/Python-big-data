@@ -76,33 +76,33 @@ This dataset is about the Health Insurance Marketplace. The dataset you provided
 #### Attribute Information:
 | Acronym | Description |
 | --- | --- |
-| **FL_DATE** |   The year of the business.  |
-|**OP_CARRIER** |  The two-letter code for the state where the health insurance plan is offered.  |
-| **OP_CARRIER_FL_NUM** | Unique identifier of insurer who offers the health insurance plan. |
-| **ORIGIN** |  The source of the rate information (e.g. the insurer, the state insurance department). |
-| **DEST** | A version number for the rate information.  |
-| **CRS_DEP_TIME** |  The date on which the rate information was imported into the Marketplace database.   |
-| **DEP_TIME** | Another unique identifier of the insurer who offers the health insurance plan.  |
-| **DEP_DELAY** | Federal income taxes  |
-| **TAXI_OUT** |  The effective date of the rate.   |
-|**WHEELS_OFF** |  The expiration date of the rate. |
-| **WHEELS_ON** | Unique identifier for the health insurance plan. |
-| **TAXI_IN** | The age of the insured person for which the rate information applies.  |
-| **CRS_ARR_TIME** | The age of the insured person for which the rate information applies.  |
-| **ARR_TIME** | The rate which applies to tobacco person and non-tobacco person. |
-| **ARR_DELAY** |   The rate according to the age of the insured person.  |
-| **CANCELLED** |  The monthly premium (cost) for the health insurance plan for an individual.  |
-| **CANCELLATION_CODE** | The monthly premium for the health insurance plan for an individual tobacco user.  |
-| **DIVERTED** | The monthly premium for the health insurance plan for couple.  |
-|**CRS_ELAPSED_TIME** |  The primary subscriber for the health insurance plan with one dependent. |
-| **ACTUAL_ELAPSED_TIME** | The primary subscriber for the health insurance plan with two dependent. |
-| **AIR_TIME** | The monthly premium for the health insurance plan for couple with one dependent. |
-| **DISTANCE** | The monthly premium for the health insurance plan for couple with two dependents.  |
-| **CARRIER_DELAY** |  The monthly premium for the health insurance plan for couple with three or more dependents.   |
-| **WEATHER_DELAY** | The row number of rate information.  |
-| **NAS_DELAY** | The row number of rate information.  |
-| **SECURITY_DELAY** | The row number of rate information.  |
-| **LATE_AIRCRAFT_DELAY** | The row number of rate information.  |
-| **Unnamed: 27** | The row number of rate information.  |
+| **FL_DATE** |  The date of flight in year/month/day (yyyy-mm-dd) format.  |
+|**OP_CARRIER** |  The two-letter code of the airline identifier.  |
+| **OP_CARRIER_FL_NUM** | The flight number. |
+| **ORIGIN** |  The unique idenifier code of the starting airport.  |
+| **DEST** | The unique idenifier code of the destination airport.  |
+| **CRS_DEP_TIME** |  The planned departure time.   |
+| **DEP_TIME** | The actual departure time.  |
+| **DEP_DELAY** | The total delay of departure recorded in minutes.  |
+| **TAXI_OUT** |  The time duration elapsed between departure from the origin airport gate and wheels off.   |
+|**WHEELS_OFF** |  The time point that the aircraft's wheels leave the ground. |
+| **WHEELS_ON** | The time point that the aircraft's wheels touch on the ground. |
+| **TAXI_IN** | The time duration elapsed between wheels-on and gate arrival at the destination airport.  |
+| **CRS_ARR_TIME** | The planned arrival time.  |
+| **ARR_TIME** | The actual arrival time. |
+| **ARR_DELAY** |   The total delay on arrival recorded in minutes.  |
+| **CANCELLED** |  The code to represent flight cancellation, where 1 indicates the flight being cancelled and 0 indicates the flight fly as usual.  |
+| **CANCELLATION_CODE** | The code to represent flight cancellation reason, where A indicates the flight being cancelled due to the airline or carrier, B for weather reason, C for national air system reason and D due to security reason.  |
+| **DIVERTED** | The code to represent the aircraft landed on airport that out of schedule, where 1 indicates out of schedule and 0 otherwise.  |
+|**CRS_ELAPSED_TIME** |  The planned time amount needed for the flight trip. |
+| **ACTUAL_ELAPSED_TIME** | Calculated by the sum of AIR_TIME, TAXI_IN and TAXI_OUT. |
+| **AIR_TIME** | The time duration between wheels_off and wheels_on time. |
+| **DISTANCE** | The distance between two airports.  |
+| **CARRIER_DELAY** |  The delay caused by the airline in minutes.   |
+| **WEATHER_DELAY** | The delay caused by the weather in minutes.  |
+| **NAS_DELAY** | The delay caused by the air system in minutes.  |
+| **SECURITY_DELAY** | The delay caused by the security issues in minutes.  |
+| **LATE_AIRCRAFT_DELAY** | The delay caused by the late aircraft in minutes.   |
+| **Unnamed: 27** | Useless columns in this dataset which can be ignored.  |
 
 
