@@ -24,7 +24,7 @@
 
 <h1>Airline Delay and Cancellation Data 2017 - 2018 (PySpark vs Polars vs Pandas)</h1>
 
-In this project, we will carry out an analysis on the data of airline delay and cancellation using 3 different Python libraries, which are PySpark, Polars and Pandas. We aim to investigate and do comparison regarding the time completion of the three selected libraries on the similiar tasks. A short intoduction of each selected library will be shown as below. 
+In this project, we will carry out an analysis on the data of airline delay and cancellation using 3 different Python libraries, which are PySpark, Polars and Pandas. We aim to investigate and <b>compare the time completion</b> of the three selected libraries on the similiar tasks. A short intoduction of each selected library will be shown as below. 
 
 <h2>PySpark</h2>
 <img src='https://static.javatpoint.com/tutorial/pyspark/images/pyspark.png' alt='PySpark'>
