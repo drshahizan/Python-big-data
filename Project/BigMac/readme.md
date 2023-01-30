@@ -166,3 +166,11 @@ The dataset from the Kaggle are seperated to different csv files based on year o
   </tr>
   
 </table>
+---
+# Dataset Attribute
+
+* Which airline has the highest number of flights from year 2016 - 2018?
+* Does the departure delay affects the arrival delay?
+* Which carrier has the highest total flight distance ?
+* What is the average departure delay for each origin airport ?
+* What is the average arrival delay for every destination airport?
