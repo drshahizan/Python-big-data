@@ -88,6 +88,7 @@ This dataset is about the Health Insurance Marketplace. The dataset you provided
 |**WHEELS_OFF** |  The expiration date of the rate. |
 | **WHEELS_ON** | Unique identifier for the health insurance plan. |
 | **TAXI_IN** | The age of the insured person for which the rate information applies.  |
+| **CRS_ARR_TIME** | The age of the insured person for which the rate information applies.  |
 | **ARR_TIME** | The rate which applies to tobacco person and non-tobacco person. |
 | **ARR_DELAY** |   The rate according to the age of the insured person.  |
 | **CANCELLED** |  The monthly premium (cost) for the health insurance plan for an individual.  |
