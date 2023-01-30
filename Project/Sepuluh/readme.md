@@ -64,10 +64,51 @@ PySpark is the Python API for Apache Spark, an open-source distributed data proc
   
 </ul>
 
-<h3>Install PySpark</h3>
+<h3>Import PySpark</h3>
 <code>!pip install pyspark</code>
 
 
+![Polars](https://static.javatpoint.com/tutorial/pyspark/images/pyspark.png)
+<br>
+PySpark is the Python API for Apache Spark, an open-source distributed data processing system designed for large-scale data processing. Some of the <b>key features</b> of PySpark are listed as below:
+<ul>
+  <li>PySpark provides <b>real-time computation</b> on big data since it focuses on in-memory processing, and shows low latency. </li>
+
+  <li>PySpark framework is able to <b>support multiple languages</b> such as Scala, Java, Python, and R, hence making it compatible in handling various kinds of huge datasets. </li>
+
+  <li>PySpark has <b>powerful caching and disk constancy.</b></li>
+
+  <li>PySpark can achieve <b>high data processing speed</b>, which is around 100 times faster in memory and 10 times faster on the disk. </li>
+
+</ul>
+
+<h3>Application of Polars in real life</h3>
+<ul>
+  <li><b>Entertainment Industry</b>
+    <ul>
+      <li>Netflix company used PySpark for real-time processing of personalized movies or web series to its customers.</li>
+      <li>It processes approximately 450 billion events per day. </li>
+    </ul>
+  </li>
+  
+  <li><b>Commercial Sector</b>
+    <ul>
+      <li>Bank and other financial sectors use PySpark in obtaining and analysing their customers' social media to get useful information which aid in decision making for credit risk assessment, targeted ad and customer segmentation. </li>
+      <li>Here, Spark is important in Fraud Detection. </li>
+    </ul>
+  </li>
+  
+  <li><b>Healthcare</b>
+    <ul>
+      <li>PySpark is used to analyse the patients' records and previous medical reports to predict possible health issues in future. </li>
+    </ul>
+  </li>
+  
+</ul>
+
+<h3>Import Polars</h3>
+<code>!pip install polars</code>
+<code>import polars as pl</code>
 
 
 <h1>Content</h1>
