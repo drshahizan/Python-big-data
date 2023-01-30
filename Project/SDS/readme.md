@@ -31,7 +31,10 @@
 # **Introduction**
 This project will be analysed by using 3 different libraries which are **Pandas, Polars and Koalas.** This is to find out which library has the highest efficiency among them as well as finding answers for our inquiries.
 
-| --- | | --- | | --- |
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ---
 # **About Dataset**
