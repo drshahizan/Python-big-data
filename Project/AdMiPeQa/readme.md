@@ -31,7 +31,7 @@
 <h2>Introduction</h2>
 This project aims to investigate the Air Flight in 2022. The dataset consists of 61 columns and 4078318 rows. It is considered as big data and occupies 1.42GB of memory. The dataset is obtained from Kaggle which contains many kinds of dataset ranging from agriculture to education. We have selected this dataset because we like to analyze the flight status. We will perform a series of steps like data processing, data cleaning and visualization on this dataset. Google Colab will be used in this project. Other than that, there will be three libraries related to big data processing which are Pandas, Dask and Koalas being used in this project. At the end, we will compare the processing results from these libraries.
 
-<h2>Libraries</h2>
+<h2>Libraries <img width=30px; height=30px src="https://user-images.githubusercontent.com/120556342/215421439-3196e80a-14de-47f0-8419-9ce6df02d01a.png"></h2>
 <h4>1. Pandas</h4>
 <h4>2. Dask</h4>
 <h4>3. Koalas</h4>
