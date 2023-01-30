@@ -194,83 +194,96 @@ Modin is a library that speeds up data processing in Python, especially for Pand
 
 <h2> Running Time for Data Cleaning 🏃</h2>
 
+<h3>Replace Operation:</h3>
 <table>
   <tr>
     <th>Library</th>
-    <th>Operation</th>
     <th>CPU Time (ms)</th>
-    <th>Wall Time (s)</th>
+    <th>Wall Time (ms)</th>
   </tr>
     <tr>
     <td>Pandas</td>
-    <td>.replace</td>
-    <td>6.71</td>
-    <td>6.9</td>
+    <td>6.71 s</td>
+    <td>6.9 s</td>
   </tr>
   <tr>
     <td>Koalas</td>
-    <td>.replace</td>
     <td>65.3</td>
     <td>416</td>
   </tr>
   <tr>
     <td>Modin</td>
-    <td>.replace</td>
     <td>264</td>
-    <td>8.77</td>
+    <td>8.77 s</td>
+  </tr>
+
+</table>
+<h3>Remove Missing Values Operation:</h3>
+<table>
+  <tr>
+    <th>Library</th>
+    <th>CPU Time (ms)</th>
+    <th>Wall Time (ms)</th>
   </tr>
     <tr>
     <td>Pandas</td>
-    <td>remove NaN + sum missing values</td>
-    <td>6.77</td>
-    <td>7.02</td>
+    <td>6.77 s</td>
+    <td>7.02 s</td>
   </tr>
-    <tr>
+  <tr>
     <td>Koalas</td>
-    <td>remove NaN + sum missing values</td>
-    <td>1.06</td>
+    <td>1.06 s</td>
     <td>1min 2s</td>
   </tr>
   <tr>
     <td>Modin</td>
-    <td>remove NaN + sum missing values</td>
     <td>511</td>
-    <td>26.5</td>
+    <td>26.5 s</td>
+  </tr>
+</table>
+<h3>Drop Operation:</h3>
+<table>
+  <tr>
+    <th>Library</th>
+    <th>CPU Time (ms)</th>
+    <th>Wall Time (ms)</th>
   </tr>
     <tr>
     <td>Pandas</td>
-    <td>.drop</td>
     <td>796</td>
     <td>809</td>
   </tr>
-    <tr>
+  <tr>
     <td>Koalas</td>
-    <td>.drop</td>
     <td>31.6</td>
     <td>183</td>
   </tr>
   <tr>
     <td>Modin</td>
-    <td>.drop</td>
     <td>3.87</td>
     <td>8.19</td>
   </tr>
-    <tr>
-    <td>Pandas</td>
-    <td>read CSV into DataFrame</td>
-    <td>40.4</td>
-    <td>1min 23s</td>
+</table>
+<h3>Read CSV Operation:</h3>
+<table>
+  <tr>
+    <th>Library</th>
+    <th>CPU Time (ms)</th>
+    <th>Wall Time (ms)</th>
   </tr>
   <tr>
-    <td>Koalas</td>
-    <td>read CSV into DataFrame</td>
-    <td>537</td>
+    <td>Pandas</td>
+    <td>40.4 s</td>
     <td>1min 23s</td>
+  </tr>
+    <tr>
+    <td>Koalas</td>
+    <td>537</td>
+    <td>1min 2s</td>
   </tr>
   <tr>
     <td>Modin</td>
-    <td>read CSV into DataFrame</td>
-    <td>2.18</td>
+    <td>2.18 s</td>
     <td>1min 12s</td>
   </tr>
 
