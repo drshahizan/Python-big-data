@@ -64,13 +64,13 @@ PySpark is the Python API for Apache Spark, an open-source distributed data proc
   
 </ul>
 
-<h3>Import PySpark</h3>
+<h3>Install PySpark</h3>
 <code>!pip install pyspark</code>
 
 <br>
 <br>
 
-![Polars](https://static.javatpoint.com/tutorial/pyspark/images/pyspark.png)
+![Polars](https://raw.githubusercontent.com/pola-rs/polars-static/master/web/polars-logo-python.svg)
 <br>
 PySpark is the Python API for Apache Spark, an open-source distributed data processing system designed for large-scale data processing. Some of the <b>key features</b> of PySpark are listed as below:
 <ul>
@@ -108,11 +108,8 @@ PySpark is the Python API for Apache Spark, an open-source distributed data proc
   
 </ul>
 
-<h3>Import Polars</h3>
-<code>
-  !pip install polars
-  import polars as pl
-</code>
+<h3>Install Polars</h3>
+<code>!pip install polars</code>
 
 
 <h1>Content</h1>
