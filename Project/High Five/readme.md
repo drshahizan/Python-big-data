@@ -171,7 +171,7 @@ Modin is a library that speeds up data processing in Python, especially for Pand
 <h2>Exploratory Analysis and Visualization 📊</h2>
 
 <ol>
-  <li>Histogram: Graph of flight Delay Times Distribution</li>
+  <li>Histogram: Flight Delay Times Distribution</li>
   <li>Bar Chart: Flight Delays Count by each Airlines</li>
   <li>Line Chart: Total Delay Flight by each Date</li>
   <li>Bar Chart: Average Flight Distance by Airlines</li>
