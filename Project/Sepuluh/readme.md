@@ -73,7 +73,12 @@ PySpark is the Python API for Apache Spark, an open-source distributed data proc
 <h1>Content</h1>
 File 1: Airline Delay and Cancellation Data 2017 - 2018
 
-In this project, we will be analysing 
+In this project, we will be performing analysis on the dataset of airline delay and cancellation which includes data on flight delays, cancellations, and various other performance metrics for a large number of airlines. The dataset also includes information on the carrier, flight number, departure and arrival airports, departure and arrival times, and delay and cancellation information. 
+
+The objectives of this project are listed as below:
+1.   Comparing the time completion between three libraries (PySpark, Polars, Pandas).
+2.   Performing analysis and visualizations.
+3.   Asking and answering five possible questions regarding the dataset.
 
 There are two datasets obtained from kaggle which included in this project, this is because the one dataset alone is not big enough to meet the requirement of dataset size (1 GB and above), hence the combination of two datasets with the size of 1.5 GB solve this problem. The datasets retrieved are [Airline Delay and Cancellation Data 2017](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018?select=2017.csv) and [Airline Delay and Cancellation Data 2018](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018?select=2018.csv). 
 
