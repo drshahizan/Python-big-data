@@ -13,6 +13,8 @@
 > 3. RISHMA FATHIMA BINTI BASHER
 > 4. NUR SYAMALIA FAIQAH BINTI MOHD KAMAL (A20EC0118) 
 
+**The purpose of this notebook :** To show how polars performs when put against it's peer, pandas. Wall times for every executions using both pandas and polars will be analysed. We will then use this times to determine which of these libraries performs better.
+
  **Polars** is both lazy and semi-lazy. It allows you to accomplish most of your work eagerly, similar to Pandas, but it also provides a sophisticated expression syntax that will be optimised and processed within the query engine.
 
 - Polars' purpose is to deliver a lightning-fast DataFrame library that makes use of all available cores on your machine. Unlike dask, which attempts to parallelize existing single-threaded libraries such as NumPy and Pandas, Polars is intended from the ground up for parallelization of queries on DataFrames.
