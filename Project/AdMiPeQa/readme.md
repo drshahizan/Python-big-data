@@ -4,7 +4,7 @@
   <img width=1000px; height=500px src="https://user-images.githubusercontent.com/120556342/215265584-6f73a09a-ac06-48db-b53c-58bcd370c320.png">
 </p>
 
-<h2>Group Members</h2>
+<h2>Group Members <img width=30px; height=30px src="https://user-images.githubusercontent.com/120556342/215398734-609ba04a-88e5-44b5-9eaa-239ac8edd091.png"></h2>
 <table>
   <tr>
     <th>Name</th>
