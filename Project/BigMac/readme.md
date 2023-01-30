@@ -42,8 +42,11 @@ In this project, we will be analysing Airline Delay and Cancellation from year 2
 
 The dataset is collected by U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics by tracking the on-time performance of domestic flights operated by large air carriers. Summary information on the number of on-time, delayed, canceled, and diverted flights is published in DOT's monthly Air Travel Consumer Report and in this dataset of 2016 flight delays and cancellations.
 
-The dataset from the Kaggle are seperated to different csv files based on year of airline delay and cancellation. As mentioned before that we will be analysing the airline delay and cancellation from year 2016 - 2018, we download the three csv files for year 2016, 2017 and 2018 and then we combine them into a dataframe.
-<br>
+The dataset from the Kaggle are seperated to different csv files based on year of airline delay and cancellation. As mentioned before that we will be analysing the airline delay and cancellation from year 2016 - 2018, we download the three csv files for year 2016, 2017 and 2018 and then we combine them into a single dataframe.
+
+---
+# Dataset Attribute
+
 <table>
   <tr>
     <th>Column</th>
