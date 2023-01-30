@@ -175,3 +175,7 @@ The dataset from the Kaggle are seperated to different csv files based on year o
 * Which carrier has the highest total flight distance ?
 * What is the average departure delay for each origin airport ?
 * What is the average arrival delay for every destination airport?
+
+---
+# Conclusion
+After performing EDA on the dataset, we can say that PySpark was the fastest followed by Vaex. 
