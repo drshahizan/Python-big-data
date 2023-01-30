@@ -67,6 +67,8 @@ PySpark is the Python API for Apache Spark, an open-source distributed data proc
 <h3>Import PySpark</h3>
 <code>!pip install pyspark</code>
 
+<br>
+<br>
 
 ![Polars](https://static.javatpoint.com/tutorial/pyspark/images/pyspark.png)
 <br>
@@ -107,8 +109,10 @@ PySpark is the Python API for Apache Spark, an open-source distributed data proc
 </ul>
 
 <h3>Import Polars</h3>
-<code>!pip install polars</code>
-<code>import polars as pl</code>
+<code>
+  !pip install polars
+  import polars as pl
+</code>
 
 
 <h1>Content</h1>
