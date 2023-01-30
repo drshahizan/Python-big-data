@@ -34,13 +34,13 @@ This project will be analysed by using 3 different libraries which are **Pandas,
 | Library Used | Pandas | Polars | Koalas |
 | ------------- | ------------- | ------------- | ------------- |
 | Library Image | ![68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3634302f312a307170565a7735714b6e636f4642594a6634446c70412e77656270](https://user-images.githubusercontent.com/97009588/215579512-ee542ed6-4dcb-46ce-991d-e29162de78a5.jpg) | <img src='https://raw.githubusercontent.com/pola-rs/polars-static/master/web/polars-logo-python.svg' height=200px width=200px alt='Polars'> | ![koalas-logo-docs](https://user-images.githubusercontent.com/97009588/215579582-6783868e-58c6-44fb-8afe-86369aa5b43b.png) |
-| Installation method | <code>!import pandas as pd</code> | <code>!pip install polars</code> | <code>!pip install koalas
-!pip install pyspark</code>
-
+| Installation method | <code>!import pandas as pd</code> | <code>!pip install polars</code> | <code>!pip install koalas </code>
 
 ---
 # **About Dataset**
 ---
+The dataset was obtained from Kaggle titled Amazon Book Reviews from https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews .This dataset contain the feedback about 3M user on 212404 unique books. It contains product reviews and metadata from Amazon, including 142.8 million reviews spanning May 1996 - July 2014 and this file has these attributes.
+
 <table align="center">
   <tr>
     <th>Columns</th>
