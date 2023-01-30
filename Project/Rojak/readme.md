@@ -121,8 +121,10 @@ The dataset above that we had chosen is data from all rated games played in Lich
 </table>
   
   ## Content
-  1. Import Dataset
-  2. Import Libraries
-  3. Read Dataset
-  4. Data Preparation and Cleaning
-  5. Exploratory Analysis and Visualization
+  <h5>1. Import Dataset</h5>
+  <h5>2. Import Libraries</h5>
+  <h5>3. Read Dataset</h5>
+  <h5>4. Data Preparation and Cleaning</h5>
+  <h5>5. Exploratory Analysis and Visualization</h5>
+  
+  ## Summary
