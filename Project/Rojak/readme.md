@@ -1,4 +1,4 @@
-<h1>Chess Games Analysis with Three Python Libraries</h1>
+<h2>Chess Games Analysis with Three Python Libraries</h2>
 
 <img src="https://user-images.githubusercontent.com/95403713/215369088-d53ead7f-c979-42ab-a8c0-44715d81e2f7.jpg" width="500" height="250"/>
 
@@ -31,7 +31,7 @@ This dataset contains data for every rated Lichess game played between January 2
 ## Libraries
 1. Pandas
 2. Vaex
-3. Polar
+3. Modin
 
 <h2>Dataset</h2>
 <a href="https://www.kaggle.com/datasets/maca11/chess-games-from-lichess-20132014?select=Lichess_2013_2014_Complete.csv">Kaggle: 15 Million Chess Games from Lichess (2013-2014)</a><br>
