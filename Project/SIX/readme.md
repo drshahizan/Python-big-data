@@ -4,6 +4,19 @@
 | Name | Matric Number |
 | ----- | ----- |
 | LEE MING QI | A20EC0064|
-| NUR IRDINA ALIAH BINTI ABDUL WAHAB | |
+| NUR IRDINA ALIAH BINTI ABDUL WAHAB |A20EC0115 |
 | SINGTHAI SRISOI| A20EC0147|
 | AMIRAH RAIHANAH BINTI ABDUL RAHIM |A20EC0182 |
+
+---
+# **Introduction**
+In this project, we will be comparing the performance of 3 different python libraries which are Dask, PySpark and Koalas on a large dataset.
+These 3 libraries are the alternatives to Pandas library for faster and better performance. Every libraries has its own strength and weakness and this project will help you to determine which library you can use for your python project. We use NYC Parking Tickets dataset from Kaggle that you can download using this link. This dataset has 9 million rows and 51 columns with the size of 2GB. We will perform an EDA on the dataset using the libraries stated and give our opinions on performance, ease of use and help documentation.
+
+We will evaluate the 3 libraries using the operations performed on EDA that consists of:
+* Import CSV file into dataframe
+* Data Cleaning
+* Data Visualization
+* Data Questions and Answers 
+
+---
