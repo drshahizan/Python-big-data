@@ -194,4 +194,8 @@ extensive collection of data that showcases the performance of different airline
 
 <p>In 2015-2016, the top airline with the most flights was Southwest Airlines (2522917 flights). The day with the highest rate of delayed flights was January 4th, 2015. The longest and shortest delay time was 2214 minutes and 1 minute, respectively. Spirit Airlines had the highest percentage of delayed flights, while Virgin America had the highest average traveled distance and Envoy Air had the least.</p>
 
+<h2>Conclusion<h2>
+
+In conclusion, the performance of Pandas, Koalas, and Modin libraries varies depending on the specific operation being performed on the DataFrame. Based on the results, Modin had the best performance in terms of CPU time and wall time for operations like removing columns, whereas Koalas performed better for operations like replacing values in a column. However, Pandas had the longest CPU and wall times for all operations. It is recommended to evaluate the performance of each library for a specific use case to determine the most suitable option for a given situation.
+
 
