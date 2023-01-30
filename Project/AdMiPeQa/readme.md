@@ -143,6 +143,13 @@ This project aims to investigate the Air Flight in 2022. The dataset consists of
   <li>Drop duplicate rows</li>
 </ul>  
 2. Exploratory Analysis and Visualization<br>
+<ul>
+  <li>Statistic</li>
+  <li>Histogram</li>
+  <li>Scatter Plot</li>
+  <li>Line Chart</li>
+  <li>Bar Chart</li>
+</ul>  
 3. Asking and Answering Questions<br>
 
 <h2>Conclusion</h2>
