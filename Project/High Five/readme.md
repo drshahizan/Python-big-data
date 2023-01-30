@@ -41,8 +41,7 @@ Modin is a library that speeds up data processing in Python, especially for Pand
 <br>
 <h2> Dataset 📑 </h2>
 <h4>Dataset description</h4>
-<p>The "Airline Delay and Cancellation Data 2015-2016" found on Kaggle is an 
-extensive collection of data that showcases the performance of different airlines for the two-year span of 2015 to 2016. This dataset is quite comprehensive, as it comprises of information about the delays, cancellations, and a range of other performance metrics of various airlines. The details included in this database are the airline carrier, flight number, departure and arrival airports, departure and arrival times, as well as information about the delays and cancellations experienced.</p>
+<p>The "Airline Delay and Cancellation Data 2015-2016" found on Kaggle is an extensive collection of data that showcases the performance of different airlines for the two-year span of 2015 to 2016. This dataset is quite comprehensive, as it comprises of information about the delays, cancellations, and a range of other performance metrics of various airlines. The details included in this database are the airline carrier, flight number, departure and arrival airports, departure and arrival times, as well as information about the delays and cancellations experienced.</p>
 
 
 <a href="https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018?select=2009.csv">link to the dataset</a>
@@ -196,6 +195,6 @@ extensive collection of data that showcases the performance of different airline
 
 <h2>Conclusion<h2>
 
-<p>In conclusion, the performance of Pandas, Koalas, and Modin libraries varies depending on the specific operation being performed on the DataFrame. Based on the results, Modin had the best performance in terms of CPU time and wall time for operations like removing columns, whereas Koalas performed better for operations like replacing values in a column. However, Pandas had the longest CPU and wall times for all operations. It is recommended to evaluate the performance of each library for a specific use case to determine the most suitable option for a given situation.</p>
+<p> In conclusion, the performance of Pandas, Koalas, and Modin libraries varies depending on the specific operation being performed on the DataFrame. Based on the results, Modin had the best performance in terms of CPU time and wall time for operations like removing columns, whereas Koalas performed better for operations like replacing values in a column. However, Pandas had the longest CPU and wall times for all operations. It is recommended to evaluate the performance of each library for a specific use case to determine the most suitable option for a given situation. </p>
 
 
