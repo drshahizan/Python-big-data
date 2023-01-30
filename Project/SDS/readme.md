@@ -31,20 +31,7 @@
 # **Introduction**
 This project will be analysed by using 3 different libraries which are **Pandas, Polars and Koalas.** This is to find out which library has the highest efficiency among them as well as finding answers for our inquiries.
 
-<div class="row">
-  <div class="column">
-    <h2>Column 1</h2>
-    <p>Some text..</p>
-  </div>
-  <div class="column">
-    <h2>Column 2</h2>
-    <p>Some text..</p>
-  </div>
-  <div class="column">
-    <h2>Column 3</h2>
-    <p>Some text..</p>
-  </div>
-</div>
+| --- | | --- | | --- |
 
 ---
 # **About Dataset**
