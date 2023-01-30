@@ -57,6 +57,6 @@ The proposed project is about Spotify Charts. This dataset consists of 9 columns
 3. QnA<br>
 
 <h2> Conclusion</h2>
-In conclusion, PySpark is the best and fastest choice when performing the Exploratory Data Analysis (EDA) while working with large datasets. Other than PySpark, Koalas is also a good alternative to Pandas. Based on the analysis done, it has been proven that PySpark has the best performance and followed by Koalas and then, Pandas.
+In conclusion, PySpark is the best and fastest choice when performing the Exploratory Data Analysis (EDA) while working with large datasets. Based on the analysis done, it has been proven that PySpark has the best performance and followed by Koalas and then, Pandas.
 
 > PySpark > Koalas > Pandas
