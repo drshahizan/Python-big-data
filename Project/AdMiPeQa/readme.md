@@ -32,9 +32,24 @@
 This project aims to investigate the Air Flight in 2022. The dataset consists of 61 columns and 4078318 rows. It is considered as big data and occupies 1.42GB of memory. The dataset is obtained from Kaggle which contains many kinds of dataset ranging from agriculture to education. We have selected this dataset because we like to analyze the flight status. We will perform a series of steps like data processing, data cleaning and visualization on this dataset. Google Colab will be used in this project. Other than that, there will be three libraries related to big data processing which are Pandas, Dask and Koalas being used in this project. At the end, we will compare the processing results from these libraries.
 
 <h2>Libraries <img width=30px; height=30px src="https://user-images.githubusercontent.com/120556342/215421439-3196e80a-14de-47f0-8419-9ce6df02d01a.png"></h2>
-<h4>1. Pandas</h4>
-<h4>2. Dask</h4>
-<h4>3. Koalas</h4>
+<table>
+  <tr>
+    <th>Library</th>
+    <th>Reason</th>
+  </tr>
+  <tr>
+    <th>Pandas<br><img src='https://user-images.githubusercontent.com/120556342/215506067-3b45c1fd-e560-4532-a46c-9ef7c4c0bcce.png'></th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <th>Dask<br><img src='https://user-images.githubusercontent.com/120556342/215506695-0589400d-09cd-4fb3-9d8a-2bc6ee1e342f.png'></th>
+    <td>Flight Date (yyyymmdd)</td>
+  </tr>
+    <tr>
+    <th>Koalas<br><img src='https://user-images.githubusercontent.com/120556342/215507119-4e958236-1d0a-452d-bbe9-5d298eddf049.png'></th>
+    <td>Name of Airline</td>
+  </tr>
+</table>
 
 <h2>Dataset  <img width=30px; height=30px src="https://user-images.githubusercontent.com/120556342/215398064-79c751ea-35b9-4958-a262-0cb56a0c4c31.png"></h2>
 
