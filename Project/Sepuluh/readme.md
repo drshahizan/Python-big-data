@@ -108,13 +108,6 @@ There are two datasets obtained from kaggle which included in this project, this
 **************************************************************************************************************************
 
 <h1> Asking and Answering Questions </h1>
-> - Ask at least 5 interesting questions about your dataset
-> <br>
-> - Answer the questions either by computing the results using Numpy/Pandas or by plotting graphs using Matplotlib/Seaborn
-<br>
-> - Create new columns, merge multiple dataset and perform grouping/aggregation wherever necessary
-<br>
-> - Wherever you're using a library function from Pandas/Numpy/Matplotlib etc. explain briefly what it does
 
 <br>
 <br>
