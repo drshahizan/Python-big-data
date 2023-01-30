@@ -1,3 +1,16 @@
+## Introduction
+The proposed project is about Spotify Charts. This dataset consists of 9 columns and 26173514 rows. The dataset is about 3.24 GB in size which can be considered as a big data. We settled on this dataset as we thought it would be quite fun and also usable which we could make something out of it in terms of analysis. In this project, we will carry out all the necessary data cleaning and data preprocessing, visualization, and EDA. We were also instructed to utilize three different libraries during the project so we could compare all three in terms of performance. The three libraries we will be using in this project is Pandas, PySpark, and Koalas. 
+
+<br>
+<h2> Libraries</h2>
+<h4>1. Pandas</h4>
+<h4>2. PySpark</h4>
+<h4>3. Koalas</h4>
+<br>
+
+<h2> Dataset</h2>
+<a href="https://www.kaggle.com/datasets/dhruvildave/spotify-charts?select=charts.csv">Kaggle: Spotify Charts</a><br>
+
 ## Group Members: 
 <table align = "center">
   <tr>
@@ -34,3 +47,8 @@
 | **Chart** | Song Charting on Spotify  |
 | **Trend** | Position Changes of Song Ranking on Spotify  |
 | **Stream** | Total Number of Song Streaming on Spotify  |
+
+<h2> Contents</h2>
+1. Data Preparation and Cleaning <br>
+2. Exploratory Analysis and Visualization<br>
+3. QnA<br>
