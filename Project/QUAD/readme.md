@@ -5,15 +5,21 @@
 <img src="https://github.com/Terence172/FirstR/blob/main/Pictures/nycTaxi.jpg" style="text-align:center;" height="200" />
 </p>
 <br>
-
-<br></br>
 ## 🚀 Group Members QUAD (Team 8)
 > 1. CHONG KAI ZHE (A20EC0186)
 > 2. TERENCE A/L LOORTHANATHAN (A20EC0165)
 > 3. RISHMA FATHIMA BINTI BASHER (A20EC0137)
 > 4. NUR SYAMALIA FAIQAH BINTI MOHD KAMAL (A20EC0118)
+<br>
+
+The purpose of this notebook is to record and analyse performance between three different libraries, namely Polars, Koalas and Datatable.
 
 Sources: [Kaggle](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data)
+
+Libraries Used:
+> 1. Polars
+> 2. Koalas
+> 3. Datatable
 
 Data Collection:
 In this dataset, we have collected the data for 4 months particularly:
@@ -21,6 +27,7 @@ In this dataset, we have collected the data for 4 months particularly:
 - Jan 2016: 1.71 GB
 - Feb 2016: 1.78 GB
 - Mar 2016: 1.91 GB
+However, in this notebook only data collected on January 2015 will be used.
 
 In this notebook, we use 'yellow_tripdata_2015-01.csv'. This dataset contain 12748986 records and 19 columns. The variables are:
 
@@ -45,8 +52,4 @@ In this notebook, we use 'yellow_tripdata_2015-01.csv'. This dataset contain 127
 | Tip_amount |	Tip amount – This field is automatically populated for credit card tips.Cash tips are not included. |
 | Tolls_amount |	Total amount of all tolls paid in trip. |
 | Total_amount |	The total amount charged to passengers. Does not include cash tips. |
-
-Technique:
-- Polars
-- Koalas
-- Datatable
+<br>
