@@ -38,8 +38,15 @@ This project aims to investigate the Air Flight in 2022. The dataset consists of
     <th>Reason</th>
   </tr>
   <tr>
-    <th>Pandas<br><img src='https://user-images.githubusercontent.com/120556342/215506067-3b45c1fd-e560-4532-a46c-9ef7c4c0bcce.png'></th>
-    <th>Description</th>
+    <td>Pandas<br><img src='https://user-images.githubusercontent.com/120556342/215506067-3b45c1fd-e560-4532-a46c-9ef7c4c0bcce.png'></td>
+    <td>
+      <ul>
+        <li>Pandas is the most straightforward and easy-to-library when working with structured data in-memory.</li>
+        <li>Has a large community and plenty of learning documentations. You will find it easy to learn new techniques & find solution to problems.</li>
+        <li>You will be provided with ample of convenient functions that will ease your journey in cleaning, transforming and aggregating data.</li>
+        <li>Great for prototyping and exploratory data analysis.</li>
+      </ul>  
+     </td>
   </tr>
   <tr>
     <th>Dask<br><img src='https://user-images.githubusercontent.com/120556342/215506695-0589400d-09cd-4fb3-9d8a-2bc6ee1e342f.png'></th>
