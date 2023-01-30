@@ -192,6 +192,89 @@ Modin is a library that speeds up data processing in Python, especially for Pand
 
 <p>In 2015-2016, the top airline with the most flights was Southwest Airlines (2522917 flights). The day with the highest rate of delayed flights was January 4th, 2015. The longest and shortest delay time was 2214 minutes and 1 minute, respectively. Spirit Airlines had the highest percentage of delayed flights, while Virgin America had the highest average traveled distance and Envoy Air had the least.</p>
 
+<h2> Running Time for Data Cleaning </h2>
+
+<table>
+  <tr>
+    <th>Library</th>
+    <th>Operation</th>
+    <th>CPU Time (ms)</th>
+    <th>Wall Time (s)</th>
+  </tr>
+  <tr>
+    <td>Koalas</td>
+    <td>.replace</td>
+    <td>65.3</td>
+    <td>416</td>
+  </tr>
+  <tr>
+    <td>Modin</td>
+    <td>.replace</td>
+    <td>264</td>
+    <td>8.77</td>
+  </tr>
+  <tr>
+    <td>Pandas</td>
+    <td>.replace</td>
+    <td>6.71</td>
+    <td>6.9</td>
+  </tr>
+  <tr>
+    <td>Modin</td>
+    <td>remove NaN + sum missing values</td>
+    <td>511</td>
+    <td>26.5</td>
+  </tr>
+  <tr>
+    <td>Pandas</td>
+    <td>remove NaN + sum missing values</td>
+    <td>6.77</td>
+    <td>7.02</td>
+  </tr>
+  <tr>
+    <td>Koalas</td>
+    <td>remove NaN + sum missing values</td>
+    <td>1.06</td>
+    <td>1min 2s</td>
+  </tr>
+  <tr>
+    <td>Modin</td>
+    <td>.drop</td>
+    <td>3.87</td>
+    <td>8.19</td>
+  </tr>
+  <tr>
+    <td>Koalas</td>
+    <td>.drop</td>
+    <td>31.6</td>
+    <td>183</td>
+  </tr>
+  <tr>
+    <td>Pandas</td>
+    <td>.drop</td>
+    <td>796</td>
+    <td>809</td>
+  </tr>
+  <tr>
+    <td>Koalas</td>
+    <td>read CSV into DataFrame</td>
+    <td>537</td>
+    <td>1min 23s</td>
+  </tr>
+  <tr>
+    <td>Modin</td>
+    <td>read CSV into DataFrame</td>
+    <td>2.18</td>
+    <td>1min 12s</td>
+  </tr>
+  <tr>
+    <td>Pandas</td>
+    <td>read CSV into DataFrame</td>
+    <td>40.4</td>
+    <td>1min 23s</td>
+  </tr>
+</table>
+
 <h2>Conclusion</h2>
 
 <p>In conclusion, the performance of Pandas, Koalas, and Modin libraries varies depending on the specific operation being performed on the DataFrame. Based on the results, Modin had the best performance in terms of CPU time and wall time for operations like removing columns, whereas Koalas performed better for operations like replacing values in a column. However, Pandas had the longest CPU and wall times for all operations. It is recommended to evaluate the performance of each library for a specific use case to determine the most suitable option for a given situation.</p>
