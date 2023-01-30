@@ -108,5 +108,9 @@
   </tr>
       <tr>
     <th>FEN</th>
-    <th>FEN of the game</th>
+    <th>
+    FEN of the game
+    <br>
+    Forsyth-Edwards Notation, and it is the standard notation to describe positions of a chess game
+    </th>
   </tr>
