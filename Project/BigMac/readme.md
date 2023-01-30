@@ -54,7 +54,7 @@ The dataset from the Kaggle are seperated to different csv files based on year o
   </tr>
   <tr>
     <th>FL_DATE</th>
-    <th>Date of the flight, yy/mm/dd</th>
+    <th>Date of the flight</th>
   </tr>
     <tr>
     <th>OP_CARRIER</th>
