@@ -26,6 +26,7 @@
 </table>
 
 ## Introduction
+This dataset is a collection of games played on the online chess platform Lichess between the years of 2013 and 2014. The data includes information on player ratings, game outcomes, and moves made during the game. In this project, we want to study the game of chess and gain insights into factors that influence player performance and game outcome. Through exploratory data analysis, we can examine patterns in player ratings, identify popular openings, and investigate the relationship between game variables such as the number of moves made and game outcome. 
 
 ## Libraries
 1. Pandas
