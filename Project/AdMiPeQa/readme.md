@@ -133,3 +133,10 @@ This project aims to investigate the Air Flight in 2022. The dataset consists of
     <td>Day of Week</td>
   </tr>
 </table> 
+
+<h2>Conclusion</h2>
+In conclusion when performing the Exploratory Data Analysis (EDA), Dask is the fastest choice if you're working with large datasets. In comparison to Dask and Pandas, it is believed that Dask is 500% times faster than Pandas. Koalas are a good alternative to Pandas if you prefer their simplicity and use, but with a small performance penalty. In general, Dask is faster than Koalas as it operates directly on the data and does not have the overhead of the Pandas-like interface.<br><br>
+
+To put it in simpler words for the performance comparison between the libraries:
+
+> **Dask > Koalas > Pandas**
