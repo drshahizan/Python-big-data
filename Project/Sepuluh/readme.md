@@ -26,8 +26,8 @@
 
 In this project, we will carry out an analysis on the data of airline delay and cancellation using 3 different Python libraries, which are PySpark, Polars and Pandas. We aim to investigate and do comparison regarding the time completion of the three selected libraries on the similiar tasks. A short intoduction of each selected library will be shown as below. 
 
-![PySpark](https://static.javatpoint.com/tutorial/pyspark/images/pyspark.png)
-<br>
+<h2>PySpark</h2>
+<img src='https://static.javatpoint.com/tutorial/pyspark/images/pyspark.png' alt='PySpark'>
 PySpark is the Python API for Apache Spark, an open-source distributed data processing system designed for large-scale data processing. Some of the <b>key features</b> of PySpark are listed as below:
 <ul>
   <li>PySpark provides <b>real-time computation</b> on big data since it focuses on in-memory processing, and shows low latency. </li>
@@ -40,7 +40,7 @@ PySpark is the Python API for Apache Spark, an open-source distributed data proc
 
 </ul>
 
-<h3>Application of PySpark in real life</h3>
+<h4>Application of PySpark in real life</h4>
 <ul>
   <li><b>Entertainment Industry</b>
     <ul>
@@ -64,24 +64,15 @@ PySpark is the Python API for Apache Spark, an open-source distributed data proc
   
 </ul>
 
-<h3>Install PySpark</h3>
+<h4>Install PySpark</h4>
 <code>!pip install pyspark</code>
 <br>
 
+<h2>Polars</h2>
 <img src='https://raw.githubusercontent.com/pola-rs/polars-static/master/web/polars-logo-python.svg' height=200px width=200px alt='Polars'>
-PySpark is the Python API for Apache Spark, an open-source distributed data processing system designed for large-scale data processing. Some of the <b>key features</b> of PySpark are listed as below:
-<ul>
-  <li>PySpark provides <b>real-time computation</b> on big data since it focuses on in-memory processing, and shows low latency. </li>
+Polars is a Python library for creating interactive plots and charts using the Plotly library. It is built on top of Plotly, which means that it inherits the functionality and features of Plotly, but provides a simpler and more convenient API for creating plots and charts. Polars is particularly useful for creating polar plots and radar charts, which are not natively supported by Plotly. With Polars, we can easily create interactive plots and charts with a few lines of code, and customize them with a wide range of options.
 
-  <li>PySpark framework is able to <b>support multiple languages</b> such as Scala, Java, Python, and R, hence making it compatible in handling various kinds of huge datasets. </li>
-
-  <li>PySpark has <b>powerful caching and disk constancy.</b></li>
-
-  <li>PySpark can achieve <b>high data processing speed</b>, which is around 100 times faster in memory and 10 times faster on the disk. </li>
-
-</ul>
-
-<h3>Application of Polars in real life</h3>
+<h4>Application of Polars in real life</h4>
 <ul>
   <li><b>Entertainment Industry</b>
     <ul>
@@ -105,9 +96,41 @@ PySpark is the Python API for Apache Spark, an open-source distributed data proc
   
 </ul>
 
-<h3>Install Polars</h3>
+<h4>Install Polars</h4>
 <code>!pip install polars</code>
+<br>
 
+<h2>Pandas</h2>
+<img src='https://miro.medium.com/max/640/1*0qpVZw5qKncoFBYJf4DlpA.webp' alt='Pandas'>
+Pandas is an open-source data analysis and data manipulation library for Python. It provides fast, flexible and expressive data structures, designed to make working with structured data in "human-friendly" way. Pandas makes it easy to handle missing data, aggregate and manipulate data, create new variables, and visualize data using plots and graphs. With its simple yet powerful APIs, Pandas has become a popular tool for data analysis and manipulation for both academia and industry.
+
+<h4>Application of Pandas in real life</h4>
+<ul>
+  <li><b>Entertainment Industry</b>
+    <ul>
+      <li>Netflix company used PySpark for real-time processing of personalized movies or web series to its customers.</li>
+      <li>It processes approximately 450 billion events per day. </li>
+    </ul>
+  </li>
+  
+  <li><b>Commercial Sector</b>
+    <ul>
+      <li>Bank and other financial sectors use PySpark in obtaining and analysing their customers' social media to get useful information which aid in decision making for credit risk assessment, targeted ad and customer segmentation. </li>
+      <li>Here, Spark is important in Fraud Detection. </li>
+    </ul>
+  </li>
+  
+  <li><b>Healthcare</b>
+    <ul>
+      <li>PySpark is used to analyse the patients' records and previous medical reports to predict possible health issues in future. </li>
+    </ul>
+  </li>
+  
+</ul>
+
+<h4>Import Pandas</h4>
+<code>import pandas as pd</code>
+<br>
 
 <h1>Content</h1>
 <b>Dataset: Airline Delay and Cancellation Data 2017 - 2018</b><br><br>
