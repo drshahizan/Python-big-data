@@ -62,8 +62,10 @@ PySpark is the Python API for Apache Spark, an open-source distributed data proc
   
 </ul>
 
-<h1>Install PySpark</h1>
+<h3>Install PySpark</h3>
 <code>!pip install pyspark</code>
+
+
 
 
 <h1>Content</h1>
