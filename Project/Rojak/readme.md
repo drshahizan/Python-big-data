@@ -111,6 +111,8 @@
     <th>
     FEN of the game
     <br>
-    Forsyth-Edwards Notation, and it is the standard notation to describe positions of a chess game
+    * stands for Forsyth-Edwards Notation 
+    <br>
+    *it is the standard notation to describe positions of a chess game
     </th>
   </tr>
