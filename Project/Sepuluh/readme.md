@@ -108,7 +108,6 @@ There are two datasets obtained from kaggle which included in this project, this
 **************************************************************************************************************************
 
 <h1> Asking and Answering Questions </h1>
-<br>
 <h4> Question 1: What is the percentage of flights that were delayed? </h4>
 From the 3 libraries that we're using, all three library have almost the same percentage of flights that were delayed which only Polars have lesser decimal value. Below here is the summary of library with their percentage of flights that were delayed and the wall time.
 <br>
