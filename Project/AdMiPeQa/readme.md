@@ -32,9 +32,9 @@
 This project aims to investigate the Air Flight in 2022. The dataset consists of 61 columns and 4078318 rows. It is considered as big data and occupies 1.42GB of memory. The dataset is obtained from Kaggle which contains many kinds of dataset ranging from agriculture to education. We have selected this dataset because we like to analyze the flight status. We will perform a series of steps like data processing, data cleaning and visualization on this dataset. Google Colab will be used in this project. Other than that, there will be three libraries related to big data processing which are Pandas, Dask and Koalas being used in this project. At the end, we will compare the processing results from these libraries.
 
 <h2>Libraries</h2>
-1. Pandas
-2. Dask
-3. Koalas
+<h4>1. Pandas</h4>
+<h4>2. Dask</h4>
+<h4>3. Koalas</h4>
 
 <h2>Dataset</h2>
 <a href="https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022?select=Combined_Flights_2022.csv">Kaggle: Air Flight Dataset</a><br>
