@@ -205,11 +205,6 @@ From the above wall time comparison, we can know that Polars have least wall tim
 <br>
 <br>
 <h4> Question 4: What is the relationship between time delay on departure and time delay on arrival? </h4>
-As we can see from here, Pandas has the least wall time which is 743ms compare with Polars and Pyspark. Pyspark has the longest wall time which is 3min 19s which is way more higher than Polars and Pandas. And lastly for Polars have the least decimal value for the percentage of flights that were delayed which is 34.599245%. We can conclude that Pandas is a better library to search for percentage as this library have the least wall time with more decimal points.
-
-<br>
-<br>
-<h4> Question 2: Which airport had the highest amount of flight time delayed? </h4>
 ***
 <br>
 <br>
