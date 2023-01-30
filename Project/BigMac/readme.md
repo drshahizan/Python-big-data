@@ -178,4 +178,4 @@ The dataset from the Kaggle are seperated to different csv files based on year o
 
 ---
 # Conclusion
-After performing EDA on the dataset, we can say that PySpark was the fastest followed by Vaex. 
+After performing EDA on the dataset, we can say that PySpark was the fastest followed by Vaex. Vaex provides fast data exploration and is often faster than Pandas, but it may not be as fast as PySpark for large datasets. For visualisation, PySpark does not have any visualisation libraries and Vaex has limited visualisation functions. When visualising with Vaex and Pyspark, we had to convert it to a pandas dataframe and use the pandas library to plot graphs. Several open source tools exist to aid visualization in Python such as matplotlib, Seaborn, Bokeh etc. However, none of these visualization tools can be used directly with PySpark's and Vaex's DataFrames. In conclusion, the fastest option will depend on the specific use case and dataset, but PySpark is generally the fastest due to its native optimized implementation for Spark.
