@@ -107,9 +107,7 @@ There are two datasets obtained from kaggle which included in this project, this
 
 **************************************************************************************************************************
 
-<h3> Asking and Answering Questions </h3>
-<br>
-<br>
+<h1> Asking and Answering Questions </h1>
 > - Ask at least 5 interesting questions about your dataset
 > <br>
 > - Answer the questions either by computing the results using Numpy/Pandas or by plotting graphs using Matplotlib/Seaborn
@@ -121,8 +119,8 @@ There are two datasets obtained from kaggle which included in this project, this
 <br>
 <br>
 <h4> Question 1: What is the percentage of flights that were delayed? </h4>
-<br>
 From the 3 libraries that we're using, all three library have almost the same percentage of flights that were delayed which only Polars have lesser decimal value. Below here is the summary of library with their percentage of flights that were delayed and the wall time.
+<br>
 <br>
 <table border="solid">
   <tr>
@@ -146,47 +144,98 @@ From the 3 libraries that we're using, all three library have almost the same pe
     <td>743 ms</td>
   </tr>
 </table>
-<br>
-As we can see from here, Pandas has the least wall time which is 743ms compare with Polars and Pyspark. Pyspark has the longest wall time which is 3min 19s which is way more higher than Polars and Pandas. And lastly for Polars have the least decimal value for the percentage of flights that were delayed which is 34.599245%.
+As we can see from here, Pandas has the least wall time which is 743ms compare with Polars and Pyspark. Pyspark has the longest wall time which is 3min 19s which is way more higher than Polars and Pandas. And lastly for Polars have the least decimal value for the percentage of flights that were delayed which is 34.599245%. We can conclude that Pandas is a better library to search for percentage as this library have the least wall time with more decimal points.
 
 <br>
 <br>
 <h4> Question 2: Which airport had the highest amount of flight time delayed? </h4>
+From the libraries that we're using, all three library have almost the same value of highest amount amount of flight time delayed with different format. The table below shows the summary of the highest amount of flight time delayed and the wall time.
 <br>
-
+<br>
+<table border="solid">
+  <tr>
+    <th>Library</th>
+    <th>Highest Amount of Flight Time Delayed</th>
+    <th>Wall time</th>
+  </tr>
+  <tr>
+    <td>Pyspark</td>
+    <td>7308866</td>
+    <td>2min 3s</td>
+  </tr>
+  <tr>
+    <td>Polars</td>
+    <td>7.308866e6</td>
+    <td>271 ms</td>
+  </tr>
+  <tr>
+    <td>Pandas</td>
+    <td>7308866.0</td>
+    <td>827 ms</td>
+  </tr>
+</table>
+From the above table, we can know that all three library have the same number. Just the wall time is different which the Polars have the least wall time among these 3 libraries which is 271 ms. While for the longest wall time still remain with Pyspark which is 2min 3s. In a nutshell, we can conclude that Pandas is a better library to use although the wall time used is longer than Polars but the Polars ibrary is using the exponential value while Pandas is using normal base 10 number without using any exponential which help us understand the value faster.
 
 <br>
 <br>
 <h4> Question 3: Which month had the most number of flight delays? </h4>
+From the analysis and visualisation, all three lirary have the same chart/ visualisation. The only difference is the wall time for each and every library
 <br>
-
+<br>
 <table border="solid">
   <tr>
     <th>Library</th>
-    <th>Total of delayed most flights (%)</th>
-    <th>Month</th>
+    <th>Wall time</th>
   </tr>
   <tr>
     <td>Pyspark</td>
-    <td>40000></td>
-    <td>07</td>
+    <td>1min 17s</td>
   </tr>
   <tr>
     <td>Polars</td>
-    <td>40000></td>
-    <td>07</td>
+    <td>2.86 s</td>
   </tr>
   <tr>
     <td>Pandas</td>
-    <td>40000></td>
-    <td>07</td>
+    <td>1min 3s</td>
   </tr>
 </table>
+From the above wall time comparison, we can know that Polars have least wall time among three libraries while again Pyspark used the most wall time out of three library. In conclusion, Polars is a better library to run a visualisation compare with other two libraries.
 
 <br>
 <br>
 <h4> Question 4: What is the relationship between time delay on departure and time delay on arrival? </h4>
+As we can see from here, Pandas has the least wall time which is 743ms compare with Polars and Pyspark. Pyspark has the longest wall time which is 3min 19s which is way more higher than Polars and Pandas. And lastly for Polars have the least decimal value for the percentage of flights that were delayed which is 34.599245%. We can conclude that Pandas is a better library to search for percentage as this library have the least wall time with more decimal points.
+
 <br>
+<br>
+<h4> Question 2: Which airport had the highest amount of flight time delayed? </h4>
+***
+<br>
+<br>
+<table border="solid">
+  <tr>
+    <th>Library</th>
+    <th>Highest Amount of Flight Time Delayed</th>
+    <th>Wall time</th>
+  </tr>
+  <tr>
+    <td>Pyspark</td>
+    <td>7308866</td>
+    <td>2min 3s</td>
+  </tr>
+  <tr>
+    <td>Polars</td>
+    <td>7.308866e6</td>
+    <td>271 ms</td>
+  </tr>
+  <tr>
+    <td>Pandas</td>
+    <td>7308866.0</td>
+    <td>827 ms</td>
+  </tr>
+</table>
+***
 
 <br>
 <br>
