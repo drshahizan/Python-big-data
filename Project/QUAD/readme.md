@@ -27,6 +27,7 @@ In this dataset, we have collected the data for 4 months particularly:
 - Jan 2016: 1.71 GB
 - Feb 2016: 1.78 GB
 - Mar 2016: 1.91 GB
+
 <br>However, in this notebook only data collected on January 2015 will be used.
 
 In this notebook, we use 'yellow_tripdata_2015-01.csv'. This dataset contain 12748986 records and 19 columns. The variables are:
