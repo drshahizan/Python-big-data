@@ -49,12 +49,25 @@ This project aims to investigate the Air Flight in 2022. The dataset consists of
      </td>
   </tr>
   <tr>
-    <th>Dask<br><img src='https://user-images.githubusercontent.com/120556342/215506695-0589400d-09cd-4fb3-9d8a-2bc6ee1e342f.png'></th>
-    <td>Flight Date (yyyymmdd)</td>
+    <td>Dask<br><img src='https://user-images.githubusercontent.com/120556342/215506695-0589400d-09cd-4fb3-9d8a-2bc6ee1e342f.png'></td>
+    <td>
+      <ul>
+        <li>Designed specifically for handling big datasets that can't fit into memory.</li>
+        <li>Equipped with parallel processing capabilities, makes it faster than Pandas for large datasets.</li>
+        <li>Good for use in distributed computing environments such as cloud computing.</li>
+        <li>Suitable for use in high-performance and scientific computing.</li>
+      </ul>  
+     </td>
   </tr>
     <tr>
-    <th>Koalas<br><img src='https://user-images.githubusercontent.com/120556342/215507119-4e958236-1d0a-452d-bbe9-5d298eddf049.png'></th>
-    <td>Name of Airline</td>
+    <td>Koalas<br><img src='https://user-images.githubusercontent.com/120556342/215507119-4e958236-1d0a-452d-bbe9-5d298eddf049.png'></td>
+    <td>
+      <ul>
+        <li>Provides a Pandas-like interface to work with big datasets.</li>
+        <li>Combines the simplicity and ease of use of Pandas with the performance of Dask.</li>
+        <li>Good for use in a distributed computing environment, but with less complexity than using Dask directly.</li>
+      </ul>  
+     </td>
   </tr>
 </table>
 
