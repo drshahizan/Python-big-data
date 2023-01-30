@@ -46,90 +46,90 @@ This project aims to investigate the Air Flight in 2022. The dataset consists of
   </tr>
   <tr>
     <th>FlightDate</th>
-    <th>Flight Date (yyyymmdd)</th>
+    <td>Flight Date (yyyymmdd)</td>
   </tr>
     <tr>
     <th>Airline</th>
-    <th>Name of Airline</th>
+    <td>Name of Airline</td>
   </tr>
     <tr>
     <th>OP_CARRIER_FL_NUM</th>
-    <th>Flight Number</th>
+    <td>Flight Number</td>
   </tr>
     <tr>
     <th>Origin</th>
-    <th>Origin Airport</th>
+    <td>Origin Airport</td>
   </tr>
     <tr>
     <th>Dest</th>
-    <th>Destination Airport</th>
+    <td>Destination Airport</td>
   </tr>
     <tr>
     <th>Cancelled</th>
-    <th>Cancelled Flight Indicator (1=Yes)</th>
+    <td>Cancelled Flight Indicator (1=Yes)</td>
   </tr>
     <tr>
     <th>Diverted</th>
-    <th>Diverted Flight Indicator (1=Yes)</th>
+    <td>Diverted Flight Indicator (1=Yes)</td>
   </tr>
     <tr>
     <th>CRSDepTime</th>
-    <th>CRS Departure Time (local time: hhmm)</th>
+    <td>CRS Departure Time (local time: hhmm)</td>
   </tr>
     <tr>
     <th>DepTime</th>
-    <th>Actual Departure Time (local time: hhmm)</th>
+    <td>Actual Departure Time (local time: hhmm)</td>
   </tr>
     <tr>
     <th>DepDelayMinutes</th>
-    <th>Difference in minutes between scheduled and actual departure time. Early departures set to 0.</th>
+    <td>Difference in minutes between scheduled and actual departure time. Early departures set to 0.</td>
   </tr>
     <tr>
     <th>DepDelay</th>
-    <th>Difference in minutes between scheduled and actual departure time. Early departures show negative numbers.</th>
+    <td>Difference in minutes between scheduled and actual departure time. Early departures show negative numbers.</td>
   </tr>
     <tr>
     <th>ArrTime</th>
-    <th> Actual Arrival Time (local time: hhmm)</th>
+    <td> Actual Arrival Time (local time: hhmm)</td>
   </tr>
     <tr>
     <th>ArrDelayMinutes</th>
-    <th>Difference in minutes between scheduled and actual arrival time. Early arrivals set to 0.</th>
+    <td>Difference in minutes between scheduled and actual arrival time. Early arrivals set to 0.</td>
   </tr>
     <tr>
     <th>AirTime</th>
-    <th>Flight Time, in Minutes</th>
+    <td>Flight Time, in Minutes</td>
   </tr>
     <tr>
     <th>CRSElapsedTime</th>
-    <th>CRS Elapsed Time of Flight, in Minutes</th>
+    <td>CRS Elapsed Time of Flight, in Minutes</td>
   </tr>
     <tr>
     <th>ActualElapsedTime</th>
-    <th>Elapsed Time of Flight, in Minutes</th>
+    <td>Elapsed Time of Flight, in Minutes</td>
   </tr>
     <tr>
     <th>Distance</th>
-    <th>Distance between airports (miles)</th>
+    <td>Distance between airports (miles)</td>
   </tr>
     <tr>
     <th>Year</th>
-    <th>Year</th>
+    <td>Year</td>
   </tr>
     <tr>
     <th>Quarter</th>
-    <th>Quarter (1-4)</th>
+    <td>Quarter (1-4)</td>
   </tr>
     <tr>
     <th>Month</th>
-    <th>Month</th>
+    <td>Month</td>
   </tr>
     <tr>
     <th>DayofMonth</th>
-    <th>Day of Month</th>
+    <td>Day of Month</td>
   </tr>
     <tr>
     <th>DayOfWeek</th>
-    <th>Day of Week</th>
+    <td>Day of Week</td>
   </tr>
 </table> 
