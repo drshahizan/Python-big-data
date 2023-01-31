@@ -140,9 +140,12 @@ The dataset above that we had chosen is data from all rated games played in Lich
 | Plot Distribution Graph | 1.86 | 23.2 | 0.503 |
 | Get max of Elo rating | 0.115 | 22.4 | 29.8 |
 | Get min of Elo rating | 0.292 | 11.4 | 27.2 |
-| Find data correlation | 5.03 | 18.4 | 125.0 |
+| Find data correlation | 5.03 | 18.4 | 999.0 |
 | Solving Question 1 | 8.34e-6 |  |  |
 | Solving Question 2 | 0.0516 | 16.8 | 1.5 |
 | Solving Question 3 | 4.69 | 16.5 | 0.374 |
 | Solving Question 4 |  |  |  |
 | Solving Question 5 | 0.0712 |  | 0.485 |
+
+  ## Conclusion
+To summarize, Pandas is the fastest option when we're perform Exploratory Data Analysis (EDA) with this dataset. than Koalas in general.
