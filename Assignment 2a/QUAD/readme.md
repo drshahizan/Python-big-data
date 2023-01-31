@@ -59,3 +59,12 @@ In this notebook, we use 'yellow_tripdata_2015-01.csv'. This dataset contain 127
 | Tip_amount |	Tip amount – This field is automatically populated for credit card tips.Cash tips are not included. |
 | Tolls_amount |	Total amount of all tolls paid in trip. |
 | Total_amount |	The total amount charged to passengers. Does not include cash tips. |
+
+<br>
+Tools ⚙
+
+- Google Collab
+- Github
+
+# Conclusion
+- To conclude, we can observe that Polars is a very quick EDA project creator to conduct a lot of data processing on huge datasets or big data.
