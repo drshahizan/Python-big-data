@@ -34,7 +34,7 @@ Be immediately productive with Spark, with no learning curve, if you are already
 Have a single codebase that works both with pandas (tests, smaller datasets) and with Spark (distributed datasets).
 </p> 
 
-#### Comparison between koalas vs pandas:
+## Comparison between koalas vs pandas:
 | Methods | Koalas | Pandas |
 | --- | --- | --- |
 | **Read csv**| 1min 40s | 49.1s  |
@@ -48,5 +48,7 @@ Have a single codebase that works both with pandas (tests, smaller datasets) and
 | **fillNa** | 1.48 s | 4.64 s |
 | **dropNa** | 885 ms |  3.76 s |
 
-#### Conclusion
+![comparison](https://user-images.githubusercontent.com/69034742/215643655-80d66e4b-27ab-47a0-99c8-c9c3da24ec8e.png)
+
+## Conclusion
 Pandas is more optimized for performance for most use cases compared to koalas. Pandas is 2.03x faster than Koalas in reading a dataset. Koalas only performs better than Pandas in Aggregating(2.28x faster) and Grouping(4.03x faster). 
