@@ -129,8 +129,22 @@ The dataset above that we had chosen is data from all rated games played in Lich
   
   ## Summary
   
- Comparisons of the three libraries' performance in completing tasks.
+ Wall time comparisons in seconds of the three libraries' performance in completing tasks.
   
-| Pandas | Vaex | Koalas | Time Taken (Wall Time) |
-| ----- | ----- | ------ | ------ |
-| Pandas | Vaex | Koalas | 10|
+| Task | Pandas | Vaex | Koalas |
+| ---- | ------ | ---- | ------ |
+| Read data | 59.9 | 6.16 | 62.0 |
+| View data | 0.000504 | 0.00482 | 0.475 |
+| Handle missing data | 0.0805 | - | 48.4 |
+| Drop columns | 1.38 | 0.00123 | 0.247 |
+| Sort data | 4.59 | 11.7 | 0.471 |
+| Compute Mean | 0.0467 | 19.6 | 26.5 |
+| Plot Distribution Graph | 1.39 | - | 60.0 |
+| Get max of Elo rating | 0.115 | 22.4 | 29.8 |
+| Get min of Elo rating data | 0.292 | 11.4 | 27.2 |
+| Find data correlation | - | 9.5 | 125.0 |
+| Solving Question 1 | 8.34e-6 |  |  |
+| Solving Question 2 | 0.0516 | 16.8 | 1.5 |
+| Solving Question 3 | 4.69 | 16.5 | 0.374 |
+| Solving Question 4 |  |  |  |
+| Solving Question 5 | 0.0906 |  |  |
