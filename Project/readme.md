@@ -25,7 +25,6 @@ Don't forget to hit the :star: if you like this repo.
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
 | AdMiPeQa | Pandas | Dask | Koalas | Air Flight Analysis | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/AdMiPeQa) |
 | BigMac | Vaex | Koalas | PySpark | Airline Delay and Cancellation Data 2016 - 2018| [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/BigMac) |
-| Fantom | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
 | KIA | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
 | No Name | Pandas | PySpark | Koalas | Amazon Book Review | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/No%20Name) |
 | Phantom Crew | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
