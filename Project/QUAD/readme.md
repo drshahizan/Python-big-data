@@ -53,7 +53,9 @@ In this notebook, we use 'yellow_tripdata_2015-01.csv'. This dataset contain 127
 | Tip_amount |	Tip amount – This field is automatically populated for credit card tips.Cash tips are not included. |
 | Tolls_amount |	Total amount of all tolls paid in trip. |
 | Total_amount |	The total amount charged to passengers. Does not include cash tips. |
+
 <br>
+
 **Findings in this Notebook :**
 Based on the analysis of the performance of three libraries for big data processing, it can be concluded that datatable is the fastest in terms of execution time, but it has a steep learning curve. Polar is a close second in terms of execution time and is easier to learn compared to datatable. Finally, Koalas, although slower in execution time, is easier to learn than datatable. Based on these results, the choice of library would depend on the trade-off between processing time and ease of learning.
 <br>
