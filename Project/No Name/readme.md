@@ -48,4 +48,28 @@ This dataset contains 3000000 records and 10 columns which are:
 | review/score | Rating from 0 to 5 for the book |  
 | review/time | Time of given the review |  
 | review/summary | The summary of a text review |  
-| review/text | The full text of a review |  
+| review/text | The full text of a review |
+
+### Data Cleaning
+- Get information of dataframe
+- Get shape
+- Drop columns
+- Drop null rows
+- Drop duplicated rows
+- Change data type
+
+### Exploratory Data Analysis
+- describe()
+- Box plot
+- Distribution of Review
+- Top 5 Books with 1 star Review
+- Percentage of Books with Over 100 Reviews
+- Helpfulness of Review Graph
+
+### Question & Answer
+- Question 1: Top 5 user gave the most number of review
+- Question 2: Does users who gave reviews are helpful, in general?
+- Question 3: Top 10 books which have the most number of reviews
+- Question 4: Most frequent word in 5 rated review summary
+- Question 5: How many books which users consider as a great book ?
+- Question 6: Which 10 books have the highest average review score?
