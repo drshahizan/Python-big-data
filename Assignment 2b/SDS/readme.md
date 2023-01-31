@@ -35,18 +35,18 @@ Have a single codebase that works both with pandas (tests, smaller datasets) and
 </p> 
 
 #### Comparison between koalas vs pandas:
-| Koalas | Pandas |
-| --- | --- |
-| **Reading Dataset** - 1min 40s |   **Reading Dataset** - 49.1s  |
-| **Display Top 5 Records** - 263ms | **Display Top 5 Records** - 395 µs |
-| **Display Bottom 5 Records** - 2min 7s | **Display Bottom 5 Records** - 231 µs |
-| **Describe Dataset** - 5min 10s |  **Describe Dataset** - 21.2s |
-| **Sum Operation** - 24.3 s |  **Sum Operation** - 36.3 ms |
-| **Aggregate** - 1.73 s |  **Aggregate** - 3.95 s |
-| **Grouping** - 955 ms |  **Grouping** - 3.85 s |
-| **isNull** - 1min 7s |  **isNull** - 2.46 s |
-| **fillNa** - 1.48 s |  **fillNa** - 4.64 s |
-| **dropNa** - 885 ms |  **dropNa** - 3.76 s |
+| Methods | Koalas | Pandas |
+| --- | --- | --- |
+| **Read csv**| 1min 40s | 49.1s  |
+| **Head** | 263ms | 395 µs |
+| **Tail** | 2min 7s | 231 µs |
+| **Describe Dataset** | 5min 10s |  21.2s |
+| **Sum Operation** | 24.3 s |  36.3 ms |
+| **Aggregate** | 1.73 s |  3.95 s |
+| **Grouping** | 955 ms |  3.85 s |
+| **isNull** | 1min 7s |  2.46 s |
+| **fillNa** | 1.48 s | 4.64 s |
+| **dropNa** | 885 ms |  3.76 s |
 
 #### Conclusion
 Pandas is more optimized for performance for most use cases compared to koalas. Pandas is 2.03x faster than Koalas in reading a dataset. Koalas only performs better than Pandas in Aggregating(2.28x faster) and Grouping(4.03x faster). 
