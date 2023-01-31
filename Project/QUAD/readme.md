@@ -54,3 +54,9 @@ In this notebook, we use 'yellow_tripdata_2015-01.csv'. This dataset contain 127
 | Tolls_amount |	Total amount of all tolls paid in trip. |
 | Total_amount |	The total amount charged to passengers. Does not include cash tips. |
 <br>
+**Findings in this Notebook :**
+Based on the analysis of the performance of three libraries for big data processing, it can be concluded that datatable is the fastest in terms of execution time, but it has a steep learning curve. Polar is a close second in terms of execution time and is easier to learn compared to datatable. Finally, Koalas, although slower in execution time, is easier to learn than datatable. Based on these results, the choice of library would depend on the trade-off between processing time and ease of learning.
+<br>
+Based on our opinion, we think polars and koalas has a really good site that documented their own individual functions and methods. This really helps lower their learning curve and make the whole process so much easier. However, when it comes to Datatable, it is quite the opposite. A huge reason to why we took so long learning datatable is because their documentation was not easily understandable compared to its peers.
+<br>
+All things said, with our experience using pandas, we think that polars is the best library among these libraries as it has the sweet spot between learning curve and good processing time.
