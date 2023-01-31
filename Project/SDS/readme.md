@@ -111,3 +111,7 @@ The graph above show the time taken in seconds for the three libraries to run th
 ---
 
 # **Conclusion**
+
+> From all the books from Amazon that have been reviewed, we can conclude that **Fiction** category has the highest amount of books followed by **Juvenile Fiction**. Meanwhile for publishers, the publisher that published the most amount of books is **Penguin** followed by **Simon and Schuster**. Other than that we discover that the authors that has written the highest amount of books is **J.R.R. Tolkien** followed by **Jane Austen** and from this we also find out  the most frequent words used in review for positive rated(rating>3.0) books is **"book"**.
+
+> Throughout this case study project where we investigate which library is the most effiecient among the 3 libraries, Pandas, Polars and Koalas, **Polars** turns out to be the library that has the highest efficiency compared to other 2 libraries. 
