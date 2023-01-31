@@ -148,7 +148,7 @@ The dataset above that we had chosen is data from all rated games played in Lich
 | Solving Question 5 | 0.0712 |  | 0.485 |
 
   ## Conclusion
-   To summarize, Vaex is the fastest option when we prepare and clean the data. However, it is quite worst in Sort the data.
+   To summarize, **Vaex** is the fastest option when we prepare and clean the data. However, it is quite worst in sort the data.
 <br>
 <br>
    While, when we're perform Exploratory Data Analysis (EDA) with this dataset, Pandas is the fastest option rather than using Vaex and Koalas.
