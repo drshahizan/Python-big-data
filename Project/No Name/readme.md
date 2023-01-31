@@ -73,3 +73,14 @@ This dataset contains 3000000 records and 10 columns which are:
 - Question 4: Most frequent word in 5 rated review summary
 - Question 5: How many books which users consider as a great book ?
 - Question 6: Which 10 books have the highest average review score?
+
+## Summary
+The Koalas project makes data scientists more productive when interacting with big data, by implementing the Pandas DataFrame API on top of Apache Spark. Pandas is the de facto standard (single-node) DataFrame implementation in Python, while Spark is the de facto standard for big data processing.
+
+However, in this project we did not get the chance to experience how fast Koalas and PySpark can be compared to Pandas using Google Colab. According to our [readings] (https://stackoverflow.com/questions/49360888/google-colab-is-very-slow-compared-to-my-pc), these are the tips and tricks which we overlooked that may be used to accelerate your processing time using Google Colab:-
+
+- It can be very slow when we are reading data from Google Drive. Try to upload zip file to Colab and unzip there.
+- Or you can try upload Kaggle API json file to Google Colab. Can refer [here](https://saedhussain.medium.com/google-colaboratory-and-kaggle-datasets-b57a83eb6ef8#:%7E:text=Step%203%3A%20Upload%20Kaggle%20API%20json%20file%20to%20Google%20Colab&text=PS%3A%20You%20could%20use%20this,the%20files%20in%20the%20directory.). 
+- Make sure GPU is enabled by going to Runtime -> Change runtime type, and choosing GPU as your Hardware accelerator.
+- Mount the drive in Colab and then unzip the dataset file 'in' a separate folder(other than ../drive) in Colab itself.
+- Load your data as numpy array (.npy format) and use flow method instead of flow_from_directory
