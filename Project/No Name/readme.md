@@ -50,6 +50,11 @@ This dataset contains 3000000 records and 10 columns which are:
 | review/summary | The summary of a text review |  
 | review/text | The full text of a review |
 
+### Comparing Three Libraries
+- Pandas
+- PySpark
+- Koalas
+
 ### Data Cleaning
 - Get information of dataframe
 - Get shape
