@@ -38,7 +38,7 @@ This project will be analysed by using 3 different libraries which are **Pandas,
 
 ---
 # **About Dataset**
----
+
 The dataset was obtained from Kaggle titled Amazon Book Reviews from https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews .This dataset contain the feedback about 3M user on 212404 unique books. It contains product reviews and metadata from Amazon, including 142.8 million reviews spanning May 1996 - July 2014 and this file has these attributes.
 
 <table align="center">
@@ -87,5 +87,27 @@ The dataset was obtained from Kaggle titled Amazon Book Reviews from https://www
     <th>Full text review</th>
   </tr>
 </table>
+
+---
+
+# **Pandas vs Polars vs Koalas**
+
+- Perhaps the major difference of Polars from Pandas and Koalas is that **Polars does not have an index**. Polars also allow creating or assigning multiple columns in one statement using `with_columns` method.
+
+- Pandas and Koalas use the same function since Koalas implements the Pandas API on top of Apache Spark. Whereas, Polars has some common function and similar function but different name.
+
+- In term of visualization, Pandas dataframe has a `plot()` method which return a **matplotlib** graph while Koalas `plot()` returns **plotly** graph by default. Polars on the other hand does not provide such method.
+
+![performance-comparison](https://user-images.githubusercontent.com/69034742/215641725-23b0ed2d-d79e-47c2-88d0-9a5b3b3d4a5a.png)
+
+The graph above show the time taken in seconds for the three libraries to run the functions. From the graph, it can be seen that:
+
+- **Pandas** is the fastest in **head** and **sample** while it is the slowest in selecting columns, dropping duplicates and dropping nulls.
+
+- **Polars** is the fastest in **read csv, info, shape, select columns** and **count null** but relatively slower in joining dataframe.
+
+- **Koalas** is the fastest in **joining dataframe, dropping duplicates** and **dropping nulls** but extremely slow in head, info, shape and count nulls compared to Pandas and Polars.
+
+---
 
 # **Conclusion**
