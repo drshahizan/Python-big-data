@@ -129,6 +129,8 @@ The dataset above that we had chosen is data from all rated games played in Lich
   
   ## Summary
   
+ Comparisons of the three libraries' performance in completing tasks.
+  
 | Pandas | Vaex | Koalas | Time Taken (Wall Time) |
 | ----- | ----- | ------ | ------ |
 | Pandas | Vaex | Koalas | 10|
