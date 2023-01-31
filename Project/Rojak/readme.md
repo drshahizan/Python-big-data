@@ -148,4 +148,4 @@ The dataset above that we had chosen is data from all rated games played in Lich
 | Solving Question 5 | 0.0712 |  | 0.485 |
 
   ## Conclusion
-To summarize, Pandas is the fastest option when we're perform Exploratory Data Analysis (EDA) with this dataset. than Koalas in general.
+To summarize, Pandas is the fastest option when we're perform Exploratory Data Analysis (EDA) with this dataset than Vaex and Koalas in general.
