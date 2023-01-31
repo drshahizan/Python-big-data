@@ -62,6 +62,8 @@ In this notebook, we use 'yellow_tripdata_2015-01.csv'. This dataset contain 127
 | Tolls_amount |	Total amount of all tolls paid in trip. |
 | Total_amount |	The total amount charged to passengers. Does not include cash tips. |
 
+<br>
+
 **Findings in this Notebook :**
 In short polars did do great in terms of execution times when put against its counterpart, pandas. In all categories, Basic, Aggregation, Attributes, and Manipulation operations polars was the decisive winner.<br>
 Most of this assignment was done using polars documentation on their built in functions and methods. The learning curve for this libary is not steep at all, as most of its functions are very straight forward and functionally named. Not to mention, making the transition from pandas to polars is really easy as the names and how it functions are almost similar.<br>
