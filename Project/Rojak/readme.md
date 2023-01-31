@@ -145,4 +145,4 @@ The dataset above that we had chosen is data from all rated games played in Lich
 | Solving Question 2 | 0.0516 | 16.8 | 1.5 |
 | Solving Question 3 | 4.69 | 16.5 | 0.374 |
 | Solving Question 4 |  |  |  |
-| Solving Question 5 | 0.0906 |  |  |
+| Solving Question 5 | 0.0712 |  | 0.485 |
