@@ -1,4 +1,72 @@
 
+# 🚀Newyork Yellow Taxi Trip Data 2016-03
+
+## The yellow taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. The data used in the attached datasets were collected and provided to the NYC Taxi and Limousine Commission (TLC) by technology providers authorized under the Taxicab & Livery Passenger Enhancement Programs (TPEP/LPEP).
+
+| Name | Matric Number |
+| ----- | ----- |
+| Nur Irdina Aliah Binti Abdul Wahab | A20EC0115|
+| NURFARRAHIN CHE ALIAS  |A20EC0121 |
+
+
+----
+| Columns | Description |
+| ----- | ----- |
+| Summons Number| Summons ID|
+| VendorID | A code indicating the TPEP provider that provided the record |
+| tpep_pickup_datetime| The date and time when the meter was engaged|
+| tpep_dropoff_datetime | The date and time when the meter was disengaged. |
+| Passenger_count |  The number of passengers in the vehicle.( This is a driver-entered value ) |
+| Trip_distancee | The elapsed trip distance in miles reported by the taximeter. |
+| PULocationID | T TLC Taxi Zone in which the taximeter was engaged |
+| DOLocationID | TLC Taxi Zone in which the taximeter was disengaged |
+| RateCodeID | The final rate code in effect at the end of the trip. |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------
+
+
 # About Us [![GitHub](https://img.shields.io/github/stars/drshahizan/Python-big-data?color=yellowgreen&logo=github)](https://img.shields.io/github/stars/drshahizan/Python-big-data?color=yellowgreen&logo=github)
 The information on this Github is part of the materials for the subject High Performance Data Processing (SECP3133). This folder contains general big data information as well as big data case studies using Malaysian datasets. This case study was created by a [Bachelor of Computer Science (Data Engineering)](https://comp.utm.my/bachelor-of-computer-science-data-engineering/), Universiti Teknologi Malaysia student.
 
