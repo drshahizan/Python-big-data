@@ -66,4 +66,6 @@ NYC Parking Ticket dataset that can be obtained from Kaggle is about parking tic
 | No Standing or Stopping Violation | Standing or stopping violation |
 | Hydrant Violation | Hydrant violation or not |
 | Double Parking Violation | Is it double parking violation |
-
+--
+ # **Inferences and Conclusion**
+ After conducting Exploratory Data Analysis (EDA) on the NYC parking ticket dataset using Dask, PySpark, and Koalas, it is clear that each library has its own strengths and weaknesses. Dask is a powerful library for parallel processing and is well-suited for large datasets, but it can be challenging to set up and can be less intuitive than other libraries. PySpark is widely used in the big data community and is known for its scalability and ability to handle large datasets, but it can be challenging to use and has a steep learning curve. Koalas, on the other hand, provides a familiar interface to users who are familiar with Pandas, and is relatively easy to use, but its performance may not be as robust as other libraries for larger datasets.
