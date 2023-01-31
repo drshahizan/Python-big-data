@@ -130,5 +130,5 @@ The dataset above that we had chosen is data from all rated games played in Lich
   ## Summary
   
 | Pandas | Vaex | Koalas | Time Taken (Wall Time) |
-| ----- | ----- | ------ | ------ |  ------ |
-| Pandas | Vaex | Koalas | |
+| ----- | ----- | ------ | ------ |
+| Pandas | Vaex | Koalas | 10|
