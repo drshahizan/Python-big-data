@@ -151,11 +151,11 @@ The dataset above that we had chosen is data from all rated games played in Lich
    To summarize, **Vaex** is the fastest option when we prepare and clean the data. However, it is quite worst in sort the data.
 <br>
 <br>
-   While, when we're perform Exploratory Data Analysis (EDA) with this dataset, Pandas is the fastest option rather than using Vaex and Koalas.
+   While, when we're perform Exploratory Data Analysis (EDA) with this dataset, **Pandas** is the fastest option rather than using Vaex and Koalas.
 <br>
 <br>
-   Most of the time during conducting the research questions, we prefer Koalas more as it is the fastest library.
+   Most of the time during conducting the research questions, we prefer **Koalas** more as it is the fastest library.
 <br>
 <br>
-   Therefore, for this dataset, we suggest to use Vaex for cleaning data, Pandas when performing EDA, and Koalas to do more complex task.
+   Therefore, for this dataset, we suggest to use **Vaex** for cleaning data, **Pandas** when performing EDA, and **Koalas** to do more complex task.
 <br>
