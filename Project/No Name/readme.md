@@ -89,3 +89,5 @@ However, in this project we did not get the chance to experience how fast Koalas
 - Make sure GPU is enabled by going to Runtime -> Change runtime type, and choosing GPU as your Hardware accelerator.
 - Mount the drive in Colab and then unzip the dataset file 'in' a separate folder(other than ../drive) in Colab itself.
 - Load your data as numpy array (.npy format) and use flow method instead of flow_from_directory
+
+Furthermore, from the analysis and questions answered above, we can observe that only least amount of buyers will choose to leave reviews after buying online. However, online customers rely on reviews a lot as it helps them make a decision whether to purchase it or not. Other than that, it is also important for customers to leave helpful reviews instead of just ‘Great’ or ‘Bad’. This is because it could help reduce the number of helpful reviews being undiscoverable. Therefore, customers need to write their reviews properly so it could add value to others’ shopping experience.
