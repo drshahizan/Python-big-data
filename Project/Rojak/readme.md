@@ -139,7 +139,7 @@ The dataset above that we had chosen is data from all rated games played in Lich
 | Compute Mean | 0.0467 | 19.6 | 26.5 |
 | Plot Distribution Graph | 1.39 | - | 60.0 |
 | Get max of Elo rating | 0.115 | 22.4 | 29.8 |
-| Get min of Elo rating data | 0.292 | 11.4 | 27.2 |
+| Get min of Elo rating | 0.292 | 11.4 | 27.2 |
 | Find data correlation | - | 9.5 | 125.0 |
 | Solving Question 1 | 8.34e-6 |  |  |
 | Solving Question 2 | 0.0516 | 16.8 | 1.5 |
