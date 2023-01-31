@@ -9,20 +9,20 @@
     <th>Matric</th>
   </tr>
   <tr>
-    <th>Eddie Wong Chung Pheng </th>
-    <th>A20EC0031</th>
+    <td>Eddie Wong Chung Pheng </td>
+    <td>A20EC0031</td>
   </tr>
   <tr>
-    <th>Vincent Boo Ee Khai</th>
-    <th>A20EC0231</th>
+    <td>Vincent Boo Ee Khai</td>
+    <td>A20EC0231</th>
   </tr>
     <tr>
-    <th>Madihah binti Che Zabri </th>
-    <th>A20EC0074</th>
+    <td>Madihah binti Che Zabri </td>
+    <td>A20EC0074</td>
   </tr>
   <tr>
-    <th>Nurarissa Dayana binti Mohd Sukri</th>
-    <th>A20EC0120</th>
+    <td>Nurarissa Dayana binti Mohd Sukri</td>
+    <td>A20EC0120</td>
 </table>
 
 ## Introduction
@@ -44,79 +44,77 @@ The dataset above that we had chosen is data from all rated games played in Lich
     <th>Description</th>
   </tr>
   <tr>
-    <th>WhiteElo</th>
-    <th>Elo of the player with white pieces</th>
+    <td>WhiteElo</td>
+    <td>Elo of the player with white pieces</td>
   </tr>
     <tr>
-    <th>BlackElo</th>
-    <th>Elo of the player with black pieces</th>
+    <td>BlackElo</td>
+    <td>Elo of the player with black pieces</td>
   </tr>
     <tr>
-    <th>WhiteName</th>
-    <th>Name of the player with white pieces</th>
+    <td>WhiteName</td>
+    <td>Name of the player with white pieces</td>
   </tr>
     <tr>
-    <th>BlackName</th>
-    <th>Name of the player with black pieces</th>
+    <td>BlackName</td>
+    <td>Name of the player with black pieces</td>
   </tr>
     <tr>
-    <th>Winner</th>
-    <th>Color of the winning pieces. If the game ended in Draw it shows it</th>
+    <td>Winner</td>
+    <td>Color of the winning pieces. If the game ended in Draw it shows it</td>
   </tr>
     <tr>
-    <th>Termination</th>
-    <th>How the game ended, it can be: Normal, Time Forfeit, Abandon or Rules infraction</th>
+    <td>Termination</td>
+    <td>How the game ended, it can be: Normal, Time Forfeit, Abandon or Rules infraction</td>
   </tr>
     <tr>
-    <th>Site</th>
-    <th>URL of the game</th>
+    <td>Site</td>
+    <td>URL of the game</td>
   </tr>
     <tr>
-    <th>Day</th>
-    <th>Day when the game was played</th>
+    <td>Day</td>
+    <td>Day when the game was played</td>
   </tr>
     <tr>
-    <th>Month</th>
-    <th>Month when the game was played)</th>
+    <td>Month</td>
+    <td>Month when the game was played)</td>
   </tr>    
   <tr>
-    <th>Year</th>
-    <th>Year when the game was played</th>
+    <td>Year</td>
+    <td>Year when the game was played</td>
   </tr>    
   <tr>
-    <th>InitialTime</th>
-    <th>Time each player has before starting the game in seconds</th>
+    <td>InitialTime</td>
+    <td>Time each player has before starting the game in seconds</td>
   </tr>    
   <tr>
-    <th>Increment</th>
-    <th> Increment in the time after each player makes a move in seconds
-</th>
+    <td>Increment</td>
+    <td> Increment in the time after each player makes a move in seconds</td>
   </tr>
     <tr>
-    <th>TimeControl</th>
-    <th> Classification of the games based on the estimated duration of a game calculated as InitialTime+ 40*Increment</th>
+    <td>TimeControl</td>
+    <td> Classification of the games based on the estimated duration of a game calculated as InitialTime+ 40*Increment</td>
   </tr>
     <tr>
-    <th>Opening</th>
-    <th>Opening Name</th>
+    <td>Opening</td>
+    <td>Opening Name</td>
   </tr>
     <tr>
-    <th>ECO</th>
-    <th>Classification of the games based on the ECO(Encyclopaedia of Chess Openings) </th>
+    <td>ECO</td>
+    <td>Classification of the games based on the ECO(Encyclopaedia of Chess Openings) </td>
   </tr>
     <tr>
     <td>Number of Moves</td>
     <td>Number of moves of the game</td>
   </tr>
       <tr>
-    <th>FEN</th>
-    <th>
-    FEN of the game
+    <td>FEN</td>
+    <td>FEN of the game
     <br>
     * stands for Forsyth-Edwards Notation 
     <br>
     *it is the standard notation to describe positions of a chess game
-    </th>
+    </td>
   </tr>
 </table>
   
