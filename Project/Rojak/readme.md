@@ -26,7 +26,7 @@
 </table>
 
 ## Introduction
-This dataset contains data for every rated Lichess game played between January 2013 and December 2014. There were approximately 15,000,000 games in total. It includes the players' names, ratings, the winner, the opening, the number of moves, etc. We will conduct an analysis to gain insights on the games and address our research questions. We hope to discover interesting patterns by analysing the various characteristics of each game, including the type of opening employed, the ratings of the players, and more. This data analysis allows us to comprehend the effects of various moves, strategies, and time controls on game outcomes. This research will also compare the performance of three Python libraries: Pandas, Vaex, and Modin.
+This dataset contains data for every rated Lichess game played between January 2013 and December 2014. There were approximately 15,000,000 games in total. It includes the players' names, ratings, the winner, the opening, the number of moves, etc. We will conduct an analysis to gain insights on the games and address our research questions. We hope to discover interesting patterns by analysing the various characteristics of each game, including the type of opening employed, the ratings of the players, and more. This data analysis allows us to comprehend the effects of various moves, strategies, and time controls on game outcomes. This research will also compare the performance of three Python libraries: Pandas, Vaex, and Koalas.
 
 ## Libraries
 1. Pandas
