@@ -1,6 +1,5 @@
 # 🚀 Project: NYC Parking Ticket Analysis Using 3 Different Libraries
 
-
 | Name | Matric Number |
 | ----- | ----- |
 | LEE MING QI | A20EC0064|
