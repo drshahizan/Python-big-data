@@ -12,7 +12,7 @@
 > 4. NUR SYAMALIA FAIQAH BINTI MOHD KAMAL (A20EC0118)
 <br>
 
-The purpose of this notebook is to record and analyse performance between three different libraries, namely Polars, Koalas and Datatable.
+The purpose of this notebook is to record and analyse performance between three different libraries, namely Polars, Koalas and Datatable. Not to mention, assess the learning curve of each of these libraries. We will be using documentation provided for each of these libraries, and usefulness of each libraries and their respective learning curve will be analysed as well.
 
 Sources: [Kaggle](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data)
 
