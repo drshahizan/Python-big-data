@@ -105,8 +105,8 @@ The dataset above that we had chosen is data from all rated games played in Lich
     <th>Classification of the games based on the ECO(Encyclopaedia of Chess Openings) </th>
   </tr>
     <tr>
-    <th>Number of Moves</th>
-    <th>Number of moves of the game</th>
+    <td>Number of Moves</td>
+    <td>Number of moves of the game</td>
   </tr>
       <tr>
     <th>FEN</th>
