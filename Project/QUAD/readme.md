@@ -62,3 +62,5 @@ Based on the analysis of the performance of three libraries for big data process
 Based on our opinion, we think polars and koalas has a really good site that documented their own individual functions and methods. This really helps lower their learning curve and make the whole process so much easier. However, when it comes to Datatable, it is quite the opposite. A huge reason to why we took so long learning datatable is because their documentation was not easily understandable compared to its peers.
 <br>
 All things said, with our experience using pandas, we think that polars is the best library among these libraries as it has the sweet spot between learning curve and good processing time.
+
+<
