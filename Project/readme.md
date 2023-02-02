@@ -26,14 +26,14 @@ Don't forget to hit the :star: if you like this repo.
 | AdMiPeQa | Pandas | Dask | Koalas | Air Flight Analysis | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/AdMiPeQa) |
 | BigMac | Vaex | Koalas | PySpark | Airline Delay and Cancellation Data 2016 - 2018| [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/BigMac) |
 | No Name | Pandas | PySpark | Koalas | Amazon Book Review | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/No%20Name) |
-| QUAD | Polars | Koalas | Datatable | NYC yellow taxi trip data | [:octocat:](https://) |
+| QUAD | Polars | Koalas | Datatable | NYC yellow taxi trip data | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/QUAD) |
 | QwQ | Koalas | Pyspark | Dask | NYC Automated Traffic Volume Counts | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/QwQ) |
 | Rojak | Pandas | Vaex | Koalas | 15 Million Chess Games from Lichess (2013-2014) | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/Rojak) |
 | SDS | Pandas | Polars | Koalas | Analysis of Amazon Books Review | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SDS) |
 | SIX | Dask | Pyspark | Koalas | NYC Parking Tickets | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SIX) |
 | SamVerse | Pandas | PySpark | Koalas | Spotify Charts | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SamVerse) |
-| Sepuluh | Pyspark | Polars | Pandas | Airline Delay and Cancellation Data 2017 - 2018 | [:octocat:](https://github.com/drshahizan/Python-big-data/blob/main/Project/Sepuluh/Airline_Delay_and_Cancellation_Data_2017_2018.ipynb) |
-| High Five | Pandas | Koalas | Modin | Airline Delay and Cancellation Data 2015 - 2016 | [:octocat:](https://github.com/drshahizan/Python-big-data/blob/04a7c0132d3b9fb0add4101c6072796e514260df/Project/High%20Five/ProjectHPDP_GroupHighFive.ipynb) |
+| Sepuluh | Pyspark | Polars | Pandas | Airline Delay and Cancellation Data 2017 - 2018 | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/Sepuluh) |
+| High Five | Pandas | Koalas | Modin | Airline Delay and Cancellation Data 2015 - 2016 | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/High%20Five) |
 
 
 ## Contribution 🛠️
