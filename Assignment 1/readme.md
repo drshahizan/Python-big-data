@@ -21,7 +21,6 @@ Your submission will be evaluated using the following criteria:
 
 ## 🌟 Case Study 1: Solutions
 
-
 | Team | Title | GitHub |
 | ----- | ----- | ------ |
 | 404 Error | Sales Analysis |  [![Open in GitHub](https://img.shields.io/static/v1?label=&message=Open%20in%20GitHub&labelColor=grey&color=blue&logo=github)](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%201/404%20error) |
