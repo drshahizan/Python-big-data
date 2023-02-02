@@ -7,8 +7,6 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# [Markah](https://github.com/drshahizan/Python-big-data/blob/main/Assignment%201/markahBDT1.pdf)
-
 ## 🚀 Case Study 1 : Pandas - Data Processing
 
 Your submission will be evaluated using the following criteria:
