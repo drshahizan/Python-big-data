@@ -25,9 +25,7 @@ Don't forget to hit the :star: if you like this repo.
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
 | AdMiPeQa | Pandas | Dask | Koalas | Air Flight Analysis | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/AdMiPeQa) |
 | BigMac | Vaex | Koalas | PySpark | Airline Delay and Cancellation Data 2016 - 2018| [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/BigMac) |
-| KIA | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
 | No Name | Pandas | PySpark | Koalas | Amazon Book Review | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/No%20Name) |
-| Phantom Crew | 1 | 2 | 3 | Dataset | [:octocat:](https://) |
 | QUAD | Polars | Koalas | Datatable | NYC yellow taxi trip data | [:octocat:](https://) |
 | QwQ | Koalas | Pyspark | Dask | NYC Automated Traffic Volume Counts | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/QwQ) |
 | Rojak | Pandas | Vaex | Koalas | 15 Million Chess Games from Lichess (2013-2014) | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/Rojak) |
