@@ -131,31 +131,24 @@ The dataset above that we had chosen is data from all rated games played in Lich
   
 | Task | Pandas | Vaex | Koalas |
 | ---- | ------ | ---- | ------ |
-| Read data | 59.9 | 6.16 | 62.0 |
-| View data | 0.000504 | 0.00482 | 0.475 |
-| Handle missing data | 0.0805 | - | 48.4 |
-| Drop columns | 1.38 | 0.00123 | 0.247 |
-| Sort data | 4.59 | 11.7 | 0.471 |
+| Read data | 55.4 | 6.07 | 70.0 |
+| View data | 0.00318 | 0.00298 | 0.407 |
+| Handle missing data | 16.3 | 87.0 | 49.7 |
+| Drop columns | 1.84 | 0.00143 | 0.193 |
+| Sort data | 6.87 | 9.6 | 0.33 |
 | Compute Mean | 0.0467 | 19.6 | 26.5 |
-| Plot Distribution Graph | 1.86 | 23.2 | 0.503 |
+| Plot Distribution Graph | 1.39 | 23.2 | 58.4 |
 | Get max of Elo rating | 0.115 | 22.4 | 29.8 |
 | Get min of Elo rating | 0.292 | 11.4 | 27.2 |
-| Find data correlation | 5.03 | 18.4 | 999.0 |
-| Solving Question 1 | 6.0e-6 | 6.0e-6 | 3.0e-6 |
-| Solving Question 2 | 0.0516 | 16.8 | 1.5 |
+| Find data correlation | 5.03 | 9.5 | 125.0 |
+| Solving Question 1 | 1.07e-5 | 1.24e-5 | 9.78e-6 |
+| Solving Question 2 | 11.8 | 23.0 | 2.15 |
 | Solving Question 3 | 4.69 | 16.5 | 0.374 |
-| Solving Question 4 |  |  |  |
-| Solving Question 5 | 0.0712 |  | 0.485 |
+| Solving Question 4 | 1.86e-5 | 1.05e-5 | 1.41e-5 |
+| Solving Question 5 | 0.0906 | 42.5 | 3.09 |
 
   ## Conclusion
-   To summarize, **Vaex** is the fastest option when we prepare and clean the data. However, it is quite worst in sort the data.
-<br>
-<br>
-   While, when we're perform Exploratory Data Analysis (EDA) with this dataset, **Pandas** is the fastest option rather than using Vaex and Koalas.
-<br>
-<br>
-   Most of the time during conducting the research questions, we prefer **Koalas** more as it is the fastest library.
-<br>
-<br>
-   Therefore, for this dataset, we suggest to use **Vaex** for cleaning data, **Pandas** when performing EDA, and **Koalas** to do more complex task. As there are no library that are the best (have the shortest time), thus we need to choose the library properly in performing each task as mentioned above to utilize the pros of each of the library as the alternatives of pandas.
-<br>
+  * To summarize, **Vaex** is the best in data preparation and cleaning. However, it performed the worst in sorting the data.
+  * When performing Exploratory Data Analysis (EDA) with this dataset, **Pandas** is the fastest option rather than using Vaex and Koalas.
+  * For most of solving the research questions, we prefer **Koalas** more as it is the fastest library.
+  * Therefore, for large dataset, we suggest to use **Vaex** for cleaning data, **Pandas** when performing EDA, and **Koalas** to do more complex task. As there are no library that are the best (have the shortest time), thus we need to choose the library properly in performing each task as mentioned above to utilize the pros of each of the library as the alternatives of pandas.
