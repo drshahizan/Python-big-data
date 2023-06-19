@@ -3,7 +3,7 @@
 <a href="https://github.com/drshahizan/Python-big-data/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/Python-big-data" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/drshahizan/Python-big-data/issues"><img src="https://img.shields.io/github/issues/drshahizan/Python-big-data" alt="Issues Badge"/></a>
 <a href="https://github.com/drshahizan/Python-big-data/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/Python-big-data?color=2b9348"></a>
-![](https://visitor-badge.glitch.me/badge?page_id=drshahizan/Python-big-data)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2FPython-big-data&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
 Don't forget to hit the :star: if you like this repo.
 
@@ -21,25 +21,19 @@ The information on this Github is part of the materials for the subject High Per
 - [Big data processing](https://github.com/drshahizan/Python-big-data)
 
 ### Contents:
-- [Notes](#notes)
-  - Big Data: Pandas
-  - Big Data: Alternatives to Pandas for Processing Large Datasets
-    - Modin
-    - Dask
-    - Datatable
-   - Comparison between libraries
-   - Big Data: Case study
-- [Lab](#lab)
-  - Pandas
-  - Modin
-  - Dask
-  - Comparison between libraries
-- Assignment
-  - [Assignment1: Pandas - Data Processing](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%201)
-  - Assignment2: Alternatives to Pandas for Processing Large Datasets
-    - [Solution 2a](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202a)        
-    - [Solution 2b](https://github.com/drshahizan/Python-big-data/tree/main/Assignment%202b)
-- [Project](https://github.com/drshahizan/Python-big-data/tree/main/Project)
+- [About Us](#about-us)
+- [📚 Course: High Performance Data Processing](#-course-high-performance-data-processing)
+    - [Contents:](#contents)
+  - [Notes](#notes)
+    - [Big Data: Pandas](#big-data-pandas)
+    - [Big Data: Alternatives to Pandas for Processing Large Datasets](#big-data-alternatives-to-pandas-for-processing-large-datasets)
+      - [Modin](#modin)
+      - [Dask](#dask)
+      - [Datatable](#datatable)
+    - [🎖️ Comparison between libraries](#️-comparison-between-libraries)
+    - [Big Data: Case study](#big-data-case-study)
+  - [Lab](#lab)
+  - [Contribution 🛠️](#contribution-️)
 
 ## Notes
 ### Big Data: Pandas
