@@ -20,7 +20,7 @@ The information on this Github is part of the materials for the subject High Per
 
 
 ## Notes
-- [Essential Skills for Big Data Processing with Google Colab: A Beginner's Guide]()
+- [Essential Skills for Big Data Processing with Google Colab: A Beginner's Guide](./materials/beginner-guide.md)
 
 ### Big Data: Pandas
 - [Top 10 Python Libraries Data Scientists should know](https://www.edureka.co/blog/python-libraries/)
