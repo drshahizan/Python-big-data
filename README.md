@@ -17,7 +17,10 @@ The information on this Github is part of the materials for the subject High Per
 # 📚 Big data processing
 
 **Big data processing** involves the systematic handling and analysis of vast and complex datasets that exceed the capabilities of traditional data processing methods. It encompasses the **storage, retrieval, and manipulation** of massive volumes of information to extract valuable insights. Key steps include **data ingestion**, where large datasets are collected from various sources, and **preprocessing**, involving cleaning and transformation to ensure data quality. Advanced **analytics**, **machine learning**, and **data mining** techniques are then applied to uncover patterns, trends, and correlations within the data. **Big data processing** is integral to informed decision-making, enabling organizations to derive meaningful conclusions from their data, optimize operations, and gain a competitive edge in today's **data-driven landscape**.
+
+
 ## Notes
+- [Essential Skills for Big Data Processing with Google Colab: A Beginner's Guide]()
 
 ### Big Data: Pandas
 - [Top 10 Python Libraries Data Scientists should know](https://www.edureka.co/blog/python-libraries/)
