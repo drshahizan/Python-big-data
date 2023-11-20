@@ -14,28 +14,11 @@ The information on this Github is part of the materials for the subject High Per
 <img src="https://raw.githubusercontent.com/drshahizan/HPDP/main/images/student23241.webp"  height="400" />
 </p>
 
-# 📚 Course: High Performance Data Processing 
-- [Python for beginners](https://github.com/drshahizan/python-tutorial)
-- [Web scraping and Python web framework](https://github.com/drshahizan/python-web)
-- [Exploratory data analysis](https://github.com/drshahizan/Python_EDA)
-- [Big data processing](https://github.com/drshahizan/Python-big-data)
+# 📚 Big data processing
 
-### Contents:
-- [About Us](#about-us)
-- [📚 Course: High Performance Data Processing](#-course-high-performance-data-processing)
-    - [Contents:](#contents)
-  - [Notes](#notes)
-    - [Big Data: Pandas](#big-data-pandas)
-    - [Big Data: Alternatives to Pandas for Processing Large Datasets](#big-data-alternatives-to-pandas-for-processing-large-datasets)
-      - [Modin](#modin)
-      - [Dask](#dask)
-      - [Datatable](#datatable)
-    - [🎖️ Comparison between libraries](#️-comparison-between-libraries)
-    - [Big Data: Case study](#big-data-case-study)
-  - [Lab](#lab)
-  - [Contribution 🛠️](#contribution-️)
 
 ## Notes
+
 ### Big Data: Pandas
 - [Top 10 Python Libraries Data Scientists should know](https://www.edureka.co/blog/python-libraries/)
 - [Top 5 Python Libraries For Big Data](https://www.geeksforgeeks.org/top-5-python-libraries-for-big-data/)
