@@ -14,7 +14,7 @@ Using large datasets in data science comes with several challenges, and these ch
 Certainly, here's the table with an added "No." column:
 
 | **No.** | **Issue**                                | **Description** |
-|--------|------------------------------------------|-------------------------------------------------|
+|--------:|------------------------------------------|-------------------------------------------------|
 | 1      | **Memory Constraints**                   | Loading large datasets into memory can be challenging, leading to slow performance, increased disk swapping, and potential crashes if the dataset exceeds available RAM.                                        |
 | 2      | **Computational Time**                   | Operations on large datasets take more time, impacting the efficiency of analysis, preprocessing, and model training.                                                                                        |
 | 3      | **Resource Intensity**                   | Processing large datasets demands substantial computational resources, including memory, processing power, storage, and bandwidth.                                                                            |
