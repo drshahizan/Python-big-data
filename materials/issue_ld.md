@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# The issues of using large datasets
+# The Challenges of Working with Big Data in Data Science
 
 Using large datasets in data science comes with several challenges, and these challenges can impact various aspects of the data science workflow. Some common issues associated with handling large datasets:
 
