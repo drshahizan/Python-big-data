@@ -10,8 +10,7 @@ To address this challenge, Airbnb has built a data-driven culture and invested i
 - **Data quality**: Airbnb ensures the quality and reliability of its data by implementing data quality checks, monitoring, and alerting systems. It uses Apache Amundsen, an open-source data discovery and metadata engine, to catalog and document its data assets. It also uses internally developed tools such as Databot and Minerva to automate data quality checks and flag issues²⁵.
 - **Machine learning**: Airbnb uses machine learning to enhance its products and services, such as personalization, recommendation, pricing, search ranking, fraud detection, and more. It uses various frameworks and libraries, such as TensorFlow, PyTorch, Scikit-learn, and XGBoost, to build and deploy its machine learning models. It also uses internally developed tools such as Bighead and Zipline to streamline its machine learning workflow² .
 
-These are some of the data science tools and techniques that Airbnb uses to deal with its large datasets. You can find more details and examples in the [web search results](^2^) or the [question answering results](^1^). I hope this helps. 😊
-
+These are some of the data science tools and techniques that Airbnb uses to deal with its large datasets.
 ### Source: 
 (1) 10 Real World Data Science Case Studies Projects with Example. https://www.projectpro.io/article/data-science-case-studies-projects-with-examples-and-solutions/519.
 (2) Top 8 Data Science Case Studies for Data Science Enthusiasts - KnowledgeHut. https://www.knowledgehut.com/blog/data-science/top-data-science-case-studies.
