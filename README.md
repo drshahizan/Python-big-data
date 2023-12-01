@@ -21,6 +21,7 @@ The information on this Github is part of the materials for the subject High Per
 
 ## Notes
 - [Essential Skills for Big Data Processing with Google Colab: A Beginner's Guide](./materials/beginner-guide.md)
+- [Strategies for Efficiently Handling Large Datasets in Data Science](./materials/tips_big_data.md)
 - [Nowogrodzki, A. (2020). Eleven tips for working with large data sets. Nature, 577(7790), 439–440. doi:10.1038/d41586-020-00062-z ](./materials/11tips%20large%20data.pdf)
 
 ### Big Data: Pandas
