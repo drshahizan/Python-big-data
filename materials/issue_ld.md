@@ -11,8 +11,6 @@ Don't forget to hit the :star: if you like this repo.
 
 Using large datasets in data science comes with several challenges, and these challenges can impact various aspects of the data science workflow. Some common issues associated with handling large datasets:
 
-Certainly, here's the table with an added "No." column:
-
 | **No.** | **Issue**                                | **Description** |
 |--------:|------------------------------------------|-------------------------------------------------|
 | 1      | **Memory Constraints**                   | Loading large datasets into memory can be challenging, leading to slow performance, increased disk swapping, and potential crashes if the dataset exceeds available RAM.                                        |
