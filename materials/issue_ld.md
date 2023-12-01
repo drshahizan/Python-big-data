@@ -26,36 +26,4 @@ Certainly, here's the table with an added "No." column:
 | 9      | **Communication Overhead**               | Collaboration on large datasets may involve challenges related to sharing, versioning, and syncing data between team members, especially in distributed or remote teams.                                      |
 | 10     | **Scalability Issues**                   | Not all algorithms and tools are designed to scale seamlessly with the size of the dataset, requiring the use of distributed computing frameworks or specialized solutions.                                       |
 
-This column provides a reference number for each issue in the table.
-
-1. **Memory Constraints:**
-   - Loading large datasets into memory can be challenging, especially if the available RAM is limited. This can lead to slow performance, increased disk swapping, and even crashes if the dataset exceeds the available memory.
-
-2. **Computational Time:**
-   - Operations on large datasets take more time to execute. Analysis, preprocessing, and model training may become time-consuming, affecting the overall efficiency of the data science workflow.
-
-3. **Resource Intensity:**
-   - Processing large datasets requires substantial computational resources. This can include not only memory but also processing power, storage, and bandwidth. Small-scale setups may struggle with the resource demands of large datasets.
-
-4. **Complexity of Analysis:**
-   - Analyzing large datasets often involves dealing with a vast number of features and records. This complexity can make it challenging to identify patterns, trends, or outliers, and it may require specialized algorithms and tools.
-
-5. **Model Training Challenges:**
-   - Training machine learning models on large datasets may demand significant computational resources. Training times can be extended, and some algorithms may struggle to scale efficiently with the size of the data.
-
-6. **Data Sampling and Exploration:**
-   - Exploratory data analysis becomes more challenging with large datasets. Sampling or summarizing the data becomes essential to derive meaningful insights without overwhelming computational resources.
-
-7. **Data Cleaning and Preprocessing:**
-   - Cleaning and preprocessing steps become more intricate when dealing with large datasets. Missing values, outliers, and inconsistencies may be more difficult to identify and handle effectively.
-
-8. **Storage Costs:**
-   - Storing large datasets can be expensive, especially if using high-performance storage solutions. Cloud-based storage services may incur costs based on the volume of data stored and accessed.
-
-9. **Communication Overhead:**
-   - Collaboration on large datasets may involve additional challenges related to sharing, versioning, and syncing data between team members, especially in distributed or remote teams.
-
-10. **Scalability Issues:**
-    - Not all algorithms and tools are inherently designed to scale seamlessly with the size of the dataset. Ensuring scalability may require the use of distributed computing frameworks or specialized solutions.
-
 To mitigate these challenges, practitioners often employ strategies such as data sampling, optimizing data types, chunking, and leveraging parallel processing tools like Dask. Each data science project involving large datasets requires careful consideration of these challenges and the selection of appropriate techniques and tools to address them effectively.
