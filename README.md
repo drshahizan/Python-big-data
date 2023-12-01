@@ -21,6 +21,7 @@ The information on this Github is part of the materials for the subject High Per
 
 ## Notes
 - [Essential Skills for Big Data Processing with Google Colab: A Beginner's Guide](./materials/beginner-guide.md)
+- [Nowogrodzki, A. (2020). Eleven tips for working with large data sets. Nature, 577(7790), 439–440. doi:10.1038/d41586-020-00062-z ]()
 
 ### Big Data: Pandas
 Big Data processing with **Pandas**, a powerful Python library for data manipulation and analysis, involves implementing strategies to handle large datasets efficiently. Scaling to sizable datasets requires adopting techniques such as processing data in smaller chunks using the '**chunksize**' parameter in Pandas **read_csv** function. This approach facilitates reading and processing large datasets in more manageable portions, preventing memory overload. To further optimize memory usage, it's essential to leverage Pandas' features like data types optimization, using more memory-efficient data types when possible. Additionally, utilizing advanced functionalities like the '**skiprows**' parameter and filtering columns during data import can significantly enhance performance. By mastering these strategies, one can effectively manage and analyze vast datasets in Python with **Pandas**, ensuring both computational efficiency and memory optimization in the face of **Big Data** challenges.
