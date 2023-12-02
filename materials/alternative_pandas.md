@@ -7,7 +7,22 @@
 
 Don't forget to hit the :star: if you like this repo.
 
+While Pandas is a powerful and widely-used library for data manipulation and analysis in Python, it may not always be the most efficient choice for processing extremely large datasets. Here are eight alternatives to Pandas that are specifically designed to handle large datasets:
 
+Certainly! Here's the information presented in a table format with "No.," "Library," "Description," and "Website" columns:
+
+| No. | Library         | Description | Website |
+|-----|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| 1   | **Dask**         | A library that provides parallel execution on larger-than-memory datasets, using many smaller pandas DataFrames. It has a similar API to pandas and supports lazy evaluation.                                                                                                                                                   | [Dask Website](https://dask.org/)                    |
+| 2   | **Modin**        | A library that uses Ray or Dask to speed up pandas operations. It has seamless integration and compatibility with existing pandas code.                                                                                                                                                                                           | [Modin Website](https://modin.readthedocs.io/)       |
+| 3   | **Data Table**   | A library for manipulating tabular data, with fast and memory-efficient operations. It can handle up to 100GB of data on a single-node machine and has interoperability with pandas/NumPy/pure Python.                                                                                                                          | [Data Table Website](https://datatable.readthedocs.io/) |
+| 4   | **Polars**       | A library that offers a comprehensive Python API for DataFrames and a query engine for data models. It uses the secure Arrow2 implementation of the Apache Arrow specification, which makes it highly efficient for processing large amounts of data.                                                                          | [Polars Website](https://github.com/pola-rs/polars)   |
+| 5   | **Vaex**         | A library for lazy, out-of-core DataFrames, to visualize and explore big tabular datasets. It delays operations until necessary, reducing memory usage and time. It also supports interactive visualization with histograms, density plots, and 3d volume rendering.                                                               | [Vaex Website](https://vaex.io/)                     |
+| 6   | **Pyspark**      | A library that provides a Python interface to Apache Spark, a distributed computing framework for large-scale data processing. It allows users to write Spark applications using Python and leverage the power of Spark SQL, MLlib, Streaming, and GraphX.                                                                       | [Pyspark Website](https://spark.apache.org/pyspark/) |
+| 7   | **Koalas**       | A library that bridges the gap between pandas and Apache Spark, by providing a pandas-like API on top of Spark. It enables users to scale their existing pandas code to run on large datasets, without much code change.                                                                                                     | [Koalas Website](https://koalas.readthedocs.io/)     |
+| 8   | **CuDF**         | A library that implements a GPU-accelerated DataFrame, which is compatible with pandas. It allows users to perform data manipulation, join, groupby, and statistical operations on GPU data, with significant speedup and memory saving.                                                                                    | [CuDF Website](https://github.com/rapidsai/cudf)     |
+
+This table now includes a "Website" column providing links to the official websites of each library.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
