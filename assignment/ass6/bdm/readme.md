@@ -43,7 +43,7 @@ In this assignment, you will explore the management of big data processing in da
 
 6. Share the Markdown document and Colab notebook with your lecturer as instructed for evaluation.
 
-🚀 This assignment needs to be done in pairs (2 persons/group). Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?pli=1#gid=846848469). Please update your group information:
+🚀 This assignment needs to be done in pairs (2 persons/group). Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1WJWrzrGmfC0z5CmTYCGmlkKa7_byYOoxlU0MTg7pRrk/edit#gid=524983437). Please update your group information:
 
 | No | Group |  File | Dataset | 
 | -----: |  ------ | :-----: |  ----- |  
