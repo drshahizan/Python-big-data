@@ -30,3 +30,11 @@ These are some of the data science tools and techniques that Airbnb uses to deal
 (6) Top 8 Data Science Case Studies for Data Science Enthusiasts - KnowledgeHut. https://www.knowledgehut.com/blog/data-science/top-data-science-case-studies.
 (7) 10 Real World Data Science Case Studies Projects with Example. https://www.projectpro.io/article/data-science-case-studies-projects-with-examples-and-solutions/519.
 (8) en.wikipedia.org. https://en.wikipedia.org/wiki/Data_science.
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
+![](https://hit.yhype.me/github/profile?user_id=81284918)
