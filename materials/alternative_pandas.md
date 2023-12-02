@@ -23,6 +23,19 @@ While Pandas is a powerful and widely-used library for data manipulation and ana
 | 8   | **[CuDF](https://docs.rapids.ai/api/cudf/stable/)** | A library that implements a GPU-accelerated DataFrame, which is compatible with pandas. It allows users to perform data manipulation, join, groupby, and statistical operations on GPU data, with significant speedup and memory saving. | [CuDF Website](https://github.com/rapidsai/cudf) |
 
 
+Certainly! Here's the updated table with the "Website" column removed:
+
+| No. | Library         | Description | GitHub |
+|-----:|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| 1   | **[Dask](https://dask.org/)**         | A library that provides parallel execution on larger-than-memory datasets, using many smaller pandas DataFrames. It has a similar API to pandas and supports lazy evaluation. | [Dask GitHub](https://github.com/dask/dask) |
+| 2   | **[Modin](https://modin.readthedocs.io/)**        | A library that uses Ray or Dask to speed up pandas operations. It has seamless integration and compatibility with existing pandas code. | [Modin GitHub](https://github.com/modin-project/modin) |
+| 3   | **[Data Table](https://datatable.readthedocs.io/)**   | A library for manipulating tabular data, with fast and memory-efficient operations. It can handle up to 100GB of data on a single-node machine and has interoperability with pandas/NumPy/pure Python. | [Data Table GitHub](https://github.com/h2oai/datatable) |
+| 4   | **[Polars](https://pola-rs.github.io/polars/)**       | A library that offers a comprehensive Python API for DataFrames and a query engine for data models. It uses the secure Arrow2 implementation of the Apache Arrow specification, which makes it highly efficient for processing large amounts of data. | [Polars GitHub](https://github.com/pola-rs/polars) |
+| 5   | **[Vaex](https://vaex.io/)**         | A library for lazy, out-of-core DataFrames, to visualize and explore big tabular datasets. It delays operations until necessary, reducing memory usage and time. It also supports interactive visualization with histograms, density plots, and 3d volume rendering. | [Vaex GitHub](https://github.com/vaexio/vaex) |
+| 6   | **[Pyspark](https://spark.apache.org/pyspark/)**      | A library that provides a Python interface to Apache Spark, a distributed computing framework for large-scale data processing. It allows users to write Spark applications using Python and leverage the power of Spark SQL, MLlib, Streaming, and GraphX. | [Pyspark GitHub](https://github.com/apache/spark) |
+| 7   | **[Koalas](https://koalas.readthedocs.io/)**       | A library that bridges the gap between pandas and Apache Spark, by providing a pandas-like API on top of Spark. It enables users to scale their existing pandas code to run on large datasets, without much code change. | [Koalas GitHub](https://github.com/databricks/koalas) |
+| 8   | **[CuDF](https://docs.rapids.ai/api/cudf/stable/)** | A library that implements a GPU-accelerated DataFrame, which is compatible with pandas. It allows users to perform data manipulation, join, groupby, and statistical operations on GPU data, with significant speedup and memory saving. | [CuDF GitHub](https://github.com/rapidsai/cudf) |
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
 
