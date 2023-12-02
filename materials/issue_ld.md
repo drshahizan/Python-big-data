@@ -25,3 +25,11 @@ Using large datasets in data science comes with several challenges, and these ch
 | 10     | **Scalability Issues**                   | Not all algorithms and tools are designed to scale seamlessly with the size of the dataset, requiring the use of distributed computing frameworks or specialized solutions.                                       |
 
 To mitigate these challenges, practitioners often employ strategies such as data sampling, optimizing data types, chunking, and leveraging parallel processing tools like Dask. Each data science project involving large datasets requires careful consideration of these challenges and the selection of appropriate techniques and tools to address them effectively.
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
+![](https://hit.yhype.me/github/profile?user_id=81284918)
