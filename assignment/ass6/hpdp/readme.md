@@ -30,7 +30,7 @@ In this assignment, you will explore the management of big data processing in da
 6. **Conclusion**: Summarize your findings. Explain why you chose these strategies and how they make a difference in handling big data.
 
 ## Submission
-1. Create a new Markdown document in Google Colab and name it "big_data.md."
+1. Create a new Markdown document in Google Colab and name it "big_data.md"
 
 2. Ensure the Markdown document is well-organized with clear explanations, appropriate headings, and bullet points.
 
@@ -42,23 +42,11 @@ In this assignment, you will explore the management of big data processing in da
 
 6. Share the Markdown document and Colab notebook with your lecturer as instructed for evaluation.
 
-🚀 Form project teams comprising a minimum of three and a maximum of four students. Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?pli=1#gid=2103764783). Please update your group information:
+🚀 This assignment needs to be done in pairs (2 persons/group). Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?pli=1#gid=2103764783). Please update your group information:
 
 | No | Group |  File | Dataset | 
 | -----: |  ------ | :-----: |  ----- |  
 | 0. | Sample  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | 
-| 1. | Pergolakan  | <a href="./PERgolakan/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [eCommerce behavior data from multi-category store](https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store) |
-| 2. | 3H  |  <a href="./3H/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Anime Dataset 2023](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset?select=final_animedataset.csv)|
-| 3. | SYNA  |  <a href="https://github.com/drshahizan/Python_EDA/tree/main/assignment/ass4/hpdp/SYNA" ><img src="../../../images/answer.png" width="24px" height="24px" >|  [Age dataset: life, work, and death of 1.22M people](https://www.kaggle.com/datasets/imoore/age-dataset)| </a> | 
-| 5. | ATG  |   <a href="./ATG/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> |[Airline Delay and Cancellation Data 2018](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018?select=2018.csv)|
-| 6. | DEADPOOL  | <a href="https://github.com/drshahizan/Python_EDA/blob/main/assignment/ass4/hpdp/DEADPOOL/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Spotify_1_million_tracks](https://www.kaggle.com/datasets/amitanshjoshi/spotify-1million-tracks/data)|
-| 7. | ANGKASA  | <a href="./ANGKASA/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [USA Real Estate Dataset](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset) |
-| 8. | ByteNav  | <a href="./ByteNav/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Large Car Dataset](https://www.kaggle.com/datasets/cisautomotiveapi/large-car-dataset) |
-| 9. | HANY  | <a href="./HANY/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Climate Weather Surface of Brazil](https://www.kaggle.com/datasets/PROPPG-PPG/hourly-weather-surface-brazil-southeast-region) |
-| 10. | BERUK  | <a href="./BERUK/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Flight Data](https://www.kaggle.com/datasets/polartech/flight-data-with-1-million-or-more-records) |
-| 11. | ZProMax  | <a href="./ZProMax/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [New York Bus Rides Service](https://www.kaggle.com/datasets/asimzahid/new-york-bus-rides-service?select=searches.csv) |
-| 12. | CapKetereh  | <a href="./CapKetereh/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [COVID vaccination vs. mortality](https://www.kaggle.com/datasets/sinakaraji/covid-vaccination-vs-death) |
-
 
 ### 3. Academic Integrity
 🚫 Uphold the highest standards of academic integrity. Any candidate suspected of cheating in the assignment will face disciplinary action, which may include suspension or expulsion from the University. Moreover, any materials or devices found to be in violation of examination rules and regulations will be confiscated.
@@ -73,25 +61,10 @@ You must place your file in the submission folder. Within the [`hpdp/`](https://
 
 ```html
 hpdp/your_group/
-├── 📄 feature_eng.md
+├── 📄 big_data.md
 └── 📄 readme.md
 
 ```
-## Grading
-Your assignment will be evaluated based on the following criteria:
-- Dataset selection and loading
-- Exploratory Data Analysis
-- Feature selection and preprocessing
-- Feature transformation and creation
-- Clarity of explanations
-- Proper documentation and comments in the code
-- Correctness of the code and results
-
-## Additional Resources
-You can refer to the following resources for guidance and inspiration:
-- Python libraries like Pandas, NumPy, and Matplotlib/Seaborn
-- Online tutorials and documentation for feature engineering
-- Books on data preprocessing and feature engineering in data science
 
 Good luck with your assignment! If you have any questions or need help, don't hesitate to reach out to your instructor or fellow students.
 
