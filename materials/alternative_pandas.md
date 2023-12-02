@@ -11,8 +11,6 @@ Don't forget to hit the :star: if you like this repo.
 
 While Pandas is a powerful and widely-used library for data manipulation and analysis in Python, it may not always be the most efficient choice for processing extremely large datasets. Here are eight alternatives to Pandas that are specifically designed to handle large datasets:
 
-Certainly! Here's the information presented in a table format with "No.," "Library," "Description," and "Website" columns:
-
 | No. | Library         | Description | Website |
 |-----:|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | 1   | **[Dask](https://dask.org/)**         | A library that provides parallel execution on larger-than-memory datasets, using many smaller pandas DataFrames. It has a similar API to pandas and supports lazy evaluation. | [Dask Website](https://dask.org/) |
