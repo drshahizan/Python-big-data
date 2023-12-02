@@ -12,12 +12,6 @@ Don't forget to hit the :star: if you like this repo.
 ## Introduction
 In this assignment, you will explore the management of big data processing in data science. Big data processing involves the systematic handling and analysis of vast and complex datasets that exceed the capabilities of traditional data processing methods. It encompasses the storage, retrieval, and manipulation of massive volumes of information to extract valuable insights.
 
-
-# Assignment 6: Mastering Big Data Handling
-
-## Introduction
-In this assignment, you'll dive into the world of managing big data in data science. Big data means dealing with massive and complex datasets that go beyond what regular methods can handle. We're talking about storing, retrieving, and working with tons of information to find valuable insights.
-
 ## Task Overview
 1. **Pick a Big Dataset**: Start by choosing a suitable dataset. Choose a dataset from reputable sources such as Kaggle, UCI Machine Learning Repository, or any other pertinent dataset repository. Make sure it's big—over **700 MB**.
 
