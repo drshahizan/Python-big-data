@@ -58,17 +58,16 @@ The deadline for submission is **17 December 2023, at 5:00 PM**. Late submission
 
 ## File and Folder Structure 
 
-You must place your file in the submission folder. Within the [`hpdp/`](https://github.com/drshahizan/Python-big-data/edit/main/assignment/ass6/hpdp) folder, create a folder called your group. Name the default file as `readme.md`. Suggested folder structure for this project:
+You must place your file in the submission folder. Within the [`hpdp/`](https://github.com/drshahizan/Python-big-data/edit/main/assignment/ass6/bdm) folder, create a folder called your group. Name the default file as `readme.md`. Suggested folder structure for this project:
 
 ```html
-hpdp/your_group/
+bdm/your_group/
 ├── 📄 big_data.md
 └── 📄 readme.md
 
 ```
 
 Good luck with your assignment! If you have any questions or need help, don't hesitate to reach out to your instructor or fellow students.
-
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
