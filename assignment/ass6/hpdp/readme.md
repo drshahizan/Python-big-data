@@ -22,6 +22,7 @@ In this assignment, you will explore the management of big data processing in da
    - *Use Chunking*: Process the data in smaller pieces to avoid memory issues.
    - *Optimize Data Types*: Fine-tune data types to maximize efficiency and minimize memory consumption.
    - *Sampling*: Implement sampling methodologies to extract meaningful insights from a subset of the dataset.
+   - *Parallelize with Dask*: Dask is a powerful library that extends pandas to enable parallel and distributed computing. It's particularly useful for handling larger-than-memory datasets.
 
 4. **Steps for Using These Strategies**: Clearly explain the steps for each strategy. Help us understand how to make these strategies work.
 
@@ -30,7 +31,7 @@ In this assignment, you will explore the management of big data processing in da
 6. **Conclusion**: Summarize your findings. Explain why you chose these strategies and how they make a difference in handling big data.
 
 ## Submission
-1. Create a new Markdown document in Google Colab and name it "big_data.md"
+1. Create a new Markdown document in Google Colab and name it "*big_data.md*"
 
 2. Ensure the Markdown document is well-organized with clear explanations, appropriate headings, and bullet points.
 
