@@ -25,7 +25,7 @@ The information on this Github is part of the materials for the subject High Per
 - [Strategies for Efficiently Handling Large Datasets in Data Science](./materials/tips_big_data.md)
 - [Nowogrodzki, A. (2020). Eleven tips for working with large data sets. Nature, 577(7790), 439–440. doi:10.1038/d41586-020-00062-z ](./materials/11tips%20large%20data.pdf)
 
-### Big Data: Pandas
+### 1.Big Data: Pandas
 Big Data processing with **Pandas**, a powerful Python library for data manipulation and analysis, involves implementing strategies to handle large datasets efficiently. Scaling to sizable datasets requires adopting techniques such as processing data in smaller chunks using the '**chunksize**' parameter in Pandas **read_csv** function. This approach facilitates reading and processing large datasets in more manageable portions, preventing memory overload. To further optimize memory usage, it's essential to leverage Pandas' features like data types optimization, using more memory-efficient data types when possible. Additionally, utilizing advanced functionalities like the '**skiprows**' parameter and filtering columns during data import can significantly enhance performance. By mastering these strategies, one can effectively manage and analyze vast datasets in Python with **Pandas**, ensuring both computational efficiency and memory optimization in the face of **Big Data** challenges.
 
 - [Top 10 Python Libraries Data Scientists should know](https://www.edureka.co/blog/python-libraries/)
@@ -47,7 +47,7 @@ Big Data processing with **Pandas**, a powerful Python library for data manipula
 - [Kaggle: Largest Datasets](https://www.kaggle.com/code/benhamner/competitions-with-largest-datasets)
 - [EDA for Amazon books reviews](https://www.kaggle.com/code/mohamedbakhet/eda-for-amazon-books-reviews/notebook)
 
-### Big Data: Alternatives to Pandas for Processing Large Datasets
+### 2. Big Data: Alternatives to Pandas for Processing Large Datasets
 This topic delves into the challenges encountered when using Pandas, a popular Python library for data analysis, in handling large datasets. Recognizing the limitations of Pandas, the article explores alternative solutions specifically designed for efficient processing of extensive data. It examines cutting-edge libraries such as Dask, Modin, Polars, Vaex, and others, showcasing their unique features and advantages. From parallel and distributed computing to out-of-core processing and GPU acceleration, the article provides insights into how these alternatives address the scalability and performance issues often faced when dealing with big datasets, offering readers a comprehensive guide to navigate the complexities of large-scale data processing beyond Pandas.
 
 - [Challenges of Processing Large Datasets with Pandas](./materials/issue_pandas.md)
@@ -72,13 +72,13 @@ This topic delves into the challenges encountered when using Pandas, a popular P
 - [DatatableTon](https://github.com/vopani/datatableton)
 - [Getting started with Python datatable](https://www.kaggle.com/code/sudalairajkumar/getting-started-with-python-datatable)
 
-### 🎖️ Comparison between libraries
+### 3. Comparison between libraries
 - [Faster Pandas with parallel processing: cuDF vs. Modin](https://towardsdatascience.com/faster-pandas-with-parallel-processing-cudf-vs-modin-f2318c594084)
 - [Scaling Interactive Data Science with Modin and Ray](https://youtu.be/ycSf1IbBGWk)
 - [Scaling Pandas: Comparing Dask, Ray, Modin, Vaex, and RAPIDS](https://www.datarevenue.com/en-blog/pandas-vs-dask-vs-vaex-vs-modin-vs-rapids-vs-ray)
 
 
-### Big Data: Case study
+### 4. Big Data: Case study
 - [7 Amazing companies that really get big data](https://www.bernardmarr.com/img/bigdata-case-studybook_final.pdf)
 - [Data Science Case Studies: Solved using Python](https://thecleverprogrammer.com/2021/02/19/data-science-case-studies-solved-using-python/)
 - [10 Real World Data Science Case Studies Projects with Example](https://www.projectpro.io/article/data-science-case-studies-projects-with-examples-and-solutions/519)
