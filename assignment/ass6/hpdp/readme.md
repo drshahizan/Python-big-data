@@ -54,7 +54,7 @@ In this assignment, you will explore the management of big data processing in da
 
 ### 4. Submission Requirements
 📝 Prepare a comprehensive document that outlines the step-by-step process for creating the case study. 
-The deadline for submission is **26 November 2023, at 5:00 PM**. Late submissions will not be accepted and will be disregarded.
+The deadline for submission is **17 December 2023, at 5:00 PM**. Late submissions will not be accepted and will be disregarded.
 
 ## File and Folder Structure 
 
