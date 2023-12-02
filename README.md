@@ -48,6 +48,7 @@ Big Data processing with **Pandas**, a powerful Python library for data manipula
 - [EDA for Amazon books reviews](https://www.kaggle.com/code/mohamedbakhet/eda-for-amazon-books-reviews/notebook)
 
 ### Big Data: Alternatives to Pandas for Processing Large Datasets
+- [Challenges of Processing Large Datasets with Pandas ]()
 - [8 Alternatives to Pandas for Processing Large Datasets](https://towardsdatascience.com/8-alternatives-to-pandas-for-processing-large-datasets-928fc927b08c)
 - [Tutorial compilation for handling larger datasets](https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/275712)
 
