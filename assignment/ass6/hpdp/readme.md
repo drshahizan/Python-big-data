@@ -7,42 +7,46 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Assignment 6: Big Data Processing
+# Assignment 6: Mastering Big Data Handling
 
 ## Introduction
 In this assignment, you will explore the management of big data processing in data science. Big data processing involves the systematic handling and analysis of vast and complex datasets that exceed the capabilities of traditional data processing methods. It encompasses the storage, retrieval, and manipulation of massive volumes of information to extract valuable insights.
 
+
+# Assignment 6: Mastering Big Data Handling
+
+## Introduction
+In this assignment, you'll dive into the world of managing big data in data science. Big data means dealing with massive and complex datasets that go beyond what regular methods can handle. We're talking about storing, retrieving, and working with tons of information to find valuable insights.
+
 ## Task Overview
-1. **Dataset Selection**: Your first task is to select a suitable dataset for this assignment. You can choose a dataset from various sources, such as Kaggle, UCI Machine Learning Repository, or any other relevant dataset source. The dataset size must be at least 500 MB.
+1. **Pick a Big Dataset**: Start by choosing a suitable dataset. Choose a dataset from reputable sources such as Kaggle, UCI Machine Learning Repository, or any other pertinent dataset repository. Make sure it's big—over **700 MB**.
 
-2. **Loading the Dataset**: Use Python libraries like Pandas to load the selected dataset into your Colab notebook. You can upload the dataset from your local machine or load it directly from an online source.
+2. **Loading the Dataset**: Use Python and Pandas to load your chosen dataset into your Colab notebook. You can either upload it from your computer or directly from an online source.
 
-3. **Exploratory Data Analysis (EDA)**: Perform a basic exploratory data analysis to understand the dataset's characteristics. This includes checking for missing values, understanding the data types, and getting a sense of the dataset's structure.
+3. **Strategies for Big Datasets**: Apply four smart strategies to handle large datasets effectively:
+   - *Load Less Data*: Strategically load only the essential portions of the dataset to optimize memory usage.
+   - *Use Chunking*: Process the data in smaller pieces to avoid memory issues.
+   - *Optimize Data Types*: Fine-tune data types to maximize efficiency and minimize memory consumption.
+   - *Sampling*: Implement sampling methodologies to extract meaningful insights from a subset of the dataset.
 
-4. **Feature Selection**: Identify which features are relevant for your analysis. You can use techniques like correlation analysis, domain knowledge, or feature importance to choose the most important features. Create a new DataFrame containing only the selected features.
+4. **Steps for Using These Strategies**: Clearly explain the steps for each strategy. Help us understand how to make these strategies work.
 
-5. **Feature Preprocessing**: Clean the selected features as needed. This may include handling missing values, dealing with outliers, and standardizing or normalizing data.
+5. **Comparative Analysis**: Conduct a comprehensive comparative analysis between traditional methods and advanced strategies. Evaluate aspects such as memory usage, computation time, and file size. Provide meaningful insights into the advantages gained through the adoption of advanced strategies.
 
-6. **Feature Transformation**: Apply transformations to the selected features. You can use techniques like one-hot encoding for categorical features, logarithmic transformations for skewed data, or any other relevant transformations to make the data suitable for modeling.
-
-7. **Feature Creation**: Create new features if they can provide valuable information. This could involve combining or aggregating existing features or engineering new ones based on domain knowledge.
-
-8. **Visualization**: Visualize the transformed data to gain insights into feature distributions and relationships.
-
-9. **Conclusion**: Summarize your findings, the feature engineering steps you've taken, and why you made those decisions.
+6. **Conclusion**: Summarize your findings. Explain why you chose these strategies and how they make a difference in handling big data.
 
 ## Submission
-1. Create a new Markdown document in Google Colab and name it "Feature_Engineering.md"
+1. Create a new Markdown document in Google Colab and name it "big_data.md."
 
-2. Provide clear and organized explanations of each step in your Markdown document using appropriate headings and bullet points.
+2. Ensure the Markdown document is well-organized with clear explanations, appropriate headings, and bullet points.
 
-3. Include Python code snippets where necessary to demonstrate your implementation.
+3. Integrate Python code snippets within the Markdown document to illustrate the implementation of strategies.
 
-4. Attach your Colab notebook (`.ipynb` file) with all the code, annotations, and visualizations to your submission.
+4. Attach your Colab notebook (`.ipynb` file) containing all the code, annotations, and visualizations to your submission.
 
-5. Make sure to include your name, student ID, and date in the Markdown document.
+5. Include your name, student ID, and the date in the Markdown document.
 
-6. Share the Markdown document and Colab notebook with your instructor as instructed for evaluation.
+6. Share the Markdown document and Colab notebook with your lecturer as instructed for evaluation.
 
 🚀 Form project teams comprising a minimum of three and a maximum of four students. Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?pli=1#gid=2103764783). Please update your group information:
 
