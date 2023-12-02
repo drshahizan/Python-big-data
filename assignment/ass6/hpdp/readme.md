@@ -7,13 +7,13 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Assignment 6: Feature Engineering
+# Assignment 6: Big Data Processing
 
 ## Introduction
-In this assignment, you will explore the essential concept of feature engineering in data science. Feature engineering is a critical step in the data preprocessing process, where you manipulate and create new features from your dataset to improve the performance of machine learning models.
+In this assignment, you will explore the management of big data processing in data science. Big data processing involves the systematic handling and analysis of vast and complex datasets that exceed the capabilities of traditional data processing methods. It encompasses the storage, retrieval, and manipulation of massive volumes of information to extract valuable insights.
 
 ## Task Overview
-1. **Dataset Selection**: Your first task is to select a suitable dataset for this assignment. You can choose a dataset from various sources, such as Kaggle, UCI Machine Learning Repository, or any other relevant dataset source. Make sure the dataset is in a format that can be easily loaded into Google Colab.
+1. **Dataset Selection**: Your first task is to select a suitable dataset for this assignment. You can choose a dataset from various sources, such as Kaggle, UCI Machine Learning Repository, or any other relevant dataset source. The dataset size must be at least 500 MB.
 
 2. **Loading the Dataset**: Use Python libraries like Pandas to load the selected dataset into your Colab notebook. You can upload the dataset from your local machine or load it directly from an online source.
 
