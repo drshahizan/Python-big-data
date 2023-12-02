@@ -67,7 +67,7 @@ bdm/your_group/
 
 ```
 
-Good luck with your assignment! If you have any questions or need help, don't hesitate to reach out to your instructor or fellow students.
+Good luck with your assignment! If you have any questions or need help, don't hesitate to reach out to your lecturer or fellow students.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
