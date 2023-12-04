@@ -10,8 +10,8 @@ Don't forget to hit the :star: if you like this repo.
 # 2. Big Data: Alternatives to Pandas for Processing Large Datasets
 This topic delves into the challenges encountered when using Pandas, a popular Python library for data analysis, in handling large datasets. Recognizing the limitations of Pandas, the article explores alternative solutions specifically designed for efficient processing of extensive data. It examines cutting-edge libraries such as Dask, Modin, Polars, Vaex, and others, showcasing their unique features and advantages. From parallel and distributed computing to out-of-core processing and GPU acceleration, the article provides insights into how these alternatives address the scalability and performance issues often faced when dealing with big datasets, offering readers a comprehensive guide to navigate the complexities of large-scale data processing beyond Pandas.
 
-- [Challenges of Processing Large Datasets with Pandas](./materials/issue_pandas.md)
-- [Better Choices for Handling Big Datasets than Pandas](./materials/alternative_pandas.md)
+- [Challenges of Processing Large Datasets with Pandas](issue_pandas.md)
+- [Better Choices for Handling Big Datasets than Pandas](alternative_pandas.md)
 - [8 Alternatives to Pandas for Processing Large Datasets](https://towardsdatascience.com/8-alternatives-to-pandas-for-processing-large-datasets-928fc927b08c)
 - [Tutorial compilation for handling larger datasets](https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/275712)
 
