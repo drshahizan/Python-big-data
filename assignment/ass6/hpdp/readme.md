@@ -59,6 +59,7 @@ In this assignment, you will explore the management of big data processing in da
 | 9. | MEOW  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | 
 | 10. | ACE  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | 
 | 11. | DoubleCheeseBurger  |  <a href="./DoubleCheeseBurger/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | 
+| 12. | Milkshake  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [All daily hit charts curated by Spotify from 2017-2021](https://www.kaggle.com/datasets/dhruvildave/spotify-charts) |
 
 
 ### 3. Academic Integrity
