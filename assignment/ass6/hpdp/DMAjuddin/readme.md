@@ -8,8 +8,11 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Assignment 6: Mastering Big Data Handling
-
-
+### Group Members
+| Name                                     | Matrix Number | Task |
+| :---------------------------------------- | :-------------: | ------------- |
+|MUHAMMAD AMIR JAMIL BIN JAMLUS          | A21EC0202     |  |
+|MUHAMMAD IZZUDDIN BIN SHABRIN           | A21EC0083   |  |
 
 
 
