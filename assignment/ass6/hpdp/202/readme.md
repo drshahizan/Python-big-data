@@ -7,7 +7,7 @@
 
 # Assignment 4: Feature Engineering
 
-### Group Name: BYTE NAVIGATORS
+### Group Name: 202
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
