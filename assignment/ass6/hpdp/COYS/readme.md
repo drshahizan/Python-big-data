@@ -10,10 +10,10 @@ Don't forget to hit the :star: if you like this repo.
 
 # Assignment 6: Mastering Big Data Handling
 
-|Name|Matrics No|
----
-|Muhammad Hazim Bin Salman|A21EC0078|
-|Muhammad Naquib Bin Zakaria|A20BE0161|
+| Name | Matrics No |
+|---|---|
+| Muhammad Hazim Bin Salman | A21EC0078 |
+| Muhammad Naquib Bin Zakaria | A20BE0161 |
 
 
 
