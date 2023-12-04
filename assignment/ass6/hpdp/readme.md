@@ -61,6 +61,7 @@ In this assignment, you will explore the management of big data processing in da
 | 11. | DoubleCheeseBurger  |  <a href="./DoubleCheeseBurger/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | 
 | 12. | COYS  |  <a href="./COYS/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | 
 | 12. | SingaporeMarey  |  <a href="./SingaporeMarey/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | 
+| 14. | MilkShake  |  <a href="./MilkShake/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Spotify Chart]( https://www.kaggle.com/datasets/dhruvildave/spotify-charts) |
 
 ### 3. Academic Integrity
 🚫 Uphold the highest standards of academic integrity. Any candidate suspected of cheating in the assignment will face disciplinary action, which may include suspension or expulsion from the University. Moreover, any materials or devices found to be in violation of examination rules and regulations will be confiscated.
