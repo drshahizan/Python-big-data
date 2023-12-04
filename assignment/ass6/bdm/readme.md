@@ -17,7 +17,7 @@ In this assignment, you will explore the management of big data processing in da
 
 2. **Loading the Dataset**: Use Python and Pandas to load your chosen dataset into your Colab notebook. You can either upload it from your computer or directly from an online source.
 
-3. **Strategies for Big Datasets**: Apply four smart strategies to handle large datasets effectively:
+3. **Strategies for Big Datasets**: Apply five smart strategies to handle large datasets effectively:
    - *Load Less Data*: Strategically load only the essential portions of the dataset to optimize memory usage.
    - *Use Chunking*: Process the data in smaller pieces to avoid memory issues.
    - *Optimize Data Types*: Fine-tune data types to maximize efficiency and minimize memory consumption.
