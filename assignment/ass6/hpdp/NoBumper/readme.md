@@ -7,7 +7,7 @@
 
 # Assignment 6: Mastering Big Data Handling
 
-### Group Name: No Bumper
+### Group Name: NO BUMPER
 ### Group Members
 
 | Name                                      | Matrix Number   | Task       |
