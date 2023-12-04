@@ -29,6 +29,15 @@ Big Data processing with **Pandas**, a powerful Python library for data manipula
 - [Kaggle: Largest Datasets](https://www.kaggle.com/code/benhamner/competitions-with-largest-datasets)
 - [EDA for Amazon books reviews](https://www.kaggle.com/code/mohamedbakhet/eda-for-amazon-books-reviews/notebook)
 
+## Lab
+**Pandas**
+- [Lab 1: 1,000,000 Sales Records](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_1_1_million_Sales_Records.ipynb)
+- [Lab 2: NYC Yellow Taxi Trip Data](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_2_3_technique_handle_large_dataset.ipynb)
+- [Lab 3: NYC Taxi Trip Duration EDA notebook](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_3_NYC_EDA.ipynb)
+- [Lab 4: Strategies to Deal With Large Datasets Using Pandas](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_4_NYC_Large_Datasets.ipynb)
+- [Lab 5: eCommerce behavior data from multi category store (285 million users)](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_5_Dataset_285_million_users.ipynb)
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
 
