@@ -11,8 +11,8 @@ Don't forget to hit the :star: if you like this repo.
 ### Group Members
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-|MUHAMMAD AMIR JAMIL BIN JAMLUS          | A21EC0202     |  |
-|MUHAMMAD IZZUDDIN BIN SHABRIN           | A21EC0083   |  |
+|MUHAMMAD AMIR JAMIL BIN JAMLUS          | A21EC0202     |  Assignment 6 |
+|MUHAMMAD IZZUDDIN BIN SHABRIN           | A21EC0083   | Assignment 6 |
 
 
 
