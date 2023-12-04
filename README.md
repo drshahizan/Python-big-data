@@ -18,7 +18,6 @@ The information on this Github is part of the materials for the subject High Per
 
 **Big data processing** involves the systematic handling and analysis of vast and complex datasets that exceed the capabilities of traditional data processing methods. It encompasses the **storage, retrieval, and manipulation** of massive volumes of information to extract valuable insights. Key steps include **data ingestion**, where large datasets are collected from various sources, and **preprocessing**, involving cleaning and transformation to ensure data quality. Advanced **analytics**, **machine learning**, and **data mining** techniques are then applied to uncover patterns, trends, and correlations within the data. **Big data processing** is integral to informed decision-making, enabling organizations to derive meaningful conclusions from their data, optimize operations, and gain a competitive edge in today's **data-driven landscape**.
 
-
 ## Notes
 - [Essential Skills for Big Data Processing with Google Colab: A Beginner's Guide](./materials/beginner-guide.md)
 - [The Challenges of Working with Big Data in Data Science](./materials/issue_ld.md)
@@ -30,29 +29,6 @@ Big Data processing with **Pandas**, a powerful Python library for data manipula
 
 ### [2. Big Data: Alternatives to Pandas for Processing Large Datasets](./materials/02alternatives.md)
 This topic delves into the challenges encountered when using Pandas, a popular Python library for data analysis, in handling large datasets. Recognizing the limitations of Pandas, the article explores alternative solutions specifically designed for efficient processing of extensive data. It examines cutting-edge libraries such as Dask, Modin, Polars, Vaex, and others, showcasing their unique features and advantages. From parallel and distributed computing to out-of-core processing and GPU acceleration, the article provides insights into how these alternatives address the scalability and performance issues often faced when dealing with big datasets, offering readers a comprehensive guide to navigate the complexities of large-scale data processing beyond Pandas [**MORE** 💡](./materials/02alternatives.md).
-
-- [Challenges of Processing Large Datasets with Pandas](./materials/issue_pandas.md)
-- [Better Choices for Handling Big Datasets than Pandas](./materials/alternative_pandas.md)
-- [8 Alternatives to Pandas for Processing Large Datasets](https://towardsdatascience.com/8-alternatives-to-pandas-for-processing-large-datasets-928fc927b08c)
-- [Tutorial compilation for handling larger datasets](https://www.kaggle.com/competitions/tabular-playground-series-oct-2021/discussion/275712)
-
-#### Modin
-- [Modin](https://modin.readthedocs.io/en/stable/)
-- [Github Modin](https://github.com/modin-project/modin)
-- [How to Speed Up Pandas with Modin](https://towardsdatascience.com/how-to-speed-up-pandas-with-modin-84aa6a87bcdb)
-- [Kaggle: Speed up Pandas Workflow with Modin](https://www.kaggle.com/code/lordozvlad/speed-up-pandas-workflow-with-modin/notebook)
-- [Video: Do these Pandas Alternatives actually work?](https://youtu.be/LEhMQhCv3Kg)
-
-#### Dask
-- [Video - Dask: An Introduction]()
-- [Dask | Scale the Python tools you love]()
-- [Dask – How to handle large dataframes in python using parallel computing]()
-- [Dask (software)]()
-- [Parallel Computing with Dask: A Step-by-Step Tutorial]()
-
-#### Datatable
-- [DatatableTon](https://github.com/vopani/datatableton)
-- [Getting started with Python datatable](https://www.kaggle.com/code/sudalairajkumar/getting-started-with-python-datatable)
 
 ### 3. Comparison between libraries
 - [Faster Pandas with parallel processing: cuDF vs. Modin](https://towardsdatascience.com/faster-pandas-with-parallel-processing-cudf-vs-modin-f2318c594084)
@@ -67,26 +43,6 @@ This topic delves into the challenges encountered when using Pandas, a popular P
 - [Top 8 Data Science Case Studies for Data Science Enthusiasts](https://www.knowledgehut.com/blog/data-science/top-data-science-case-studies)
 
 ## Lab
-**Pandas**
-- [Lab 1: 1,000,000 Sales Records](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_1_1_million_Sales_Records.ipynb)
-- [Lab 2: NYC Yellow Taxi Trip Data](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_2_3_technique_handle_large_dataset.ipynb)
-- [Lab 3: NYC Taxi Trip Duration EDA notebook](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_3_NYC_EDA.ipynb)
-- [Lab 4: Strategies to Deal With Large Datasets Using Pandas](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_4_NYC_Large_Datasets.ipynb)
-- [Lab 5: eCommerce behavior data from multi category store (285 million users)](https://github.com/drshahizan/Python-big-data/blob/main/Pandas/Lab_5_Dataset_285_million_users.ipynb)
-
-**Modin**
-- [Lab 1: How to use Modin](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_1.ipynb)
-- [Lab 2: Speed improvements](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_2.ipynb)
-- [Lab 3: Not Implemented](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_3.ipynb)
-- [Lab 4: Experimental Features](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_4.ipynb)
-- [Lab 5: Modin for Distributed Pandas](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_5.ipynb)
-
-**Dask**
-- [Lab 1: Introducing Dask](https://github.com/drshahizan/Python-big-data/blob/main/Dask/Lab_1.ipynb)
-- [Lab 2: Loading Data Into DataFrames](https://github.com/drshahizan/Python-big-data/blob/main/Dask/Lab_2.ipynb)
-- [Lab 3: Introducing Dask DataFrames](https://github.com/drshahizan/Python-big-data/blob/main/Dask/Lab_3.ipynb)
-- [Lab 4: Learning Dask With Python Distributed Computing](https://github.com/drshahizan/Python-big-data/blob/main/Dask/Lab_4.ipynb)
-- [Lab 5: Parallelize code with dask.delayed](https://github.com/drshahizan/Python-big-data/blob/main/Dask/Lab_5.ipynb)
 
 **Comparison between libraries**
 - [Lab: Modin vs Pandas](https://github.com/drshahizan/Python-big-data/blob/main/Modin/lab_6_IntelModin_Vs_Pandas.ipynb)
