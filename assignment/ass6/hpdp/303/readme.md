@@ -11,7 +11,7 @@ Don't forget to hit the :star: if you like this repo.
 ### Group Name: 303
 ### Group Members
 
-| Name                                     | Matrix Number |
+| Name                                     | Matric No. |
 | :---------------------------------------- | :-------------: |
 | ANG YI QIN            |A21EC0163      |
 | SOO WAN YING              |A21EC0227      |
