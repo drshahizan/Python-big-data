@@ -14,7 +14,7 @@ Don't forget to hit the :star: if you like this repo.
 | Name                                     | Matric No. |
 | :---------------------------------------- | :-------------: |
 | ALIEYA ZAWANIE BINTI A ZAINI  |A21EC0156    |
-| UMAR HAZIQ BIN MOHAMAD NORHISHAM |A21E0235  |
+| UMAR HAZIQ BIN MOHAMAD NORHISHAM |A21EC0235  |
 
 ### 📂 Folder content:
 * [💻 Assignment 6]()
