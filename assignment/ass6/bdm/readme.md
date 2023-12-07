@@ -48,6 +48,8 @@ In this assignment, you will explore the management of big data processing in da
 | No | Group |  File | Dataset | 
 | -----: |  ------ | :-----: |  ----- |  
 | 0. | Sample  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | 
+| 1. | Thruth Archive 1  |  <a href="./Thruth%20Archive%201" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Property Listings for 5 South American Countries |
+
 
 ### 3. Academic Integrity
 🚫 Uphold the highest standards of academic integrity. Any candidate suspected of cheating in the assignment will face disciplinary action, which may include suspension or expulsion from the University. Moreover, any materials or devices found to be in violation of examination rules and regulations will be confiscated.
