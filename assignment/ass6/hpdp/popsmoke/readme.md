@@ -12,7 +12,7 @@
 
 | Name                                      | Matrix Number   | Task       |
 | :---------------------------------------- | :-------------: | ---------- |
-| MUHAMMAD FIKRI BIN SHARUNAZIM             |A21EC0173        |ASSIGNMENT 6|
+| MUHAMMAD FIKRI BIN SHARUNAZIM             |A21EC0073        |ASSIGNMENT 6|
 | MUHAMMAD ADAM FAHMI BIN MOHD TAUFIQ       |A21EC0061        |ASSIGNMENT 6|
 
 ### 📂 Folder content:
