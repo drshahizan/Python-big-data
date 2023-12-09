@@ -14,6 +14,10 @@ Don't forget to hit the :star: if you like this repo.
 |MUHAMMAD AMIR JAMIL BIN JAMLUS          | A21EC0202     |  Assignment 6 |
 |MUHAMMAD IZZUDDIN BIN SHABRIN           | A21EC0083   | Assignment 6 |
 
+### 📂 Folder content:
+* [💻 Assignment 6](assignment6_DMAjuddin.ipynb
+)
+* [💻 Report]()
 
 
 
