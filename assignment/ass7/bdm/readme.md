@@ -46,7 +46,7 @@ The assignment entails a comprehensive comparison of libraries optimized for big
    - Share both the Markdown document and the Colab notebook with your lecturer, following the specified instructions for submission and evaluation.
 
 ## 🚀 Group Collaboration Instructions
-This assignment is designed for group work (4 persons/ group), emphasizing the importance of teamwork. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?pli=1#gid=175160878). Update the group information with the following details:
+This assignment is designed for group work (4 persons/ group), emphasizing the importance of teamwork. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1WJWrzrGmfC0z5CmTYCGmlkKa7_byYOoxlU0MTg7pRrk/edit#gid=1360008561). Update the group information with the following details:
 
 | Team | Library 1 | Library 2 | Library 3 | Dataset |  File |
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
@@ -61,10 +61,10 @@ The deadline for submission is **26 December 2023, at 5:00 PM**. Late submission
 
 ## File and Folder Structure 
 
-You must place your file in the submission folder. Within the [`hpdp/`](https://github.com/drshahizan/Python-big-data/edit/main/assignment/ass7/hpdp) folder, create a folder called your group. Name the default file as `readme.md`. Suggested folder structure for this project:
+You must place your file in the submission folder. Within the [`hpdp/`](https://github.com/drshahizan/Python-big-data/edit/main/assignment/ass7/bdm) folder, create a folder called your group. Name the default file as `readme.md`. Suggested folder structure for this project:
 
 ```html
-hpdp/your_group/
+bdm/your_group/
 ├── 📄 ass7.md
 └── 📄 readme.md
 
