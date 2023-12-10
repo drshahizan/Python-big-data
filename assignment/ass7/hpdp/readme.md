@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Assignment 7: Comparison between libraries
 
-## [Template: Project big data](compare_big_data.ipynb)
+## [Template: Project big data](./sample/compare_big_data.ipynb)
 
 ## 🚀 Instructions
 
