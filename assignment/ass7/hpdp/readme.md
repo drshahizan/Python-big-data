@@ -25,16 +25,6 @@ Don't forget to hit the :star: if you like this repo.
 | Team | Library 1 | Library 2 | Library 3 | Dataset |  Open in GitHub |
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
 | AdMiPeQa | Pandas | Dask | Koalas | Air Flight Analysis | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/AdMiPeQa) |
-| BigMac | Vaex | Koalas | PySpark | Airline Delay and Cancellation Data 2016 - 2018| [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/BigMac) |
-| No Name | Pandas | PySpark | Koalas | Amazon Book Review | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/No%20Name) |
-| QUAD | Polars | Koalas | Datatable | NYC yellow taxi trip data | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/QUAD) |
-| QwQ | Koalas | Pyspark | Dask | NYC Automated Traffic Volume Counts | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/QwQ) |
-| Rojak | Pandas | Vaex | Koalas | 15 Million Chess Games from Lichess (2013-2014) | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/Rojak) |
-| SDS | Pandas | Polars | Koalas | Analysis of Amazon Books Review | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SDS) |
-| SIX | Dask | Pyspark | Koalas | NYC Parking Tickets | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SIX) |
-| SamVerse | Pandas | PySpark | Koalas | Spotify Charts | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SamVerse) |
-| Sepuluh | Pyspark | Polars | Pandas | Airline Delay and Cancellation Data 2017 - 2018 | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/Sepuluh) |
-| High Five | Pandas | Koalas | Modin | Airline Delay and Cancellation Data 2015 - 2016 | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/High%20Five) |
 
 ## Submission
 1. Create a new Markdown document in Google Colab and name it "*big_data.md*"
