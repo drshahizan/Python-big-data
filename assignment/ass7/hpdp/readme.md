@@ -46,7 +46,7 @@ The assignment entails a comprehensive comparison of libraries optimized for big
    - Share both the Markdown document and the Colab notebook with your lecturer, following the specified instructions for submission and evaluation.
 
 ## 🚀 Group Collaboration Instructions
-This assignment is designed for group work (4 persons/group), emphasizing the importance of teamwork. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?pli=1#gid=175160878). Update the group information with the following details:
+This assignment is designed for group work (4 persons/ group), emphasizing the importance of teamwork. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?pli=1#gid=175160878). Update the group information with the following details:
 
 | Team | Library 1 | Library 2 | Library 3 | Dataset |  File |
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
