@@ -22,7 +22,7 @@ Don't forget to hit the :star: if you like this repo.
 
 ## 🌟 Project: Solutions
 
-| Team | Library 1 | Library 2 | Library 3 | Dataset |  Open in GitHub |
+| Team | Library 1 | Library 2 | Library 3 | Dataset |  File |
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
 | Sample | Pandas | Dask | Koalas | Air Flight Analysis | <a href="compare_big_data.ipynb" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 
