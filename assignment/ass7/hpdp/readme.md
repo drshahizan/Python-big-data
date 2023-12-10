@@ -57,7 +57,7 @@ This assignment is designed for group work (4 persons/group), emphasizing the im
 
 ### Submission Requirements
 📝 Prepare a comprehensive document that outlines the step-by-step process for creating the case study. 
-The deadline for submission is **17 December 2023, at 5:00 PM**. Late submissions will not be accepted and will be disregarded.
+The deadline for submission is **26 December 2023, at 5:00 PM**. Late submissions will not be accepted and will be disregarded.
 
 ## File and Folder Structure 
 
