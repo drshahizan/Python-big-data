@@ -32,7 +32,7 @@ The assignment entails a comprehensive comparison of libraries optimized for big
 | Sample | Pandas | Dask | Koalas | Air Flight Analysis | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 
 ## Submission
-1. Create a new Markdown document in Google Colab and name it "*big_data.md*"
+1. Create a new Markdown document in Google Colab and name it "*compare_bd.md*"
 
 2. Ensure the Markdown document is well-organized with clear explanations, appropriate headings, and bullet points.
 
@@ -44,7 +44,7 @@ The assignment entails a comprehensive comparison of libraries optimized for big
 
 6. Share the Markdown document and Colab notebook with your lecturer as instructed for evaluation.
 
-🚀 This assignment needs to be done in pairs (2 persons/group). Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?pli=1#gid=846848469). Please update your group information:
+🚀 This assignment needs to be done in groups (4 persons/group). Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?pli=1#gid=846848469). Please update your group information:
 
 | No | Group |  File | Dataset | 
 | -----: |  ------ | :-----: |  ----- |  
