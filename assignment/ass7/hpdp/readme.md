@@ -7,7 +7,7 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Assignment 7: Mastering Big Data Handling
+# Assignment 7: Comparison between libraries
 
 ## [Template: Project big data](https://github.com/drshahizan/Python-big-data/blob/main/Project/Project_big_data.ipynb)
 
