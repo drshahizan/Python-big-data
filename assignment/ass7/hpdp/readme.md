@@ -8,17 +8,22 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Assignment 7: Comparison between libraries
+The assignment entails a comprehensive comparison of libraries optimized for big data applications, focusing on the challenges encountered when handling massive datasets using Pandas. Acknowledging the inherent limitations of Pandas, the exploration of alternative libraries, including Dask, Modin, Polars, and Vaex, becomes imperative for more effective and scalable data processing solutions.
 
 ## [Template: Project big data](./sample/compare_big_data.ipynb)
 
 ## 🚀 Instructions
+1. **Dataset Selection (Minimum Size: 1 GB):** Choose a dataset larger than 1 GB from reputable sources such as [Kaggle](https://www.kaggle.com/datasets) or [Dataset Search](https://datasetsearch.research.google.com/). Ensure that you provide a link enabling your dataset's utilization on Google Colab.
 
-1. You need to use a dataset that is larger than 1 GB. You can get the dataset from [Kaggle](https://www.kaggle.com/datasets) or [Dataset Search](https://datasetsearch.research.google.com/).
-2. Make sure you create a link to enable your dataset to be used on Google Colab.
-3. Please create operations related to big data that allow the dataset to be used.
-4. You need to use at least three libraries related to big data processing such as Pandas, Dask, Vaex and Modin.
-5. Please compare the processing results from the selected libraries.
-6. You need to use the concept of Exploratory Data Analysis (EDA) on this project.
+2. **Google Colab Compatibility:** Create the necessary operations and configurations that facilitate the seamless use of your chosen dataset on Google Colab. Include a link to your Google Colab notebook in your submission.
+
+3. **Big Data Operations:** Implement operations specifically designed for big data within your chosen libraries (Pandas, Dask, Vaex, Modin) to maximize their capabilities in processing large datasets.
+
+4. **Library Comparison:** Utilize at least three libraries related to big data processing (Pandas, Dask, Vaex, Modin) in your project. Systematically compare the processing results obtained from each library, highlighting their strengths and weaknesses in handling significant volumes of data.
+
+5. **Exploratory Data Analysis (EDA):** Apply the concept of Exploratory Data Analysis (EDA) to gain meaningful insights from your dataset. Use visualizations, statistical measures, and other relevant EDA techniques to enhance your understanding of the data.
+
+6. Ensure that your submission is well-documented, providing a detailed explanation of the steps taken, insights gained, and a comprehensive evaluation of the performance of each library.
 
 ## 🌟 Project: Solutions
 
