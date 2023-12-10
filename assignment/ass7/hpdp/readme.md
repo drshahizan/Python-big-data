@@ -11,15 +11,14 @@ Don't forget to hit the :star: if you like this repo.
 
 ## [Template: Project big data](https://github.com/drshahizan/Python-big-data/blob/main/Project/Project_big_data.ipynb)
 
-## 🚀 Project: Instructions
+## 🚀 Instructions
 
-1. You need to use a dataset that is larger than 1 GB. You can get the dataset from [Kaggle](https://www.kaggle.com/datasets) or [Dataset Search](https://datasetsearch.research.google.com/). The dataset file must be of CSV type.
-2. The dataset must be stored in Google Drive.
-3. Make sure you create a link to enable your dataset to be used on Google Colab.
-4. Please create operations related to big data that allow the dataset to be used.
-5. You need to use at least three libraries related to big data processing such as Pandas, Dask, Vaex and Modin.
-6. Please compare the processing results from the selected libraries.
-7. You need to use the concept of Exploratory Data Analysis (EDA) on this project.
+1. You need to use a dataset that is larger than 1 GB. You can get the dataset from [Kaggle](https://www.kaggle.com/datasets) or [Dataset Search](https://datasetsearch.research.google.com/).
+2. Make sure you create a link to enable your dataset to be used on Google Colab.
+3. Please create operations related to big data that allow the dataset to be used.
+4. You need to use at least three libraries related to big data processing such as Pandas, Dask, Vaex and Modin.
+5. Please compare the processing results from the selected libraries.
+6. You need to use the concept of Exploratory Data Analysis (EDA) on this project.
 
 ## 🌟 Project: Solutions
 
