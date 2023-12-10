@@ -25,12 +25,6 @@ The assignment entails a comprehensive comparison of libraries optimized for big
 
 6. Ensure that your submission is well-documented, providing a detailed explanation of the steps taken, insights gained, and a comprehensive evaluation of the performance of each library.
 
-## 🌟 Project: Solutions
-
-| Team | Library 1 | Library 2 | Library 3 | Dataset |  File |
-| ----- | ----- | ------ | ------ |  ------ | :------: | 
-| Sample | Pandas | Dask | Koalas | Air Flight Analysis | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
-
 ## Submission
 1. Create a new Markdown document in Google Colab and name it "*compare_bd.md*"
 
@@ -46,28 +40,9 @@ The assignment entails a comprehensive comparison of libraries optimized for big
 
 🚀 This assignment needs to be done in groups (4 persons/group). Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?pli=1#gid=846848469). Please update your group information:
 
-| No | Group |  File | Dataset | 
-| -----: |  ------ | :-----: |  ----- |  
-| 0. | Sample  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | 
-| 1. | UA  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Anime Dataset 2023](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset)|
-| 2. | 2Big2Handle  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Spotify Chart](https://www.kaggle.com/datasets/dhruvildave/spotify-charts)|
-| 3. | DMAjuddin  |  <a href="./DMAjuddin/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Flight_Delay](https://www.kaggle.com/datasets/patrickzel/flight-delay-and-cancellation-dataset-2019-2023)|
-| 4. | 303  |  <a href="https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/hpdp/202/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [2019 Airline Delays w/Weather and Airport Detail](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations)
-| 5. | coconut  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Brewery Operations and Market Analysis Dataset](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset)|
-| 6. | NO BUMPER  |  <a href="./NoBumper/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [New York City Bus Data](https://www.kaggle.com/datasets/stoney71/new-york-city-transport-statistics) |
-| 7. | ObehSong  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [eCommerce behavior data from multi category store](https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store) |
-| 8. | 202  |  <a href="./202/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> |  [Airline Delay Analysis](https://www.kaggle.com/datasets/sherrytp/airline-delay-analysis) | 
-| 9. | MEOW  |  <a href="./MEOW/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Chest X-ray Images](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/)|
-| 10. | ACE  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [International Dataset](https://www.kaggle.com/datasets/census/international-data/data)|
-| 11. | DoubleCheeseBurger  |  <a href="./DoubleCheeseBurger/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Steam Reviews](https://www.kaggle.com/datasets/najzeko/steam-reviews-2021) |
-| 12. | COYS  |  <a href="./COYS/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Car Selling](https://www.kaggle.com/code/alicewulim/selling-cars/input) | 
-| 12. | SingaporeMarey  |  <a href="./SingaporeMarey/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [FIFA 23 Male Player](https://www.kaggle.com/datasets/stefanoleone992/fifa-23-complete-player-dataset?select=male_players.csv)|
-| 14. | MilkShake  |  <a href="./MilkShake/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Spotify Chart]( https://www.kaggle.com/datasets/dhruvildave/spotify-charts) |
-| 15. | vtm  |  <a href="./vtm/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Chess Games](https://www.kaggle.com/datasets/arevel/chess-games) |
-| 16. | NO CAR NO FRIEND  |  <a href="./NoCarNoFriend/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Public Employees Salaries From Brazil/SP 2012-2023]( https://www.kaggle.com/datasets/bambrozim/public-employees-salaries-from-brazilsp-2012) |
-| 17. | HD  |  <a href="./NoCarNoFriend/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Flight Delay and Cancellation Dataset 2023]( https://www.kaggle.com/datasets/patrickzel/flight-delay-and-cancellation-dataset-2019-2023?select=2023.csv ) |
-| 18. | HAWI  |  <a href="./HAWI/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [UK Property Price official data 1995-202304]( https://www.kaggle.com/datasets/lorentzyeung/price-paid-data-202304 ) |
-| 19. | popsmoke  |  <a href="./popsmoke/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | []() |
+| Team | Library 1 | Library 2 | Library 3 | Dataset |  File |
+| ----- | ----- | ------ | ------ |  ------ | :------: | 
+| Sample | Pandas | Dask | Koalas | Air Flight Analysis | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 
 
 ### 3. Academic Integrity
