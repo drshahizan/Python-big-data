@@ -24,7 +24,7 @@ Don't forget to hit the :star: if you like this repo.
 
 | Team | Library 1 | Library 2 | Library 3 | Dataset |  File |
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
-| Sample | Pandas | Dask | Koalas | Air Flight Analysis | <a href="compare_big_data.ipynb" ><img src="../../../images/answer.png" width="24px" height="24px" > |
+| Sample | Pandas | Dask | Koalas | Air Flight Analysis | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 
 ## Submission
 1. Create a new Markdown document in Google Colab and name it "*big_data.md*"
