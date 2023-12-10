@@ -7,28 +7,35 @@
 
 Don't forget to hit the :star: if you like this repo.
 
-# Assignment 6: Mastering Big Data Handling
+# Assignment 7: Mastering Big Data Handling
 
-## Introduction
-In this assignment, you will explore the management of big data processing in data science. Big data processing involves the systematic handling and analysis of vast and complex datasets that exceed the capabilities of traditional data processing methods. It encompasses the storage, retrieval, and manipulation of massive volumes of information to extract valuable insights.
+## [Template: Project big data](https://github.com/drshahizan/Python-big-data/blob/main/Project/Project_big_data.ipynb)
 
-## Task Overview
-1. **Pick a Big Dataset**: Start by choosing a suitable dataset. Choose a dataset from reputable sources such as Kaggle, UCI Machine Learning Repository, or any other pertinent dataset repository. Make sure it's big—over **700 MB**.
+## 🚀 Project: Instructions
 
-2. **Loading the Dataset**: Use Python and Pandas to load your chosen dataset into your Colab notebook. You can either upload it from your computer or directly from an online source.
+1. You need to use a dataset that is larger than 1 GB. You can get the dataset from [Kaggle](https://www.kaggle.com/datasets) or [Dataset Search](https://datasetsearch.research.google.com/). The dataset file must be of CSV type.
+2. The dataset must be stored in Google Drive.
+3. Make sure you create a link to enable your dataset to be used on Google Colab.
+4. Please create operations related to big data that allow the dataset to be used.
+5. You need to use at least three libraries related to big data processing such as Pandas, Dask, Vaex and Modin.
+6. Please compare the processing results from the selected libraries.
+7. You need to use the concept of Exploratory Data Analysis (EDA) on this project.
 
-3. **Strategies for Big Datasets**: Apply five smart strategies to handle large datasets effectively:
-   - *Load Less Data*: Strategically load only the essential portions of the dataset to optimize memory usage.
-   - *Use Chunking*: Process the data in smaller pieces to avoid memory issues.
-   - *Optimize Data Types*: Fine-tune data types to maximize efficiency and minimize memory consumption.
-   - *Sampling*: Implement sampling methodologies to extract meaningful insights from a subset of the dataset.
-   - *Parallelize with Dask*: Dask is a powerful library that extends pandas to enable parallel and distributed computing. It's particularly useful for handling larger-than-memory datasets.
+## 🌟 Project: Solutions
 
-4. **Steps for Using These Strategies**: Clearly explain the steps for each strategy. Help us understand how to make these strategies work.
-
-5. **Comparative Analysis**: Conduct a comprehensive comparative analysis between traditional methods and advanced strategies. Evaluate aspects such as memory usage, computation time, and file size. Provide meaningful insights into the advantages gained through the adoption of advanced strategies.
-
-6. **Conclusion**: Summarize your findings. Explain why you chose these strategies and how they make a difference in handling big data.
+| Team | Library 1 | Library 2 | Library 3 | Dataset |  Open in GitHub |
+| ----- | ----- | ------ | ------ |  ------ | :------: | 
+| AdMiPeQa | Pandas | Dask | Koalas | Air Flight Analysis | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/AdMiPeQa) |
+| BigMac | Vaex | Koalas | PySpark | Airline Delay and Cancellation Data 2016 - 2018| [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/BigMac) |
+| No Name | Pandas | PySpark | Koalas | Amazon Book Review | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/No%20Name) |
+| QUAD | Polars | Koalas | Datatable | NYC yellow taxi trip data | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/QUAD) |
+| QwQ | Koalas | Pyspark | Dask | NYC Automated Traffic Volume Counts | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/QwQ) |
+| Rojak | Pandas | Vaex | Koalas | 15 Million Chess Games from Lichess (2013-2014) | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/Rojak) |
+| SDS | Pandas | Polars | Koalas | Analysis of Amazon Books Review | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SDS) |
+| SIX | Dask | Pyspark | Koalas | NYC Parking Tickets | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SIX) |
+| SamVerse | Pandas | PySpark | Koalas | Spotify Charts | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/SamVerse) |
+| Sepuluh | Pyspark | Polars | Pandas | Airline Delay and Cancellation Data 2017 - 2018 | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/Sepuluh) |
+| High Five | Pandas | Koalas | Modin | Airline Delay and Cancellation Data 2015 - 2016 | [:octocat:](https://github.com/drshahizan/Python-big-data/tree/main/Project/High%20Five) |
 
 ## Submission
 1. Create a new Markdown document in Google Colab and name it "*big_data.md*"
