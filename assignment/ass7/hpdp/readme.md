@@ -25,40 +25,47 @@ The assignment entails a comprehensive comparison of libraries optimized for big
 
 6. Ensure that your submission is well-documented, providing a detailed explanation of the steps taken, insights gained, and a comprehensive evaluation of the performance of each library.
 
-## Submission
-1. Create a new Markdown document in Google Colab and name it "*compare_bd.md*"
+## Submission Guidelines
 
-2. Ensure the Markdown document is well-organized with clear explanations, appropriate headings, and bullet points.
+1. **Markdown Document Creation:**
+   - Generate a new Markdown document in Google Colab titled "*compare_bd.md*."
 
-3. Integrate Python code snippets within the Markdown document to illustrate the implementation of strategies.
+2. **Document Organization:**
+   - Ensure that your Markdown document is meticulously organized, featuring clear explanations, appropriate headings, and well-structured bullet points for enhanced readability.
 
-4. Attach your Colab notebook (`.ipynb` file) containing all the code, annotations, and visualizations to your submission.
+3. **Code Integration:**
+   - Integrate Python code snippets seamlessly within the Markdown document to vividly illustrate the implementation of strategies. Clearly annotate each code section for easy understanding.
 
-5. Include your name, student ID, and the date in the Markdown document.
+4. **Colab Notebook Attachment:**
+   - Attach your comprehensive Colab notebook (`.ipynb` file) to the submission. The notebook should encompass all relevant code, annotations, and visualizations.
 
-6. Share the Markdown document and Colab notebook with your lecturer as instructed for evaluation.
+5. **Personal Information Inclusion:**
+   - Include your name, student ID, and the date within the Markdown document to facilitate proper identification.
 
-🚀 This assignment needs to be done in groups (4 persons/group). Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?pli=1#gid=846848469). Please update your group information:
+6. **Submission for Evaluation:**
+   - Share both the Markdown document and the Colab notebook with your lecturer, following the specified instructions for submission and evaluation.
+
+## 🚀 Group Collaboration Instructions
+This assignment is designed for group work (4 persons/group), emphasizing the importance of teamwork. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1vLDgDAu2ai9rAOIKUfE1xUfTEvK2ikpXJ_1F-Xqtk_c/edit?pli=1#gid=846848469). Update the group information with the following details:
 
 | Team | Library 1 | Library 2 | Library 3 | Dataset |  File |
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
 | Sample | Pandas | Dask | Koalas | Air Flight Analysis | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 
-
-### 3. Academic Integrity
+## Academic Integrity
 🚫 Uphold the highest standards of academic integrity. Any candidate suspected of cheating in the assignment will face disciplinary action, which may include suspension or expulsion from the University. Moreover, any materials or devices found to be in violation of examination rules and regulations will be confiscated.
 
-### 4. Submission Requirements
+### Submission Requirements
 📝 Prepare a comprehensive document that outlines the step-by-step process for creating the case study. 
 The deadline for submission is **17 December 2023, at 5:00 PM**. Late submissions will not be accepted and will be disregarded.
 
 ## File and Folder Structure 
 
-You must place your file in the submission folder. Within the [`hpdp/`](https://github.com/drshahizan/Python-big-data/edit/main/assignment/ass6/hpdp) folder, create a folder called your group. Name the default file as `readme.md`. Suggested folder structure for this project:
+You must place your file in the submission folder. Within the [`hpdp/`](https://github.com/drshahizan/Python-big-data/edit/main/assignment/ass7/hpdp) folder, create a folder called your group. Name the default file as `readme.md`. Suggested folder structure for this project:
 
 ```html
 hpdp/your_group/
-├── 📄 big_data.md
+├── 📄 ass7.md
 └── 📄 readme.md
 
 ```
