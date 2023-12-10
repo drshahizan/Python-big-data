@@ -21,7 +21,7 @@ The assignment entails a comprehensive comparison of libraries optimized for big
 
 4. **Library Comparison:** Utilize at least three libraries related to big data processing (Pandas, Dask, Vaex, Modin) in your project. Systematically compare the processing results obtained from each library, highlighting their strengths and weaknesses in handling significant volumes of data.
 
-5. **Exploratory Data Analysis (EDA):** Apply the concept of Exploratory Data Analysis (EDA) to gain meaningful insights from your dataset. Use visualizations, statistical measures, and other relevant EDA techniques to enhance your understanding of the data.
+5. **Exploratory Data Analysis (EDA) or Feature Engineering:** Apply the concept of Exploratory Data Analysis (EDA) or Feature Engineering to gain meaningful insights from your dataset. Use visualizations, statistical measures, and other relevant EDA techniques to enhance your understanding of the data.
 
 6. Ensure that your submission is well-documented, providing a detailed explanation of the steps taken, insights gained, and a comprehensive evaluation of the performance of each library.
 
