@@ -60,7 +60,7 @@ This assignment is designed for group work (4 persons/ group), emphasizing the i
 | KOKONAT | Pandas | Data Table | Pyspark | [Brewery Operations and Market Analysis](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset) | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | SYNA | Modin | Vaex | Data Table | [Flight Status Prediction 2022](https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022?select=Combined_Flights_2022.csv) | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | ANGKASA | Pandas | DataTable | Koalas | [IMDb Dataset](https://www.kaggle.com/datasets/ashirwadsangwan/imdb-dataset/data) | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
-| HANI | Pandas | Dask | Modin |  | <a href="./HANI/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
+| HANI | Pandas | Dask | Modin | [UK Property Price official data 1995-202304]( https://www.kaggle.com/datasets/lorentzyeung/price-paid-data-202304 ) | <a href="./HANI/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | WATERMILON | Modin | Dask | Vaex | [UK Property Price data 1995-2023-04](https://www.kaggle.com/datasets/willianoliveiragibin/uk-property-price-data-1995-2023-04/data) | <a href="./WATERMILON/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 
 ## Academic Integrity
