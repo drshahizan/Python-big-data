@@ -17,10 +17,10 @@ Don't forget to hit the :star: if you like this repo.
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-|Mikhail Bin Yaasin              |   A21EC0053   |   Data Exploration  |
-|Muhammad Farhan Bin Ibrahim             | A21EC0072     |  Data Preprocessing  |
-|Muhammad Fikri Bin Sharunazim              |  A21EC0075    |   Data Visualization  |
-| Muhammad Adam Fahmi Bin Mohd Taufiq              |  A21EC0061    |  Data Acquisation & Set Environment  |
+|Mikhail Bin Yaasin              |   A21EC0053   |   All  |
+|Muhammad Farhan Bin Ibrahim             | A21EC0072     |  Pandas  |
+|Muhammad Fikri Bin Sharunazim              |  A21EC0075    |   Modin |
+| Muhammad Adam Fahmi Bin Mohd Taufiq              |  A21EC0061    |  Vaex  |
 
 ### 📂 Folder content:
 * [📖 Assignment 7 ](compare_bigdata.ipynb)
