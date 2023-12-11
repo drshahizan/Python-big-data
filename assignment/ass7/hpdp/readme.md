@@ -51,7 +51,7 @@ This assignment is designed for group work (4 persons/ group), emphasizing the i
 | Team | Library 1 | Library 2 | Library 3 | Dataset |  File |
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
 | Sample | Pandas | Dask | Koalas | Air Flight Analysis | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
-| Pergolakan | Pandas | Vaez | Modin | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
+| Pergolakan | Pandas | Vaex | Modin | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 
 
 ## Academic Integrity
