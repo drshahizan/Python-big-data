@@ -59,6 +59,7 @@ This assignment is designed for group work (4 persons/ group), emphasizing the i
 | BROKE | Pandas | DASK | Koalas | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > 
 | KOKONAT | Pandas | Data Table | Pyspark | [Brewery Operations and Market Analysis](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset) | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | SYNA | Modin | Vaex | Data Table | [Age Dataset: Life, Work and Death of 1.22M People](https://www.kaggle.com/datasets/imoore/age-dataset) | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
+| ANGKASA | Pandas | DataTable | Koalas | [1MDB Dataset] (https://www.kaggle.com/datasets/ashirwadsangwan/imdb-dataset/data) | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 
 ## Academic Integrity
 🚫 Uphold the highest standards of academic integrity. Any candidate suspected of cheating in the assignment will face disciplinary action, which may include suspension or expulsion from the University. Moreover, any materials or devices found to be in violation of examination rules and regulations will be confiscated.
