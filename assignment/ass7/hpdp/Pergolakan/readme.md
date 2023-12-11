@@ -11,6 +11,26 @@ Don't forget to hit the :star: if you like this repo.
 
 ## [Template: Project big data](compare_big_data.ipynb)
 
+![alt text](pergolakan2.jpg?raw=true)
+
+### Group Members
+
+| Name                                     | Matrix Number | Task |
+| :---------------------------------------- | :-------------: | ------------- |
+|Mikhail Bin Yaasin              |   A21EC0053   |   Data Exploration  |
+|Muhammad Farhan Bin Ibrahim             | A21EC0072     |  Data Preprocessing  |
+|Muhammad Fikri Bin Sharunazim              |  A21EC0075    |   Data Visualization  |
+| Muhammad Adam Fahmi Bin Mohd Taufiq              |  A21EC0061    |  Data Acquisation & Set Environment  |
+
+### 📂 Folder content:
+* [📖 Assignment 7 ](compare_bigdata.ipynb)
+* [📖 Assignment 7 Mardown](ass7.md)
+
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
 
 
 ## Contribution 🛠️
