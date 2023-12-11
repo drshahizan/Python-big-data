@@ -60,6 +60,7 @@ This assignment is designed for group work (4 persons/ group), emphasizing the i
 | KOKONAT | Pandas | Data Table | Pyspark | [Brewery Operations and Market Analysis](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset) | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | SYNA | Modin | Vaex | Data Table | [Flight Status Prediction 2022](https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022?select=Combined_Flights_2022.csv) | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | ANGKASA | Pandas | DataTable | Koalas | [IMDb Dataset](https://www.kaggle.com/datasets/ashirwadsangwan/imdb-dataset/data) | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
+| HANI | Pandas | Dask | Modin |  | <a href="./HANI/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 
 
 ## Academic Integrity
