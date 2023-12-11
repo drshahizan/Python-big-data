@@ -54,7 +54,7 @@ This assignment is designed for group work (4 persons/ group), emphasizing the i
 | Pergolakan | Pandas | Modin | Vaex | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | DEADPOOL | Pandas | Dask | Polars | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | KHUCHIN | Pandas | Modin | Dask | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
-| BLUBLUBLU | Pandas | Dask | DataTable | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > 
+| BLUBLUBLU | Pandas | Dask | DataTable | [Airline Delay Analysis](https://www.kaggle.com/datasets/sherrytp/airline-delay-analysis) | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > 
 | 3H | Dask | Modin | DataTable | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > 
 | BROKE | Pandas | DASK | Koalas | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > 
 | KOKONAT | Pandas | Data Table | Pyspark | [Brewery Operations and Market Analysis](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset) | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
