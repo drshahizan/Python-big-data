@@ -31,23 +31,39 @@
 - Upload API token to allow connect with Kaggle in upcoming step.
 
 #### Step 2 Loading the Dataset: 
-- Use Python and upload the dataset directly from an online source
+- Use Python and upload the dataset directly from an online source which is Kaggle
+- The size of the dataset is 1.06 GB in a compressed condition whereas after unzip, 4.25 GB.
+
+Zip condition = 1.06 GB
+
+Unzip condition = 4.25 GB
+
+- The attribute of data contained
+
+| Dtype    | Number of attributes    |
+| :--------| :--------    |
+| float64    | 10    |
+| int64    | 5    |
+| object    | 5    |
 
 #### Step 3 Strategies for Big Datasets: 
-- Apply five smart strategies to handle large datasets effectively:
+Apply five smart strategies to handle large datasets effectively
+The steps for Using These Strategies will be discussed in detailed.
+<br/>
+a. Parallelize with Dask:
+- Dask is a powerful library that extends pandas to enable parallel and distributed computing. It's particularly useful for handling larger-than-memory datasets..
 
-    #### a .Load Less Data:
-     - Strategically load only the essential portions of the dataset to optimize memory usage.
-    #### b. Use Chunking:
-    - Process the data in smaller pieces to avoid memory issues.
-    #### c. Optimize Data Types:
-    - Fine-tune data types to maximize efficiency and minimize memory consumption.
-    #### d. Sampling:
-    - Implement sampling methodologies to extract meaningful insights from a subset of the dataset.
-    #### e. Parallelize with Dask:
-    - Dask is a powerful library that extends pandas to enable parallel and distributed computing. It's particularly useful for handling larger-than-memory datasets.
-    #### f. Steps for Using These Strategies:
-    - Clearly explain the steps for each strategy. Help us understand how to make these strategies work.
+b.Sampling:
+- Implement sampling methodologies to extract meaningful insights from a subset of the dataset.
+
+c. Use Chunking:
+- Process the data in smaller pieces to avoid memory issues.
+
+d. Load Less Data:
+- Strategically load only the essential portions of the dataset to optimize memory usage.
+
+e. Optimize Data Types:
+- Fine-tune data types to maximize efficiency and minimize memory consumption.
 
 #### Step 4: Comparative Analysis: 
 - Conduct a comprehensive comparative analysis between traditional methods and advanced strategies. Evaluate aspects such as memory usage, computation time, and file size. Provide meaningful insights into the advantages gained through the adoption of advanced strategies.
