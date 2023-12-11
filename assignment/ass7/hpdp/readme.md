@@ -75,8 +75,11 @@ The deadline for submission is **26 December 2023, at 5:00 PM**. Late submission
 You must place your file in the submission folder. Within the [`hpdp/`](https://github.com/drshahizan/Python-big-data/edit/main/assignment/ass7/hpdp) folder, create a folder called your group. Name the default file as `readme.md`. Suggested folder structure for this project:
 
 ```html
-hpdp/your_group/
-├── 📄 ass7.md
+bdm/your_group/
+├── 📄 library_1.ipynb
+├── 📄 library_2.ipynb
+├── 📄 library_3.ipynb
+├── 📄 comparison.md
 └── 📄 readme.md
 
 ```
