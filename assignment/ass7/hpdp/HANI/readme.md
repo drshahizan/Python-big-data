@@ -13,10 +13,10 @@ Don't forget to hit the :star: if you like this repo.
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| MUHAMMAD IQMAL BIN SIS | A21EC0080 | |
-| NADIA SYAFIQAH BINTI ZULKIPLI | A21EC0098 |  |
-| ALYA BALQISS BINTI AZAHAR | A21EC0158 |   |
-| MUHAMMAD HARITH HAKIM BIN OTHMAN | A21EC0205 |  |
+| ALYA BALQISS BINTI AZAHAR | A21EC0158 | Pandas |
+| MUHAMMAD IQMAL BIN SIS | A21EC0080 | Dask |
+| NADIA SYAFIQAH BINTI ZULKIPLI | A21EC0098 | Modin |
+| MUHAMMAD HARITH HAKIM BIN OTHMAN | A21EC0205 | Comparison & Summarization |
 
 ### 📂 Folder content:
 * [📖 Comparision Libraries](./compare_big_data.ipynb)
