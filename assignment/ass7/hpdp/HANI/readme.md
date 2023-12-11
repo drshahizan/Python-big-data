@@ -19,6 +19,9 @@ Don't forget to hit the :star: if you like this repo.
 | MUHAMMAD HARITH HAKIM BIN OTHMAN | A21EC0205 | Comparison & Summarization |
 
 ### 📂 Folder content:
+* [📖 Pandas](./pandas.ipynb)
+* [📖 Dask](./dask.ipynb)
+* [📖 Modin](./modin.ipynb)
 * [📖 Comparision Libraries](./compare_big_data.ipynb)
 
 
