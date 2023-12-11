@@ -55,7 +55,7 @@ This assignment is designed for group work (4 persons/ group), emphasizing the i
 | DEADPOOL | Pandas | Dask | Polars | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | KHUCHIN | Pandas |  |  | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | BLUBLUBLU | Pandas |  |  | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > 
-
+| 3H | Dask | Modin | DataTable | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > 
 ## Academic Integrity
 🚫 Uphold the highest standards of academic integrity. Any candidate suspected of cheating in the assignment will face disciplinary action, which may include suspension or expulsion from the University. Moreover, any materials or devices found to be in violation of examination rules and regulations will be confiscated.
 
