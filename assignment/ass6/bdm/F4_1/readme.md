@@ -16,8 +16,8 @@
 | Lye Kah Hooi             |MCS231010      |
 
 ### 📂 Folder content:
-* [💻 Assignment 6]()
-* [💻 Report]()
+* [💻 Assignment 6](https://colab.research.google.com/drive/1ikHqGl8H1E2Vsp07Q4ThvZJplxIA2Xl5?usp=sharing)
+* [💻 Report](./bigdata.md)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
