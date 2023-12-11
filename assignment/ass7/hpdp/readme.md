@@ -61,7 +61,7 @@ This assignment is designed for group work (4 persons/ group), emphasizing the i
 | SYNA | Modin | Vaex | Data Table | [Flight Status Prediction 2022](https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022?select=Combined_Flights_2022.csv) | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | ANGKASA | Pandas | DataTable | Koalas | [IMDb Dataset](https://www.kaggle.com/datasets/ashirwadsangwan/imdb-dataset/data) | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | HANI | Pandas | Dask | Modin |  | <a href="./HANI/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
-
+| WATERMILON | Modin | Dask | Vaex | [UK Property Price data 1995-2023-04](https://www.kaggle.com/datasets/willianoliveiragibin/uk-property-price-data-1995-2023-04/data) | <a href="./WATERMILON/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 
 ## Academic Integrity
 🚫 Uphold the highest standards of academic integrity. Any candidate suspected of cheating in the assignment will face disciplinary action, which may include suspension or expulsion from the University. Moreover, any materials or devices found to be in violation of examination rules and regulations will be confiscated.
