@@ -52,7 +52,7 @@ This assignment is designed for group work (4 persons/ group), emphasizing the i
 | ----- | ----- | ------ | ------ |  ------ | :------: | 
 | Sample | Pandas | Dask | Koalas | Air Flight Analysis | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | Pergolakan | Pandas | Modin | Vaex | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
-| DEADPOOL | Pandas |  |  | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
+| DEADPOOL | Pandas | Dask | Polars | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | KHUCHIN | Pandas |  |  | . | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 
 ## Academic Integrity
