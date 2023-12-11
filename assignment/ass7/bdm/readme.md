@@ -67,7 +67,10 @@ You must place your file in the submission folder. Within the [`bdm/`](https://g
 
 ```html
 bdm/your_group/
-├── 📄 ass7.md
+├── 📄 library_1.ipynb
+├── 📄 library_2.ipynb
+├── 📄 library_3.ipynb
+├── 📄 comparison.md
 └── 📄 readme.md
 
 ```
