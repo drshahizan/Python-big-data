@@ -15,10 +15,6 @@
 | Thong Yee Moon            |MCS231001      |
 | Lye Kah Hooi             |MCS231010      |
 
-### 📂 Folder content:
-* [💻 Assignment 6]()
-* [💻 Report]()
-
 ### Dataset - Brewery Operations and Market Analysis Dataset
 - Pick a Big Dataset: Start by choosing a suitable dataset.
 - It's big—over 700 MB.
