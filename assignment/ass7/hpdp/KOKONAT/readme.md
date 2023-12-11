@@ -8,7 +8,8 @@
 
 # Assignment 7: Comparison between libraries
 
-## [Template: Project big data](compare_big_data.ipynb)
+
+### Group Name : KOKONAT
 
 <img align="right" alt="kokonat" width="400" src="kokonat2.jpg">
 
@@ -22,5 +23,5 @@
 
 
 ### 📂 Folder content:
-* [📖 ]()
-* [📖 ]()
+* [📖 Comparison between libraries ]()
+
