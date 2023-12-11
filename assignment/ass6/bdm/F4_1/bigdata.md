@@ -20,15 +20,41 @@
 * [💻 Report]()
 
 ### Dataset - Brewery Operations and Market Analysis Dataset
-This dataset presents an extensive collection of data from a craft beer brewery, spanning from January 2020 to January 2024. It encapsulates a rich blend of brewing parameters, sales data, and quality assessments, providing a holistic view of the brewing process and its market implications
+- Pick a Big Dataset: Start by choosing a suitable dataset.
+- It's big—over 700 MB.
+- This dataset presents an extensive collection of data from a craft beer brewery, spanning from January 2020 to January 2024. It encapsulates a rich blend of brewing parameters, sales data, and quality assessments, providing a holistic view of the brewing process and its market implications
 [Kaggle Link](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset)
 
 ### Big Data Handling 
-#### Step 1
+#### Step 1 
 - Connect with google drive
 - Upload API token to allow connect with Kaggle in upcoming step.
 
-#### Step 2
+#### Step 2 Loading the Dataset: 
+- Use Python and upload the dataset directly from an online source
+
+#### Step 3 Strategies for Big Datasets: 
+- Apply five smart strategies to handle large datasets effectively:
+
+    #### a .Load Less Data:
+     - Strategically load only the essential portions of the dataset to optimize memory usage.
+    #### b. Use Chunking:
+    - Process the data in smaller pieces to avoid memory issues.
+    #### c. Optimize Data Types:
+    - Fine-tune data types to maximize efficiency and minimize memory consumption.
+    #### d. Sampling:
+    - Implement sampling methodologies to extract meaningful insights from a subset of the dataset.
+    #### e. Parallelize with Dask:
+    - Dask is a powerful library that extends pandas to enable parallel and distributed computing. It's particularly useful for handling larger-than-memory datasets.
+    #### f. Steps for Using These Strategies:
+    - Clearly explain the steps for each strategy. Help us understand how to make these strategies work.
+
+#### Step 4: Comparative Analysis: 
+- Conduct a comprehensive comparative analysis between traditional methods and advanced strategies. Evaluate aspects such as memory usage, computation time, and file size. Provide meaningful insights into the advantages gained through the adoption of advanced strategies.
+
+#### Step 5 Conclusion: 
+- Summarize your findings. Explain why you chose these strategies and how they make a difference in handling big data.
+
 
 
 ## Contribution 🛠️
