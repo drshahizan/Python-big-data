@@ -9,8 +9,8 @@ Don't forget to hit the :star: if you like this repo.
 
 # Assignment 6: Mastering Big Data Handling
 
-Team members name:\
-LEE SEOW MING THERESA (MCS231013)\
+Team members name:
+LEE SEOW MING THERESA (MCS231013)
 SITI NORAFIZAH BINTI AB AZIZ (MCS231018)
 
 ## Task 1: Pick a Big Dataset
@@ -21,7 +21,7 @@ A dataset of games, users and reviews for building recommendation systems.
 The dataset contains over 38 million cleaned and preprocessed user recommendations (reviews) from a Steam Store - a leading online platform for purchasing and downloading video games, DLC, and other gaming-related content. Additionally, it contains detailed information about games and add-ons.
 
 ## Task 2: Loading Data
-Step loading data and read data through Pandas:\
+Step loading data and read data through Pandas:
 
 ## Task 3: Strategies for Big Datasets
 
