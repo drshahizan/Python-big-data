@@ -53,6 +53,7 @@ This assignment is designed for group work (4 persons/ group), emphasizing the i
 | Sample | Pandas | Dask | Koalas | Air Flight Analysis | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | Truth Archive | Pandas | Dask |Vaex  | [2019 Airline Delays w/Weather and Airport Detail](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations) | <a href="./Thruth%20Archive/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | RAM | Pandas | Dask |Vaex  | [Pending](https://www.kaggle.com/datasets/) | <a href="./RAM/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
+| F4 | Pandas | Dask |Vaex  | [Brewery Operations and Market Analysis](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset) | <a href="./F4/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 
 ## Academic Integrity
 🚫 Uphold the highest standards of academic integrity. Any candidate suspected of cheating in the assignment will face disciplinary action, which may include suspension or expulsion from the University. Moreover, any materials or devices found to be in violation of examination rules and regulations will be confiscated.
