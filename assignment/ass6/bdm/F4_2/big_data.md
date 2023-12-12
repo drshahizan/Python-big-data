@@ -9,8 +9,8 @@ Don't forget to hit the :star: if you like this repo.
 
 # Assignment 6: Mastering Big Data Handling
 
-Team members name:
-LEE SEOW MING THERESA (MCS231013)
+Team members name:\
+LEE SEOW MING THERESA (MCS231013)\
 SITI NORAFIZAH BINTI AB AZIZ (MCS231018)
 
 ## Task 1: Pick a Big Dataset
