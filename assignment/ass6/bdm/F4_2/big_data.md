@@ -53,13 +53,10 @@ Parallelization with Dask leverages distributed computing to scale computations 
 
 ## Task 4: Steps for Using These Strategies
 
-a. Data Understanding
-
-b. Data Preprocessing
+Data Preprocessing
 - Check for missing value
 - Check for duplicate value
-
-c. Process data types
+- Check for data types
 
 ### Method 1: Load Less Data
 
