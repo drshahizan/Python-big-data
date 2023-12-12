@@ -19,7 +19,7 @@ Don't forget to hit the :star: if you like this repo.
 
 ### 📂 Folder content:
 * [💻 Assignment 6]()
-* [💻 Report]()
+* [💻 Report](assignment/ass6/bdm/F4_2/big_data.md)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
