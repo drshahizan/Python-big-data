@@ -1,12 +1,3 @@
-```python
-!jupyter nbconvert --to markdown big_data.ipynb
-```
-
-    [NbConvertApp] Converting notebook big_data.ipynb to markdown
-    [NbConvertApp] Writing 7945 bytes to big_data.md
-    
-
-
 # Assignment 6: Mastering Big Data Handling
 
 Team members name:\
