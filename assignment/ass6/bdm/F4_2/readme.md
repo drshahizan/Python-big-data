@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Assignment 6: Big Data Handling
 
-### Group Name: F4_2
+### Group Name: F1
 ### Group Members
 
 | Name                                     | Matrix Number |
