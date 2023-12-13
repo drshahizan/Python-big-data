@@ -61,10 +61,11 @@ Data Preprocessing
 ### Method 1: Load Less Data
 
 Strategically load only the essential portions of the dataset to optimize memory usage.
+
 The False value in 'Mac' and 'Linux' is more than True around 74.41% and 82.23%, so decided to load data without column 'Mac' and 'Linux' of game.csv.\
-Processing Time has reduced from 0.40233731269836426 to 0.22 seconds.\
-System RAM Usage has reduced from 63.9% to 61.57%.\
-Memory usage has reduced from 3.7+ MB to 3.6+ MB.
+- Processing Time has reduced from 0.40233731269836426 to 0.22 seconds.
+- System RAM Usage has reduced from 63.9% to 61.57%.
+- Memory usage has reduced from 3.7+ MB to 3.6+ MB.
 
 
 ### Method 2: Use Chunking
@@ -73,32 +74,40 @@ Process the data in smaller pieces to avoid memory issues.
 
 In order to concat for all 3 csv files, the chunking technique has been used, the original file unable to merge all the 3 csv files as it will cause system RAM clash.
 
-Processing Time is 224.17 seconds.\
-System RAM Usage is 7.40% / 13.1 MB
+- Processing Time is 224.17 seconds.
+- System RAM Usage is 7.40% / 13.1 MB.
 
 ### Method 3: Optimize Data Types
+
 Fine-tune data types to maximize efficiency and minimize memory consumption.
 
 Result after fine-tune data types as below:
 
-Processing Time: 1923.23 seconds\
-System RAM Usage After Conversion: 37.70%\
-Memory usage for df_game, df_rec, and df_users is 13.1 MB, 4.1 GB, 315.6 MB.
+- Processing Time: 439.03 seconds.
+- System RAM Usage After Conversion: 52.00%.
+- Memory usage for df_game: 13.1 MB.
+- Memory usage for df_rec: 4.1 GB.
+- Memory usage for df_users: 315.6 MB
 
 ### Method 4: Sampling
- Implement sampling methodologies to extract meaningful insights from a subset of the dataset.
 
-Memory usage is 876.3+ MB\
-Processing time is 0.00 seconds\
-System memory usage for combining is 2313.05 MB\
+Implement sampling methodologies to extract meaningful insights from a subset of the dataset.
+
+Result 10% sample from DataFrame
+
+- Processing Time: 6.07 seconds.
+- System RAM Usage: 41.50%.
+- Memory usage: 2.1 GB
 
 ### Method 5: Parallelize with Dask:
+
 To extends pandas to enable parallel and distributed computing. It's particularly useful for handling larger-than-memory datasets.
 
-Result of Parallelize with Dask:\
-RAM Usage: 4960.21 MB\
-Processing Time: 136.04 seconds\
-Total Size: 20.82 GB
+Result of Parallelize with Dask:
+
+- RAM Usage: 4960.21 MB.
+- Processing Time: 136.04 seconds.
+- Total Size: 20.82 GB
 
 ## Task 5: Comparative Analysis
 
