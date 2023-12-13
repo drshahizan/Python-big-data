@@ -5,8 +5,6 @@
 <a href="https://github.com/drshahizan/Python-big-data/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/Python-big-data?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2FPython-big-data&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-Don't forget to hit the :star: if you like this repo.
-
 # Assignment 6: Mastering Big Data Handling
 
 Team members name:\
@@ -19,6 +17,8 @@ SITI NORAFIZAH BINTI AB AZIZ (MCS231018)
 
 A dataset of games, users and reviews for building recommendation systems.
 The dataset contains over 38 million cleaned and preprocessed user recommendations (reviews) from a Steam Store - a leading online platform for purchasing and downloading video games, DLC, and other gaming-related content. Additionally, it contains detailed information about games and add-ons.
+
+For additional details on coding and the steps involved, please refer this file : [💻 Assignment 6](Assignment_6_Mastering_Big_Data_Handling.ipynb).
 
 ## Task 2: Loading Data
 Step loading data and read data through Pandas:
