@@ -51,7 +51,7 @@ In this assignment, you will explore the management of big data processing in da
 | 1. | Thruth Archive 1  |  <a href="./Thruth%20Archive%201" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Property Listings for 5 South American Countries |
 | 2. | KicapSambal 1.0  |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/Kicap" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Restaurant reviews |
 | 3. | F4_1  |  <a href="./F4_1/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Brewery Operations and Market Analysis |
-| 4. | F4_2  |  <a href="./F4_1_readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Game Recommendations on Steam |
+| 4. | F1  |  <a href="./F1/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Game Recommendations on Steam |
 | 5. | RAM  |  <a href="./RAM/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Pending |
 | 6. | KicapSambal 2.0  |  <a href="./KicapSambal 2.0/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | 2019 Airline Delays w/Weather and Airport Detail |
 | 7. | Daging Salai  |  <a href="./Daging Salai/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | TripAdvisor Hotel Reviews |
