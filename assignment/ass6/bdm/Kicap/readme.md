@@ -16,7 +16,7 @@
 | Nur Azimah binti Mohd Salles               |MCS231011      |
 
 ### 📂 Folder content:
-* [💻 Assignment 6]()
+* [💻 Assignment 6](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/Kicap/big_data.ipynb)
 * [💻 Report]()
 
 1. **Pick a Big Dataset**: The chosen dataset for our Assignment 6 is the Restaurant Reviews that we got from Kaggle. The dataset consists of 2 csv files which are the pre-covid review and post-covid reviews. 
