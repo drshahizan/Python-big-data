@@ -18,7 +18,7 @@ Don't forget to hit the :star: if you like this repo.
 | Siti Norafizah binti Ab Aziz             |MCS231018      |
 
 ### 📂 Folder content:
-* [💻 Assignment 6]()
+* [💻 Assignment 6](Assignment_6_Mastering_Big_Data_Handling.ipynb)
 * [💻 Report](big_data.md)
 
 ## Contribution 🛠️
