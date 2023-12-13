@@ -62,7 +62,7 @@ Data Preprocessing
 
 Strategically load only the essential portions of the dataset to optimize memory usage.
 
-The False value in 'Mac' and 'Linux' is more than True around 74.41% and 82.23%, so decided to load data without column 'Mac' and 'Linux' of game.csv.\
+The False value in 'Mac' and 'Linux' is more than True around 74.41% and 82.23%, so decided to load data without column 'Mac' and 'Linux' of game.csv.
 - Processing Time has reduced from 0.40233731269836426 to 0.22 seconds.
 - System RAM Usage has reduced from 63.9% to 61.57%.
 - Memory usage has reduced from 3.7+ MB to 3.6+ MB.
