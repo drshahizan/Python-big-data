@@ -18,7 +18,7 @@ Don't forget to hit the :star: if you like this repo.
 | KEE SHIN PEARL   |  A21EC0190    | 
 
 ### 📂 Folder content:
-* [📖 Assignment 6 ](./ipynb)
+* [📖 Assignment 6 ](assignment/ass6/hpdp/ObehSong/Assignment_6.ipynb)
 
 
 
