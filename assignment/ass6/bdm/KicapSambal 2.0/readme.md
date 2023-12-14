@@ -7,7 +7,7 @@
 
 # Assignment 6: Mastering Big Data Handling
 
-### Group Name: KicapSambal 2.0
+### Group Name: Sambal
 ### Group Members
 
 | Name                                     | Matrix Number |
