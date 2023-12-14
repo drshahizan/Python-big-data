@@ -17,7 +17,6 @@
 
 ### 📂 Folder content:
 * [💻 Assignment 6]()
-* [📝 Report]()
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
