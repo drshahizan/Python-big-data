@@ -128,10 +128,10 @@ In conclusion, the advanced strategies allow us to handle big data in Pandas as 
       Dask enables parallel and distributed computing, allowing computations to be split across multiple cores or even distributed across a cluster. This will 
       help in handling larger-than-memory datasets by efficiently utilizing available computational resources.
      
-   In summary, depending on our goal, sampling strategies are the best for exploration purposes. In case we need to process all of our data, we can try iterating 
-   over data or optimizing the data types. If our dataset is still too large and takes more time to process, then we can go for Dask to parallelize Pandas. All of 
-   these strategies collectively aim to reduce memory usage, enhance processing speed, and provide efficient ways to handle large datasets without overwhelming 
-   system resources. 
+   In summary, depending on our goal, the best strategies for exploration purposes can be sampling strategies. In case we need to process all of our data, we can 
+   try iterating over data or optimizing the data types. If our dataset is still too large and takes more time to process, then we can go for Dask to parallelize 
+   Pandas. All of these strategies collectively aim to reduce memory usage, enhance processing speed, and provide efficient ways to handle large datasets without 
+   overwhelming system resources. 
 
 
 ## Contribution 🛠️
