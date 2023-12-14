@@ -17,7 +17,7 @@ Don't forget to hit the :star: if you like this repo.
 | LING WAN YIN              |A21EC0047      |
 
 ### 📂 Folder content:
-* [💻 Assignment 6](ass6.ipynb)
+* [💻 Assignment 6](Assignment_6.ipynb)
 
 
 
