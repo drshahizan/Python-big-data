@@ -16,8 +16,8 @@
 | Zuhayr Arif bin Zakaria               |MCS231002      |
 
 ### 📂 Folder content:
-* [💻 Assignment 6]()
-* [💻 Report]()
+* [💻 Assignment 6](BigDataProcessing.ipynb)
+* [💻 Report](big_data.md)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
