@@ -46,15 +46,7 @@ The assignment entails a comprehensive comparison of libraries optimized for big
    - Share both the Markdown document and the Colab notebook with your lecturer, following the specified instructions for submission and evaluation.
 
 ## 🚀 Group Collaboration Instructions
-This assignment is designed for group work (4 persons/ group), emphasizing the importance of teamwork. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1WJWrzrGmfC0z5CmTYCGmlkKa7_byYOoxlU0MTg7pRrk/edit#gid=1360008561). Update the group information with the following details:
-
-| Team | Library 1 | Library 2 | Library 3 | Dataset |  File |
-| ----- | ----- | ------ | ------ |  ------ | :------: | 
-| Sample | Pandas | Dask | Koalas | Air Flight Analysis | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
-| Truth Archive | Pandas | Dask |Vaex  | [2019 Airline Delays w/Weather and Airport Detail](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations) | <a href="./Thruth%20Archive/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
-| RAM | Pandas | Dask |Vaex  | [Pending](https://www.kaggle.com/datasets/) | <a href="./RAM/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
-| F4 | Pandas | Modin |Vaex  | [Brewery Operations and Market Analysis](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset) | <a href="./F4/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
-| KicapSambal | Pandas |  |  | Restaurant reviews | <a href="./KicapSambal/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
+This assignment is designed for group work (4 persons/ group), emphasizing the importance of teamwork. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1WJWrzrGmfC0z5CmTYCGmlkKa7_byYOoxlU0MTg7pRrk/edit#gid=1360008561). 
 
 ## Academic Integrity
 🚫 Uphold the highest standards of academic integrity. Any candidate suspected of cheating in the assignment will face disciplinary action, which may include suspension or expulsion from the University. Moreover, any materials or devices found to be in violation of examination rules and regulations will be confiscated.
@@ -78,6 +70,16 @@ bdm/your_group/
 ```
 
 Good luck with your assignment! If you have any questions or need help, don't hesitate to reach out to your instructor or fellow students.
+
+## Submission
+
+| Team | Library 1 | Library 2 | Library 3 | Dataset |  File |
+| ----- | ----- | ------ | ------ |  ------ | :------: | 
+| Sample | Pandas | Dask | Koalas | Air Flight Analysis | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
+| Truth Archive | Pandas | Dask |Vaex  | [2019 Airline Delays w/Weather and Airport Detail](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations) | <a href="./Thruth%20Archive/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
+| RAM | Pandas | Dask |Vaex  | [Pending](https://www.kaggle.com/datasets/) | <a href="./RAM/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
+| F4 | Pandas | Modin |Vaex  | [Brewery Operations and Market Analysis](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset) | <a href="./F4/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
+| KicapSambal | Pandas |  |  | Restaurant reviews | <a href="./KicapSambal/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 
 
 ## Contribution 🛠️
