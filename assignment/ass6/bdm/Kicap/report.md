@@ -31,19 +31,29 @@
    - *Sampling*: Randomly sampled 1000 rows from the original DataFrame, creating a smaller subset for meaningful insights.
 
    - *Parallelize with Dask*: Utilized Dask for parallel and distributed computing on larger-than-memory datasets.
+       - This is the comparison of the computational time of several operations we have tried:
+
+
+        | Operation                 | Pandas Time (seconds) | Dask Time (seconds) |
+        |---------------------------|-----------------------|----------------------|
+        | Mean Stars                | 0.1015                | 0.5184               |
+        | Filtering Data            | 4.3887                | 1.4118               |
+        | Mean Stars by City        | 0.5483                | 1.0637               |
+        | Review Counts by Stars    | 0.1234                | 0.0925               |
+
 
   
 4. **Comparative Analysis**: 
 
-| Aspect             | Pandas                                      | Dask                                             |
-|--------------------|---------------------------------------------|--------------------------------------------------|
-| **Memory Usage**   | Limited by available memory; loads entire dataset into memory | More scalable, operates on larger-than-memory datasets by dividing into partitions; adaptive memory usage |
-| **Computation Time**| Increases linearly with dataset size          | Significantly reduces computation time, especially for parallelizable operations; parallelizes operations by dividing into partitions |
-| **File Size**      | File size determined by dataset and data types | Efficiently handles larger datasets without proportional increase in file size |
-| **Lazy Evaluation** | No lazy evaluation; loads data eagerly      | Lazy evaluation minimizes unnecessary loading of data; efficient handling of operations without loading entire dataset |
-| **Parallelization**| Limited parallelization                     | Parallelizes operations by dividing the dataset into partitions; efficient parallel processing |
-| **Partitioning**   | N/A                                         | Requires careful consideration of partitioning strategy |
-| **Overheads**      | N/A                                         | Overheads associated with task scheduling and communication |
+    | Aspect             | Pandas                                      | Dask                                             |
+    |--------------------|---------------------------------------------|--------------------------------------------------|
+    | **Memory Usage**   | Limited by available memory; loads entire dataset into memory | More scalable, operates on larger-than-memory datasets by dividing into partitions; adaptive memory usage |
+    | **Computation Time**| Increases linearly with dataset size          | Significantly reduces computation time, especially for parallelizable operations; parallelizes operations by dividing into partitions |
+    | **File Size**      | File size determined by dataset and data types | Efficiently handles larger datasets without proportional increase in file size |
+    | **Lazy Evaluation** | No lazy evaluation; loads data eagerly      | Lazy evaluation minimizes unnecessary loading of data; efficient handling of operations without loading entire dataset |
+    | **Parallelization**| Limited parallelization                     | Parallelizes operations by dividing the dataset into partitions; efficient parallel processing |
+    | **Partitioning**   | N/A                                         | Requires careful consideration of partitioning strategy |
+    | **Overheads**      | N/A                                         | Overheads associated with task scheduling and communication |
 
 
 5. **Conclusion**: 
