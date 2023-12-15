@@ -16,7 +16,7 @@
 | MUHAMMAD ADAM FAHMI BIN MOHD TAUFIQ       |A21EC0061        |ASSIGNMENT 6|
 
 ### 📂 Folder content:
-* [💻 Assignment 6]()
+* [💻 Assignment 6](Assignment_6_(PopSmoke).ipynb)
 * [💻 Report]()
 
 ## Contribution 🛠️
