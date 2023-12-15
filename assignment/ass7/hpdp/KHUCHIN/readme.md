@@ -15,17 +15,17 @@ Don't forget to hit the :star: if you like this repo.
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-|NUR KHUZAIRIE ZAKWAN BIN MOHD ZAMRI         | A21EC0112    | |
-|IKMAL BIN KHAIRULEZUAN        | A21EC0186     |   |
-|NUR SHUHADA SAFIAH BINTI AYOB          | A21EC0114   |    |
-|WAN AMIRUL HAFIQ BIN WAN HUZAINI            |  A21EC0141  | |
+|NUR KHUZAIRIE ZAKWAN BIN MOHD ZAMRI         | A21EC0112    | Conclusion |
+|IKMAL BIN KHAIRULEZUAN        | A21EC0186     |  Dask |
+|NUR SHUHADA SAFIAH BINTI AYOB          | A21EC0114   | Modin   |
+|WAN AMIRUL HAFIQ BIN WAN HUZAINI            |  A21EC0141  | Pandas |
 
 ## [Template: Project big data](compare_big_data.ipynb)
 ### 📂 Folder content:
-* [📖 Assignment 7]()
-* [📖 Report]()
-
-
+* [📖 Pandas]()
+* [📖 Modin]()
+* [📖 Dask]()
+* [📖 Conclusion]()
 
 
 ## Contribution 🛠️
