@@ -17,7 +17,7 @@ Don't forget to hit the :star: if you like this repo.
 | UMAR HAZIQ BIN MOHAMAD NORHISHAM |A21EC0235  |
 
 ### 📂 Folder content:
-* [💻 Assignment 6]()
+* [💻 Assignment 6](https://colab.research.google.com/github/drshahizan/Python-big-data/blob/main/assignment/ass6/hpdp/Marlie/big_data_Marlie.ipynb#scrollTo=EWRF38ZvxvTg)
 
 
 
