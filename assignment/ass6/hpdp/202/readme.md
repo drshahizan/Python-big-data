@@ -16,7 +16,7 @@
 | LAU YEE CHI              |A21EC0042      |ASSIGNMENT 6|
 
 ### 📂 Folder content:
-* [💻 Assignment 6](https://colab.research.google.com/drive/1ixJFY_n-Xw7XPRwmkNYjA6oYQ_vt6lQf#scrollTo=U1mDy71fyi_Z)
+* [💻 Assignment 6](https://colab.research.google.com/drive/1ixJFY_n-Xw7XPRwmkNYjA6oYQ_vt6lQf?usp=sharing)
 * [💻 Report]()
 
 ## Contribution 🛠️
