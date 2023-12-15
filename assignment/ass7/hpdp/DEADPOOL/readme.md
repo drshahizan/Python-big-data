@@ -15,10 +15,10 @@ Don't forget to hit the :star: if you like this repo.
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-|MUHAMMAD AMIR JAMIL BIN JAMLUS          | A21EC0202     | |
-|KEE SHIN PEARL         | A21EC0190     |   |
-|MUHAMMAD IZZUDDIN BIN SHABRIN           | A21EC0083   |    |
-|UMAR HAZIQ BIN MUHAMAD NORHISHAM            |  A21EC0235   | |
+|MUHAMMAD AMIR JAMIL BIN JAMLUS          | A21EC0202     |Polars|
+|KEE SHIN PEARL         | A21EC0190     |Comparison|
+|MUHAMMAD IZZUDDIN BIN SHABRIN           | A21EC0083   |Dask|
+|UMAR HAZIQ BIN MUHAMAD NORHISHAM            |  A21EC0235   |Pandas|
 
 ## [Template: Project big data](compare_big_data.ipynb)
 ### 📂 Folder content:
