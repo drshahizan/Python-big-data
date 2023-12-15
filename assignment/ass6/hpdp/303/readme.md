@@ -17,7 +17,7 @@ Don't forget to hit the :star: if you like this repo.
 | SOO WAN YING              |A21EC0227      |
 
 ### 📂 Folder content:
-* [💻 Assignment 6]()
+* [💻 Assignment 6](https://colab.research.google.com/drive/111t0HczFPFzTtzreMN6kO_8jSoMt8P1f?usp=sharing)
 
 
 
