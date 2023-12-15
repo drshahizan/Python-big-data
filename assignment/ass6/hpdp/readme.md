@@ -48,7 +48,7 @@ In this assignment, you will explore the management of big data processing in da
 | No | Group |  File | Dataset | 
 | -----: |  ------ | :-----: |  ----- |  
 | 0. | Sample  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | 
-| 1. | MarLie  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Anime Dataset 2023](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset)|
+| 1. | MarLie  |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/hpdp/Marlie" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Anime Dataset 2023](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset)|
 | 2. | 2Big2Handle  |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/hpdp/2Big2Handle" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Spotify Chart](https://www.kaggle.com/datasets/dhruvildave/spotify-charts)|
 | 3. | DMAjuddin  |  <a href="./DMAjuddin/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Flight_Delay](https://www.kaggle.com/datasets/patrickzel/flight-delay-and-cancellation-dataset-2019-2023)|
 | 4. | 303  |  <a href="https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/hpdp/202/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [2019 Airline Delays w/Weather and Airport Detail](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations)
