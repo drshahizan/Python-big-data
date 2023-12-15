@@ -16,8 +16,7 @@ Don't forget to hit the :star: if you like this repo.
 |WAN AMIRUL HAFIQ BIN WAN HUZAINI           | A21EC0141   | Assignment 6 |
 
 ### 📂 Folder content:
-* [💻 Assignment 6](assignment6_DMAjuddin.ipynb
-)
+* [💻 Assignment 6](https://colab.research.google.com/drive/1xXoaR-jpcR0OBpz1piYBIuxV0t-RyeVq?usp=sharing)
 * [💻 Report]()
 
 
