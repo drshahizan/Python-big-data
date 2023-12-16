@@ -80,7 +80,7 @@ Good luck with your assignment! If you have any questions or need help, don't he
 | Truth Archive | Pandas | Dask |Vaex  | [2019 Airline Delays w/Weather and Airport Detail](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations) | <a href="./Thruth%20Archive/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | RAM | Pandas | Dask |Vaex  | [Pending](https://www.kaggle.com/datasets/) | <a href="./RAM/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | F4 | Pandas | Modin |Vaex  | [Brewery Operations and Market Analysis](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset) | <a href="./F4/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
-| KicapSambal | Pandas |  |  | Restaurant reviews | <a href="./KicapSambal/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
+| KicapSambal | Pandas |  |  | [Restaurant reviews](https://www.kaggle.com/datasets/fahadsyed97/restaurant-reviews) | <a href="./KicapSambal/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 
 
 ## Contribution 🛠️
