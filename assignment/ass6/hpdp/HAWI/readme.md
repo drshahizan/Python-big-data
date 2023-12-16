@@ -14,7 +14,7 @@ Don't forget to hit the :star: if you like this repo.
 
 | Name                                      | Matrix Number   | Task       |
 | :---------------------------------------- | :-------------: | ---------- |
-| MUHD HASAN BIN CHE ABDULAH                    |A21EC0186        |ASSIGNMENT 6|
+| MUHD HASAN BIN CHE ABDULLAH                    |A21EC0077        |ASSIGNMENT 6|
 | MUHD HARITH HAKIM BIN OTHMAN                        |A21EC0205        |ASSIGNMENT 6|
 | IZZAT HAQEEMI BIN HAIRUDIN                        |A21EC0033        |ASSIGNMENT 6|
 
