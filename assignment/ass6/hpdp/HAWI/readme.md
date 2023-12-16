@@ -9,9 +9,18 @@ Don't forget to hit the :star: if you like this repo.
 
 # Assignment 6: Mastering Big Data Handling
 
+### Group Name: 2Big2Handle
+### Group Members
 
+| Name                                      | Matrix Number   | Task       |
+| :---------------------------------------- | :-------------: | ---------- |
+| MUHD HASAN BIN CHE ABDULAH                    |A21EC0186        |ASSIGNMENT 6|
+| MUHD HARITH HAKIM BIN OTHMAN                        |A21EC0205        |ASSIGNMENT 6|
+| IZZAT HAQEEMI BIN HAIRUDIN                        |A21EC0033        |ASSIGNMENT 6|
 
-
+### 📂 Folder content:
+* [💻 Assignment 6]()
+* [💻 Report]()
 
 
 ## Contribution 🛠️
