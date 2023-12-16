@@ -56,7 +56,7 @@ In this assignment, you will explore the management of big data processing in da
 | 6. | Sambal  |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/Sambal" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | 2019 Airline Delays w/Weather and Airport Detail |
 | 7. | Daging Salai  |  <a href="./Daging Salai/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | TripAdvisor Hotel Reviews |
 | 8. | Avengers |  <a href="./Avengers/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Amazon Book Reviews |
-| 9. | Ayam Rendang 1 |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/Ayam%20Rendang%201"><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Lowa Liquor Sales Dataset |
+| 9. | Ayam Rendang 1 |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/Ayam%20Rendang%201"><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Iowa Liquor Sales Dataset |
 
 
 ### 3. Academic Integrity
