@@ -17,7 +17,7 @@
 
 ### 📂 Folder content:
 * [💻 Assignment 6](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/Daging%20Salai/BigDataHandling.ipynb)
-* [💻 Report](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/DagingSalai/bigdata.md)
+* [💻 Report](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/Daging%20Salai/bigdata.md)
 
 1. **Pick a Big Dataset**: We chose our dataset from Kaggle which is TripAdvisor Hotel Reviews (1.3GB). The dataset consists of 2 csv files which are the offerings and reviews. We chose reviews csv files that will be use in this assignment.
 
