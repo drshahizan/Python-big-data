@@ -17,7 +17,7 @@
 
 ### 📂 Folder content:
 * [💻 Assignment 6](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/Ayam%20Rendang%201/Ayam_Rendang1_Assignment6.ipynb)
-* [💻 Report]()
+* [💻 Report](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/Ayam%20Rendang%201/big_data.md)
 
 
 
