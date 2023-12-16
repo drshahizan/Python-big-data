@@ -69,9 +69,9 @@
 5. **Conclusion**: <br> 
 In conclusion, the advanced strategies for handling big data, including sampling, chunking, loading less data, parallelized processing with Dask, and optimizing data types, collectively contribute to overcoming the challenges associated with large and complex datasets. 
 
-- Enhanced performance. Optimizing data types contribute to improved performance. These strategies reduce memory requirements, speed up data retrieval, and enhance query performance. 
-- Minimized data transfer and storage costs. Loading less data and optimized data types contribute to reduced data transfer and storage costs. By only working with necessary data subsets and optimizing storage formats, organizations can achieve significant cost savings.
-- Scalability and parallel processing. The strategies support scalability by enabling parallel processing. Chunking and parallelized processing with tools like Dask facilitate the distribution of computations across multiple nodes or cores, enhancing speed and efficiency.
+    - Enhanced performance. Optimizing data types contribute to improved performance. These strategies reduce memory requirements, speed up data retrieval, and enhance query performance. 
+    - Minimized data transfer and storage costs. Loading less data and optimized data types contribute to reduced data transfer and storage costs. By only working with necessary data subsets and optimizing storage formats, organizations can achieve significant cost savings.
+    - Scalability and parallel processing. The strategies support scalability by enabling parallel processing. Chunking and parallelized processing with tools like Dask facilitate the distribution of computations across multiple nodes or cores, enhancing speed and efficiency.
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/BDM/issues) for any improvements, suggestions or errors in the content.
