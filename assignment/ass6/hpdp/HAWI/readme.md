@@ -19,7 +19,7 @@ Don't forget to hit the :star: if you like this repo.
 | IZZAT HAQEEMI BIN HAIRUDIN                        |A21EC0033        |ASSIGNMENT 6|
 
 ### 📂 Folder content:
-* [💻 Assignment 6]()
+* [💻 Assignment 6](HAWISAN_HPDP_ASS6.ipynb)
 * [💻 Report]()
 
 
