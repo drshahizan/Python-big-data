@@ -68,7 +68,7 @@ In this assignment, you will explore the management of big data processing in da
 | 18. | HAWI  |  <a href="./HAWI/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [UK Property Price official data 1995-202304]( https://www.kaggle.com/datasets/lorentzyeung/price-paid-data-202304 ) |
 | 19. | popsmoke  |  <a href="./popsmoke/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Crimes In Chicago (2001 to 2023)](https://www.kaggle.com/datasets/utkarshx27/crimes-2001-to-present/data) |
 | 20. | yumm  |  <a href="./yumm/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [2 million rows of data on homes for sale](https://www.kaggle.com/datasets/msorondo/argentina-venta-de-propiedades) |
-| 21. | YW  |  <a href="./SYNA/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Flight Status Prediction](https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022?select=Combined_Flights_2022.csv) |
+| 21. | YW  |  <a href="./YW/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Flight Status Prediction](https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022?select=Combined_Flights_2021.csv) |
 
 
 ### 3. Academic Integrity
