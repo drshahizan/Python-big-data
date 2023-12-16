@@ -21,8 +21,8 @@ Don't forget to hit the :star: if you like this repo.
 
 ### 📂 Google Colab file:
 
-* [📖 Google Colab link]()
-* [💻 Google Colab file]()
+* [📖 Google Colab link - Library 3,Vaex](https://colab.research.google.com/drive/1afUFyHf4D7LZBm73q6li9Wjmvq08XbfA?usp=sharing)
+* [💻 Google Colab file-library 3,Vaex](./F4_Assignment7_library_3_[_Vaex_].ipynb)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
