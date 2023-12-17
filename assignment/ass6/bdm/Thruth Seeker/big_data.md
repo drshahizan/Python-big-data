@@ -1,5 +1,9 @@
 # Assignment 6 by Thruth Seeker
 
+<a target="_blank" href="https://colab.research.google.com/github/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/Thruth%20Seeker/Assignment_6_by_Thruth_Seeker.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 | Name                                     | Matrix Number |
 | :---------------------------------------- | :-------------: |
 | Hazem Fenneer            |MCS231019      |
