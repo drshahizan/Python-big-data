@@ -18,7 +18,7 @@
 5. Parallelize with Dask
 
 **Processing time and Memory Usage:**
-| Strategy | Time (in seconds) | Memory Usage (in Miga Byte) | Analysis|      
+| Strategy | Time (in seconds) | Memory Usage (in Mega Byte) | Analysis|      
 |----------|------|--------------|---------|
 |Traditional(pandas)|22.1|732.4|Pandas use single core for data manipulation, it require more time for processing.|
 |Load Less Data|25.27|709.5|If we only load certain data, eliminating some coulumns, definitely the memory usage will be dropped, but if we drop only few coulumns, the processing time will take longer.|
