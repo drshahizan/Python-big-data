@@ -10,6 +10,7 @@ Don't forget to hit the :star: if you like this repo.
 # Assignment 6: Mastering Big Data Handling
 
 ### Group Name: MEOW
+### Date: 17th December 2023
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
