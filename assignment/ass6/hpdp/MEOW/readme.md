@@ -18,7 +18,7 @@ Don't forget to hit the :star: if you like this repo.
 | ALIYA ZARENA BINTI ZAINULANUAR   |  A21EC0013    | Assignment 6  |
 
 ### 📂 Folder content:
-* [📖 Assignment 6](./ipynb)
+* [📖 Assignment 6](./ass6.ipynb)
 * [📖 Report](./big_data.md)
 
 
