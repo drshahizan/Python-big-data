@@ -7,7 +7,7 @@
 
 # Assignment 6: Big Data Handling
 
-### Group Name: 2
+### Group Name: F2
 ### Group Members
 
 | Name                                     | Matrix Number |
