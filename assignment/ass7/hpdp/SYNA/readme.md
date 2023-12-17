@@ -25,7 +25,7 @@ Don't forget to hit the :star: if you like this repo.
 ### 📂 Folder content:
 * [📖 library_1.ipynb]()
 * [📖 library_2.ipynb]()
-* [📖 library_3.ipynb]()
+* [📖 library_3.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/ASSIGNMENT7_PySpark_SYNA.ipynb)
 * [📖 comparison.md]()
 
 
