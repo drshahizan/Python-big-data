@@ -16,7 +16,6 @@
 | MIKHAIL BIN YASSIN                        |A21EC0054        |ASSIGNMENT 6|
 
 ### 📂 Folder content:
-* [💻 Assignment 6](https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/hpdp/2Big2Handle)
 * [💻 Report](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/hpdp/2Big2Handle/big_data_2Big2Handle_md.ipynb)
 
 ## Contribution 🛠️
