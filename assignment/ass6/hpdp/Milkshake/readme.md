@@ -14,8 +14,8 @@ Don't forget to hit the :star: if you like this repo.
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | :-------------: |
-| NURUNNAJWA BINTI ZULKIFLI  | A21EC0121      | Assignment 6 | Load Less Data, Chunking, Optimize Data Types, Comparative Analysis, Conclusion 
-| NUR SHUHADA SAFIAH BINTI AYOB   |  A21EC0114  | Assignment 6  | Sampling, Parallelize With Dask, Comparative Analysis, Conclusion 
+| NURUNNAJWA BINTI ZULKIFLI  | A21EC0121      | Load Less Data, Chunking, Optimize Data Types, Comparative Analysis, Conclusion  |
+| NUR SHUHADA SAFIAH BINTI AYOB   |  A21EC0114  |  Sampling, Parallelize With Dask, Comparative Analysis, Conclusion |
 
 ### 📂 Folder content:
 * [📖 Assignment 6]()
