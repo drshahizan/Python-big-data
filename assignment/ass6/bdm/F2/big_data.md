@@ -43,7 +43,7 @@ Unzip condition = 4.25 GB
 | object    | 5    |
 
 #### Step 3 Strategies for Big Datasets: 
-Apply five smart strategies to handle large datasets effectively
+Apply five smart strategies to handle large datasets effectively.
 The steps for using these strategies can be referred to Google Collab uploaded.
 <br/>
 a. Parallelize with Dask:
