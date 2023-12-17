@@ -16,3 +16,12 @@ Don't forget to hit the :star: if you like this repo.
 | :---------------------------------------- | :-------------: | :-------------: |
 | NADIA SYAFIQAH BINTI ZULKIPLI  | A21EC0098      | Assignment 6 |
 | ALIYA ZARENA BINTI ZAINULANUAR   |  A21EC0013    | Assignment 6  |
+
+## Contribution 🛠️
+Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
+![](https://hit.yhype.me/github/profile?user_id=81284918)
+
