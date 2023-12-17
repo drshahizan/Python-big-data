@@ -147,7 +147,7 @@ def drop_duplicates(df):
 drop_duplicates(df)
 ```
 
-##3. Strategies for Big Datasets
+## 3. Strategies for Big Datasets
 
 ### 3.1 Load Less Data
 
