@@ -17,7 +17,7 @@
 
 ### 📂 Folder content:
 * [💻 Assignment 6]()
-* [💻 Report]()
+* [💻 Report](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/hpdp/2Big2Handle/big_data_2Big2Handle_md.ipynb)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
