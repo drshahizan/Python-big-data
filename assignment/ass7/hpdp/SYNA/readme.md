@@ -23,8 +23,11 @@ Don't forget to hit the :star: if you like this repo.
 | YASMEEN NATASHA BINTI HAFIZ SHAHREL | A21EC0147 | Vaex
 
 ### 📂 Folder content:
-* [📖 Assignment 7]()
-* [📖 Report ]()
+* [📖 library_1.ipynb]()
+* [📖 library_2.ipynb]()
+* [📖 library_3.ipynb]()
+* [📖 comparison.md]()
+
 
 
 
