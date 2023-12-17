@@ -65,7 +65,7 @@
 
 1.Memory Efficiency:
 
-(1)Chunking: Divides the data into smaller chunks, processing one part at a time. This reduces memory usage, as only a portion of the data needs to be loaded and processed in memory.|
+(1)Chunking: Divides the data into smaller chunks, processing one part at a time. This reduces memory usage, as only a portion of the data needs to be loaded and processed in memory.\
 (2)Traditional Loading: Loading an entire large dataset at once may lead to memory issues. Chunking efficiently avoids this problem.
 
 2.Real-time Processing:
