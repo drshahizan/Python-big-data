@@ -18,7 +18,7 @@ Don't forget to hit the :star: if you like this repo.
 | NUR SHUHADA SAFIAH BINTI AYOB   |  A21EC0114  |  Sampling, Parallelize With Dask, Comparative Analysis, Conclusion |
 
 ### 📂 Folder content:
-* [📖 Assignment 6]()
+* [📖 Assignment 6](assignment/ass6/hpdp/Milkshake/Assignment6_Milkshake.ipynb)
 * [📖 Report]()
 
 
