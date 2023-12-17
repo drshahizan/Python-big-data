@@ -17,7 +17,7 @@
 | SAM CHIA YUN                        |A21EC0127        |ASSIGNMENT 6|
 
 ### 📂 Folder content:
-* [💻 Assignment 6]()
+* [💻 Assignment 6](https://colab.research.google.com/github/drshahizan/Python-big-data/blob/main/assignment/ass6/hpdp/NoCarNoFriend/Assignment_6_Big_Data_Handling.ipynb)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
