@@ -16,7 +16,7 @@
 | Shivanesh A/L Sivakumar               |MCS231014      |
 
 ### 📂 Folder content:
-* [💻 Assignment 6]()
+* [💻 Assignment 6](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/Thruth%20Seeker/Assignment_6_by_Thruth_Seeker.ipynb)
 * [💻 Report]()
 
 ## Contribution 🛠️
