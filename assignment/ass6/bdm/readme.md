@@ -57,7 +57,7 @@ In this assignment, you will explore the management of big data processing in da
 | 7. | Daging Salai  |  <a href="./Daging Salai/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | TripAdvisor Hotel Reviews |
 | 8. | Avengers |  <a href="./Avengers/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Amazon Book Reviews |
 | 9. | Ayam Rendang 1 |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/Ayam%20Rendang%201"><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Iowa Liquor Sales Dataset |
-| 10. | Equinox |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/Equinox" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Amazon Book Reviews |
+| 10. | Equinox |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/Equinox" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | User reviews of video games |
 
 
 ### 3. Academic Integrity
