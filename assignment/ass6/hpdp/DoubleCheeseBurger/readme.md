@@ -8,6 +8,16 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Assignment 6: Mastering Big Data Handling
+### Group Name: DoubleCheeseBurger
+### Group Members
+
+| Name                                     | Matric No. |
+| :---------------------------------------- | :-------------: |
+| Abdul Muhaimin Bin AbduL Razak            |A21EC0002      |
+| Hafizulshah Bin Sharom              |A21EC0027      |
+
+### 📂 Folder content:
+* [💻 Assignment 6](https://github.com/drshahizan/Python-big-data/blob/0e9b8ef391824d0c1fd3031318151d47f8585d4e/assignment/ass6/hpdp/DoubleCheeseBurger/Assg6.ipynb)
 
 
 
