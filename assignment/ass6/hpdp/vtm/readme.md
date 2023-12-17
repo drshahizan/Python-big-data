@@ -9,10 +9,13 @@ Don't forget to hit the :star: if you like this repo.
 
 # Assignment 6: Mastering Big Data Handling
 
+| NAME | MATRIC NO. |
+| --- | --- |
+| MOHAMAD AZRI HADIF BIN MOHAMMAD RIZAL | A21EC0054 |
+| MUHAMMAD IQMAL BIN SIS | A21EC0080|
 
-
-
-
+- [Assignment 6]()
+- []()
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
