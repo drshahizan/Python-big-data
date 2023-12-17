@@ -16,8 +16,7 @@ Don't forget to hit the :star: if you like this repo.
 |ALYA BALQISS BINTI AZAHAR           | A21EC0158   | Assignment 6 |
 
 ### 📂 Folder content:
-* [💻 Assignment 6](assignment6_DMAjuddin.ipynb
-)
+* [💻 Assignment 6](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/hpdp/ACE/big_data.ipynb)
 * [💻 Report]()
 
 
