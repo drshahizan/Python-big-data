@@ -15,7 +15,7 @@ Don't forget to hit the :star: if you like this repo.
 | Muhammad Hazim Bin Salman | A21EC0078 |
 | Muhammad Naquib Bin Zakaria | A20BE0161 |
 
-
+* [💻 Assignment 6](https://colab.research.google.com/drive/1XXkp0YNWHjlVUcJJxoHoQPJ86sg1U8pq?usp=sharing)
 
 
 ## Contribution 🛠️
