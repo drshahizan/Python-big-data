@@ -14,12 +14,12 @@ Don't forget to hit the :star: if you like this repo.
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | :-------------: |
-| NADIA SYAFIQAH BINTI ZULKIPLI  | A21EC0098      |  |
-| ALIYA ZARENA BINTI ZAINULANUAR   |  A21EC0013    |  |
+| NADIA SYAFIQAH BINTI ZULKIPLI  | A21EC0098      | Assignment 6 |
+| ALIYA ZARENA BINTI ZAINULANUAR   |  A21EC0013    | Assignment 6  |
 
 ### 📂 Folder content:
-* [📖 ipynb](./ipynb)
-* [📖 Big Data Report](./big_data.md)
+* [📖 Assignment 6](./ipynb)
+* [📖 Report](./big_data.md)
 
 
 
