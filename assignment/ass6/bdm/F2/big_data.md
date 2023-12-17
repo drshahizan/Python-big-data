@@ -49,7 +49,7 @@ The steps for using these strategies can be referred to Google Collab uploaded.
 a. Parallelize with Dask:
 - Dask is a powerful library that extends pandas to enable parallel and distributed computing. It's particularly useful for handling larger-than-memory datasets..
 
-b.Sampling:
+b. Use Sampling:
 - Implement sampling methodologies to extract meaningful insights from a subset of the dataset.
 
 c. Use Chunking:
