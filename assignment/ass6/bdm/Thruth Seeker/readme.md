@@ -17,7 +17,7 @@
 
 ### 📂 Folder content:
 * [💻 Assignment 6](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/Thruth%20Seeker/Assignment_6_by_Thruth_Seeker.ipynb)
-* [💻 Report]()
+* [💻 Report](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/Thruth%20Seeker/big_data.md)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
