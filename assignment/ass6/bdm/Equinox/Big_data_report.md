@@ -70,90 +70,91 @@
 
 2.Real-time Processing:
 
-(1)Chunking: Enables processing to start while the data is still being loaded. This is useful for real-time or streaming data processing.
+(1)Chunking: Enables processing to start while the data is still being loaded. This is useful for real-time or streaming data processing.\
 (2)Traditional Loading: Processing begins only after the entire dataset has been loaded, potentially causing longer wait times.
 
 3.Parallel Processing:
 
-(1)Chunking: Facilitates easier implementation of parallel processing, as each chunk is relatively independent. Different chunks can be processed in parallel on different computing units.
+(1)Chunking: Facilitates easier implementation of parallel processing, as each chunk is relatively independent. Different chunks can be processed in parallel on different computing units.\
 (2)Traditional Loading: Achieving parallel processing can be more complex when loading the entire dataset, requiring consideration of inter-data dependencies.
 
 4.Adaptability with Iterators:
 
-(1)Chunking: Suitable for iterator patterns, allowing progressive loading and processing of data instead of waiting for the entire dataset to load.
+(1)Chunking: Suitable for iterator patterns, allowing progressive loading and processing of data instead of waiting for the entire dataset to load.\
 (2)Traditional Loading: Loading the entire dataset at once may demand substantial memory and may not be well-suited for iterator patterns.
 
 5.Reduced Waiting Time:
 
-(1)Chunking: Results can be generated while processing the first chunk, eliminating the need to wait for the entire process to complete.
+(1)Chunking: Results can be generated while processing the first chunk, eliminating the need to wait for the entire process to complete.\
 (2)Traditional Loading: Waiting for the entire dataset to load and process is necessary before obtaining the final results.
 
 [3]Optimize Data Types
 
 1.Memory Efficiency:
 
-(1)Data Type Optimization: By selecting appropriate data types, the memory footprint of variables can be significantly reduced, improving memory efficiency.
+(1)Data Type Optimization: By selecting appropriate data types, the memory footprint of variables can be significantly reduced, improving memory efficiency.\
 (2)Traditional Without Optimization: Without data type optimization, default data types may be used, leading to higher memory consumption.
 
 2.Performance Improvement:
 
-(1)Data Type Optimization: Employing suitable data types can enhance runtime performance by reducing memory access and improving computational efficiency.
+(1)Data Type Optimization: Employing suitable data types can enhance runtime performance by reducing memory access and improving computational efficiency.\
 (2)Traditional Without Optimization: Inappropriate data types may lead to performance degradation due to increased memory access or computational costs.
 
 3.Storage Space Savings:
 
-(1)Data Type Optimization: Choosing compact and appropriately sized data types helps save storage space, especially when dealing with large datasets.
+(1)Data Type Optimization: Choosing compact and appropriately sized data types helps save storage space, especially when dealing with large datasets.\
 (2)Traditional Without Optimization: Default data types may occupy more storage space than necessary, resulting in resource wastage.
 
 4.Avoiding Unnecessary Precision:
 
-(1)Data Type Optimization: Selecting the right precision for a specific task helps avoid the use of excessively high-precision data types, reducing memory overhead.
+(1)Data Type Optimization: Selecting the right precision for a specific task helps avoid the use of excessively high-precision data types, reducing memory overhead.\
 (2)Traditional Without Optimization: Default behavior might involve higher precision data types than required for the task.
 
 5.Algorithmic Optimization:
 
-(1)Data Type Optimization: The choice of data types can influence algorithm selection, allowing exploitation of the advantages of specific data types to improve algorithm efficiency.
+(1)Data Type Optimization: The choice of data types can influence algorithm selection, allowing exploitation of the advantages of specific data types to improve algorithm efficiency.\
 (2)Traditional Without Optimization: Without considering data types, less efficient algorithms might be chosen.
 
 6.Adapting to Hardware Characteristics:
 
-(1)Data Type Optimization: Considering hardware characteristics, selecting data types that match the underlying hardware architecture can enhance overall performance.
+(1)Data Type Optimization: Considering hardware characteristics, selecting data types that match the underlying hardware architecture can enhance overall performance.\
 (2)Traditional Without Optimization: Ignoring hardware characteristics may lead to performance bottlenecks.
 
 [4]Sampling
 
 1.Computational Efficiency:
 
-(1)Sampling: Working with a subset reduces computational requirements, allowing for quicker analysis and model training.
+(1)Sampling: Working with a subset reduces computational requirements, allowing for quicker analysis and model training.\
 (2)Traditional Without Sampling: Analyzing the entire dataset can be computationally expensive and time-consuming.
 
 2.Memory Usage:
 
-(1)Sampling: A smaller subset requires less memory, making it feasible to analyze and process datasets that might be too large to fit into memory. (2)Traditional Without Sampling: Analyzing the entire dataset may lead to memory issues, especially with large datasets.
+(1)Sampling: A smaller subset requires less memory, making it feasible to analyze and process datasets that might be too large to fit into memory.\
+(2)Traditional Without Sampling: Analyzing the entire dataset may lead to memory issues, especially with large datasets.
 
 3.Exploratory Data Analysis (EDA):
 
-(1)Sampling: Facilitates faster exploratory data analysis by providing a representative view of the data without analyzing the entire dataset.
+(1)Sampling: Facilitates faster exploratory data analysis by providing a representative view of the data without analyzing the entire dataset.\
 (2)Traditional Without Sampling: EDA on the entire dataset may delay the discovery of patterns and trends.
 
 4.Model Training and Validation:
 
-(1)Sampling: Useful for training and validating models on a representative subset, especially when the dataset is large.
+(1)Sampling: Useful for training and validating models on a representative subset, especially when the dataset is large.\
 (2)Traditional Without Sampling: Training models on the entire dataset may be time-consuming and computationally intensive.
 
 5.Cost Efficiency:
 
-(1)Sampling: Reduces the cost associated with processing and analyzing the entire dataset.
+(1)Sampling: Reduces the cost associated with processing and analyzing the entire dataset.\
 (2)Traditional Without Sampling: Analyzing the entire dataset may involve higher costs, particularly in terms of computational resources.
 
 6.Real-time and Streaming Data:
 
-(1)Sampling: Well-suited for real-time and streaming data scenarios where it's impractical to process the entire dataset at once.
+(1)Sampling: Well-suited for real-time and streaming data scenarios where it's impractical to process the entire dataset at once.\
 (2)Traditional Without Sampling: Processing entire datasets in real-time might be challenging due to resource constraints.
 
 7.Initial Data Exploration:
 
-(1)Sampling: Provides an initial insight into the dataset, helping to decide whether a more in-depth analysis of the entire dataset is warranted.
+(1)Sampling: Provides an initial insight into the dataset, helping to decide whether a more in-depth analysis of the entire dataset is warranted.\
 (2)Traditional Without Sampling: Without initial sampling, the full dataset must be processed even if only a subset might be relevant.
 
 [5]Parallelize with Dask
