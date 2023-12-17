@@ -334,81 +334,111 @@ We can check the detail information about Dask package using the command below:
 !pip show dask
 ```
 
-# Import dask and other necessary libraries
+- Import dask and other necessary libraries
+```python
 import dask
 import dask.dataframe as dd
 from dask.diagnostics import ProgressBar
+```
 
-#Load data with dask
-# Specify the dtype for the 'Id' column
+- Load data with dask by specify the dtype for the 'Id' column
+```python
 dtype = {'Id': 'object'}
-# Read the CSV file with specified dtype
+```
+
+- Read the CSV file with specified dtype
+```python
 file_path = 'Books_rating.csv'
 dask_df = dd.read_csv(file_path,dtype=dtype)
 dask_df
+```
 
 In loading dataset, dask have same functionality "read.csv' with the pandas, but in dask, it allows to operate on large memory datasets compared to pandas. We can see that pandas take 46 seconds to load the data while the dask only takes 0 seconds to complete run it.
 
+```python
 dask_df.columns
+```
 
-# Check for any missing values
+- To check for any missing values, run this command:
+```python
 missing_values_count = dask_df.isna().sum().compute()
 missing_values_count
+```
 
-# Handle missing values
+- To handle missing values, run this command:
+```python
 dask_df = dask_df.dropna()
 check_missing_value_count = dask_df.isna().sum().compute()
 check_missing_value_count
+```
 
-Example: Calculates the mean of the 'review/score' based on the 'User_id' column in parallel across Dask partitions.
+**Example:** Calculates the mean of the 'review/score' based on the 'User_id' column in parallel across Dask partitions.
 
+```python
 import time
+```
 
-# Record the start time
+- To record the start time, run this command:
+```python
 start_time = time.time()
-
 mean_score = dask_df.groupby('User_id')['review/score'].mean()
+```
 
-# Trigger computation and display result
+- To trigger computation and display the result, run this command:
+```python
 result = mean_score.compute()
 print(f"Mean Review Score: {result}")
+```
 
 Based on the results, the 'User_id' column displays the mean review scores for every unique user, which represent the overall mood of their reviews. The values fall between 1.0 and 5.0, with higher numbers correspond to more favourable ratings.
 
-Example: How the parallelization with Dask works.
+**Example:** How the parallelization with Dask works.
 
-Note: Initial functions for calculating the mean review score would remain the SAME
-
+**Note:** Initial functions for calculating the mean review score would remain the SAME
+```python
 import dask
 from dask import delayed
+```
 
+```python
 complex_result = dask_df.groupby('User_id')['review/score'].mean()
+```
 
+```python
 parallelize_score = delayed(complex_result)
 parallelize_score
+```
 
 As we can see above, it wont show the value of parallelize score, therefore we need to apply *compute()* function in order to get the result. We can also use *visualize()* function to see the parallel execution will look like.
 
+```python
 parallelize_score.visualize()
-
+```
+```python
 new_result = parallelize_score.compute()
 print(f"Mean Review Score: {new_result}")
-
+```
 We can see that the results from pandas and Dask are similar; however, the difference is that Dask can manage several pandas dataframes and store them if memory is limited. Furthermore, dask provides a delayed approach for parallelizing execution, allowing data storage to be used more efficiently.
 
-# Record the end time
+- To record the end time, run this command:
+```python
 end_time = time.time()
+```
 
-# Calculate the elapsed time
+- To calculate the elapsed time, run this command:
+```python
 elapsed_time = end_time - start_time
+```
 
-# Calculate the memory usage of the Dask DataFrame
+- To calculate the memory usage of the Dask DataFrame, run this command:
+```python
 memory_usage = dask_df.memory_usage(deep=True).compute()
-
+```
+```python
 print(f"Memory Usage: {memory_usage}")
 print(f"The Elapsed Time to calculate the mean review score by Dask: {elapsed_time} seconds")
-
-## 4.0 Comparative Analysis
+```
+## 4. Comparative Analysis
 
 Table 1 below shows the comparison between traditional methods and advanced strategies in several aspects for handling big datasets.
 
@@ -459,19 +489,6 @@ d) Parallel Computing
 e) Scalability & Flexibility
 *   Advanced strategies facilitate scalability by enabling the processing of larger datasets without overwhelming system resources.
 *   The ability to perform analysis on smaller subsets (sampling) or chunks of data allows for more flexible and iterative analysis without the need to load the entire dataset.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## 5.0 Conclusion
 
