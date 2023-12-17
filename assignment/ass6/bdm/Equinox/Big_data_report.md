@@ -45,23 +45,23 @@
   
 4. **Comparative Analysis**: 
 
-[1]Load Less Data
+-[1]Load Less Data
 
-1.Memory Efficiency: By loading only the critical portions of the data, significant reductions in memory usage can be achieved. This is crucial for large datasets where attempting to load the entire dataset at once might lead to memory issues, especially in resource-constrained environments.
+-1.Memory Efficiency: By loading only the critical portions of the data, significant reductions in memory usage can be achieved. This is crucial for large datasets where attempting to load the entire dataset at once might lead to memory issues, especially in resource-constrained environments.
 
-2.Speed Improvement: Breaking the dataset into smaller chunks and loading only the necessary blocks can reduce the time spent on reading and processing. This often results in overall performance improvements as processing can start without waiting for the entire dataset to be loaded.
+-2.Speed Improvement: Breaking the dataset into smaller chunks and loading only the necessary blocks can reduce the time spent on reading and processing. This often results in overall performance improvements as processing can start without waiting for the entire dataset to be loaded.
 
-3.Storage Space Savings: Loading only a subset of the data can also lead to savings in storage space, particularly for datasets with redundant or unnecessary information.
+-3.Storage Space Savings: Loading only a subset of the data can also lead to savings in storage space, particularly for datasets with redundant or unnecessary information.
 
-4.Faster Responsiveness: When dealing with large datasets, loading data incrementally enhances system responsiveness. Users can start viewing and analyzing portions of the data more quickly without waiting for the entire dataset to load.
+-4.Faster Responsiveness: When dealing with large datasets, loading data incrementally enhances system responsiveness. Users can start viewing and analyzing portions of the data more quickly without waiting for the entire dataset to load.
 
-5.Iteration Processing: Loading data block by block allows for iterative processing, where memory from the previous block can be released while processing the current one, further reducing overall memory requirements.
+-5.Iteration Processing: Loading data block by block allows for iterative processing, where memory from the previous block can be released while processing the current one, further reducing overall memory requirements.
 
-6.Real-time Data Handling: For streaming or real-time data, a block-wise loading strategy is more suitable as data may arrive sequentially over time rather than being available all at once.
+-6.Real-time Data Handling: For streaming or real-time data, a block-wise loading strategy is more suitable as data may arrive sequentially over time rather than being available all at once.
 
-7.Increased Adaptability: The block-wise loading strategy enables handling datasets larger than the available memory, enhancing adaptability to large-scale datasets.
+-7.Increased Adaptability: The block-wise loading strategy enables handling datasets larger than the available memory, enhancing adaptability to large-scale datasets.
 
-[2]Use Chunking
+-[2]Use Chunking
 
 1.Memory Efficiency:
 
