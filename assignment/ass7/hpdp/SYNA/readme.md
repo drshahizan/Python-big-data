@@ -12,6 +12,23 @@ Don't forget to hit the :star: if you like this repo.
 ## [Template: Project big data](compare_big_data.ipynb)
 
 
+### Group Name: SYNA
+### Group Members
+
+| Name                                     | Matrix Number | Task |
+| :---------------------------------------- | :-------------: | ------------- |
+| SARAH WARDINA BINTI RAFIDIN | A21EC0128 | Comparison
+| NURUNNAJWA BINTI ZULKIFLI | A21EC0121 | PySpark
+| ALYA DAMIA BINTI HUZAIMY | A21EC0159 | Modin 
+| YASMEEN NATASHA BINTI HAFIZ SHAHREL | A21EC0147 | Vaex
+
+### 📂 Folder content:
+* [📖 Assignment 7]()
+* [📖 Report ]()
+
+
+
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
