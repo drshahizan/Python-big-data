@@ -314,7 +314,7 @@ grouped_rows
 
 The sample size of each stratum is proportional to the population size of the stratum.
 
-Sample 80% of records proportionately
+- Sample 80% of records proportionately
 - 80% = 0.8
 
 ```python
