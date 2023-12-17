@@ -16,7 +16,7 @@
 | LOO ZHI YUAN                        |A21EC0197        |ASSIGNMENT 6|
 
 ### 📂 Folder content:
-* [💻 Assignment 6]()
+* [💻 Assignment 6](./assignment6_big_data.ipynb)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
