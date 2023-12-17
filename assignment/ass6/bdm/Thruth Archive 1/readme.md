@@ -7,7 +7,7 @@
 
 # Assignment 6: Mastering Big Data Handling
 
-### Group Name: Thruth Archive 1
+### Group Name: Thruth Archive 
 ### Group Members
 
 | Name                                     | Matrix Number |
