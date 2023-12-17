@@ -17,6 +17,10 @@ Don't forget to hit the :star: if you like this repo.
 | NADIA SYAFIQAH BINTI ZULKIPLI  | A21EC0098      | Assignment 6 |
 | ALIYA ZARENA BINTI ZAINULANUAR   |  A21EC0013    | Assignment 6  |
 
+##  📚 Objective
+The objective of this assignment is to explore the management of big data processing in data science. Big data processing involves the systematic handling and analysis of vast and complex datasets that exceed the capabilities of traditional data processing methods. It encompasses the storage, retrieval, and manipulation of massive volumes of information to extract valuable insights.
+
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
 
