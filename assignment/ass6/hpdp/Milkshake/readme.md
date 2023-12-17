@@ -18,8 +18,8 @@ Don't forget to hit the :star: if you like this repo.
 | NUR SHUHADA SAFIAH BINTI AYOB   |  A21EC0114  |  Sampling, Parallelize With Dask, Comparative Analysis, Conclusion |
 
 ### 📂 Folder content:
-* [📖 Assignment 6](assignment/ass6/hpdp/Milkshake/Assignment6_Milkshake.ipynb)
-* [📖 Report](assignment/ass6/hpdp/Milkshake/Assignment6_Milkshake.ipynb)
+* [📖 Assignment 6](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/hpdp/Milkshake/Assignment6_Milkshake.ipynb)
+* [📖 Report](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/hpdp/Milkshake/Assignment6_Milkshake.ipynb)
 
 
 
