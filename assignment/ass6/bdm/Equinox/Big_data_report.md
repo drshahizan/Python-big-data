@@ -19,7 +19,7 @@
 * [💻 Assignment 6](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/Equinox/Equinox_Assignment6_ipynb%E2%80%9D.ipynb)
 * [💻 Report](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/Equinox/Big_data_report.md)
 
-1. **Pick a Big Dataset**: The chosen dataset(1GB) for our Assignment 6 which is from kaggle. This dataset contains a collection of user reviews of video games in the Steam Store with a plethora of information about each review such as steam id, app id, playtime, the review text, like/dislike, timestamp of review created, timestamp of review updated, etc, scraped from the STEAM API. 
+1. **Pick a Big Dataset**: The chosen Steam Reviews Dataset(1GB) for our Assignment 6 which is from kaggle. This dataset contains a collection of user reviews of video games in the Steam Store with a plethora of information about each review such as steam id, app id, playtime, the review text, like/dislike, timestamp of review created, timestamp of review updated, etc, scraped from the STEAM API. 
 
 2. **Loading the Dataset**: Use Python and Pandas to load our chosen dataset into our Colab notebook. We can either upload it from our computer or directly from an online source. By uploading the kaggle.json file, we connected the to Kaggle using the API to get the dataset. It gives us a zip file which is the 'reviews-1230-2345.csv' file and we need to unzip. 
 
