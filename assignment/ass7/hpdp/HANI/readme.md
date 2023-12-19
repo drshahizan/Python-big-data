@@ -22,7 +22,7 @@ Don't forget to hit the :star: if you like this repo.
 * [📖 Pandas](./pandas.ipynb)
 * [📖 Dask](./dask.ipynb)
 * [📖 Modin](./modin.ipynb)
-* [📖 Comparision Libraries](./compare_big_data.ipynb)
+* [📖 Comparision Libraries](./compare_big_data.md)
 
 
 
