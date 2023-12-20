@@ -23,7 +23,7 @@ Don't forget to hit the :star: if you like this repo.
 ## [Template: Project big data](compare_big_data.ipynb)
 ### 📂 Folder content:
 * [📖 Assignment 7]()
-* [📖 Report]()
+* [📖 POLARS.ipynb](ASSIGNMENT7_POLARS.ipynb)
 
 
 
