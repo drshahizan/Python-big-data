@@ -21,6 +21,10 @@ Don't forget to hit the :star: if you like this repo.
 
 ### 📂 Google Colab file:
 
+#### Library 1 - Pandas
+* [📖 Google Colab link ](https://colab.research.google.com/drive/1KKsU12yvxhD_MPqwNfbxTuUMZF3IyzvC?usp=sharing)
+* [💻 Ipynb File ](./F4_Assignment7_library_3_[_Pandas_].ipynb)
+
 #### Library 3 - Vaex
 * [📖 Google Colab link ](https://colab.research.google.com/drive/1afUFyHf4D7LZBm73q6li9Wjmvq08XbfA?usp=sharing)
 * [💻 Ipynb File ](./F4_Assignment7_library_3_[_Vaex_].ipynb)
