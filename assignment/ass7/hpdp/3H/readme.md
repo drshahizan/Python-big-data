@@ -13,10 +13,12 @@ Don't forget to hit the :star: if you like this repo.
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| ALIYA ZARENA BINTI ZAINULANUAR | A21EC0013 | COMPARISON  
-| MOHAMAD AZRI HADIF BIN MOHAMMAD RIZAL | A21EC0054 | DASK
-| ALIEYA ZAWANIE BINTI A ZAINI | A21EC0156 | MODIN
 | IZZAT HAQEEMI BIN HAIRUDIN | A21EC0033 | PANDAS
+| ALIEYA ZAWANIE BINTI A ZAINI | A21EC0156 | MODIN
+| MOHAMAD AZRI HADIF BIN MOHAMMAD RIZAL | A21EC0054 | DASK
+| ALIYA ZARENA BINTI ZAINULANUAR | A21EC0013 | COMPARISION LIBRARIES
+
+
 
 ### 📂 Folder content:
 * [📖 Pandas](./pandas.ipynb)
