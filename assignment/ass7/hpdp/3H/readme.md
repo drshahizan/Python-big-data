@@ -16,7 +16,7 @@ Don't forget to hit the :star: if you like this repo.
 | IZZAT HAQEEMI BIN HAIRUDIN | A21EC0033 | PANDAS
 | ALIEYA ZAWANIE BINTI A ZAINI | A21EC0156 | MODIN
 | MOHAMAD AZRI HADIF BIN MOHAMMAD RIZAL | A21EC0054 | DASK
-| ALIYA ZARENA BINTI ZAINULANUAR | A21EC0013 | COMPARISION LIBRARIES
+| ALIYA ZARENA BINTI ZAINULANUAR | A21EC0013 | COMPARISON LIBRARIES
 
 
 
@@ -24,7 +24,7 @@ Don't forget to hit the :star: if you like this repo.
 * [📖 Pandas](./pandas.ipynb)
 * [📖 Dask](./dask.ipynb)
 * [📖 Modin](./modin.ipynb)
-* [📖 Comparision Libraries](./compare_big_data.ipynb)
+* [📖 Comparison Libraries](./compare_big_data.ipynb)
 
 
 
