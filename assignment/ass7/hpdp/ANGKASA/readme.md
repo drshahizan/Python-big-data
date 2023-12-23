@@ -17,6 +17,7 @@ Don't forget to hit the :star: if you like this repo.
 |4.|MUHAMMAD NAQUIB BIN ZAKARIA|A20BE0161|
 
 
+- Library 3 - [Dask](./library_3.ipynb)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
