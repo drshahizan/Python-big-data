@@ -9,7 +9,12 @@ Don't forget to hit the :star: if you like this repo.
 
 # Assignment 7: Comparison between libraries
 
-## [Template: Project big data](compare_big_data.ipynb)
+|No.|NAME|MATRICS NO.|
+|---|---|---|
+|1.|FAUZAN AQIL BIN AZMAN|A20EC0078|
+|2.|NIK AMIRUL ARIFF BIN AMRAN|A21EC0214|
+|3.|MUHAMMAD ASHRAAF BIN SALEH|A21EC0068|
+|4.|MUHAMMAD NAQUIB BIN ZAKARIA|A20BE0161|
 
 
 
