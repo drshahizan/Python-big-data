@@ -23,8 +23,8 @@ Don't forget to hit the :star: if you like this repo.
 
 ### 📂 Folder content:
 * [📖 Pandas](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/3H/library_1.ipynb)
-* [📖 Dask](./dask.ipynb)
-* [📖 Modin](./modin.ipynb)
+* [📖 Dask](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/3H/library_3.ipynb)
+* [📖 Modin](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/3H/library_2.ipynb)
 * [📖 Comparison Libraries](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/3H/comparison.md)
 
 
