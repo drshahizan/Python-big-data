@@ -1,14 +1,9 @@
 <div align="center">
  
 # Assignment 7: Comparison between libraries
-
-</div>
-
 ### Date of Submission : 24/12/2023
 ### Group Name: 3H 
 
-<div align="center">
- 
 ### Group Members
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
