@@ -30,72 +30,72 @@
 
 1. Pandas
 
-Pros:
+    Pros:
 
 *   Powerful data structures and functions for analysis and manipulation
 *   Efficient for smaller datasets
   
-Cons:
+    Cons:
 
 *   Can consume significant memory for large datasets
 *   Operations on large DataFrames can be slow
 
 2. Load Less Data:
 
-Pros:
+    Pros:
 
 *   Reduces memory footprint and initial loading time
 *   Can improve performance for specific tasks
   
-Cons:
+    Cons:
 
 *   Requires careful selection of relevant data
 *   Could limit analysis if essential data is excluded
 
 3. Use Chunking
 
-Pros:
+    Pros:
 
 *   Processes large datasets in manageable chunks
 *   Reduces memory overhead and can improve performance for certain operations.
   
-Cons:
+    Cons:
 
 *   Requires careful handling of data continuity
 *   Can introduce code complexity
 
 4. Optimize Data Types
 
-Pros:
+    Pros:
 
 *   Reduces memory usage by choosing appropriate data types
 *   Can improve performance for computations
   
-Cons:
+    Cons:
 
 *   Requires understanding of data types and their memory implications
 *   Might necessitate data type conversions
 
 5. Sampling
 
-Pros:
+    Pros:
 
 *   Analyzes a representative subset to reduce memory and processing time
 *   Can provide insights without processing the entire dataset
   
-Cons:
+    Cons:
 
 *   Potential loss of information if sample is not representative
 *   Sampling bias might lead to inaccurate conclusions
 
 6. Parallelize with Dask
 
-Pros:
+    Pros:
 
 *   Distributes computations across multiple cores or machines
 *   Can handle datasets too large for single-machine processing
   
-Cons:
+    Cons:
 
 *   Adds complexity to code and setup
 *   Requires understanding of parallel computing principles
