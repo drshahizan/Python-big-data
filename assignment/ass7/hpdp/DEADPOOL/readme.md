@@ -25,7 +25,7 @@ Don't forget to hit the :star: if you like this repo.
 * [📖 Assignment 7]()
 * [📖 POLARS.ipynb](ASSIGNMENT7_POLARS.ipynb)
 * [📖 PANDAS.ipynb](Assignment7_Pandas.ipynb)
-* [📖 PANDAS.ipynb](Library_2.ipynb)
+* [📖 DASK.ipynb](Library_2.ipynb)
 
 
 ## Contribution 🛠️
