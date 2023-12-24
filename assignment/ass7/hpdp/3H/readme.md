@@ -9,7 +9,7 @@ Don't forget to hit the :star: if you like this repo.
 
 # Assignment 7: Comparison between libraries
 ### Date of Submission : 24/12/2023
-### Group Name: HANI
+### Group Name: 3H
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
