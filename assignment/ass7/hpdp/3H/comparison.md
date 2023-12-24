@@ -71,15 +71,15 @@ Memory usage is an essential consideration when working with large datasets, and
 
    | Operation/Analysis | Pandas | Modin | Dask |
    | --------------- | --------------- | --------------- |--------------- |
-   | Read selected columns | 2.4GB   | 839.2+ MB    |1.5GB |
-   | Reducing Memory Usage (After Optimization)   | 0.17GB   | 0.17GB    | <center> - |
+   | Read selected columns | 2.4GB   | 839.2+ MB / 0.82GB   | 842.4MB / 0.82GB |
+   | Reducing Memory Usage (After Optimization)   | 0.17GB   | 0.17GB    | 2261.44MB / 2.21GB|
 
    </center>
 <br>
 
 (**1) Pandas vs. Modin:**
 
-Here, we can observe that even after minimising the usage according to each operation, Modin and Pandas both have the same amount of memory utilisation. This is a result of the dataset fitting into memory with ease. However, because of the parallelization method, Modin will typically use greater memory overhead than Pandas. Modin may result in large memory reductions for some operations but just moderate benefits for others.
+Here, we can observe that even after minimising the usage according to each operation, Modin and Pandas both have the same amount of memory utilisation. This is a result of the dataset fitting into memory with ease. However, because of the parallelization method, Modin will typically use greater memory overhead than Pandas. Modin may result in large memory reductions for some operations but just moderate benefits for others such as can be seen when read selected columns.
 
 <br>
 
