@@ -72,26 +72,26 @@ Memory usage is an essential consideration when working with large datasets, and
    | Operation/Analysis | Pandas | Modin | Dask |
    | --------------- | --------------- | --------------- |--------------- |
    | Read selected columns | 2.4GB   | 839.2+ MB / 0.82GB   | 842.4MB / 0.82GB |
-   | Reducing Memory Usage (After Optimization)   | 0.17GB   | <div align="center"> 0.17GB </div>   | 2261.44MB / 2.21GB|
+   | Reducing Memory Usage (After Optimization)   | 0.17GB   |  0.17GB  | 2261.44MB / 2.21GB|
 
    </center>
 <br>
 
 (**1) Pandas vs. Modin:**
 
-Here, we can observe that even after minimising the usage according to each operation, Modin and Pandas both have the same amount of memory utilisation. This is a result of the dataset fitting into memory with ease. However, because of the parallelization method, Modin will typically use greater memory overhead than Pandas. Modin may result in large memory reductions for some operations but just moderate benefits for others such as can be seen when read selected columns.
+Here, we can observe that even after minimising the usage according to each operation, Modin and Pandas both have the same amount of memory utilisation. This is a result of the dataset fitting into memory with ease. However, because of the parallelization method, Modin will typically use greater memory overhead than Pandas. Modin may result in large memory reductions for some operations but just moderate benefits for others such as can be seen when reading the selected columns.
 
 <br>
 
 (**2) Pandas vs. Dask:**
 
-As for Pandas and Dask, we can clearly see that Dask consumes less memory compared to the Pandas. This can proof that Dask has the ability to handle larger-than-memory datasets which makes it more suitable for handling big datasets compared to Pandas. In this case study, we also use Dask to handle computations on chunks of data, making it more memory-efficient for large-scale data processing.
+As for Pandas and Dask, we can clearly see that Dask consumes less memory compared to the Pandas when read selected cokumns. This can proof that Dask has the ability to handle larger-than-memory datasets which makes it more suitable for handling big datasets compared to Pandas. In this case study, we also use Dask to handle computations on chunks of data, making it more memory-efficient for large-scale data processing.
 
 <br>
 
 (**3) Modin vs. Dask:**
 
-Here, Dask also consumes less memory compared to Modin. This show that dask's scalability is more beneficial in terms of memory usage because in handling big datasets and several operations take a lot of memory usage to be done.
+Here, in reading selected columns, Dask also consumes slightly higher in memory usage compared to Modin. Other than that, after optimization, Modin is significantly more memory-efficient than Dask. This is because Dask shows competitive memory usage for some operations but might have higher memory requirements after optimization, making it less memory-efficient than Modin for the given scenarios. 
 
 <br>
 
