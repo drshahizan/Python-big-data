@@ -71,7 +71,7 @@ Memory usage is an essential consideration when working with large datasets, and
 
    | Operation/Analysis | Pandas | Modin | Dask |
    | --------------- | --------------- | --------------- |--------------- |
-   | Read selected columns | 2.4GB   | 2.4GB    |1.5GB |
+   | Read selected columns | 2.4GB   | 839.2+ MB    |1.5GB |
    | Reducing Memory Usage (After Optimization)   | 0.17GB   | 0.17GB    | <center> - |
 
    </center>
