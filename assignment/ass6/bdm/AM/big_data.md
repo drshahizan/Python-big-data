@@ -32,6 +32,7 @@
 Pros:
 *   Powerful data structures and functions for analysis and manipulation
 *   Efficient for smaller datasets
+  
 Cons:
 *   Can consume significant memory for large datasets
 *   Operations on large DataFrames can be slow
@@ -40,6 +41,7 @@ Cons:
 Pros:
 *   Reduces memory footprint and initial loading time
 *   Can improve performance for specific tasks
+  
 Cons:
 *   Requires careful selection of relevant data
 *   Could limit analysis if essential data is excluded
@@ -48,6 +50,7 @@ Cons:
 Pros:
 *   Processes large datasets in manageable chunks
 *   Reduces memory overhead and can improve performance for certain operations.
+  
 Cons:
 *   Requires careful handling of data continuity
 *   Can introduce code complexity
@@ -56,6 +59,7 @@ Cons:
 Pros:
 *   Reduces memory usage by choosing appropriate data types
 *   Can improve performance for computations
+  
 Cons:
 *   Requires understanding of data types and their memory implications
 *   Might necessitate data type conversions
@@ -64,6 +68,7 @@ Cons:
 Pros:
 *   Analyzes a representative subset to reduce memory and processing time
 *   Can provide insights without processing the entire dataset
+  
 Cons:
 *   Potential loss of information if sample is not representative
 *   Sampling bias might lead to inaccurate conclusions
@@ -72,6 +77,7 @@ Cons:
 Pros:
 *   Distributes computations across multiple cores or machines
 *   Can handle datasets too large for single-machine processing
+  
 Cons:
 *   Adds complexity to code and setup
 *   Requires understanding of parallel computing principles
