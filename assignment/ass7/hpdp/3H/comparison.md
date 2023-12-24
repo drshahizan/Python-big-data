@@ -2,10 +2,14 @@
  
 # Assignment 7: Comparison between libraries
 
-### Group Name: 3H
- 
+</div>
+
+### Date of Submission : 24/12/2023
+### Group Name: 3H 
 ### Group Members
 
+<div align="center">
+ 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
 | ALIEYA ZAWANIE BINTI A ZAINI | A21EC0156 | MODIN
@@ -13,7 +17,6 @@
 | IZZAT HAQEEMI BIN HAIRUDIN | A21EC0033 | PANDAS
 | ALIYA ZARENA BINTI ZAINULANUAR | A21EC0013 | COMPARISON LIBRARIES  |
 
-### Date of Submission : 24/12/2023
 </div>
 
 <br>
