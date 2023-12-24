@@ -100,6 +100,7 @@
 *   Adds complexity to code and setup
 *   Requires understanding of parallel computing principles
 
+
 **Conclusion**
 
 In conclusion, the comparative analysis between traditional methods and advanced strategies demonstrates substantial improvements in memory usage, processing time, and data frame size. Firstly, memory usage has significantly decreased by 49.20% through the implementation of strategies such as loading less data and optimizing data types. Secondly, substantial improvements in reading time have been achieved, with a remarkable 98.4% reduction in the time taken to read data frames. Moreover, the optimization of data types has led to a noteworthy reduction of 55.50% in data frame size. This not only aids in better storage utilization but also facilitates faster data retrieval and manipulation. Lastly, the combination of sampling and parallelization with Dask has resulted in an impressive 89.8% decrease in memory usage during data frame reading. These advanced strategies collectively showcase the potential for substantial efficiency gains, making them essential considerations for anyone seeking to enhance the performance of data processing workflows.
