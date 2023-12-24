@@ -24,7 +24,7 @@ Don't forget to hit the :star: if you like this repo.
 * [📖 Pandas](./pandas.ipynb)
 * [📖 Dask](./dask.ipynb)
 * [📖 Modin](./modin.ipynb)
-* [📖 Comparison Libraries]("https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/3H/comparison.md")
+* [📖 Comparison Libraries](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/3H/comparison.md)
 
 
 
