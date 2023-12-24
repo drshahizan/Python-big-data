@@ -1,7 +1,7 @@
 
-#Assignment 7: Comparison between libraries
+# Assignment 7: Comparison between libraries
 
-###Group Name: 3H
+### Group Name: 3H
 
 <center>
 
