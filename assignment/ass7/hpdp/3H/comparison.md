@@ -2,7 +2,6 @@
  
 # Assignment 7: Comparison between libraries
 
-### Date of Submission : 24/12/2023
 ### Group Name: 3H
  
 ### Group Members
@@ -13,6 +12,8 @@
 | MOHAMAD AZRI HADIF BIN MOHAMMAD RIZAL | A21EC0054 | DASK
 | IZZAT HAQEEMI BIN HAIRUDIN | A21EC0033 | PANDAS
 | ALIYA ZARENA BINTI ZAINULANUAR | A21EC0013 | COMPARISON LIBRARIES  |
+
+### Date of Submission : 24/12/2023
 </div>
 
 <br>
