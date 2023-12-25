@@ -546,130 +546,149 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 1. **Modin:**
 
    ```ruby
-    data.info()
+    data.describe()
     ```
 
-   Time Consumed: 1 minutes 57 seconds
+   Time Consumed: 3.63 seconds
 
 2. **Dask:**
 
    ```ruby
-    data.info()
+    data.describe().compute()
     ```
 
-   Time Consumed: 4.36 milliseconds
+   Time Consumed: 3 minutes 25 seconds
    
 3. **Vaex:**
 
    ```ruby
-    df.info()
+    df.describe()
     ```
 
-   Time Consumed: 17.5 milliseconds
+   Time Consumed: 5.76 seconds
 
 #### 4.2.2. Coefficient of Skewness for the Property Prices
 
 1. **Modin:**
 
    ```ruby
-    data.info()
+    data.sample(frac = 0.2).boxplot(column = ["price"])
     ```
 
-   Time Consumed: 1 minutes 57 seconds
+   Time Consumed: 5 minutes 1 seconds
 
 2. **Dask:**
 
    ```ruby
-    data.info()
+    ddf_sampled = data.sample(frac=0.2, random_state=42)
+    ddf_sampled = ddf_sampled.persist()
+    ddf_sampled = ddf_sampled.compute()
+
+    ddf_sampled.boxplot(column=["price"])
+    plt.show()
     ```
 
-   Time Consumed: 4.36 milliseconds
+   Time Consumed: 4 minutes 46 seconds
    
 3. **Vaex:**
 
    ```ruby
-    df.info()
+    df.sample(frac = 0.2).to_pandas_df().boxplot(column = ["price"])
     ```
 
-   Time Consumed: 17.5 milliseconds
+   Time Consumed: 16.7 seconds
 
 #### 4.2.3. Exploring Property Prices specifically in Greater London
 
 1. **Modin:**
 
    ```ruby
-    data.info()
+    ax = data["County"].sample(frac = 0.1).value_counts().plot.pie(figsize = (15,12), fontsize = 6)
     ```
 
-   Time Consumed: 1 minutes 57 seconds
+   Time Consumed: 1 minutes 10 seconds
 
 2. **Dask:**
 
    ```ruby
-    data.info()
+    ddf_sampled = data["County"].sample(frac = 0.1).value_counts().compute()
+    ddf_sampled.plot.pie(figsize = (15,12), fontsize = 6);
     ```
 
-   Time Consumed: 4.36 milliseconds
+   Time Consumed: 1 minutes 1 seconds
    
 3. **Vaex:**
 
    ```ruby
-    df.info()
+    ax = df.sample(frac = 0.1).to_pandas_df(['County']).value_counts().plot.pie(figsize = (15,12), fontsize = 6)
     ```
 
-   Time Consumed: 17.5 milliseconds
+   Time Consumed: 2.62 seconds
 
 #### 4.2.4. Explore How Number of Classes Influence Property Prices by using Bar Chart
 
 1. **Modin:**
 
    ```ruby
-    data.info()
+    count = data[["Duration", "Old/New", "PPDCategory_Type"]].apply(lambda x : x.unique().shape[0] )
+    count.plot.bar()
     ```
 
-   Time Consumed: 1 minutes 57 seconds
+   Time Consumed: 1 minutes 20 seconds
 
 2. **Dask:**
 
    ```ruby
-    data.info()
+    columns = ["Duration", "Old/New", "PPDCategory_Type"]
+    count = {}
+
+    for x in columns:
+      count[x] = data[x].unique().shape[0].compute()
+
+    count = pd.Series(count)
+    count.plot.bar()
     ```
 
-   Time Consumed: 4.36 milliseconds
+   Time Consumed: 3 minutes 14 seconds
    
 3. **Vaex:**
 
    ```ruby
-    df.info()
+    pandas_df = df.to_pandas_df(["Duration", "Old/New", "PPDCategory_Type"])
+    count = pandas_df.apply(lambda x : x.unique().shape[0] )
+    count.plot.bar()
     ```
 
-   Time Consumed: 17.5 milliseconds
+   Time Consumed: 4.17 seconds
 
 #### 4.2.5. Understand the Heights of Prices
 
 1. **Modin:**
 
    ```ruby
-    data.info()
+    data[["Property_Type", "price"]].sample(frac = 0.1).boxplot(by = "Property_Type")
     ```
 
-   Time Consumed: 1 minutes 57 seconds
+   Time Consumed: 3 minutes 5 seconds
 
 2. **Dask:**
 
    ```ruby
-    data.info()
+    ddf_sampled = data[["Property_Type", "price"]].sample(frac = 0.1)
+    ddf_sampled = ddf_sampled.compute()
+
+    ddf_sampled.boxplot(by = "Property_Type")
     ```
 
-   Time Consumed: 4.36 milliseconds
+   Time Consumed: 1 minutes 14 seconds
    
 3. **Vaex:**
 
    ```ruby
-    df.info()
+    df[["Property_Type", "price"]].sample(frac = 0.1).to_pandas_df().boxplot(by = "Property_Type")
     ```
 
-   Time Consumed: 17.5 milliseconds
+   Time Consumed: 4.34 seconds
 
 ### 4.3. Asking and Answering Questions
 
