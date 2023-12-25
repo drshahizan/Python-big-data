@@ -29,9 +29,9 @@ Don't forget to hit the :star: if you like this repo.
 ## 1.0 Introduction
 ## 2.0 Dataset Selection
 ## 3.0 Library Chosen
-### 3.1 Library - Pandas
-### 3.2 Library - DASK
-### 3.3 Library - Vaex
+### 3.1 Pandas
+### 3.2 DASK
+### 3.3 Vaex
 ## 4.0 Conclusion
 
 
