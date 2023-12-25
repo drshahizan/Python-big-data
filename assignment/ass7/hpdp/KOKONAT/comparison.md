@@ -94,13 +94,27 @@ The selected dataset pertains to a comprehensive examination of brewing factors,
 The Brewery Operations and Market Analysis dataset is sourced from Kaggle where we can utilised the Kaggle API to download the dataset.
 
 1. Import the necessary library for file upload.
-   ![image](https://github.com/drshahizan/Python-big-data/assets/146581747/f7428bb9-4a80-4708-b9c1-6f964b17351c)
-
+```ruby
+from google.colab import files
+```
 2. Upload the Kaggle API token file ('kaggle.json') using the file upload widget. The file 'kaggle.json' can be found under your account settings in Kaggle.
-   ![image](https://github.com/drshahizan/Python-big-data/assets/146581747/7aad9085-a6b3-4cd3-b40a-3aa3341cfa5d)
+```ruby
+uploaded = files.upload()
+```
 
 3. Utilise the Kaggle API Token to extract the dataset.
-   ![image](https://github.com/drshahizan/Python-big-data/assets/146581747/d143c3cc-9a0a-4245-bc56-18119f048ba2)
+```ruby
+# Move Kaggle API Token to the Correct Directory
+!mkdir -p /root/.kaggle
+!cp kaggle.json /root/.kaggle/
+!chmod 600 /root/.kaggle/kaggle.json
+
+# Download the Kaggle dataset
+!kaggle datasets download -d ankurnapa/brewery-operations-and-market-analysis-dataset
+
+# Unzip the downloaded dataset
+!unzip brewery-operations-and-market-analysis-dataset
+```
 
 4. The dataset has been downloaded, extracted and is ready for further process.
 
@@ -135,6 +149,11 @@ from pyspark.sql.types import StringType, DoubleType
 Library 1: **Pandas**
 
 Library 2: **Datatable**
+```ruby
+dt_df = dt.fread('brewery_data_complete_extended.csv')
+```
+- Memory usage: 1490.3573122024536 MB
+- Computation Time: 1.3939999803369574e-06 seconds
 
 Library 3: **PySpark**
 ```ruby
@@ -153,7 +172,12 @@ Computation Time: 118.19355058 seconds
 Library 1: **Pandas**
 
 Library 2: **Datatable**
-
+```ruby
+dt_df.head(5)
+```
+- Memory usage: 1589.36328125 MB
+- Computation Time: 0.0002989768981933594 seconds
+  
 Library 3: **PySpark**
 ```ruby
 brewery_df.show(5, truncate=False)
@@ -166,7 +190,14 @@ Computation Time: 0.9608330726623535 seconds
 Library 1: **Pandas**
 
 Library 2: **Datatable**
-
+```ruby
+num_rows, num_cols = dt_df.shape
+print(f"Number of rows: {num_rows}")
+print(f"Number of columns: {num_cols}")
+```
+- Memory usage: 1589.36328125 MB
+- Computation Time: 0.004721879959106445 seconds
+  
 Library 3: **PySpark**
 ```ruby
 num_rows = brewery_df.count()
@@ -182,7 +213,15 @@ Computation Time: 5.4734203815460205 seconds
 Library 1: **Pandas**
 
 Library 2: **Datatable**
-
+```ruby
+# Check for missing values using countna() in datatable
+missing_values = dt_df.countna()
+print("Missing values per column:")
+print(missing_values.to_pandas().transpose())
+```
+- Memory usage: 1635.71875 MB
+- Computation Time: 0.670168399810791 seconds
+  
 Library 3: **PySpark**
 ```ruby
 missing_values = brewery_df.select([F.count(F.when(F.col(c).isNull(), c)).alias(c) for c in brewery_df.columns])
@@ -196,7 +235,16 @@ Computation Time: 45.46979260444641 seconds
 Library 1: **Pandas**
 
 Library 2: **Datatable**
-
+```ruby
+# Display the data types of each column
+column_types = list(zip(dt_df.names, dt_df.stypes))
+print("\nData types of each column:\n")
+for column, column_type in column_types:
+    print(f"{column}: {column_type}")
+```
+- Memory usage: 1589.36328125 MB
+- Computation Time: 0.010242223739624023 seconds
+  
 Library 3: **PySpark**
 ```ruby
 # Get column types
@@ -215,7 +263,12 @@ Computation Time: 0.01815199851989746 seconds
 Library 1: **Pandas**
 
 Library 2: **Datatable**
-
+```ruby
+dt_df.nunique()
+```
+- Memory usage: 1636.140625 MB
+- Computation Time: 24.82753849029541 seconds
+  
 Library 3: **PySpark**
 ```ruby
 # Assuming you have a PySpark DataFrame named brewery_df
@@ -231,14 +284,6 @@ Memory usage: 116.2578125 MB
 Computation Time: 584.2389488220215 seconds
 
 ## 5. Exploratory Data Analysis  <a name = "eda"></a>
-Library 1: **Pandas**
-
-Library 2: **Datatable**
-
-Library 3: **PySpark**
-```ruby
-
-```
 
 ### 5.1  Summary Statistics  <a name = "sum_stat"></a>
 Library 1: **Pandas**
