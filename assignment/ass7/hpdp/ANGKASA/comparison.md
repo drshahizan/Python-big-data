@@ -7,21 +7,13 @@
 
 # **Assignment 7: Comparison Between Libraries (Pandas, Vaex & Dask)**
 
-Member 1<br>
-Name: Fauzan Aqil Bin Azman
-Matriculation Number: A21EC0174
-
-Member 2<br>
-Name: Muhammad Naquib Bin Zakaria
-Matriculation Number: A20BE0161
-
-Member 3<br>
-Name: Muhammad Ashraaf Bin Salleh
-Matriculation Number: A21EC0068
-
-Member 4<br>
-Name: Nik Amirul Ariff Bin Amran
-Matriculation Number: A21EC0214
+### Group Members
+|No.|NAME|MATRICS NO.|
+|---|---|---|
+|1.|FAUZAN AQIL BIN AZMAN|A20EC0078|
+|2.|NIK AMIRUL ARIFF BIN AMRAN|A21EC0214|
+|3.|MUHAMMAD ASHRAAF BIN SALEH|A21EC0068|
+|4.|MUHAMMAD NAQUIB BIN ZAKARIA|A20BE0161|
 
 ## **Dataset: Chess Game** ♟️
 
