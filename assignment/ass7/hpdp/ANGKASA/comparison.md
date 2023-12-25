@@ -7,6 +7,8 @@
 
 # **Assignment 7: Comparison Between Libraries (Pandas, Vaex & Dask)**
 
+<div align="center">
+  
 ### Group Members:
 |No.|NAME|MATRICS NO.|
 |---|---|---|
@@ -14,6 +16,8 @@
 |2.|NIK AMIRUL ARIFF BIN AMRAN|A21EC0214|
 |3.|MUHAMMAD ASHRAAF BIN SALEH|A21EC0068|
 |4.|MUHAMMAD NAQUIB BIN ZAKARIA|A20BE0161|
+
+</div>
 
 ## **Dataset: Chess Game** ♟️
 
@@ -88,7 +92,7 @@ Vaex is a Python library for lazy, out-of-core DataFrames. It is designed to eff
 
 Dask is a parallel computing library in Python that seamlessly integrates with pandas, NumPy, and other Python libraries. It allows users to scale their computations from a single machine to large clusters, making it ideal for handling large datasets.
 
-## Advantages
+### Advantages of Dask
 - **Scalability:**
   - Dask enables parallel and distributed computing, providing scalability for computations beyond the limits of a single machine.
 - **Integration:**
@@ -98,11 +102,19 @@ Dask is a parallel computing library in Python that seamlessly integrates with p
 - **Out-of-Core Computing:**
   - Dask can handle datasets that do not fit into memory by utilizing out-of-core computing and processing data in chunks.
 
+## Comparative Analysis
+- Time to load data
+  - The time to load data refers to the duration it takes to read and load a dataset into memory for further processing or analysis. The loading time can be a critical factor, especially when dealing with large datasets, and it depends on various factors including the size of the dataset, the format of the data, and the capabilities of the software or libraries used for loading. Below are the comparison between the time taken to load the data before the optimization for each libraries:
 
-
-
-
-
+<div align="center">
+  
+| No. | Libraries | Time taken (seconds) |
+|---|---|---|
+|1.| Pandas | 47.67546 |
+|2.| Vaex |  |
+|3.| Dask | 0.03214 |
+  
+</div>
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
