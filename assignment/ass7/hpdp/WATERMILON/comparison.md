@@ -84,6 +84,13 @@ For assignment 7 that regarding "Comparative Analysis of Data Analysis Libraries
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+
+
+
+References:
+1. [Modin in Github](https://github.com/modin-project/modin)
+2. [Documentation of Modin](https://modin.readthedocs.io/en/stable/)
+
 ### 3.2. Dask
 
 <a target="_blank" href="https://colab.research.google.com/github/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/WATERMILON/dask.ipynb">
