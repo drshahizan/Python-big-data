@@ -17,10 +17,11 @@ Don't forget to hit the :star: if you like this repo.
 |3.|LIEW YVONNE|A21EC0045|
 |4.|SOO WAN YING|A20EC0227|
 
-- Library 1 - [Pandas]()
-- Library 2 - [DASK](./)
-- Library 3 - [DataTable]()
-- Comparison - [Comparison Between 3 Libraries]()
+### 📂 Folder content:
+* [📖 library_1.ipynb]()
+* [📖 library_2.ipynb]()
+* [📖 library_3.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/ASSIGNMENT7_PySpark_SYNA.ipynb)
+* [📖 comparison.md]()
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
