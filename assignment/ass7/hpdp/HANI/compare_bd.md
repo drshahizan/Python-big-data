@@ -29,7 +29,7 @@ The dataset encompasses property sales records starting from January 1995 up to 
 ![image](https://github.com/drshahizan/Python-big-data/assets/118237681/a0211df1-e761-4076-893f-3b0a7f3fd2df)
 
 
-## 1 Exploring The Libraries 
+## 1. Exploring The Libraries 
 
 ### 1.1 Pandas
 
@@ -38,13 +38,36 @@ Pandas, short for "Panel Data," is a versatile Python library that revolutionize
 * Library setup
 
 ```ruby
+pip install pandas
+```
+
+```ruby
 import pandas as np
 ```
 
 ### 1.2 Modin
 
+Modin is a library in Python designed to accelerate data manipulation tasks, particularly those involving Pandas DataFrames. Modin stands for "Pandas on Ray" and aims to provide a fast and scalable alternative to Pandas by utilizing parallel and distributed computing.
+
+* Library setup
+
+```ruby
+pip install modin
+```
+
+```ruby
+import modin.pandas as pd
+```
+
 ### 1.3 Dask
 
+Dask is a parallel computing library in Python designed to enable efficient parallel computing for analytics, machine learning, and other computational tasks. It provides advanced parallelism for larger-than-memory computations using parallel processing and, in some cases, distributed computing. Dask is particularly useful when working with datasets that are too large to fit into memory.
+
+* Library setup
+
+```ruby
+pip install dask
+```
 
 
 
