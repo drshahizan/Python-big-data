@@ -6,7 +6,7 @@
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2FPython-big-data&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
 # **Assignment 7: Comparison Between Libraries (Pandas, Vaex & Dask)**
-
+<center>
 ### Group Members
 |No.|NAME|MATRICS NO.|
 |---|---|---|
@@ -14,6 +14,7 @@
 |2.|NIK AMIRUL ARIFF BIN AMRAN|A21EC0214|
 |3.|MUHAMMAD ASHRAAF BIN SALEH|A21EC0068|
 |4.|MUHAMMAD NAQUIB BIN ZAKARIA|A20BE0161|
+</center>
 
 ## **Dataset: Chess Game** ♟️
 
