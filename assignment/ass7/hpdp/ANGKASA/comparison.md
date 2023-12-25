@@ -1,3 +1,4 @@
+<div style="text-align:center;">
 <a href="https://github.com/drshahizan/Python-big-data/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/Python-big-data" alt="Stars Badge"/></a>
 <a href="https://github.com/drshahizan/Python-big-data/network/members"><img src="https://img.shields.io/github/forks/drshahizan/Python-big-data" alt="Forks Badge"/></a>
 <a href="https://github.com/drshahizan/Python-big-data/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/Python-big-data" alt="Pull Requests Badge"/></a>
@@ -6,8 +7,7 @@
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2FPython-big-data&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
 # **Assignment 7: Comparison Between Libraries (Pandas, Vaex & Dask)**
-<div style="text-align:center;">
-  
+
 ### Group Members
 |No.|NAME|MATRICS NO.|
 |---|---|---|
@@ -15,8 +15,6 @@
 |2.|NIK AMIRUL ARIFF BIN AMRAN|A21EC0214|
 |3.|MUHAMMAD ASHRAAF BIN SALEH|A21EC0068|
 |4.|MUHAMMAD NAQUIB BIN ZAKARIA|A20BE0161|
-
-</div>
 
 ## **Dataset: Chess Game** ♟️
 
@@ -109,3 +107,4 @@ Dask is a parallel computing library in Python that seamlessly integrates with p
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
+</div>
