@@ -545,41 +545,131 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
 1. **Modin:**
 
+   ```ruby
+    data.info()
+    ```
+
+   Time Consumed: 1 minutes 57 seconds
+
 2. **Dask:**
+
+   ```ruby
+    data.info()
+    ```
+
+   Time Consumed: 4.36 milliseconds
    
 3. **Vaex:**
+
+   ```ruby
+    df.info()
+    ```
+
+   Time Consumed: 17.5 milliseconds
 
 #### 4.2.2. Coefficient of Skewness for the Property Prices
 
 1. **Modin:**
 
+   ```ruby
+    data.info()
+    ```
+
+   Time Consumed: 1 minutes 57 seconds
+
 2. **Dask:**
+
+   ```ruby
+    data.info()
+    ```
+
+   Time Consumed: 4.36 milliseconds
    
 3. **Vaex:**
+
+   ```ruby
+    df.info()
+    ```
+
+   Time Consumed: 17.5 milliseconds
 
 #### 4.2.3. Exploring Property Prices specifically in Greater London
 
 1. **Modin:**
 
+   ```ruby
+    data.info()
+    ```
+
+   Time Consumed: 1 minutes 57 seconds
+
 2. **Dask:**
+
+   ```ruby
+    data.info()
+    ```
+
+   Time Consumed: 4.36 milliseconds
    
 3. **Vaex:**
+
+   ```ruby
+    df.info()
+    ```
+
+   Time Consumed: 17.5 milliseconds
 
 #### 4.2.4. Explore How Number of Classes Influence Property Prices by using Bar Chart
 
 1. **Modin:**
 
+   ```ruby
+    data.info()
+    ```
+
+   Time Consumed: 1 minutes 57 seconds
+
 2. **Dask:**
+
+   ```ruby
+    data.info()
+    ```
+
+   Time Consumed: 4.36 milliseconds
    
 3. **Vaex:**
+
+   ```ruby
+    df.info()
+    ```
+
+   Time Consumed: 17.5 milliseconds
 
 #### 4.2.5. Understand the Heights of Prices
 
 1. **Modin:**
 
+   ```ruby
+    data.info()
+    ```
+
+   Time Consumed: 1 minutes 57 seconds
+
 2. **Dask:**
+
+   ```ruby
+    data.info()
+    ```
+
+   Time Consumed: 4.36 milliseconds
    
 3. **Vaex:**
+
+   ```ruby
+    df.info()
+    ```
+
+   Time Consumed: 17.5 milliseconds
 
 ### 4.3. Asking and Answering Questions
 
