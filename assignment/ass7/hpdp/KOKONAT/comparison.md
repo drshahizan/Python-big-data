@@ -387,8 +387,22 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 ```ruby
+# Create a Spark session
+spark = SparkSession.builder.appName("BeerAnalysis").getOrCreate()
+
+# Group by beer style and calculate the average quality score
+average_quality_by_style = brewery_df.groupBy("Beer_Style").agg(avg(col("Quality_Score")).alias("Average_Quality_Score"))
+
+# Find the beer style with the highest average quality score
+highest_quality_style = average_quality_by_style.orderBy(col("Average_Quality_Score").desc()).first()
+
+print("Beer Style with the Highest Average Quality Score:")
+print(highest_quality_style)
 
 ```
+Memory usage: 233.47265625 MB
+
+Computation Time: 26.092206239700317 seconds
 
 ### 6.2 What is the total volume produced for each location? <a name = "q2"></a>
 Library 1: **Pandas**
@@ -397,8 +411,27 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 ```ruby
+location_counts = brewery_df.groupBy("Location").count().orderBy("count", ascending=False).toPandas()
+location_counts 
 
+# Plot the bar chart with count labels
+plt.figure(figsize=(10, 6))
+bars = plt.bar(location_counts["Location"], location_counts["count"], color='skyblue')
+plt.title('Distribution of Sales Data Across Different Locations')
+plt.xlabel('Location')
+plt.ylabel('Count')
+plt.xticks(rotation=45, ha="right")
+
+# Add count labels on top of each bar
+for bar in bars:
+    yval = bar.get_height()
+    plt.text(bar.get_x() + bar.get_width()/2, yval, round(yval, 2), ha='center', va='bottom')
+
+plt.show()
 ```
+Memory usage: 235.75390625 MB
+
+Computation Time: 16.331711292266846 seconds
 
 ### 6.3 What is the relation between fermentation time and alcohol content?<a name = "q3"></a>
 Library 1: **Pandas**
@@ -407,8 +440,28 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 ```ruby
+# Check if Spark session exists; if not, create a new one
+spark = SparkSession.builder.appName("BeerAnalysis").getOrCreate()
 
+selected_columns = ["Fermentation_Time", "Alcohol_Content"]
+
+# Assuming brewery_df is your PySpark DataFrame
+result_df = brewery_df.groupBy('Fermentation_Time').agg(avg('Alcohol_Content').alias('Average_Alcohol_Content'))
+
+# Collect the result to the driver as a Pandas DataFrame for plotting
+pandas_df = result_df.toPandas()
+
+# Plot the line plot using Matplotlib
+plt.figure(figsize=(8, 6))
+sns.lineplot(x='Fermentation_Time', y='Average_Alcohol_Content', data=pandas_df, color='green')
+plt.title('Line Plot: Fermentation Time vs Average Alcohol Content')
+plt.xlabel('Fermentation Time')
+plt.ylabel('Average Alcohol Content')
+plt.show()
 ```
+Memory usage: 196.4296875 MB
+
+Computation Time: 35.55375671386719 seconds
 
 ### 6.4 Which ingredient ratio is associated with the highest total sales?<a name = "q4"></a>
 Library 1: **Pandas**
@@ -417,8 +470,20 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 ```ruby
+selected_columns = ["Ingredient_Ratio", "Total_Sales"]
+filtered_data = brewery_df.select(selected_columns).filter(col("Ingredient_Ratio").isNotNull() & col("Total_Sales").isNotNull())
 
+# Group by ingredient ratio and calculate the total sales
+total_sales_by_ratio = filtered_data.groupBy("Ingredient_Ratio").agg(sum("Total_Sales").alias("Total_Sales"))
+
+# Find the ingredient ratio with the highest total sales
+highest_sales_ratio = total_sales_by_ratio.orderBy(col("Total_Sales").desc()).first()["Ingredient_Ratio"]
+
+print(f"The ingredient ratio associated with the highest total sales is: {highest_sales_ratio}")
 ```
+Memory usage: 196.4296875 MB
+
+Computation Time: 38.24022150039673 seconds
 
 ### 6.5 What is the average loss during brewing, fermentation, and bottling/kegging for each beer style?<a name = "q5"></a>
 Library 1: **Pandas**
@@ -427,8 +492,36 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 ```ruby
+selected_columns = ["Beer_Style", "Loss_During_Brewing", "Loss_During_Fermentation", "Loss_During_Bottling_Kegging"]
+filtered_data = brewery_df.select(selected_columns).filter(
+    col("Loss_During_Brewing").isNotNull() &
+    col("Loss_During_Fermentation").isNotNull() &
+    col("Loss_During_Bottling_Kegging").isNotNull()
+)
 
+# Group by beer style and calculate the average loss for each category
+average_loss_by_style = filtered_data.groupBy("Beer_Style").agg(
+    mean("Loss_During_Brewing").alias("Avg_Loss_Brewing"),
+    mean("Loss_During_Fermentation").alias("Avg_Loss_Fermentation"),
+    mean("Loss_During_Bottling_Kegging").alias("Avg_Loss_Bottling_Kegging")
+)
+
+# Convert PySpark DataFrame to Pandas for visualization
+pandas_df = average_loss_by_style.toPandas()
+
+# Plot the line plot using Matplotlib and Seaborn
+plt.figure(figsize=(12, 6))
+sns.lineplot(data=pandas_df.melt(id_vars="Beer_Style"), x="variable", y="value", hue="Beer_Style", marker='o')
+plt.title('Average Loss by Beer Style')
+plt.xlabel('Loss Category')
+plt.ylabel('Average Loss')
+plt.xticks(rotation=45, ha='right')
+plt.legend(title='Beer Style', bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.show()
 ```
+Memory usage: 201.6640625 MB
+
+Computation Time: 56.94319486618042 seconds
 
 ## 7. Inferences and Conclusion <a name = "conclusion"></a>
 
@@ -462,7 +555,7 @@ Library 3: **PySpark**
 - **Complexity:** Setting up and configuring a Spark cluster can be complex, and there might be a learning curve for users new to distributed computing.
 - **Overhead:** For small to medium-sized datasets, the overhead of setting up a Spark cluster might outweigh the benefits.
 
-## Use Case Comparison:
+### Use Case Comparison:
 ### 1. Pandas:
 Pandas is best suited for:
 - Exploratory data analysis on small to medium-sized datasets.
@@ -478,7 +571,7 @@ PySpark excels in:
 - Processing and analyzing massive datasets that require distributed computing.
 - Scalable machine learning and data processing pipelines.
 
-## Conclusion:
+### Conclusion:
 - **Pandas** is excellent for smaller datasets and is widely used in the data science community for its simplicity.
 - **Data Table** shines in scenarios where memory efficiency and high performance are crucial, making it suitable for large datasets.
 - **PySpark** is the go-to choice for big data processing, providing scalability and performance for large-scale distributed computing.
