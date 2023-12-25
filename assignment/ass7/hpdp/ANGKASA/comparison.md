@@ -69,7 +69,8 @@ Vaex is a Python library for lazy, out-of-core DataFrames. It is designed to eff
   - Vaex operates seamlessly with data that is too large to fit into memory, processing it in chunks.
 <be>
 
-## Library 2: **Dask**
+## Library 3: **Dask**
+![512px-Dask_Logo](https://github.com/drshahizan/Python-big-data/assets/146650043/93bcd891-4769-426b-959e-837cd7d78342)
 
 Dask is a parallel computing library in Python that seamlessly integrates with pandas, NumPy, and other Python libraries. It allows users to scale their computations from a single machine to large clusters, making it ideal for handling large datasets.
 
