@@ -120,13 +120,34 @@ Library 2: **Datatable**
 import datatable as dt
 ```
 Library 3: **PySpark**
-
+- Installing the Pyspark package:
+```ruby
+!pip install pyspark
+```
+- Importing the Pyspark library
+```ruby
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col
+import pyspark.sql.functions as F
+from pyspark.sql.types import StringType, DoubleType
+```
 ### 4.2 Load the dataset <a name = "data_loading"></a>
 Library 1: **Pandas**
 
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+def load_data():
+    # Load the data
+    brewery_df = spark.read.csv("brewery_data_complete_extended.csv", header=True, inferSchema=True)
+    return brewery_df
+# Load the data
+brewery_df = load_data()
+```
+Memory usage: 100.83203125 MB
+
+Computation Time: 118.19355058 seconds
 
 ### 4.3 Display first five rows <a name = "rows"></a>
 Library 1: **Pandas**
@@ -134,6 +155,12 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+brewery_df.show(5, truncate=False)
+```
+Memory usage: 115.92578125 MB
+
+Computation Time: 0.9608330726623535 seconds
 
 ### 4.4 Explore the number of rows & columns <a name = "num_rows"></a>
 Library 1: **Pandas**
@@ -141,6 +168,15 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+num_rows = brewery_df.count()
+num_columns = len(brewery_df.columns)
+print(f"Number of Rows: {num_rows}")
+print(f"Number of Columns: {num_columns}")
+```
+Memory usage: 115.92578125 MB
+
+Computation Time: 5.4734203815460205 seconds
 
 ### 4.5 Handling Missing Value <a name = "missing_value"></a>
 Library 1: **Pandas**
@@ -148,6 +184,13 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+missing_values = brewery_df.select([F.count(F.when(F.col(c).isNull(), c)).alias(c) for c in brewery_df.columns])
+missing_values.show()
+```
+Memory usage: 115.92578125 MB
+
+Computation Time: 45.46979260444641 seconds
 
 ### 4.6 Column type <a name = "column_type"></a>
 Library 1: **Pandas**
