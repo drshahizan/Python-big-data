@@ -21,7 +21,7 @@ Don't forget to hit the :star: if you like this repo.
 * Pandas - [📖 library_1.ipynb]()
 * DASK - [📖 library_2.ipynb]()
 * Vaex - [📖 library_3.ipynb]()
-* [📖 comparison.md]()
+* Comparison - [📖 comparison.md]()
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
