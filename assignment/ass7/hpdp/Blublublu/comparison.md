@@ -18,21 +18,21 @@ Don't forget to hit the :star: if you like this repo.
 |4.|SOO WAN YING|A20EC0227|
 
 ## Table of Content
-+ [1. Introduction](#Introduction)
-+ [2. Dataset Selection](#Dataset-Selection)
-+ [3. Library Chosen](#Library-Chosen)
-  + [3.1 Pandas](#Pandas)
-  + [3.2 DASK](#DASK)
-  + [3.3 Vaex](#Vaex)
-+ [4.0 Conclusion](#conclusion)
++ [1. Introduction](#1.0-introduction)
++ [2. Dataset Selection](#2.0-dataset-selection)
++ [3. Library Chosen](#3.0-library-chosen)
+  + [3.1 Pandas](#3.1-pandas)
+  + [3.2 DASK](#3.2-dask)
+  + [3.3 Vaex](#3.3vaex)
++ [4.0 Conclusion](#4.0-conclusion)
 
-## 1.0 Introduction<a name = "Introduction"></a>
-## 2.0 Dataset Selection<a name = "Dataset-Selection"></a>
-## 3.0 Library Chosen<a name = "Library-Chosen"></a>
-### 3.1 Library - Pandas<a name = "Pandas"></a>
-### 3.2 Library - DASK<a name = "DASK"></a>
-### 3.3 Library - Vaex<a name = "Vaex"></a>
-## 5. Conclusion <a name = "conclusion"></a>
+## 1.0 Introduction
+## 2.0 Dataset Selection
+## 3.0 Library Chosen
+### 3.1 Library - Pandas
+### 3.2 Library - DASK
+### 3.3 Library - Vaex
+## 4.0 Conclusion
 
 
 ## Contribution 🛠️  <a name = "contribution"> </a>
