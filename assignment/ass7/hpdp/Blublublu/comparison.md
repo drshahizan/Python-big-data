@@ -88,7 +88,7 @@ Certainly! Let's delve deeper into each of the three libraries chosen for the Ex
 
 - Website: [Pandas](https://pandas.pydata.org/)
 
-<br>
+
 ### DASK
 - Description:
   - Dask is a parallel computing library designed to enable parallel and distributed computing in Python. It extends the functionality of Pandas to handle larger-than-memory datasets.
@@ -106,7 +106,7 @@ Certainly! Let's delve deeper into each of the three libraries chosen for the Ex
 
 - Website: [Dask](https://www.dask.org/)
 
-<br>
+
 ### Vaex
 - Description:
   - Vaex is a high-performance Python library designed for handling and analyzing large datasets. It is particularly focused on lazy, out-of-core computation to efficiently process data that doesn't fit into memory.
