@@ -410,6 +410,174 @@ Computation time: 0.01 seconds
 
 ### 3.3 Dask
 
+* Sampling Data
+
+```ruby
+memory_before = psutil.Process().memory_info().rss / 1024 / 1024
+
+filename = "202304.csv"
+
+dtype={'31': 'object','Unnamed: 8': 'object'}
+
+# Record the start time
+start_time = time.time()
+
+# Create a Dask DataFrame from a CSV file
+df = dd.read_csv(filename,dtype=dtype)
+
+# Perform data sampling
+df = df.sample(frac=0.1, random_state=42)
+
+memory_after = psutil.Process().memory_info().rss / 1024 / 1024
+computation_time = time.time() - start_time  # Computation time in seconds
+final_file_size = os.path.getsize(filename) / (1024 ** 2)  # File size in MB
+```
+
+Using Pandas library it shows that the time to sample the data is **0.03 seconds**
+
+* Adding column names for headers for easy readability
+
+```ruby
+# Define your column names for header
+column_names = ['Transaction Unique Identifier',
+                'Price', 'Transfer Date', 'Postcode', 'Property Type', 'Old/New',
+                'Duration', 'PAON', 'SAON', 'Street', 'Locality', 'Town/City', 'District',
+                'County', 'PPDCategory Type', 'Record Status - Monthly File Only']
+
+# Assign column names to the dataframe
+df.columns = column_names
+```
+
+
+
+* Change the datatypes to a suitable format
+
+```ruby
+# Measure the start time
+start_time = time.time()
+
+# Define the data types for each column based on optimization
+data_types = {
+    'Transaction Unique Identifier': 'string',
+    'Price': 'float32',
+    'Transfer Date': 'datetime64',
+    'Postcode': 'string',
+    'Property Type': 'category',
+    'Old/New': 'category',
+    'Duration': 'category',
+    'PAON': 'string',
+    'SAON': 'string',
+    'Street': 'string',
+    'Locality': 'string',
+    'Town/City': 'string',
+    'District': 'string',
+    'County': 'string',
+    'PPDCategory Type': 'category',
+    'Record Status - Monthly File Only': 'category'
+}
+
+# Convert columns to optimized data types
+df = df.astype(data_types)
+
+# Display information after sampling
+final_file_size = os.path.getsize(filename) / (1024 ** 2)  # Final file size in MB
+computation_time = time.time() - start_time  # Computation time in seconds
+
+# Memory usage
+memory_usage = psutil.Process(os.getpid()).memory_info().rss / (1024 ** 2)  # Memory usage in MB
+
+# Display DataFrame(df) object size
+df_size = sys.getsizeof(df) / (1024 ** 2)  # Convert to megabytes
+```
+Computation Time: 1.87 seconds
+
+
+* Drop Missing Values
+
+
+```ruby
+
+# Record the start time
+start_time = time.time()
+
+# Calculate memory usage before dropping missing values
+memory_before = df.memory_usage().sum() / (1024 ** 2)  # Convert to megabytes
+
+# Drop rows with missing values across all columns
+df.dropna(inplace=True)
+
+# Calculate memory usage after dropping missing values
+memory_after = df.memory_usage().sum() / (1024 ** 2)  # Convert to megabytes
+
+# Record the end time
+end_time = time.time()
+
+# Calculate computation time
+computation_time = end_time - start_time
+
+# Get the file size of the DataFrame after dropping missing values
+file_size = os.path.getsize(filename) / (1024 ** 2)  # Convert to megabytes
+```
+Computation time: 1.53 seconds
+
+
+* Drop Duplicate Values
+```ruby
+
+# Record the start time
+start_time = time.time()
+
+# Calculate memory usage before dropping duplicates
+memory_before = df.memory_usage().sum() / (1024 ** 2)  # Convert to megabytes
+
+# Drop duplicate rows based on all columns
+df.drop_duplicates(inplace=True)
+
+# Calculate memory usage after dropping duplicates
+memory_after = df.memory_usage().sum() / (1024 ** 2)  # Convert to megabytes
+
+# Record the end time
+end_time = time.time()
+
+# Calculate computation time
+computation_time = end_time - start_time
+
+# Get the file size of the DataFrame after dropping duplicates
+file_size = os.path.getsize(filename) / (1024 ** 2)  # Convert to megabytes
+```
+Computation time: 0.66 seconds
+
+
+* Drop Columns
+
+```ruby
+# Record the start time
+start_time = time.time()
+
+# Calculate memory usage before dropping specified columns
+memory_before = df.memory_usage().sum() / (1024 ** 2)  # Convert to megabytes
+
+# List of columns to drop
+columns_drop = ['SAON', 'Duration', 'PPDCategory Type', 'Record Status - Monthly File Only']
+
+# Drop the specified columns from the DataFrame
+df.drop(columns=columns_drop, inplace=True)
+
+# Calculate memory usage after dropping specified columns
+memory_after = df.memory_usage().sum() / (1024 ** 2)  # Convert to megabytes
+
+# Record the end time
+end_time = time.time()
+
+# Calculate computation time
+computation_time = end_time - start_time
+
+# Get the file size of the DataFrame after dropping specified columns
+file_size = os.path.getsize(filename) / (1024 ** 2)  # Convert to megabytes
+```
+Computation time: 0.01 seconds
+
+## 4. Ask & answer questions about the data
 
 
 
