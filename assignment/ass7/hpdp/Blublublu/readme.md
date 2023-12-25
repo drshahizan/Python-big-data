@@ -15,7 +15,7 @@ Don't forget to hit the :star: if you like this repo.
 |1.|ANG YI QIN|A20EC0163|
 |2.|LAU YEE CHI|A21EC0042|
 |3.|LIEW YVONNE|A21EC0045|
-|4.|SOO WAN YING|A20BE0227|
+|4.|SOO WAN YING|A20EC0227|
 
 - Library 1 - [Pandas]()
 - Library 2 - [DASK](./)
