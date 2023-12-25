@@ -879,7 +879,11 @@ plt.show()
 >> On the other end of the spectrum, Chiltern to Hillingdon hold the lowest number of properties, and their counts are relatively similar. This observation suggests a potential low setting for these areas, contributing to their lower property numbers.
 
 
-## 6. Conclusion
+## 6. Summary and Conclusion
+
+Write a summary of what you've learned from the analysis.
+Share links to resources you found useful during your analysis
+Please suggest the best library based on your dataset.
 
 
 
