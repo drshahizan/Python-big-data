@@ -17,7 +17,7 @@ Don't forget to hit the :star: if you like this repo.
 |4.|MUHAMMAD NAQUIB BIN ZAKARIA|A20BE0161|
 
 - Library 1 - [Pandas](./library_1.ipynb)
-- Library 2 - [DataTable](./)
+- Library 2 - [Vaex](./library_2.ipynb)
 - Library 3 - [Dask](./library_3.ipynb)
 - Comparison - [Comparison Between 3 Libraries](./)
 
