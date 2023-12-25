@@ -1,5 +1,11 @@
-# Assignment 7: Comparison between libraries
+<a href="https://github.com/drshahizan/HPDP/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/HPDP" alt="Stars Badge"/></a>
+<a href="https://github.com/drshahizan/HPDP/network/members"><img src="https://img.shields.io/github/forks/drshahizan/HPDP" alt="Forks Badge"/></a>
+<a href="https://github.com/drshahizan/HPDP/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/HPDP" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/drshahizan/HPDP"><img src="https://img.shields.io/github/issues/drshahizan/HPDP" alt="Issues Badge"/></a>
+<a href="https://github.com/drshahizan/HPDP/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/HPDP?color=2b9348"></a>
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2FHPDP&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
+# Assignment 7: Comparison between libraries
 
 ### Group Name : KOKONAT
 
@@ -8,14 +14,14 @@
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
 |NG SUANG JOO        | A21EC0102     | Pandas  |
-|LING WAN YIN         | A21EC0047     | Data Table  |
+|LING WAN YIN         | A21EC0047     | Datatable  |
 |FONG KHAH KHEH         | A21EC0026   | Pyspark   |
 
 ### Table of Contents
 + [1. Introduction](#intro)
 + [2. Dataset Selection](#dataset_selection)
 + [3. Data Acquisition](#data_acquisition)
-+ [4. Data Preprocessing and Cleaning](#data_preprocessing)
++ [4. Data Preparation and Cleaning](#data_prep)
   + [4.1. Install necessary library](#library)
   + [4.2. Load the dataset](#data_loading)
   + [4.3. Display first five rows](#rows)
@@ -38,8 +44,9 @@
   + [6.3 What is the relation between fermentation time and alcohol content?](#q3)
   + [6.4 Which ingredient ratio is associated with the highest total sales?](#q4)
   + [6.5 What is the average loss during brewing, fermentation, and bottling/kegging for each beer style?](#q5)
-+ [7. Conclusion](#conclusion)
-+ [8. Contributions](#contribution)
++ [7. Inferences and Conclusion](#conclusion)
++ [8. References and Future Work](#future)
++ [9. Contributions](#contribution)
 
 ## 1. Introduction <a name = "intro"></a>
 In the field of big data, there are unique challenges associated with efficiently processing enormous datasets for analysis. Three strong libraries are compared and contrasted in this assignment: **Pandas**, **Datatable**, and **PySpark**. When tackling the difficulties of large-scale Python data processing, each of these libraries approaches the problem in a different way.
@@ -50,7 +57,7 @@ Large dataset handling is a notable feature of **Datatable**, a scalability and 
 
 Built on top of Apache Spark, **PySpark** is a powerful tool for distributed data processing. It is a top option for big data analytics because of its superiority in managing enormous datasets across clusters. The fault tolerance and resilience of PySpark provide dependability in large-scale computations.
 
-This assignment will compare and contrast Pandas, Datatable, and PySpark, taking into account scalability, syntax, and performance. Let's go out on this comparative and exploratory voyage!
+This assignment will compare and contrast **Pandas**, **Datatable**, and **PySpark**, taking into account scalability, syntax, and performance. Let's go out on this comparative and exploratory voyage!
 
 ## 2. Dataset Selection <a name = "dataset_selection"></a>
 The selected dataset pertains to a comprehensive examination of brewing factors, market sales trends, and quality measures in the manufacturing of craft beer from 2020 to 2024. This large dataset comes from a craft beer company and includes a comprehensive collection of data from January 2020 to January 2024. With a wide range of brewing factors, sales information, and quality evaluations, it offers a comprehensive understanding of the brewing processes and their effects on the market. This dataset contains 20 columns of attributes and is approximately **2 GB** in size.
@@ -97,13 +104,21 @@ The Brewery Operations and Market Analysis dataset is sourced from Kaggle where 
 
 4. The dataset has been downloaded, extracted and is ready for further process.
 
-## 4. Data Preprocessing and Cleaning <a name = "data_preprocessing"></a>
+## 4. Data Preparation and Cleaning <a name = "data_prep"></a>
 
 ### 4.1 Install necessary library <a name = "library"></a>
 Library 1: **Pandas**
 
 Library 2: **Datatable**
 
+- Installing the Datatable package:
+```ruby
+!pip install datatable
+```
+- Importing the Datatable library:
+```ruby
+import datatable as dt
+```
 Library 3: **PySpark**
 
 ### 4.2 Load the dataset <a name = "data_loading"></a>
@@ -248,9 +263,10 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 
-## 7. Conclusion <a name = "conclusion"></a>
+## 7. Inferences and Conclusion <a name = "conclusion"></a>
 
-## 8. Contributions<a name = "contribution"></a>
+## 8. References and Future Work <a name = "future"></a>
+## 9. Contributions<a name = "contribution"></a>
 
 
 
