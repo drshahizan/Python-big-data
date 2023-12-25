@@ -18,9 +18,9 @@ Don't forget to hit the :star: if you like this repo.
 |4.|SOO WAN YING|A20EC0227|
 
 ### 📂 Folder content:
-* [📖 library_1.ipynb]()
-* [📖 library_2.ipynb]()
-* [📖 library_3.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/ASSIGNMENT7_PySpark_SYNA.ipynb)
+* Pandas - [📖 library_1.ipynb]()
+* DASK - [📖 library_2.ipynb]()
+* Vaex - [📖 library_3.ipynb]()
 * [📖 comparison.md]()
 
 ## Contribution 🛠️
