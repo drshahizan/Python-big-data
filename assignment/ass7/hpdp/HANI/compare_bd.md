@@ -8,14 +8,14 @@
 
 # Assignment 7: Comparison between libraries
 
-<div align="center">
+
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | :-------------: |
 | ALYA BALQISS BINTI AZAHAR | A21EC0158 | Pandas |
 | MUHAMMAD IQMAL BIN SIS | A21EC0080 | Dask |
 | NADIA SYAFIQAH BINTI ZULKIPLI | A21EC0098 | Modin |
 | MUHAMMAD HARITH HAKIM BIN OTHMAN | A21EC0205 | Comparison & Summarization |
-</div>
+  
 
 ## Introduction
 
@@ -34,6 +34,12 @@ The dataset encompasses property sales records starting from January 1995 up to 
 ### 1.1 Pandas
 
 Pandas, short for "Panel Data," is a versatile Python library that revolutionizes data manipulation. At its core are two essential data structures – Series and DataFrame. A Series is a labeled one-dimensional array, while a data frame is a powerful two-dimensional structure for tabular data.
+
+* Library setup
+
+```ruby
+import pandas as np
+```
 
 ### 1.2 Modin
 
