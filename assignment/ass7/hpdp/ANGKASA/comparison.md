@@ -23,12 +23,12 @@ Member 4<br>
 Name: Nik Amirul Ariff Bin Amran
 Matriculation Number: A21EC0214
 
-### Library 1: Pandas
+## Library 1: **Pandas**
 ![illu_pandas-82-1024x562](https://github.com/drshahizan/Python-big-data/assets/146650043/e0835bec-1827-4984-ab3e-4abe216b34cc)
 
 Pandas is a powerful data manipulation and analysis library for Python. It provides easy-to-use data structures and functions for efficiently handling structured data, making it an essential tool for data scientists, analysts, and researchers.
 
-Advantages of Pandas
+### Advantages of Pandas
 - Data Structures: Pandas introduces two primary data structures: Series and DataFrame, which are designed to handle one-dimensional and two-dimensional data, respectively.
 
 - Data Cleaning and Transformation:
