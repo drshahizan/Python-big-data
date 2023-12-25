@@ -23,6 +23,28 @@ Member 4<br>
 Name: Nik Amirul Ariff Bin Amran
 Matriculation Number: A21EC0214
 
+## Dataset: Chess Game
+
+This dataset contains 6.25 Million chess games played on lichess.org during July of 2016. This dataset is around 4 GB. Some of the games have Stockfish analysis evaluations like* [%eval 2.35] (235 centipawn advantage)* always from White's point of view. These are evaluations of the movement made by a player.
+
+| Column | Description |
+| :----: | :---------: |
+| Event | Game type |
+| White | White's ID |
+| Black | Black's ID |
+| Result | Game Result (1-0 White wins) (0-1 Black wins) |
+| UTCDate | UTC Date |
+| UTCTime | UTC Time |
+| WhiteElo | White's ELO |
+| BlackElo | Black's ELO |
+| WhiteRatingDiff | White's rating points difference after the game |
+| BlackRatingDiff | Blacks's rating points difference after the game |
+| ECO | Opening in ECO encoding |
+| Opening | Opening name |
+| TimeControl | Time of the game for each player in seconds. The number after the increment is the number of seconds before the player's clock starts ticking in each turn |
+| Termination | Reason of the game's end |
+| AN | Movements in Movetext format |
+
 ## Library 1: **Pandas**
 ![illu_pandas-82-1024x562](https://github.com/drshahizan/Python-big-data/assets/146650043/e0835bec-1827-4984-ab3e-4abe216b34cc)
 
