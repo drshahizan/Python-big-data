@@ -5,6 +5,9 @@
 <a href="https://github.com/drshahizan/HPDP/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/HPDP?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2FHPDP&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
+![image](https://github.com/drshahizan/Python-big-data/assets/95710157/8bf7f42b-cdeb-4129-8167-a2529c23ce2f)
+
+
 # Assignment 7: Comparative Analysis of Data Analysis Libraries
 
 ## Group Information
