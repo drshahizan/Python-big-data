@@ -8,13 +8,14 @@
 
 # Assignment 7: Comparison between libraries
 
+<div align="center">
 | Name                                     | Matrix Number | Task |
-| :---------------------------------------- | :-------------: | ------------- |
+| :---------------------------------------- | :-------------: | :-------------: |
 | ALYA BALQISS BINTI AZAHAR | A21EC0158 | Pandas |
 | MUHAMMAD IQMAL BIN SIS | A21EC0080 | Dask |
 | NADIA SYAFIQAH BINTI ZULKIPLI | A21EC0098 | Modin |
 | MUHAMMAD HARITH HAKIM BIN OTHMAN | A21EC0205 | Comparison & Summarization |
-
+</div>
 
 ## Introduction
 
@@ -24,6 +25,21 @@ In the dynamic realm of data science, the choice of tools and libraries signific
 The dataset encompasses property sales records starting from January 1995 up to the most recent monthly data available. It includes diverse transaction types, spanning from residential to commercial properties, offering a comprehensive perspective on the real estate market in England and Wales.
 
 [UK Property Price Data (1995-2023)](https://www.kaggle.com/datasets/willianoliveiragibin/uk-property-price-data-1995-2023-04)
+
+![image](https://github.com/drshahizan/Python-big-data/assets/118237681/a0211df1-e761-4076-893f-3b0a7f3fd2df)
+
+
+## 1 Exploring The Libraries 
+
+### 1.1 Pandas
+
+Pandas, short for "Panel Data," is a versatile Python library that revolutionizes data manipulation. At its core are two essential data structures – Series and DataFrame. A Series is a labeled one-dimensional array, while a data frame is a powerful two-dimensional structure for tabular data.
+
+### 1.2 Modin
+
+### 1.3 Dask
+
+
 
 
 ## Contribution 🛠️
