@@ -87,12 +87,43 @@ Certainly! Let's delve deeper into each of the three libraries chosen for the Ex
   - Data visualization.
 
 - Website: [Pandas](https://pandas.pydata.org/)
+
+
 ### DASK
-- Description: Dask is a parallel computing library that integrates with Pandas and extends its capabilities to handle larger-than-memory computations. It is particularly useful for working with big datasets.
+- Description:
+  - Dask is a parallel computing library designed to enable parallel and distributed computing in Python. It extends the functionality of Pandas to handle larger-than-memory datasets.
+  - Dask operates seamlessly with existing Python libraries and integrates well with Pandas, NumPy, and other scientific computing tools.
+
+- Key Features:
+  - Parallel and distributed computing: Enables scalable data processing on clusters.
+  - Dask DataFrame: Mimics Pandas DataFrame but operates on larger-than-memory datasets.
+  - Lazy evaluation: Delays computation until necessary, optimizing memory usage.
+  - 
+- Use Cases:
+  - Scalable data processing for large datasets.
+  - Parallel computing for complex tasks.
+  - Handling out-of-memory computations.
+
 - Website: [Dask](https://www.dask.org/)
+
+
 ### Vaex
-- Description: Vaex is a high-performance Python library for lazy, out-of-core DataFrames. It is designed to work efficiently with larger-than-memory datasets and provides fast and memory-efficient operations.
+- Description:
+  - Vaex is a high-performance Python library designed for handling and analyzing large datasets. It is particularly focused on lazy, out-of-core computation to efficiently process data that doesn't fit into memory.
+  - Vaex aims to provide a DataFrame-like interface while optimizing for performance.
+
+- Key Features:
+  - Memory-mapped storage: Efficiently handles large datasets without loading them entirely into memory.
+  - Lazy evaluation: Delays computations until necessary for optimized performance.
+  - Parallel processing: Utilizes multi-core systems for faster computations.
+
+- Use Cases:
+  - Analyzing and processing large datasets.
+  - Handling big data efficiently.
+  - High-performance computations with lazy evaluation.
+
 - Website: [Vaex](https://vaex.io/)
+- 
 ## Conclusion
 
 
