@@ -85,13 +85,13 @@ Here, we can observe that even after minimising the usage according to each oper
 
 (**2) Pandas vs. Dask:**
 
-As for Pandas and Dask, we can clearly see that Dask consumes less memory compared to the Pandas when read selected cokumns. This can proof that Dask has the ability to handle larger-than-memory datasets which makes it more suitable for handling big datasets compared to Pandas. In this case study, we also use Dask to handle computations on chunks of data, making it more memory-efficient for large-scale data processing.
+As for Pandas and Dask, we can clearly see that Dask consumes less memory compared to the Pandas when reading selected columns. This can proof that Dask has the ability to handle larger-than-memory datasets (more memory-efficient) which makes it more suitable for handling big datasets compared to Pandas. Eventhough, in handling optimimization of memory usage, Pandas able to achieve lesser memory usage of 0.17GB. 
 
 <br>
 
 (**3) Modin vs. Dask:**
 
-Here, in reading selected columns, Dask also consumes slightly higher in memory usage compared to Modin. Other than that, after optimization, Modin is significantly more memory-efficient than Dask. This is because Dask shows competitive memory usage for some operations but might have higher memory requirements after optimization, making it less memory-efficient than Modin for the given scenarios. 
+Here, in reading selected columns, Modin and Dask have similar memory usage for reading selected columns, with Modin being slightly more memory-efficient. Other than that, after optimization, Modin is significantly more memory-efficient than Dask. This is because Dask shows competitive memory usage for some operations but might have higher memory requirements after optimization, making it less memory-efficient than Modin for the given scenarios. 
 
 <br>
 
@@ -104,9 +104,9 @@ The execution time of data processing tasks is a crucial factor when dealing wit
 
 | Operation/Analysis | Pandas | Modin | Dask |
 | --------------- | --------------- | --------------- |--------------- |
-| Statistical Measures   | 16.77 sec   | 20.47 sec    | 18.65 sec|
-| Distribution of Numerical Features   | 7.28 sec    | 11.53 sec    | 7.66 sec|
-| Chunking   | 150.21 sec   | 79.86 sec    | 1.63 sec|
+| Statistical Measures   | 16.77 sec   | 20.47 sec    | 13.51 sec|
+| Distribution of Numerical Features   | 7.28 sec    | 11.53 sec    | 1.63 sec|
+| Chunking   | 150.21 sec   | 79.86 sec    | 0.99 sec|
 
  </center>
 
@@ -120,7 +120,7 @@ Based on case study, in chunking only, Modin has a significant faster value comp
 
 (**2) Pandas vs. Dask:**
 
-As for this comparison, Pandas has a small value difference faster compared to Dask, but has slower operation when it comes to chunking. This is to show that Pandas is not designed for distributed computing, resulting in significantly longer execution times for chunking operations on large datasets.
+As for this comparison, Dask consistently outperforms Pandas in all three operations, showcasing its strength in distributed and parallel computing. This is to show that any tasks involve large-scale data operations and chunking, Dask may be a more efficient choice than Pandas. Pandas is not designed for distributed computing, resulting in significantly longer execution times for chunking operations on large datasets.
 
 <br>
 
@@ -140,8 +140,15 @@ In the context of memory considerations, Modin emerges as a suitable choice for 
 
 <br>
 
-Next, the investigation offers diverse findings when it comes to execution time. Pandas is the most efficient library for basic statistical measurements and the distribution of numerical features based on the execution times provided. When tasks entail parallel computing workloads, chunking, or working with extremely huge datasets, the landscape shifts. Dask outperforms the competition in terms of execution time in such cases. Dask's ability to parallelize computations and handle huge datasets efficiently makes it an appealing alternative for workloads requiring distributed computing capabilities.
+Next, the investigation offers diverse findings when it comes to execution time. Dask emerges as the standout choice for optimal execution time among the libraries compared. Across various operations, including statistical measures, distribution of numerical features, and chunking, Dask consistently outperforms both Pandas and Modin. Its strength is in handling large-scale computations with efficiency using parallel and distributed computing, which leads to much faster execution times. Because of its superior execution speed, Dask is the recommended library for applications that need to be highly performant and scalable. This makes it a ideal choice for managing computationally demanding activities on large datasets.
 
 <br>
 
-In conclusion, Dask had been chosen as the preferred tool library for this case study because to its impressive efficiency in both memory usage and execution time. This tool can generate an optimal solution for dealing with huge datasets. Dask's ability to manage memory efficiently, as indicated by its lower memory utilisation when compared to Pandas, is a significant advantage, particularly when working with datasets that surpass the capacity of a single system. Furthermore, the little difference in execution time between Dask and Pandas suggests that Dask provides competitive performance while also providing the scalability and parallel computing capabilities required for large-scale data processing. Not to forget, Dask is the ideal tool library for cases where the focus is on both effective memory utilisation and streamlined calculation speeds in the face of large datasets due to its dual strength in memory optimisation and execution efficiency.
+In conclusion, considering the complexities associated with handling large and diverse datasets, the choice of the best tool depends on the specific task requirements. For scenarios involving moderately sized datasets that comfortably fit into the memory of a single machine, Modin emerges as a suitable choice. With its focus on parallelism on a single computer and seamless integration with Pandas, Modin proves effective in optimizing performance without the need for distributed computing capabilities. On the other hand, when execution time is a critical factor and the dataset size is substantial, Dask stands out as the optimal solution. Demonstrating superior performance across various operations, Dask's efficiency in handling large-scale computations through parallel and distributed computing makes it the recommended library for applications demanding high performance and scalability. Overall, in the context of memory considerations and execution time, Dask emerges as the preferred tool for efficiently managing vast and diverse datasets, providing a powerful solution for data scientists and analysts tackling computationally demanding tasks on a large scale.
+
+
+
+
+
+
+
