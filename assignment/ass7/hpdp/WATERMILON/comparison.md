@@ -84,10 +84,47 @@ For assignment 7 that regarding "Comparative Analysis of Data Analysis Libraries
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+#### Strengths: 
 
+1. Distributed and Parallel Computing:
 
+Modin effectively uses all of the CPU cores that are available to it, excelling in distributed and parallel computing. This is especially helpful for accelerating tasks related to data analysis on big datasets.
 
-References:
+2. API Compatibility for Pandas:
+
+Modin's compatibility with the Pandas API is built in. Because of this, switching from Pandas to Modin is often simple and requires little modification to the code.
+
+3. Effective Pandas Functions:
+
+Modin significantly improves performance for tasks like filtering, grouping, and joining by parallelizing common Pandas operations.
+
+4. Beyond-Core Processing:
+
+Modin allows for out-of-core computation, which makes it possible to analyze datasets bigger than what the system memory can hold. It can handle large datasets because of its versatility and efficient chunk processing of data.
+
+5. Adaptable Backend:
+
+Users can customize Modin to meet their unique needs thanks to the freedom to select from a variety of backends. Scalability is provided by the default Dask backend, which supports distributed and parallel computing.
+
+#### Weaknesses:
+
+1. Learning Curve:
+
+Although Modin is compatible with Pandas, new users may encounter a learning curve, particularly if they are unfamiliar with distributed computing concepts.
+
+2. Expenses for Tiny Datasets:
+
+Modin's advantages are greatest when applied to sizable datasets. The overhead of parallelization may not yield as noticeable performance gains as using Pandas directly for smaller datasets that fit comfortably in memory.
+
+3. Limited Choices for Backend:
+
+Modin offers a greater range of backends than some other distributed computing libraries, but it still allows for flexibility in backend selection. For some users, this might mean fewer options for customization.
+
+4. Reliances:
+
+Modin's default backend is dependent on other programs, like Dask. Handling these dependencies can be complicated, particularly in settings where access to external packages is restricted or version control is enforced.
+
+#### References:
 1. [Modin in Github](https://github.com/modin-project/modin)
 2. [Documentation of Modin](https://modin.readthedocs.io/en/stable/)
 
