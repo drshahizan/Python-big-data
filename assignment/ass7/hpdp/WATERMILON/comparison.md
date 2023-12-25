@@ -84,6 +84,23 @@ For assignment 7 that regarding "Comparative Analysis of Data Analysis Libraries
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+Modin serves as a seamless upgrade library for Pandas which is one of the most popular data manipulation library in Python. While Pandas operates in a single-threaded fashion, Modin introduces a significant speed boost by effortlessly scaling across all available cores. This is especially advantageous for handling bigger datasets from from 1MB to 1TB+, while Pandas might encounter performance bottlenecks or memory usage limitations which lead to problems like system crashing.
+
+#### Getting Started:
+
+To install Modin using pip, run the following code segment in the Google Colab:
+
+```ruby
+!pip install -U modin[all]
+```
+
+To use the Modin in Google Colab, replace the importing of Pandas with Modin through the code segment below:
+
+```ruby
+import pandas
+import modin.pandas as pd
+```
+
 #### Strengths: 
 
 1. Distributed and Parallel Computing:
