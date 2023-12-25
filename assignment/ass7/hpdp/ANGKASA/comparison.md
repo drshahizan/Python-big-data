@@ -29,28 +29,29 @@ Matriculation Number: A21EC0214
 Pandas is a powerful data manipulation and analysis library for Python. It provides easy-to-use data structures and functions for efficiently handling structured data, making it an essential tool for data scientists, analysts, and researchers.
 
 ### Advantages of Pandas
-- Data Structures: Pandas introduces two primary data structures: Series and DataFrame, which are designed to handle one-dimensional and two-dimensional data, respectively.
+- **Data Structures:**
+  - Pandas introduces two primary data structures: Series and DataFrame, which are designed to handle one-dimensional and two-dimensional data, respectively.
 
-- Data Cleaning and Transformation:
-Pandas simplifies data cleaning tasks, offering functions for handling missing values, filtering, and transforming data.
+- **Data Cleaning and Transformation:**
+  - Pandas simplifies data cleaning tasks, offering functions for handling missing values, filtering, and transforming data.
 
-- Indexing and Selection:
-Efficiently select, filter, and manipulate data using label-based indexing, slicing, and Boolean indexing.
+- **Indexing and Selection:**
+  - Efficiently select, filter, and manipulate data using label-based indexing, slicing, and Boolean indexing.
 
-- Statistical and Mathematical Operations:
-Perform statistical and mathematical operations on data with ease, including mean, median, sum, and more.
+- **Statistical and Mathematical Operations:**
+  - Perform statistical and mathematical operations on data with ease, including mean, median, sum, and more.
 
-- Integration with NumPy:
-Seamlessly integrates with NumPy, enabling interoperability between Pandas DataFrames and NumPy arrays.
+- **Integration with NumPy:**
+  - Seamlessly integrates with NumPy, enabling interoperability between Pandas DataFrames and NumPy arrays.
 
-- Time Series Data:
-Robust support for time series data, including date/time indexing and resampling functionalities.
+- **Time Series Data:**
+  - Robust support for time series data, including date/time indexing and resampling functionalities.
 
-- IO Tools:
-Read and write data from various file formats, such as CSV, Excel, SQL databases, and more.
+- **IO Tools:**
+  - Read and write data from various file formats, such as CSV, Excel, SQL databases, and more.
 
-- Visualization:
-Integrated plotting capabilities for quick data visualization, built on top of Matplotlib.
+- **Visualization:**
+  - Integrated plotting capabilities for quick data visualization, built on top of Matplotlib.
 <be>
 
 ## Library 2: **Veax**
