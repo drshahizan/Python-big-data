@@ -18,7 +18,7 @@
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
 |NG SUANG JOO        | A21EC0102     | Pandas  |
-|LING WAN YIN         | A21EC0047     | Data Table  |
+|LING WAN YIN         | A21EC0047     | Datatable  |
 |FONG KHAH KHEH         | A21EC0026   | Pyspark   |
 
 
