@@ -145,7 +145,8 @@ skip = sorted(random.sample(range(1, total_rows + 1), total_rows - sample_size))
 df = pd.read_csv(filename, skiprows=skip)
 ```
 
-Using Pandas library it shows that the time to sample the data is 172.09 seconds
+Using Pandas library it shows that the time to sample the data is **172.09 seconds**
+
 
 * Adding column names for headers for easy readability
 
@@ -159,6 +160,7 @@ column_names = ['Transaction Unique Identifier',
 # Assign column names to the dataframe
 df.columns = column_names
 ```
+
 
 
 * Change the datatypes to a suitable format
@@ -202,8 +204,11 @@ df_size = sys.getsizeof(df) / (1024 ** 2)  # Convert to megabytes
 ```
 Computation Time: 1.87 seconds
 
-```ruby
+
 * Drop Missing Values
+
+
+```ruby
 
 # Record the start time
 start_time = time.time()
@@ -228,8 +233,9 @@ file_size = os.path.getsize(filename) / (1024 ** 2)  # Convert to megabytes
 ```
 Computation time: 1.53 seconds
 
-```ruby
+
 * Drop Duplicate Values
+```ruby
 
 # Record the start time
 start_time = time.time()
@@ -253,6 +259,7 @@ computation_time = end_time - start_time
 file_size = os.path.getsize(filename) / (1024 ** 2)  # Convert to megabytes
 ```
 Computation time: 0.66 seconds
+
 
 * Drop Columns
 
@@ -282,6 +289,129 @@ computation_time = end_time - start_time
 file_size = os.path.getsize(filename) / (1024 ** 2)  # Convert to megabytes
 ```
 Computation time: 0.01 seconds
+
+
+### 3.2 Modin 
+
+* Sampling Data
+
+```ruby
+filename = "202304.csv"
+```
+
+```ruby
+start = time.time()
+
+modin_df = pd.read_csv(filename, nrows=100000) #To read only a particular number of rows from the.csv file.
+end = time.time()
+modin_duration = end - start #To calculate the duration for reading the file
+print("Time to read with Modin: {} seconds".format(round(modin_duration, 3)))
+```
+
+```ruby
+#Perform the sampling with size=10%
+start = time.time()
+
+modin_sampling = modin_df.sample(frac = 0.1, random_state = 42)
+end = time.time()
+modin_sampling_duration = end - start
+```
+
+```ruby
+import os
+
+final_file_size = os.path.getsize(filename) / (1024 ** 2)  # File size in MB
+computation_time = modin_sampling_duration  #Computation time of sampling
+
+print(f"File Size after Sampling: {final_file_size:.2f} MB")
+print("Time to sampling data with Modin: {} seconds".format(round(modin_sampling_duration, 2)))
+```
+
+Using Pandas library it shows that the time to sample the data is **0.03 seconds**
+
+* Adding column names for headers for easy readability
+
+```ruby
+modin_df.rename(columns = {'{F887F88E-7D15-4415-804E-52EAC2F10958}': 'Transaction Unique Identifier',
+                            '70000': 'Price',
+                            '1995-07-07 00:00': 'Transfer Date',
+                            'MK15 9HP': 'Postcode',
+                            'D': 'Property Type',
+                            'N': 'Old/New',
+                            'F': 'Duration',
+                            '31': 'PAON',
+                            'Unnamed: 8': 'SAON',
+                            'ALDRICH DRIVE': 'Street',
+                            'WILLEN': 'Locality',
+                            'MILTON KEYNES': 'Town/City',
+                            'MILTON KEYNES.1': 'District',
+                            'MILTON KEYNES.2': 'County',
+                            'A': 'PPDCategory Type',
+                            'A.1': 'Record Status - Monthly File Only'}, inplace=True)
+```
+
+
+* Change the datatypes to a suitable format
+
+```ruby
+start_time = time.time()
+
+data_types = {
+    'Transaction Unique Identifier': 'str',
+    'Price': 'float32',
+    'Transfer Date': 'datetime64',
+    'Postcode': 'str',
+    'Property Type': 'category',
+    'Old/New': 'category',
+    'Duration': 'category',
+    'PAON': 'str',
+    'SAON': 'str',
+    'Street': 'str',
+    'Locality': 'str',
+    'Town/City': 'str',
+    'District': 'str',
+    'County': 'str',
+    'PPDCategory Type': 'category',
+    'Record Status - Monthly File Only': 'category'}
+
+for column, dtype in data_types.items():
+  if dtype == 'str':
+    modin_df[column] = modin_df[column].astype(dtype)
+  elif dtype == 'float32':
+    modin_df[column] = pd.to_numeric(modin_df[column].astype(dtype), errors='coerce')
+  elif dtype == 'datetime64':
+    modin_df[column] = pd.to_datetime(modin_df[column])
+  elif dtype == 'category':
+    modin_df[column] = modin_df[column].astype(dtype)
+  else:
+    modin_df[column] = modin_df[column].astype(dtype)
+
+end = time.time()
+modin_optimization_duration = end - start
+```
+Computation Time: 1.17 seconds
+
+
+* Drop Missing Values
+
+
+```ruby
+modin_df.dropna(inplace=True)
+```
+Computation time: 1.53 seconds
+
+* Drop Columns
+
+```ruby
+drop_columns = ['SAON', 'Duration', 'PPDCategory Type', 'Record Status - Monthly File Only']
+modin_df.drop(columns=drop_columns, axis=1, inplace=True)
+```
+Computation time: 0.01 seconds
+
+### 3.3 Dask
+
+
+
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
