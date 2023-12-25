@@ -51,6 +51,38 @@ Read and write data from various file formats, such as CSV, Excel, SQL databases
 
 - Visualization:
 Integrated plotting capabilities for quick data visualization, built on top of Matplotlib.
+<br>
+## Library 2: **Veax**
+![1639567859424](https://github.com/drshahizan/Python-big-data/assets/146650043/7d66bef8-fbc2-49ce-b89e-ee5a5cce278b)
+Vaex is a Python library for lazy, out-of-core DataFrames. It is designed to efficiently handle and analyze extremely large datasets that may not fit into memory.
+
+- **Key Features:**
+  - Lazy and out-of-core computation: Vaex computes on the fly, minimizing memory usage.
+  - Fast and memory-efficient: Optimized for speed and minimal memory footprint, making it suitable for large-scale datasets.
+  - DataFrame API: Vaex provides a familiar pandas-like API for easy integration into existing workflows.
+
+### Advantages of Vaex
+
+- **Efficient Memory Usage:**
+  - Vaex's lazy computation allows it to efficiently handle datasets larger than available RAM.
+
+- **High Performance:**
+  - Vaex is designed for speed, leveraging parallel and vectorized operations for quick data manipulations.
+
+- **Ease of Use:**
+  - With a DataFrame API similar to pandas, Vaex is easy to pick up for users familiar with pandas syntax.
+
+- **Out-of-Core Computation:**
+  - Vaex operates seamlessly with data that is too large to fit into memory, processing it in chunks.
+
+
+
+
+
+
+
+
+
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
