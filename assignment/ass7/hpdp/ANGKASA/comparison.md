@@ -42,7 +42,12 @@ This dataset contains 6.25 Million chess games played on lichess.org during July
 | AN | Movements in Movetext format |
 
 ## Library 1: **Pandas**
+
+<div align="center">
+  
 ![illu_pandas-82-1024x562](https://github.com/drshahizan/Python-big-data/assets/146650043/e0835bec-1827-4984-ab3e-4abe216b34cc)
+
+</div>
 
 Pandas is a powerful data manipulation and analysis library for Python. It provides easy-to-use data structures and functions for efficiently handling structured data, making it an essential tool for data scientists, analysts, and researchers.
 
@@ -66,7 +71,12 @@ Pandas is a powerful data manipulation and analysis library for Python. It provi
 <be>
 
 ## Library 2: **Veax**
+
+<div align="center">
+
 ![1639567859424](https://github.com/drshahizan/Python-big-data/assets/146650043/7d66bef8-fbc2-49ce-b89e-ee5a5cce278b)
+
+</div>
 
 Vaex is a Python library for lazy, out-of-core DataFrames. It is designed to efficiently handle and analyze extremely large datasets that may not fit into memory.
 
@@ -88,7 +98,12 @@ Vaex is a Python library for lazy, out-of-core DataFrames. It is designed to eff
 <be>
 
 ## Library 3: **Dask**
+
+<div align="center">
+
 ![512px-Dask_Logo](https://github.com/drshahizan/Python-big-data/assets/146650043/93bcd891-4769-426b-959e-837cd7d78342)
+
+</div>
 
 Dask is a parallel computing library in Python that seamlessly integrates with pandas, NumPy, and other Python libraries. It allows users to scale their computations from a single machine to large clusters, making it ideal for handling large datasets.
 
