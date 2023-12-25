@@ -41,6 +41,29 @@ In this project, we're exploring and analyzing the [Airline Delay Analysis](http
 - The datasets contain daily airline information covering from flight information, carrier company, to taxing-in, taxing-out time, and generalized delay reason of exactly 10 years, from 2009 to 2019. The DOT's database is renewed from 2018, so there might be a minor change in the column names. In this assignment, we use dataset of flight information in **2018** to do EDA and visualization.
 -The flight delay and cancellation data were collected and managed by the DOT's Bureau of Transportation Statistics, only included data related to time-analysis on each flight.
 
+**Explanation of Columns of Dataset**
+| Column               | Explanation                                                                                       |
+|----------------------|---------------------------------------------------------------------------------------------------|
+| FL_DATE              | The date of the flight.                                                                           |
+| OP_CARRIER           | The operating carrier or airline code.                                                            |
+| ORIGIN               | The code for the origin airport.                                                                  |
+| DEST                 | The code for the destination airport.                                                             |
+| CRS_DEP_TIME         | The scheduled departure time.                                                                    |
+| DEP_TIME             | The actual departure time.                                                                       |
+| TAXI_OUT             | The time it takes for the aircraft to taxi from the departure gate to the runway.                  |
+| WHEELS_OFF           | The time the aircraft's wheels leave the ground.                                                  |
+| WHEELS_ON            | The time the aircraft's wheels touch the ground upon arrival.                                     |
+| TAXI_IN              | The time it takes for the aircraft to taxi from the runway to the arrival gate.                    |
+| ARR_DELAY            | Arrival delay, i.e., the difference between scheduled and actual arrival time.                    |
+| CANCELLATION_CODE    | Code indicating the reason for flight cancellation.                                               |
+| AIR_TIME             | The time the aircraft spends in the air.                                                          |
+| CARRIER_DELAY        | Delay attributed to the airline.                                                                  |
+| WEATHER_DELAY        | Delay attributed to weather conditions.                                                           |
+| NAS_DELAY            | Delay attributed to the National Airspace System.                                                 |
+| SECURITY_DELAY       | Delay attributed to security reasons.                                                             |
+| LATE_AIRCRAFT_DELAY  | Delay attributed to a previous flight using the same aircraft arriving late.                      |
+| STATUS               | The status of the flight.                                                                         |
+
 ## Library Chosen
 This document presents an exploratory data analysis (EDA) on a dataset using three different libraries: Pandas, Dask, and Vaex. The goal is to compare the performance of these libraries in terms of time execution for typical EDA tasks.
 ### Pandas
