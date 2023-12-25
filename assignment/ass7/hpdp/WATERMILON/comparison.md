@@ -696,49 +696,189 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
 1. **Modin:**
 
+   ```ruby
+    data["price"].skew()
+    ```
+
+   Time Consumed: 1 minutes 25 seconds
+
 2. **Dask:**
+
+   ```ruby
+    skewness = data["price"].skew()
+    skewness.compute()
+    ```
+
+   Time Consumed: 1 minutes 6 seconds
    
 3. **Vaex:**
+
+   ```ruby
+    df["price"].skew()
+    ```
+
+   Time Consumed: 1.32 seconds
 
 #### 4.3.2. Does the country where the property is located significantly influence its price?
 
 1. **Modin:**
 
+   ```ruby
+    from sklearn.feature_selection import mutual_info_regression
+
+    test_data = data[["County", "price"]].sample(frac = 0.1)
+    mutual_info_regression( np.expand_dims( pd.factorize( test_data["County"] )[0], axis = 1), test_data["price"])
+    ```
+
+   Time Consumed: 4 minutes 5 seconds
+
 2. **Dask:**
+
+   ```ruby
+    from sklearn.feature_selection import mutual_info_regression
+
+    test_data = data[["County", "price"]].sample(frac=0.1)
+    test_data = test_data.compute()
+    mutual_info_regression( np.expand_dims( pd.factorize( test_data["County"] )[0], axis = 1), ddf_sampled["price"])
+    ```
+
+   Time Consumed: 2 minutes 33 seconds
    
 3. **Vaex:**
+
+   ```ruby
+    from sklearn.feature_selection import mutual_info_regression
+
+    test_data = df[["County", "price"]].sample(frac = 0.1).to_pandas_df()
+    mutual_info_regression( np.expand_dims( pd.factorize( test_data["County"] )[0], axis = 1), test_data["price"])
+    ```
+
+   Time Consumed: 58.7 seconds
 
 #### 4.3.3. How does the district affect the price and its dispersion in property?
 
 1. **Modin:**
 
+   ```ruby
+    test_data = data[["District", "price"]][data["County"] == "GREATER LONDON"].sample(frac = 0.1).groupby("District").agg({"price" : ["mean", "std"]})
+    test_data.plot.bar(subplots = True, color = ["blue", "red"], figsize = (12, 8))
+    ```
+
+   Time Consumed: 4 minutes 16 seconds
+
 2. **Dask:**
+
+   ```ruby
+    test_data = data[["District", "price"]][data["County"] == "GREATER LONDON"]
+    test_data = test_data.sample(frac = 0.1).groupby("District").agg({"price" : ["mean", "std"]})
+    test_data = test_data.compute()
+    test_data.plot.bar(subplots = True, color = ["blue", "red"], figsize = (12, 8))
+    ```
+
+   Time Consumed: 1 minutes 4 seconds
    
 3. **Vaex:**
+
+   ```ruby
+    test_data = df[df["County"] == "GREATER LONDON"].sample(frac = 0.1).to_pandas_df(["District", "price"])
+    test_data = test_data.groupby("District").agg({"price" : ["mean", "std"]})
+    test_data.plot.bar(subplots = True, color = ["blue", "red"], figsize = (12, 8))
+    ```
+
+   Time Consumed: 1.64 seconds
 
 #### 4.3.4. How does the combination of PPDCategory_Type and Old/New property status influence property prices?
 
 1. **Modin:**
 
+   ```ruby
+    test_data = data[["price", "Duration", "Old/New"]].sample(frac = 0.1).groupby(["Duration", "Old/New"], as_index = False).median()
+
+    ax = test_data.groupby("Duration").plot( x = "Old/New", y = "price", kind = "bar", figsize = (12, 2))
+    for title, a in dict(ax).items():
+      a.set_title(f"Duration = {title}")
+    ```
+
+   Time Consumed: 3 minutes 5 seconds
+
 2. **Dask:**
+
+   ```ruby
+    test_data = data[["price", "Duration", "Old/New"]].sample(frac = 0.1).groupby(["Duration", "Old/New"]).median()
+    test_data = test_data.compute()
+    test_data = test_data.reset_index()
+
+    ax = test_data.groupby("Duration").plot( x = "Old/New", y = "price", kind = "bar", figsize = (12, 2))
+    for title, a in dict(ax).items():
+      a.set_title(f"Duration = {title}")
+    ```
+
+   Time Consumed: 1 minutes 15 seconds
    
 3. **Vaex:**
+
+   ```ruby
+    test_data = df[["price", "Duration", "Old/New"]].sample(frac = 0.1).to_pandas_df()
+    test_data = test_data.groupby(["Duration", "Old/New"], as_index = False).median()
+
+    ax = test_data.groupby("Duration").plot( x = "Old/New", y = "price", kind = "bar", figsize = (12, 2))
+    for title, a in dict(ax).items():
+      a.set_title(f"Duration = {title}")
+    ```
+
+   Time Consumed: 2.62 seconds
 
 #### 4.3.5. What is the trend in property prices over time?
 
 1. **Modin:**
 
+   ```ruby
+    sns.lineplot(data = data.sample(frac = 0.1), x = "year", y = "price", hue = "month")
+    ```
+
+   Time Consumed: -
+
 2. **Dask:**
+
+   ```ruby
+    sns.lineplot(data = data.sample(frac = 0.1).compute(), x = "year", y = "price", hue = "month")
+    ```
+
+   Time Consumed: 2 minutes 15 seconds
    
 3. **Vaex:**
 
+   ```ruby
+    sns.lineplot(data = df.sample(frac = 0.1).to_pandas_df(), x = "year", y = "price", hue = "month")
+    ```
+
+   Time Consumed: 40.7 seconds
+   
 #### 4.3.6. How does the price of property vary based on different property types over time?
 
 1. **Modin:**
 
+   ```ruby
+    sns.lineplot(data = data.sample(frac = 0.1), x = "year", y = "price", hue = "Property_Type")
+    ```
+
+   Time Consumed: 4 minutes 37 seconds
+
 2. **Dask:**
+
+   ```ruby
+    sns.lineplot(data = data.sample(frac = 0.1).compute(), x = "year", y = "price", hue = "Property_Type")
+    ```
+
+   Time Consumed: 2 minutes 19 seconds
    
 3. **Vaex:**
+
+   ```ruby
+    sns.lineplot(data = df.sample(frac = 0.1).to_pandas_df(), x = "year", y = "price", hue = "Property_Type")
+    ```
+
+   Time Consumed: 34.3 seconds
 
 
 ## 5. Conclusion <a name = "conclusion"></a>
