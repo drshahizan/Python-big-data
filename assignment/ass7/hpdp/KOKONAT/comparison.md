@@ -199,8 +199,17 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 ```ruby
+# Get column types
+column_types = brewery_df.dtypes
 
+# Print column types
+print("Column Types:")
+for col_name, col_type in column_types:
+    print(f"{col_name}: {col_type}")
 ```
+Memory usage: 100.83203125 MB
+
+Computation Time: 0.01815199851989746 seconds
 
 ### 4.7 Number of unique values per columns <a name = "unique"></a>
 Library 1: **Pandas**
@@ -229,18 +238,13 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 ```ruby
-
+brewery_df.describe().show()
 ```
+Memory usage: 201.609375 MB
+
+Computation Time: 196.83882665634155 seconds
 
 ### 5.2  Data Visualization  <a name = "data_visual"></a>
-Library 1: **Pandas**
-
-Library 2: **Datatable**
-
-Library 3: **PySpark**
-```ruby
-
-```
 
 #### 5.2.1  Total Volume Produced by Beer Style  <a name = "total_volume"></a>
 Library 1: **Pandas**
@@ -249,8 +253,15 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 ```ruby
+# Group by beer style and calculate the total volume produced
+total_volume_by_style = brewery_df.groupBy("Beer_Style").agg(sum("Volume_Produced").alias("Total_Volume_Produced"))
 
+# Show the result
+total_volume_by_style.show()
 ```
+Memory usage: 201.609375 MB
+
+Computation Time: 15.084449291229248 seconds
 
 #### 5.2.2  Average Fermentation Time by Beer Stylee  <a name = "avg"></a>
 Library 1: **Pandas**
@@ -259,8 +270,17 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 ```ruby
+average_fermentation_time_by_style = (
+    brewery_df.groupBy("Beer_Style")
+    .agg(avg("Fermentation_Time").alias("Average_Fermentation_Time"))
+)
 
+# Show the result
+average_fermentation_time_by_style.show()
 ```
+Memory usage: 201.828125 MB
+
+Computation Time: 15.111161470413208 seconds
 
 #### 5.2.3  Fermentation Time by Beer Style  <a name = "fermentation_time"></a>
 Library 1: **Pandas**
@@ -279,8 +299,34 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 ```ruby
+# Create a vector assembler
+vector_assembler = VectorAssembler(inputCols=selected_columns, outputCol="features")
 
+# Transform the DataFrame to include the feature vector
+assembled_df = vector_assembler.transform(brewery_df)
+
+# Calculate the correlation matrix
+correlation_matrix = Correlation.corr(assembled_df, "features").head()
+
+# Show the correlation matrix
+print("Correlation Matrix:")
+print(correlation_matrix[0])
+
+# Extract the correlation matrix values
+corr_values = correlation_matrix[0].toArray()
+
+# Create a DataFrame for the correlation matrix
+corr_matrix_df = pd.DataFrame(corr_values, columns=selected_columns, index=selected_columns)
+
+# Create a heatmap
+plt.figure(figsize=(10, 8))
+sns.heatmap(corr_matrix_df, annot=True, cmap="coolwarm", fmt=".2f", linewidths=.5)
+plt.title('Correlation Heatmap')
+plt.show()
 ```
+Memory usage: 216.1015625 MB
+
+Computation Time: 78.82638359069824 seconds
 
 #### 5.2.4  Total Sales by Beer Style <a name = "sales"></a>
 Library 1: **Pandas**
@@ -289,8 +335,38 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 ```ruby
+# Create a Spark session
+spark = SparkSession.builder.appName("BeerAnalysis").getOrCreate()
+
+# Check the exact column names in your dataset
+brewery_df.show()
+
+# Assuming the correct column name is "Total_Sales"
+selected_columns = ["Beer_Style", "Total_Sales"]
+
+# Group by beer style and calculate the total sales
+total_sales_by_style = brewery_df.groupBy("Beer_Style").agg(sum(col("Total_Sales")).alias("Total_Sales"))
+
+
+# Convert the PySpark DataFrame to Pandas for visualization
+total_sales_pd = total_sales_by_style.toPandas()
+
+# Sort the DataFrame
+total_sales_pd = total_sales_pd.sort_values(by='Total_Sales', ascending=True)
+
+# Create a line plot
+plt.figure(figsize=(12, 6))
+line2 = sns.lineplot(x='Beer_Style', y='Total_Sales', data=total_sales_pd, marker='o', color='blue')
+plt.xlabel('Beer Style')
+plt.ylabel('Total Sales')
+plt.title('Total Sales by Beer Style')
+plt.xticks(rotation=0)
+plt.show()
 
 ```
+Memory usage: 228.1796875 MB
+
+Computation Time: 20.969558000564575 seconds
 
 #### 5.2.5  Total Loss by Beer Style <a name = "loss"></a>
 Library 1: **Pandas**
