@@ -23,8 +23,34 @@ Member 4<br>
 Name: Nik Amirul Ariff Bin Amran
 Matriculation Number: A21EC0214
 
+### Library 1: Pandas
 ![illu_pandas-82-1024x562](https://github.com/drshahizan/Python-big-data/assets/146650043/e0835bec-1827-4984-ab3e-4abe216b34cc)
 
+Pandas is a powerful data manipulation and analysis library for Python. It provides easy-to-use data structures and functions for efficiently handling structured data, making it an essential tool for data scientists, analysts, and researchers.
+
+Advantages of Pandas
+- Data Structures: Pandas introduces two primary data structures: Series and DataFrame, which are designed to handle one-dimensional and two-dimensional data, respectively.
+
+- Data Cleaning and Transformation:
+Pandas simplifies data cleaning tasks, offering functions for handling missing values, filtering, and transforming data.
+
+- Indexing and Selection:
+Efficiently select, filter, and manipulate data using label-based indexing, slicing, and Boolean indexing.
+
+- Statistical and Mathematical Operations:
+Perform statistical and mathematical operations on data with ease, including mean, median, sum, and more.
+
+- Integration with NumPy:
+Seamlessly integrates with NumPy, enabling interoperability between Pandas DataFrames and NumPy arrays.
+
+- Time Series Data:
+Robust support for time series data, including date/time indexing and resampling functionalities.
+
+- IO Tools:
+Read and write data from various file formats, such as CSV, Excel, SQL databases, and more.
+
+- Visualization:
+Integrated plotting capabilities for quick data visualization, built on top of Matplotlib.
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
