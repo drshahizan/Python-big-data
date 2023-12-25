@@ -17,4 +17,28 @@ Don't forget to hit the :star: if you like this repo.
 |3.|LIEW YVONNE|A21EC0045|
 |4.|SOO WAN YING|A20EC0227|
 
+## Table of Content
++ [1. Introduction](#Introduction)
++ [2. Dataset Selection](#Dataset-Selection)
++ [3. Library Chosen](#Library-Chosen)
++   [3.1 Pandas](#Pandas)
++   [3.2 DASK](#DASK)
++   [3.3 Vaex](#Vaex)
+
+## 1.0 Introduction
+## 2.0 Dataset Selection
+## 3.0 Library Chosen
+### 3.1 Library - Pandas
+### 3.2 Library - DASK
+### 3.3 Library - Vaex
+## 5. Conclusion <a name = "conclusion"></a>
+
+
+## Contribution 🛠️  <a name = "contribution"> </a>
+Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
+
+You can also contact me using [Linkedin](https://www.linkedin.com/in/drshahizan/) for any other queries or feedback.
+
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
+![](https://hit.yhype.me/github/profile?user_id=81284918)
 
