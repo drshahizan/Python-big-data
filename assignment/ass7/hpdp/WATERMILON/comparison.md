@@ -50,24 +50,17 @@
 
 This dataset offers a comprehensive overview of property sales in England and Wales, drawing data from the HM Land Registry, a key source endorsed by the UK government. It serves as a valuable resource for analysts, researchers, and businesses, providing in-depth insights into property transactions, sale prices, and property characteristics. The records span from January 1995 to the latest monthly data, encompassing various transaction types, including residential and commercial properties.
 
-#### Key Features:
+#### Key Features/Columns:
 
-- **Transaction_unique_identifier:** Unique identifier for each transaction.
-- **Price:** The amount for which the property was sold.
-- **Date_of_Transfer:** The date when the transaction took place.
-- **Postcode:** The postal code pinpointing the property's location.
-- **Property_Type:** Type of property involved in the transaction.
-- **Old/New:** Indicates whether the property is old or new.
-- **Duration:** Duration of property ownership.
+-- **Postcode:** The postal code denoting the property's location.
 - **PAON (Primary Addressable Object Name):** Typically the house number or name.
-- **SAON (Secondary Addressable Object Name):** Additional information for divided buildings.
+- **SAON (Secondary Addressable Object Name):** Additional information if the building is divided into flats or sub-buildings.
 - **Street:** The street name where the property is situated.
 - **Locality:** Supplementary locality information.
 - **Town/City:** The town or city where the property is positioned.
 - **District:** The district in which the property is situated.
 - **County:** The county where the property is located.
-- **PPDCategory_Type:** Category type for Price Paid Data.
-- **Record_Status - monthly_file_only:** Monthly file status for record-keeping.
+- **Price Paid:** The amount for which the property was sold.
 
 #### Usefulness:
 
