@@ -595,9 +595,9 @@ plt.ylabel('')  # Remove y-axis label
 plt.tight_layout()
 plt.show()
 ```
-<div align="center">
+
 ![image](https://github.com/drshahizan/Python-big-data/assets/118237681/8e3c3b07-1a27-4325-b0af-614d456aa525)
-</div>
+
 
 
 
