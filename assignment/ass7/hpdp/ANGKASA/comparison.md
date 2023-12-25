@@ -131,5 +131,18 @@ Dask is a parallel computing library in Python that seamlessly integrates with p
   
 </div>
 
+- Computation time
+  - Computation time, also known as execution time or runtime, refers to the amount of time it takes for a computer program or algorithm to complete its execution. It is a critical metric in evaluating the efficiency and performance of software, and it is often measured in seconds, milliseconds, or microseconds.
+
+<div align="center">
+  
+| No. | Libraries | Time taken (seconds) |
+|---|---| Pandas | Vaex | Dask |
+|1.| Pandas | 47.67546 |
+|2.| Vaex |  |
+|3.| Dask | 0.03214 |
+  
+</div>
+
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
