@@ -5,7 +5,7 @@
 <a href="https://github.com/drshahizan/Python-big-data/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/drshahizan/Python-big-data?color=2b9348"></a>
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan%2FPython-big-data&labelColor=%23d9e3f0&countColor=%23697689&style=flat)
 
-# Assignment 7: Comparison Between Libraries (Pandas, Vaex & Dask) 🗄️
+# Assignment 7: Comparison Between Libraries 🗄️(Pandas, Vaex & Dask) 
 
 Member 1
 Name: Fauzan Aqil Bin Azman
