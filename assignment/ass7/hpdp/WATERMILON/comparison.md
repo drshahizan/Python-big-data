@@ -305,6 +305,132 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
 ## 4. Comparative Analysis of Libraries <a name = "comp_analysis"></a>
 
+### 4.1. Data Preparation and Cleaning
+
+#### 4.1.1. Related Package Loading
+
+1. **Modin:**
+
+2. **Dask:**
+   
+3. **Vaex:**
+
+#### 4.1.2. Dataset Loading
+
+1. **Modin:**
+
+2. **Dask:**
+   
+3. **Vaex:**
+
+#### 4.1.3. Data Quality Enhancement
+
+1. **Modin:**
+
+2. **Dask:**
+   
+3. **Vaex:**
+
+#### 4.1.4. Additional Data Manipulation
+
+1. **Modin:**
+
+2. **Dask:**
+   
+3. **Vaex:**
+
+### 4.2. Exploratory Analysis and Visualization
+
+#### 4.2.1. Data Observation
+
+1. **Modin:**
+
+2. **Dask:**
+   
+3. **Vaex:**
+
+#### 4.2.2. Coefficient of Skewness for the Property Prices
+
+1. **Modin:**
+
+2. **Dask:**
+   
+3. **Vaex:**
+
+#### 4.2.3. Exploring Property Prices specifically in Greater London
+
+1. **Modin:**
+
+2. **Dask:**
+   
+3. **Vaex:**
+
+#### 4.2.4. Explore How Number of Classes Influence Property Prices by using Bar Chart
+
+1. **Modin:**
+
+2. **Dask:**
+   
+3. **Vaex:**
+
+#### 4.2.5. Understand the Heights of Prices
+
+1. **Modin:**
+
+2. **Dask:**
+   
+3. **Vaex:**
+
+### 4.3. Asking and Answering Questions
+
+#### 4.3.1. To what degree is the price distribution skewed?
+
+1. **Modin:**
+
+2. **Dask:**
+   
+3. **Vaex:**
+
+#### 4.3.2. Does the country where the property is located significantly influence its price?
+
+1. **Modin:**
+
+2. **Dask:**
+   
+3. **Vaex:**
+
+#### 4.3.3. How does the district affect the price and its dispersion in property?
+
+1. **Modin:**
+
+2. **Dask:**
+   
+3. **Vaex:**
+
+#### 4.3.4. How does the combination of PPDCategory_Type and Old/New property status influence property prices?
+
+1. **Modin:**
+
+2. **Dask:**
+   
+3. **Vaex:**
+
+#### 4.3.5. What is the trend in property prices over time?
+
+1. **Modin:**
+
+2. **Dask:**
+   
+3. **Vaex:**
+
+#### 4.3.6. How does the price of property vary based on different property types over time?
+
+1. **Modin:**
+
+2. **Dask:**
+   
+3. **Vaex:**
+
 
 ## 5. Conclusion <a name = "conclusion"></a>
 
