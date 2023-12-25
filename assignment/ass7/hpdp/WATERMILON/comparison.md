@@ -219,7 +219,8 @@ Compared to debugging single-node computations, debugging Dask computations can 
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-Vaex is a high performance Python library for lazy **Out-of-Core DataFrames**(similar to Pandas), to visualize and explore big tabular datasets. It calculates *statistics* such as mean, sum, count, standard deviation etc, on an *N-dimensional grid* for more than **a billion** (`10^9`) samples/rows **per second**. Visualization is done using **histograms**, **density plots** and **3d volume rendering**, allowing interactive exploration of big data. Vaex uses memory mapping, zero memory copy policy and lazy computations for best performance (no memory wasted).
+Vaex is a high-performance Python library that allows large tabular datasets to be explored and visualized using lazy Out-of-Core DataFrames (like Pandas). It performs over a billion (10^9) samples/row calculations per second on an N-dimensional grid, calculating statistics like mean, sum, count, standard deviation, etc. Histograms, density plots, and three-dimensional volume rendering are used in visualization to enable interactive big data exploration. For optimal performance (zero memory waste), Vaex employs memory mapping, zero memory copy policy, and lazy computations.
+
 
 
 #### References:
