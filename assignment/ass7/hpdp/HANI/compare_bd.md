@@ -598,6 +598,288 @@ plt.show()
 
 ![image](https://github.com/drshahizan/Python-big-data/assets/118237681/8e3c3b07-1a27-4325-b0af-614d456aa525)
 
+* Transaction Count in Top 5 Localities
+
+```ruby
+# Get the top 5 localities based on transaction count
+top_5_localities = df['Locality'].value_counts().head(5).index
+
+# Filter the DataFrame for the top 5 localities
+df_top_5_localities = df[df['Locality'].isin(top_5_localities)]
+
+# Calculate transaction count for each locality
+locality_transaction_count = df_top_5_localities['Locality'].value_counts()
+
+# Plotting the bar chart for transaction count in top 5 localities
+plt.figure(figsize=(10, 6))
+locality_transaction_count.plot(kind='bar', color='skyblue')
+plt.title('Transaction Count in Top 5 Localities')
+plt.xlabel('Locality')
+plt.ylabel('Transaction Count')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+```
+![image](https://github.com/drshahizan/Python-big-data/assets/118237681/a24e0e51-6b0e-457f-8903-a6ca9d707149)
+
+### 4.2 Modin
+
+* Generating a scatter plot to explore the relationship between Price and Transfer Date(Year).
+
+```ruby
+plt.figure(figsize=(8, 6))
+plt.scatter(modin_df['Transfer Date'], modin_df['Price'], alpha=0.5)
+plt.title('Scatter Plot: Price vs Year')
+plt.xlabel('Year')
+plt.ylabel('Price')
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+```
+
+![image](https://github.com/drshahizan/Python-big-data/assets/118237681/ae0b0982-5b09-484e-a83a-7a5420b5ceef)
+
+
+* Using Bar Chart to explore the transaction count in top 5 localities.
+
+```ruby
+top_5_localities = modin_df['Locality'].value_counts().head(5).index
+
+# Filter the DataFrame for the top 5 localities
+modin_df_top_5_localities = modin_df[modin_df['Locality'].isin(top_5_localities)]
+
+#modin_df_top_5_localities = modin_df_top_5_localities.dropna(subset=['Locality'])
+
+locality_transaction_count = modin_df_top_5_localities['Locality'].value_counts()
+
+plt.figure(figsize=(10, 6))
+locality_transaction_count.plot(kind='bar', color='skyblue')
+plt.title('Transaction Count in Top 5 Localities')
+plt.xlabel('Locality')
+plt.ylabel('Transaction Count')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+```
+
+![image](https://github.com/drshahizan/Python-big-data/assets/118237681/5e0d178b-0eed-4bf7-96dc-481ec2578609)
+
+### 4.3 Dask
+
+* Pie Chart of Distribution Types.
+
+```ruby
+# Assuming 'Property Type' is a column in your DataFrame
+property_type_distribution = df['Property Type'].value_counts().compute()
+
+# Plotting a pie chart
+plt.figure(figsize=(8, 8))
+property_type_distribution.plot(kind='pie', autopct='%1.1f%%', startangle=90)
+plt.title('Distribution of Property Type')
+plt.ylabel('')  # To remove the default ylabel
+plt.show()
+```
+
+![image](https://github.com/drshahizan/Python-big-data/assets/118237681/2b363555-ffd3-420d-8c2c-3ee0ce21bdab)
+
+
+* Transaction Count in Top 5 Localities.
+
+```ruby
+# Assuming 'Locality' is a column in your DataFrame
+top_localities = df['Locality'].value_counts().nlargest(5).compute()
+
+# Plotting a bar graph
+plt.figure(figsize=(10, 6))
+top_localities.plot(kind='bar', color='skyblue')
+plt.title('Top 5 Localities by Transaction Count')
+plt.xlabel('Locality')
+plt.ylabel('Transaction Count')
+plt.show()
+```
+
+![image](https://github.com/drshahizan/Python-big-data/assets/118237681/e8d52c29-0ee1-4e23-a435-141483d7c898)
+
+## 5. Ask & answer questions about the data
+
+### 5.1 Pandas
+
+* a. What insights can be inferred about the variation in the ratio of new to old properties within the top 10 districts, considering the distribution of new and old properties in these specific areas?
+
+```ruby
+# Get the top 10 districts based on the count of properties
+top_10_districts = df['District'].value_counts().head(10).index
+
+# Filter the DataFrame for the top 10 districts
+df_top_10 = df[df['District'].isin(top_10_districts)]
+
+# Create the count plot for new and old properties in the top 10 districts using Seaborn
+plt.figure(figsize=(12, 8))
+sns.countplot(x='District', hue='Old/New', data=df_top_10, order=top_10_districts)
+plt.title('Distribution of New and Old Properties in Top 10 Districts')
+plt.xlabel('District')
+plt.ylabel('Count')
+
+# Modifying the legend labels
+plt.legend(title='Property Type', labels=['Old', 'New'])
+
+plt.xticks(rotation=45)  # Rotate x-axis labels for better readability if necessary
+plt.tight_layout()
+plt.show()
+```
+
+![image](https://github.com/drshahizan/Python-big-data/assets/118237681/0c4ed39f-d1b5-4262-848e-5d358bb813ab)
+
+> **Answer**
+
+>>  Based on all these 10 districts, the graph shows that old property type dominantly held all of the districts.
+
+>> From these graph, it shows that City of WestMinster has the highest ol property type as well as one of the lowest new property type. It concludes that this place is less progressive and not one of the most focal point of development.
+
+>> Manchester district hold the most balance between old and new property types. This shows that the district might have a balanced in terms of development.
+
+* b. How does the average property price differ across top 10 districts?
+
+```ruby
+# Calculate the mean property price for each district
+mean_prices = df.groupby('District')['Price'].mean().sort_values(ascending=False).head(10)
+
+# Plotting a bar graph for average property prices across top 10 districts
+plt.figure(figsize=(12, 8))
+mean_prices.plot(kind='bar', color='skyblue')
+plt.title('Average Property Prices in Top 10 Districts')
+plt.xlabel('District')
+plt.ylabel('Average Price')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+```
+![image](https://github.com/drshahizan/Python-big-data/assets/118237681/f1c9606e-5566-4c56-9217-de785369159d)
+
+> **Answer:**
+
+>> West Northamptonshire District has the highest average price for the property. From this data, it shows that this district is one of the
+
+>> On the other end of the spectrum, Ashfield, Kensington and Chelsea, Buckinghamshire and Liverpool hold the lowest number of properties, and their counts are relatively similar. This observation suggests a potential low setting for these areas, contributing to their lower property numbers.
+
+### 5.2 Modin
+
+* a. What insights can be inferred about the variation in the ratio of new to old properties within the top 10 districts, considering the distribution of new and old properties in these specific areas?
+
+```ruby
+# Filtering for top 10 districts
+top_10_districts = modin_df['District'].value_counts().head(10).index
+modin_df_top_10_districts = modin_df[modin_df['District'].isin(top_10_districts)]
+
+# Creating a pivot table to count new and old properties per district
+new_old_properties = modin_df_top_10_districts.pivot_table(index='District', columns='Old/New', aggfunc='size', fill_value=0)
+
+# Plotting a grouped bar chart
+new_old_properties.plot(kind='bar', stacked=True, figsize=(10, 6))
+plt.title('Comparison of New and Old Properties in Top 10 Districts')
+plt.xlabel('District')
+plt.ylabel('Count')
+plt.xticks(rotation=45)
+plt.legend(title='Old/New Property')
+plt.tight_layout()
+plt.show()
+```
+![image](https://github.com/drshahizan/Python-big-data/assets/118237681/fc0ab5c8-5f35-484b-8747-e4b7c56dc0b7)
+
+* b. How does the average property price differ across top 10 districts?
+
+```ruby
+# Calculate the mean property price for each district
+mean_prices = modin_df.groupby('District')['Price'].mean().sort_values(ascending=False).head(10)
+
+# Plotting a bar graph for average property prices across top 10 districts
+plt.figure(figsize=(12, 8))
+mean_prices.plot(kind='bar', color='skyblue')
+plt.title('Average Property Prices in Top 10 Districts')
+plt.xlabel('District')
+plt.ylabel('Average Price')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+```
+
+![image](https://github.com/drshahizan/Python-big-data/assets/118237681/9616f519-a4f1-47ca-8d37-b626dca3e211)
+
+> **Answer:** Kensington and Chelsea District has the highest average price for the property. On the other end of the spectrum, Hammersmith and Fulham, St Mary's, and Richmond Upon Thames hold the lowest number of properties, and their counts are relatively similar. This observation suggests a potential rural setting for these areas, contributing to their lower property numbers.
+
+
+### 5.3 Dask
+
+* a. What insights can be inferred about the variation in the ratio of new to old properties within the top 10 districts, considering the distribution of new and old properties in these specific areas?
+```ruby
+# Assuming 'Old/New' and 'District' are columns in your DataFrame
+df['Old/New'] = df['Old/New'].replace({'N': 'Old', 'Y': 'New'})
+
+# Get the top 10 districts based on the count of properties
+top_10_districts = df['District'].value_counts().head(10).index
+
+# Filter the DataFrame for the top 10 districts
+df_top_10 = df[df['District'].isin(top_10_districts)]
+
+# Convert Dask DataFrame to Pandas DataFrame
+df_top_10_pd = df_top_10.compute()
+
+# Create the count plot for new and old properties in the top 10 districts using Seaborn
+plt.figure(figsize=(12, 8))
+sns.countplot(x='District', hue='Old/New', data=df_top_10_pd, order=top_10_districts)
+plt.title('Distribution of New and Old Properties in Top 10 Districts')
+plt.xlabel('District')
+plt.ylabel('Count')
+
+# Modifying the legend labels
+plt.legend(title='Property Type', labels=['Old', 'New'])
+
+plt.xticks(rotation=45)  # Rotate x-axis labels for better readability if necessary
+plt.tight_layout()
+plt.show()
+```
+
+![image](https://github.com/drshahizan/Python-big-data/assets/118237681/4bf9d567-b745-492d-a906-8ce96ecab510)
+
+> **Answer**
+
+>>  Based on all these 10 districts, the graph shows that old property type dominantly held all of the districts.
+
+>> From these graph, it shows that City of WestMinster has the highest ol property type as well as one of the lowest new property type. It concludes that this place is less progressive and not one of the most focal point of development.
+
+>> Manchester district hold the most balance between old and new property types. This shows that the district might have a balanced in terms of development.
+
+* b. How does the average property price differ across top 10 districts?
+
+```ruby
+# Assuming 'Price' and 'District' are columns in your DataFrame
+df['Price'] = df['Price'].astype('float32')  # Make sure 'Price' is of numeric type
+
+# Calculate the mean property price for each district
+mean_prices = df.groupby('District')['Price'].mean().compute().sort_values(ascending=False).head(10)
+
+# Plotting a bar graph for average property prices across top 10 districts
+plt.figure(figsize=(12, 8))
+mean_prices.plot(kind='bar', color='skyblue')
+plt.title('Average Property Prices in Top 10 Districts')
+plt.xlabel('District')
+plt.ylabel('Average Price')
+plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels for better readability
+plt.tight_layout()
+plt.show()
+```
+
+![image](https://github.com/drshahizan/Python-big-data/assets/118237681/4317b2c0-b510-4ec1-98dd-f76b5c213b0d)
+
+
+> **Answer:**
+
+>> West Northamptonshire District has the highest average price for the property. From this data, it shows that this district is one of the
+
+>> On the other end of the spectrum, Chiltern to Hillingdon hold the lowest number of properties, and their counts are relatively similar. This observation suggests a potential low setting for these areas, contributing to their lower property numbers.
+
+
+## 6. Conclusion
 
 
 
