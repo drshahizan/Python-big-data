@@ -1,5 +1,3 @@
-<div style="text-align:center;">
-  
 <a href="https://github.com/drshahizan/Python-big-data/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/Python-big-data" alt="Stars Badge"/></a>
 <a href="https://github.com/drshahizan/Python-big-data/network/members"><img src="https://img.shields.io/github/forks/drshahizan/Python-big-data" alt="Forks Badge"/></a>
 <a href="https://github.com/drshahizan/Python-big-data/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/Python-big-data" alt="Pull Requests Badge"/></a>
@@ -9,7 +7,7 @@
 
 # **Assignment 7: Comparison Between Libraries (Pandas, Vaex & Dask)**
 
-### Group Members
+### Group Members:
 |No.|NAME|MATRICS NO.|
 |---|---|---|
 |1.|FAUZAN AQIL BIN AZMAN|A20EC0078|
@@ -108,4 +106,3 @@ Dask is a parallel computing library in Python that seamlessly integrates with p
 
 [![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fdrshahizan&labelColor=%23697689&countColor=%23555555&style=plastic)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fdrshahizan)
 ![](https://hit.yhype.me/github/profile?user_id=81284918)
-</div>
