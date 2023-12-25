@@ -21,7 +21,7 @@ Don't forget to hit the :star: if you like this repo.
 * Pandas - [📖 library_1.ipynb]()
 * DASK - [📖 library_2.ipynb]()
 * Vaex - [📖 library_3.ipynb]()
-* Comparison - [📖 comparison.md]()
+* Comparison - [📖 comparison.md](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/Blublublu/comparison.md)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
