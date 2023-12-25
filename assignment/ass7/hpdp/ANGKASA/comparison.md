@@ -118,7 +118,7 @@ Dask is a parallel computing library in Python that seamlessly integrates with p
   - Dask can handle datasets that do not fit into memory by utilizing out-of-core computing and processing data in chunks.
 
 ## Comparative Analysis
-- Time to load data
+- Time to load data 🕘
   - The time to load data refers to the duration it takes to read and load a dataset into memory for further processing or analysis. The loading time can be a critical factor, especially when dealing with large datasets, and it depends on various factors including the size of the dataset, the format of the data, and the capabilities of the software or libraries used for loading. Below are the comparison between the time taken to load the data before the optimization for each libraries:
 
 <div align="center">
