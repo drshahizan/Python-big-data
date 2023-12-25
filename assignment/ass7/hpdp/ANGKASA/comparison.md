@@ -23,7 +23,7 @@ Member 4<br>
 Name: Nik Amirul Ariff Bin Amran
 Matriculation Number: A21EC0214
 
-## Dataset: Chess Game
+## Dataset: Chess Game ♟️
 
 This dataset contains 6.25 Million chess games played on lichess.org during July of 2016. This dataset is around 4 GB. Some of the games have Stockfish analysis evaluations like* [%eval 2.35] (235 centipawn advantage)* always from White's point of view. These are evaluations of the movement made by a player.
 
