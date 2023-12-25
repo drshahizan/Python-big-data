@@ -52,7 +52,7 @@ This dataset offers a comprehensive overview of property sales in England and Wa
 
 #### Key Features/Columns:
 
--- **Postcode:** The postal code denoting the property's location.
+- **Postcode:** The postal code denoting the property's location.
 - **PAON (Primary Addressable Object Name):** Typically the house number or name.
 - **SAON (Secondary Addressable Object Name):** Additional information if the building is divided into flats or sub-buildings.
 - **Street:** The street name where the property is situated.
