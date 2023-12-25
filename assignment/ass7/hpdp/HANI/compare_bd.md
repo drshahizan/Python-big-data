@@ -577,7 +577,27 @@ file_size = os.path.getsize(filename) / (1024 ** 2)  # Convert to megabytes
 ```
 Computation time: 0.01 seconds
 
-## 4. Ask & answer questions about the data
+## 4. Performing EDA
+
+### 4.1 Pandas
+
+* Pie Chart on Distribution of Property Types
+
+```ruby
+# Calculate the count of each property type
+property_type_count = df['Property Type'].value_counts()
+
+# Plotting the pie chart
+plt.figure(figsize=(6, 6))
+property_type_count.plot(kind='pie', autopct='%1.1f%%', startangle=90, colors=plt.cm.tab20.colors)
+plt.title('Distribution of Property Types')
+plt.ylabel('')  # Remove y-axis label
+plt.tight_layout()
+plt.show()
+```
+<div align="center">
+![image](https://github.com/drshahizan/Python-big-data/assets/118237681/8e3c3b07-1a27-4325-b0af-614d456aa525)
+</div>
 
 
 
