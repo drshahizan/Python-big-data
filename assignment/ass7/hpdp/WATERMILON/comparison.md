@@ -56,15 +56,17 @@ This dataset offers a comprehensive overview of property sales in England and Wa
 
 #### Key Features/Columns:
 
-- **Postcode:** The postal code denoting the property's location.
-- **PAON (Primary Addressable Object Name):** Typically the house number or name.
-- **SAON (Secondary Addressable Object Name):** Additional information if the building is divided into flats or sub-buildings.
-- **Street:** The street name where the property is situated.
-- **Locality:** Supplementary locality information.
-- **Town/City:** The town or city where the property is positioned.
-- **District:** The district in which the property is situated.
-- **County:** The county where the property is located.
-- **Price Paid:** The amount for which the property was sold.
+| Attribute                             | Description                                                     |
+|-----------------------------------|-----------------------------------------------------------------|
+| **Postcode**                      | The postal code denoting the property's location.               |
+| **PAON (Primary Addressable Object Name)** | Typically the house number or name.                    |
+| **SAON (Secondary Addressable Object Name)** | Additional information if the building is divided into flats or sub-buildings. |
+| **Street**                        | The street name where the property is situated.                 |
+| **Locality**                      | Supplementary locality information.                            |
+| **Town/City**                     | The town or city where the property is positioned.             |
+| **District**                      | The district in which the property is situated.                |
+| **County**                        | The county where the property is located.                      |
+| **Price Paid**                    | The amount for which the property was sold.                    |
 
 #### Usefulness:
 
