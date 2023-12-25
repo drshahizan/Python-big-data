@@ -153,11 +153,19 @@ Modin's default backend is dependent on other programs, like Dask. Handling thes
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+#### References:
+1. [Dask in Github](https://github.com/dask/dask)
+2. [Documentation of Dask](https://docs.dask.org/en/stable/)
+
 ### 3.3. Vaex
 
 <a target="_blank" href="https://colab.research.google.com/github/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/WATERMILON/vaex.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+
+#### References:
+1. [Vaex in Github](https://github.com/vaexio/vaex)
+2. [Documentation of Vaex](https://vaex.readthedocs.io/en/latest/)
 
 ## 4. Comparative Analysis of Libraries <a name = "comp_analysis"></a>
 
