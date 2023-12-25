@@ -198,6 +198,9 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 ### 4.7 Number of unique values per columns <a name = "unique"></a>
 Library 1: **Pandas**
@@ -205,6 +208,9 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 ## 5. Exploratory Data Analysis  <a name = "eda"></a>
 Library 1: **Pandas**
@@ -212,6 +218,9 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 ### 5.1  Summary Statistics  <a name = "sum_stat"></a>
 Library 1: **Pandas**
@@ -219,6 +228,9 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 ### 5.2  Data Visualization  <a name = "data_visual"></a>
 Library 1: **Pandas**
@@ -226,6 +238,9 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 #### 5.2.1  Total Volume Produced by Beer Style  <a name = "total_volume"></a>
 Library 1: **Pandas**
@@ -233,6 +248,9 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 #### 5.2.2  Average Fermentation Time by Beer Stylee  <a name = "avg"></a>
 Library 1: **Pandas**
@@ -240,6 +258,9 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 #### 5.2.3  Fermentation Time by Beer Style  <a name = "fermentation_time"></a>
 Library 1: **Pandas**
@@ -247,6 +268,9 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 #### 5.2.4 Correlation between the Fermentation_Time, Temperature, pH_Level, Gravity, and Quality_Score <a name = "corr"></a>
 Library 1: **Pandas**
@@ -254,6 +278,9 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 #### 5.2.4  Total Sales by Beer Style <a name = "sales"></a>
 Library 1: **Pandas**
@@ -261,6 +288,9 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 #### 5.2.5  Total Loss by Beer Style <a name = "loss"></a>
 Library 1: **Pandas**
@@ -268,6 +298,9 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 ## 6. Asking and Answering Questions <a name = "qna"></a>
 
@@ -277,6 +310,9 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 ### 6.2 What is the total volume produced for each location? <a name = "q2"></a>
 Library 1: **Pandas**
@@ -284,6 +320,9 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 ### 6.3 What is the relation between fermentation time and alcohol content?<a name = "q3"></a>
 Library 1: **Pandas**
@@ -291,6 +330,9 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 ### 6.4 Which ingredient ratio is associated with the highest total sales?<a name = "q4"></a>
 Library 1: **Pandas**
@@ -298,6 +340,9 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 ### 6.5 What is the average loss during brewing, fermentation, and bottling/kegging for each beer style?<a name = "q5"></a>
 Library 1: **Pandas**
@@ -305,8 +350,63 @@ Library 1: **Pandas**
 Library 2: **Datatable**
 
 Library 3: **PySpark**
+```ruby
+
+```
 
 ## 7. Inferences and Conclusion <a name = "conclusion"></a>
+
+### 1. Pandas:
+**Strengths:**
+- **Ease of Use:** Pandas is widely known for its user-friendly syntax and ease of learning.
+- **Rich Functionality:** Pandas provides a plethora of functions for data manipulation, cleaning, and analysis.
+- **Integration with Ecosystem:** It seamlessly integrates with other data science libraries, such as NumPy, Matplotlib, and Scikit-Learn.
+
+**Weaknesses:**
+- **Limited Scalability:** Pandas is not designed for distributed computing, making it less suitable for large datasets that don't fit into memory.
+- **Performance:** Performance can be a concern for large datasets, and certain operations might be slow compared to other big data tools.
+
+### 2. Data Table:
+**Strengths:**
+- **High Performance:** Data Table is built for performance, making it efficient for large datasets.
+- **Memory Efficiency:** It's designed to handle datasets that are too large to fit into memory efficiently.
+- **Data Manipulation:** Data Table provides a powerful set of tools for data manipulation and transformation.
+
+**Weaknesses:**
+- **Learning Curve:** Data Table may have a steeper learning curve compared to Pandas for new users.
+- **Ecosystem Integration:** While it has good integration with R, its ecosystem is not as extensive as Pandas in the Python ecosystem.
+
+### 3. PySpark:
+**Strengths:**
+- **Distributed Computing:** PySpark is built on top of Apache Spark, allowing it to scale horizontally and handle large datasets distributed across a cluster.
+- **Performance:** Spark's in-memory processing and lazy evaluation contribute to excellent performance.
+- **Built for Big Data:** PySpark is specifically designed to handle big data processing and analytics.
+
+**Weaknesses:**
+- **Complexity:** Setting up and configuring a Spark cluster can be complex, and there might be a learning curve for users new to distributed computing.
+- **Overhead:** For small to medium-sized datasets, the overhead of setting up a Spark cluster might outweigh the benefits.
+
+## Use Case Comparison:
+### 1. Pandas:
+Pandas is best suited for:
+- Exploratory data analysis on small to medium-sized datasets.
+- Prototyping and quick analysis where distributed computing is not necessary.
+
+### 2. Data Table:
+Data Table is well-suited for:
+- Large datasets that do not fit into memory.
+- Performance-critical data manipulation tasks.
+
+### 3. PySpark:
+PySpark excels in:
+- Processing and analyzing massive datasets that require distributed computing.
+- Scalable machine learning and data processing pipelines.
+
+## Conclusion:
+- **Pandas** is excellent for smaller datasets and is widely used in the data science community for its simplicity.
+- **Data Table** shines in scenarios where memory efficiency and high performance are crucial, making it suitable for large datasets.
+- **PySpark** is the go-to choice for big data processing, providing scalability and performance for large-scale distributed computing.
+
 
 ## 8. References and Future Work <a name = "future"></a>
 ## 9. Contributions<a name = "contribution"></a>
