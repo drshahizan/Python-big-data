@@ -44,14 +44,14 @@ In this project, we're exploring and analyzing the [Airline Delay Analysis](http
 ## Library Chosen
 This document presents an exploratory data analysis (EDA) on a dataset using three different libraries: Pandas, Dask, and Vaex. The goal is to compare the performance of these libraries in terms of time execution for typical EDA tasks.
 ### Pandas
-Description: Pandas is a popular data manipulation and analysis library for Python. It provides data structures like DataFrames that are efficient for working with structured data.
-Website: [Pandas](https://pandas.pydata.org/)
+- Description: Pandas is a popular data manipulation and analysis library for Python. It provides data structures like DataFrames that are efficient for working with structured data.
+- Website: [Pandas](https://pandas.pydata.org/)
 ### DASK
-Description: Dask is a parallel computing library that integrates with Pandas and extends its capabilities to handle larger-than-memory computations. It is particularly useful for working with big datasets.
-Website: [Dask](https://www.dask.org/)
+- Description: Dask is a parallel computing library that integrates with Pandas and extends its capabilities to handle larger-than-memory computations. It is particularly useful for working with big datasets.
+- Website: [Dask](https://www.dask.org/)
 ### Vaex
-Description: Vaex is a high-performance Python library for lazy, out-of-core DataFrames. It is designed to work efficiently with larger-than-memory datasets and provides fast and memory-efficient operations.
-Website: [Vaex](https://vaex.io/)
+- Description: Vaex is a high-performance Python library for lazy, out-of-core DataFrames. It is designed to work efficiently with larger-than-memory datasets and provides fast and memory-efficient operations.
+- Website: [Vaex](https://vaex.io/)
 ## Conclusion
 
 
