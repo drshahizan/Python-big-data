@@ -41,7 +41,7 @@ In this project, we're exploring and analyzing the [Airline Delay Analysis](http
 - The datasets contain daily airline information covering from flight information, carrier company, to taxing-in, taxing-out time, and generalized delay reason of exactly 10 years, from 2009 to 2019. The DOT's database is renewed from 2018, so there might be a minor change in the column names. In this assignment, we use dataset of flight information in **2018** to do EDA and visualization.
 -The flight delay and cancellation data were collected and managed by the DOT's Bureau of Transportation Statistics, only included data related to time-analysis on each flight.
 
-**Explanation of Columns of Dataset**
+**Explanation of Columns of Dataset:**
 | Column               | Explanation                                                                                       |
 |----------------------|---------------------------------------------------------------------------------------------------|
 | FL_DATE              | The date of the flight.                                                                           |
