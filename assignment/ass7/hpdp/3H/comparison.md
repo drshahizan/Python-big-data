@@ -67,14 +67,14 @@ In this assignment 7,  we used `groupby` function to grouping based on the *Beer
 Memory usage is an essential consideration when working with large datasets, and different libraries may have varying memory requirements. Furthermore, the memory usage is directly influenced by the size of complexity of the dataset. This is because some operations may become meory-intensive, where with large datasets, it will lead to performance issues. Let's discuss the memory usage aspects of Pandas, Modin, and Dask:
   
   <br>
-   <center>
+   <div align="center">
 
    | Operation/Analysis | Pandas | Modin | Dask |
    | --------------- | --------------- | --------------- |--------------- |
    | Read selected columns | 2.4GB   | 839.2+ MB / 0.82GB   | 842.4MB / 0.823GB |
    | Reducing Memory Usage (After Optimization)   | 0.17GB   |  0.17GB  | 2261.44MB / 2.21GB|
 
-   </center>
+   </div>
 <br>
 
 (**1) Pandas vs. Modin:**
@@ -100,7 +100,7 @@ Here, in reading selected columns, Modin and Dask have similar memory usage for 
 The execution time of data processing tasks is a crucial factor when dealing with large datasets. Let's explore how Pandas, Modin, and Dask contribute to execution time and their implications for handling big dataset case studies:
 
 <br>
- <center>
+ <div align="center">
 
 | Operation/Analysis | Pandas | Modin | Dask |
 | --------------- | --------------- | --------------- |--------------- |
@@ -108,7 +108,7 @@ The execution time of data processing tasks is a crucial factor when dealing wit
 | Distribution of Numerical Features   | 7.28 sec    | 11.53 sec    | 1.63 sec|
 | Chunking   | 150.21 sec   | 79.86 sec    | 0.99 sec|
 
- </center>
+ </div>
 
 <br>
 
