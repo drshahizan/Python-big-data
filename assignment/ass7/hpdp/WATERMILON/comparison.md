@@ -79,6 +79,13 @@ Analysts and businesses can leverage this dataset to discern market trends, asse
 
 ## 3. About the Libraries Chosen <a name = "about_lib"></a>
 
+### 3.1. Modin
+
+
+### 3.2. Dask
+
+
+### 3.3. Vaex
 
 ## 4. Comparative Analysis of Libraries <a name = "comp_analysis"></a>
 
