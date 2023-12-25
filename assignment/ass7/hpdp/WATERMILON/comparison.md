@@ -307,37 +307,237 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
 ### 4.1. Data Preparation and Cleaning
 
-#### 4.1.1. Related Package Loading
+#### 4.1.1. Dataset Loading
 
 1. **Modin:**
+   
+    ```ruby
+    colnames=['Transaction_unique_identifier', 'price', 'Date_of_Transfer', 'postcode', 'Property_Type',
+          'Old/New', 'Duration', 'PAON', 'SAON', 'Street', 'Locality', 'Town/City', 'District', 'County', 'PPDCategory_Type','Record_Status - monthly_file_only']
+
+    data = pd.read_csv("/content/202304.csv", header = None, names = colnames, parse_dates = ["Date_of_Transfer"])
+    ```
+
+    Time Consumed: 3 minutes 35 seconds
 
 2. **Dask:**
    
-3. **Vaex:**
+   ```ruby
+    colnames=['Transaction_unique_identifier', 'price', 'Date_of_Transfer', 'postcode', 'Property_Type',
+          'Old/New', 'Duration', 'PAON', 'SAON', 'Street', 'Locality', 'Town/City', 'District', 'County', 'PPDCategory_Type','Record_Status - monthly_file_only']
+    dtypes = {'PAON': 'object', 'SAON': 'object', 'postcode': 'str', 'Property_Type': 'str', 'Duration': 'str', 'PAON': 'str', 'Street': 'str', 'Town/City': 'str',
+          'District': 'str', 'County': 'str', 'Old/New': 'str', 'PPDCategory_Type': 'str'}
 
-#### 4.1.2. Dataset Loading
+    data = dd.read_csv("/content/202304.csv", dtype={'PAON': 'object', 'SAON': 'object', }, header = None, names = colnames, parse_dates = ["Date_of_Transfer"])
+    ```
 
-1. **Modin:**
-
-2. **Dask:**
+   Time Consumed: 50.5 milliseconds
    
 3. **Vaex:**
 
-#### 4.1.3. Data Quality Enhancement
+   ```ruby
+    colnames=['Transaction_unique_identifier', 'price', 'Date_of_Transfer', 'postcode', 'Property_Type',
+          'Old/New', 'Duration', 'PAON', 'SAON', 'Street', 'Locality', 'Town/City', 'District', 'County', 'PPDCategory_Type','Record_Status - monthly_file_only']
+
+    df = vaex.from_csv('/content/202304.csv', convert=True, header = None, chunk_size=1_000_000 )
+    df = vaex.open("/content/*.hdf5")
+
+    for i, c in enumerate(colnames):
+      df.rename(str(i),c)
+    ```
+
+   Time Consumed: 3 minutes 55 seconds
+
+#### 4.1.2. Observe the Information of Dataframe
 
 1. **Modin:**
 
+   ```ruby
+    data.info()
+    ```
+
+   Time Consumed: 1 minutes 57 seconds
+
 2. **Dask:**
+
+   ```ruby
+    data.info()
+    ```
+
+   Time Consumed: 4.36 milliseconds
    
 3. **Vaex:**
 
-#### 4.1.4. Additional Data Manipulation
+   ```ruby
+    df.info()
+    ```
+
+   Time Consumed: 17.5 milliseconds
+   
+
+#### 4.1.3. Removes the Specified Row/Column ("Transaction_unique_identifier" & "Record_Status - monthly_file_only")
 
 1. **Modin:**
 
+   ```ruby
+    data.drop(["Transaction_unique_identifier", "Record_Status - monthly_file_only"], axis = 1, inplace = True)
+    ```
+
+   Time Consumed: 31.5 milliseconds
+
 2. **Dask:**
+
+   ```ruby
+    data = data.drop(["Transaction_unique_identifier", "Record_Status - monthly_file_only"], axis = 1)
+    ```
+
+   Time Consumed: 11.6 milliseconds
    
 3. **Vaex:**
+
+   ```ruby
+    columns_to_drop = ["Transaction_unique_identifier", "Record_Status - monthly_file_only"]
+    df = df.drop(columns_to_drop)
+    ```
+
+   Time Consumed: 1.09 milliseconds
+
+#### 4.1.4. Calculate the Percentage of Missing Values
+
+1. **Modin:**
+
+   ```ruby
+    data.isna().sum() / data.shape[0]
+    ```
+
+   Time Consumed: 1.51 seconds
+
+2. **Dask:**
+
+   ```ruby
+    data.isna().sum().compute() / data.shape[0].compute()
+    ```
+
+   Time Consumed: 6 minutes 23 seconds
+   
+3. **Vaex:**
+
+   ```ruby
+    for column in df.column_names:
+      missing_fraction = df[column].isna().mean(progress='widget')
+      print(f"Column '{column}': {missing_fraction}")
+    ```
+
+   Time Consumed: 2.6 seconds
+
+#### 4.1.5. Removes the Specified Row/Column ("SAON" & "Locality")
+
+1. **Modin:**
+
+   ```ruby
+    data.drop(["SAON", "Locality"], axis = 1, inplace = True)
+    ```
+
+   Time Consumed: 6.47 milliseconds
+
+2. **Dask:**
+
+   ```ruby
+    data = data.drop(["SAON", "Locality"], axis = 1)
+    ```
+
+   Time Consumed: 7.41 milliseconds
+   
+3. **Vaex:**
+
+   ```ruby
+    columns_to_drop = ["SAON", "Locality"]
+    df = df.drop(columns_to_drop)
+    ```
+
+   Time Consumed: 2.32 milliseconds
+   
+
+#### 4.1.6. Replace the Missing Values
+
+1. **Modin:**
+
+   ```ruby
+    data.fillna({"postcode" : "UNK", "PAON" : 0, "Street" : "UNK"}, inplace = True)
+    ```
+
+   Time Consumed: 229 milliseconds
+
+2. **Dask:**
+
+   ```ruby
+    data = data.fillna({"postcode" : "UNK", "PAON" : 0, "Street" : "UNK"})
+    ```
+
+   Time Consumed: 12.2 milliseconds
+   
+3. **Vaex:**
+
+   ```ruby
+    df.fillna(value="UNK", column_names=["postcode"], inplace=True)
+    df.fillna(value="0", column_names=["PAON"], inplace=True)
+    df.fillna(value="UNK", column_names=["Street"], inplace=True)
+    ```
+
+   Time Consumed: 6.29 milliseconds
+
+#### 4.1.7. Review the Cleaning Results
+
+1. **Modin:**
+
+   ```ruby
+    data.isna().sum() / data.shape[0]
+    ```
+
+   Time Consumed: 3 minutes 1 seconds
+
+2. **Dask:**
+
+   ```ruby
+    data.isna().sum().compute() / data.shape[0].compute()
+    ```
+
+   Time Consumed: 7 minutes 13 seconds
+   
+3. **Vaex:**
+
+   ```ruby
+    for column in df.column_names:
+      missing_fraction = df[column].isna().mean(progress='widget')
+      print(f"Column '{column}': {missing_fraction}")
+    ```
+
+   Time Consumed: 2.51 seconds
+
+#### 4.1.8. Convert All Object Columns to String Type
+
+1. **Modin:**
+
+   ```ruby
+    colnames = ["postcode", "Property_Type", "Duration", "PAON", "Street", "Town/City", "District", "County", "Old/New", "PPDCategory_Type"]
+
+    data[colnames] = data.astype( { col : str for col in colnames} )[colnames]
+    ```
+
+   Time Consumed: 3 minutes 19 seconds
+
+2. **Dask:**
+
+   Not required for our analysis.
+
+   Time Consumed: -
+   
+3. **Vaex:**
+
+   Not required for our analysis.
+
+   Time Consumed: -
+
 
 ### 4.2. Exploratory Analysis and Visualization
 
