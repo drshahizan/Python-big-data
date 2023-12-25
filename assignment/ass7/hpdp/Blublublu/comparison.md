@@ -67,7 +67,25 @@ In this project, we're exploring and analyzing the [Airline Delay Analysis](http
 ## Library Chosen
 This document presents an exploratory data analysis (EDA) on a dataset using three different libraries: Pandas, Dask, and Vaex. The goal is to compare the performance of these libraries in terms of time execution for typical EDA tasks.
 ### Pandas
-- Description: Pandas is a popular data manipulation and analysis library for Python. It provides data structures like DataFrames that are efficient for working with structured data.
+
+Certainly! Let's delve deeper into each of the three libraries chosen for the Exploratory Data Analysis (EDA): Pandas, Dask, and Vaex.
+
+1. Pandas:
+- Description:
+  - Pandas is a powerful and widely used data manipulation library for Python. It provides easy-to-use data structures, such as DataFrame, for handling and analyzing structured data.
+  - It is built on top of NumPy and is designed to work seamlessly with other scientific computing libraries.
+
+- Key Features:
+  - DataFrame: A two-dimensional, tabular data structure with labeled axes (rows and columns).
+  - Wide range of data manipulation and analysis functions.
+  - Excellent support for handling missing data.
+  - Integrates with other Python libraries for data visualization and analysis.
+
+- Use Cases:
+  - Data cleaning and preprocessing.
+  - Exploratory Data Analysis (EDA).
+  - Data visualization.
+
 - Website: [Pandas](https://pandas.pydata.org/)
 ### DASK
 - Description: Dask is a parallel computing library that integrates with Pandas and extends its capabilities to handle larger-than-memory computations. It is particularly useful for working with big datasets.
