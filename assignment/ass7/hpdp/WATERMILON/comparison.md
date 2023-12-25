@@ -221,6 +221,20 @@ Compared to debugging single-node computations, debugging Dask computations can 
 
 Vaex is a high-performance Python library that allows large tabular datasets to be explored and visualized using lazy Out-of-Core DataFrames (like Pandas). It performs over a billion (10^9) samples/row calculations per second on an N-dimensional grid, calculating statistics like mean, sum, count, standard deviation, etc. Histograms, density plots, and three-dimensional volume rendering are used in visualization to enable interactive big data exploration. For optimal performance (zero memory waste), Vaex employs memory mapping, zero memory copy policy, and lazy computations.
 
+#### Getting Started:
+
+To install Vaex using pip, run the following code segment in the Google Colab:
+
+```ruby
+!pip install vaex
+```
+
+To use the Vaex in Google Colab, run the code segment below in Google Colab to import the Vaex:
+
+```ruby
+import vaex
+```
+
 #### Strengths: 
 
 1. High Performance:
