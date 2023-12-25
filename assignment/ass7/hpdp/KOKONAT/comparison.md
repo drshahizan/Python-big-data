@@ -317,6 +317,9 @@ plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels for better visibilit
 plt.show()
 
 ```
+Memory usage: 220.65234375 MB
+
+Computation Time: 47.033284187316895 seconds
 
 #### 5.2.4 Correlation between the Fermentation_Time, Temperature, pH_Level, Gravity, and Quality_Score <a name = "corr"></a>
 Library 1: **Pandas**
@@ -494,28 +497,33 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 ```ruby
-# Check if Spark session exists; if not, create a new one
-spark = SparkSession.builder.appName("BeerAnalysis").getOrCreate()
-
+# Assuming your PySpark DataFrame is named brewery_df
 selected_columns = ["Fermentation_Time", "Alcohol_Content"]
+filtered_data = brewery_df.select(selected_columns).filter(
+    col("Fermentation_Time").isNotNull() &
+    col("Alcohol_Content").isNotNull()
+)
 
-# Assuming brewery_df is your PySpark DataFrame
-result_df = brewery_df.groupBy('Fermentation_Time').agg(avg('Alcohol_Content').alias('Average_Alcohol_Content'))
+# Sample a fraction of the data (adjust fraction as needed)
+sampled_data = filtered_data.sample(fraction=0.0001, seed=42)
 
-# Collect the result to the driver as a Pandas DataFrame for plotting
-pandas_df = result_df.toPandas()
+# Convert PySpark DataFrame to Pandas for visualization
+pandas_df = sampled_data.toPandas()
 
-# Plot the line plot using Matplotlib
+# Sort the data by Fermentation_Time for a line plot
+pandas_df = pandas_df.sort_values(by='Fermentation_Time')
+
+# Plot the line plot using Matplotlib and Seaborn
 plt.figure(figsize=(8, 6))
-sns.lineplot(x='Fermentation_Time', y='Average_Alcohol_Content', data=pandas_df, color='green')
-plt.title('Line Plot: Fermentation Time vs Average Alcohol Content')
+sns.lineplot(x='Fermentation_Time', y='Alcohol_Content', data=pandas_df, color='green')
+plt.title('Line Plot: Fermentation Time vs Alcohol Content')
 plt.xlabel('Fermentation Time')
-plt.ylabel('Average Alcohol Content')
+plt.ylabel('Alcohol Content')
 plt.show()
 ```
-Memory usage: 196.4296875 MB
+Memory usage: 223.80078125 MB
 
-Computation Time: 35.55375671386719 seconds
+Computation Time: 30.488824605941772 seconds
 
 ### 6.4 Which ingredient ratio is associated with the highest total sales?<a name = "q4"></a>
 Library 1: **Pandas**
