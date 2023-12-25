@@ -218,8 +218,17 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 ```ruby
+# Assuming you have a PySpark DataFrame named brewery_df
+unique_values = [(column, brewery_df.select(approx_count_distinct(column)).collect()[0][0]) for column in brewery_df.columns]
 
+# Print number of unique values per column
+print("\nNumber of Unique Values per Column:")
+for col_name, unique_count in unique_values:
+    print(f"{col_name}: {unique_count}")
 ```
+Memory usage: 116.2578125 MB
+
+Computation Time: 584.2389488220215 seconds
 
 ## 5. Exploratory Data Analysis  <a name = "eda"></a>
 Library 1: **Pandas**
@@ -289,6 +298,23 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 ```ruby
+selected_columns = ["Beer_Style", "Fermentation_Time"]
+filtered_data = brewery_df.select(selected_columns).filter(col("Fermentation_Time").isNotNull())
+
+# Sample a fraction of the data (adjust fraction as needed)
+sampled_data = filtered_data.sample(fraction=0.0001, seed=42)
+
+# Convert PySpark DataFrame to Pandas for visualization
+pandas_df = sampled_data.toPandas()
+
+# Plot the boxplot using Matplotlib and Seaborn
+plt.figure(figsize=(12, 6))
+sns.boxplot(x='Beer_Style', y='Fermentation_Time', data=pandas_df)
+plt.title('Boxplot of Fermentation Time by Beer Style')
+plt.xlabel('Beer Style')
+plt.ylabel('Fermentation Time')
+plt.xticks(rotation=45, ha='right')  # Rotate x-axis labels for better visibility
+plt.show()
 
 ```
 
@@ -375,8 +401,36 @@ Library 2: **Datatable**
 
 Library 3: **PySpark**
 ```ruby
+# Assuming the correct column names for loss are "Loss_During_Brewing", "Loss_During_Fermentation", and "Loss_During_Bottling_Kegging"
+selected_columns_loss = ["Beer_Style", "Loss_During_Brewing", "Loss_During_Fermentation", "Loss_During_Bottling_Kegging"]
 
+# Group by beer style and calculate the total loss
+total_loss_by_style = brewery_df.groupBy("Beer_Style").agg(
+    sum(col("Loss_During_Brewing")).alias("Total_Loss_During_Brewing"),
+    sum(col("Loss_During_Fermentation")).alias("Total_Loss_During_Fermentation"),
+    sum(col("Loss_During_Bottling_Kegging")).alias("Total_Loss_During_Bottling_Kegging")
+)
+
+# Convert PySpark DataFrame to Pandas for visualization
+total_loss_by_style_pandas = total_loss_by_style.toPandas()
+
+# Plotting
+plt.figure(figsize=(12, 6))
+plt.plot(total_loss_by_style_pandas['Beer_Style'], total_loss_by_style_pandas['Total_Loss_During_Brewing'], label='Loss During Brewing', color='blue')
+plt.plot(total_loss_by_style_pandas['Beer_Style'], total_loss_by_style_pandas['Total_Loss_During_Fermentation'], label='Loss During Fermentation', color='green')
+plt.plot(total_loss_by_style_pandas['Beer_Style'], total_loss_by_style_pandas['Total_Loss_During_Bottling_Kegging'], label='Loss During Bottling Kegging', color='orange')
+
+plt.xlabel('Beer Style')
+plt.ylabel('Total Loss')
+plt.title('Total Loss by Beer Style')
+plt.xticks(rotation=0, ha='right')
+plt.legend()
+plt.show()
 ```
+Memory usage: 233.21875 MB
+
+Computation Time: 27.439659595489502 seconds
+
 
 ## 6. Asking and Answering Questions <a name = "qna"></a>
 
