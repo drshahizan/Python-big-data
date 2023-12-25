@@ -73,6 +73,9 @@ This dataset offers a comprehensive overview of property sales in England and Wa
 
 Analysts and businesses can leverage this dataset to discern market trends, assess property valuations, and identify investment opportunities within the dynamic real estate sector of England and Wales.
 
+#### Dataset Link:
+
+[UK Property Price Data (1995-2023)](https://www.kaggle.com/datasets/willianoliveiragibin/uk-property-price-data-1995-2023-04)
 
 ## 3. About the Libraries Chosen <a name = "about_lib"></a>
 
