@@ -131,7 +131,7 @@ Users can customize Modin to meet their unique needs thanks to the freedom to se
 
 Although Modin is compatible with Pandas, new users may encounter a learning curve, particularly if they are unfamiliar with distributed computing concepts.
 
-2. Expenses for Tiny Datasets:
+2. Overhead for Small Datasets:
 
 Modin's advantages are greatest when applied to sizable datasets. The overhead of parallelization may not yield as noticeable performance gains as using Pandas directly for smaller datasets that fit comfortably in memory.
 
@@ -152,6 +152,62 @@ Modin's default backend is dependent on other programs, like Dask. Handling thes
 <a target="_blank" href="https://colab.research.google.com/github/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/WATERMILON/dask.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+
+As the Python library for parallel and distributed computing, Dask can help users to handle datasets that are larger than memory by utilizing the capabilities of distributed and parallel computing. It is especially useful for tasks involving data analysis and manipulation, and it offers a more sophisticated option than single-node tools such as Pandas.
+
+#### Getting Started:
+
+To install Dask using pip, run the following code segment in the Google Colab:
+
+```ruby
+!pip install "dask[complete]"
+```
+
+To use the Dask in Google Colab, run the code segment below in Google Colab to import the Dask DataFrame:
+
+```ruby
+import dask.dataframe as dd
+```
+
+#### Strengths: 
+
+1. Distributed and Parallel Computing:
+
+Users can scale their computations across multiple cores or even cluster environments with Dask's proficiency in parallel and distributed computing. This is especially useful for managing large amounts of data that are too large for a single machine to handle.
+
+2. Pandas-Like API:
+
+For users who are already familiar with working with Pandas, Dask offers an API that is similar to Pandas. This reduces the difficulty of acclimating to distributed computing.
+
+3. Lazy Evaluation:
+
+Dask builds a task graph for the whole computation before executing it because it uses lazy evaluation. This makes it possible to schedule tasks more effectively and carry them out quickly, especially when working with complicated operations on big datasets.
+
+4. Out-of-Core Processing:
+
+Dask works flawlessly with datasets that are no longer in use. By cleverly managing data in smaller chunks, it enables processing of data larger than the available RAM, much like Pandas does in-memory.
+
+5. Scalability:
+
+Dask can grow from a single machine to a cluster of machines thanks to its scalable design. Because of its scalability, it can be used for a wide range of data analysis tasks, from small datasets to large distributed environments.
+
+#### Weaknesses:
+
+1. Learning Curve:
+
+There might be a learning curve when switching from Pandas to Dask, particularly for users who are unfamiliar with distributed computing ideas. It takes some learning to figure out how to use Dask for a given set of use cases.
+
+2. Limited Functionality:
+
+Dask does not implement the entire Pandas API, despite covering a large portion of Pandas functionality. Users may need to modify their code to accommodate for the possibility that some advanced Pandas features or particular operations won't be directly supported.
+
+3. Overhead Usage for Small Dataset:
+
+Dask's distributed and parallel architecture comes with an inherent overhead. This overhead may outweigh the advantages for smaller datasets that fit in memory, in which case simpler tools like Pandas might be more appropriate.
+
+4. Debugging Complexity:
+
+Compared to debugging single-node computations, debugging Dask computations can be more complex, particularly in a distributed setting. Issue detection and resolution in a distributed environment may call for extra knowledge.
 
 #### References:
 1. [Dask in Github](https://github.com/dask/dask)
