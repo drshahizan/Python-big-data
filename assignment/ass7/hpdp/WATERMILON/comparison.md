@@ -538,6 +538,19 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: -
 
+#### 4.1.9. Comparison of Time Consumed:
+
+| Operation/Analysis | Modin | Dask | Vaex |
+|--------------------|-------|------|------|
+| 4.1.1. Dataset Loading    | 3 min 35 sec | 50.5 ms | 3 min 55 sec |
+| 4.1.2. Dataframe Info     | 1 min 57 sec | 4.36 ms | 17.5 ms |
+| 4.1.3. Drop Columns       | 31.5 ms | 11.6 ms | 1.09 ms |
+| 4.1.4. Missing Values %   | 1.51 sec | 6 min 23 sec | 2.6 sec |
+| 4.1.5. Drop Columns       | 6.47 ms | 7.41 ms | 2.32 ms |
+| 4.1.6. Replace Missing    | 229 ms | 12.2 ms | 6.29 ms |
+| 4.1.7. Review Cleaning    | 3 min 1 sec | 7 min 13 sec | 2.51 sec |
+| 4.1.8. Convert to String  | 3 min 19 sec | - | - |
+
 
 ### 4.2. Exploratory Analysis and Visualization
 
@@ -689,6 +702,17 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
     ```
 
    Time Consumed: 4.34 seconds
+
+#### 4.2.6. Comparison of Time Consumed:
+
+| Operation/Analysis                        | Modin           | Dask                  | Vaex           |
+|-------------------------------------------|-----------------|-----------------------|----------------|
+| 4.2.1. Data Observation                   | 3.63 sec    | 3 min 25 sec  | 5.76 sec   |
+| 4.2.2. Coefficient of Skewness            | 5 min 1 sec  | 4 min 46 sec   | 16.7 sec   |
+| 4.2.3. Explore Property Prices in London  | 1 min 10 sec    | 1 min 1 sec            | 2.62 sec   |
+| 4.2.4. Explore Number of Classes Influence| 1 min 20 sec    | 3 min 14 sec           | 4.17 sec   |
+| 4.2.5. Understand Heights of Prices        | 3 min 5 sec     | 1 min 14 sec           | 4.34 sec   |
+
 
 ### 4.3. Asking and Answering Questions
 
