@@ -2,7 +2,7 @@
 
 # Assignment 7: Comparison between libraries By Truth Archive
 
-### Group Name: Truth Archive
+### Group Name: Thruth Archive
 
 ### Group Members
 | Name                             | Matrix Number |
