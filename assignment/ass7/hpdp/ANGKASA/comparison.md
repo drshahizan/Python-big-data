@@ -51,7 +51,8 @@ Read and write data from various file formats, such as CSV, Excel, SQL databases
 
 - Visualization:
 Integrated plotting capabilities for quick data visualization, built on top of Matplotlib.
-<br>
+<be>
+
 ## Library 2: **Veax**
 ![1639567859424](https://github.com/drshahizan/Python-big-data/assets/146650043/7d66bef8-fbc2-49ce-b89e-ee5a5cce278b)
 Vaex is a Python library for lazy, out-of-core DataFrames. It is designed to efficiently handle and analyze extremely large datasets that may not fit into memory.
