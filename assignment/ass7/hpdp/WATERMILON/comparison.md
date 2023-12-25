@@ -72,6 +72,8 @@ Analysts and businesses can leverage this dataset to discern market trends, asse
 
 ## 3. About the Libraries Chosen <a name = "about_lib"></a>
 
+For assignment 7 that regarding "Comparative Analysis of Data Analysis Libraries", our group have choose three libraries which are Modin, Dask and Vaex.
+
 ### 3.1. Modin
 
 <a target="_blank" href="https://colab.research.google.com/github/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/WATERMILON/modin.ipynb">
