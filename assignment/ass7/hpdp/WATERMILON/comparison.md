@@ -58,7 +58,9 @@
     + [4.3.4. How does the combination of PPDCategory_Type and Old/New property status influence property prices?](#how-does-the-combination-of-ppdcategory_type-and-oldnew-property-status-influence-property-prices)
     + [4.3.5. What is the trend in property prices over time?](#what-is-the-trend-in-property-prices-over-time)
     + [4.3.6. How does the price of property vary based on different property types over time?](#how-does-the-price-of-property-vary-based-on-different-property-types-over-time)
+    + [4.3.7. Comparison of Time Consumed](#comparison-of-time-consumed-2)
 + [5. Inferences and Conclusion](#conclusion)
++ [6. References](#references)
 + [Contributions](#contribution)
 
 ## 1. Introduction <a name = "intro"></a>
@@ -1000,6 +1002,15 @@ Weaknesses:
 - Vaex is very efficient, but for tasks requiring less computation or with smaller datasets, its features might be too much.
 
 In conclusion, we do think that Vaex is a great option and best library for computationally demanding tasks and big datasets because it continuously exhibits superior performance. Dask provides scalability advantages and performs well in distributed computing scenarios. Modin shows inconsistent performance and might not always be the best option for extensive and computationally demanding analyses, even though it is appropriate for some use cases. The size of the dataset, the particular requirements of the analysis, and the desire for a smooth transition from conventional pandas workflows should all be taken into account when choosing one of these libraries.
+
+## 6. References <a name = "references"></a>
+
+1. [Modin in Github](https://github.com/modin-project/modin)
+2. [Documentation of Modin](https://modin.readthedocs.io/en/stable/)
+3. [Dask in Github](https://github.com/dask/dask)
+4. [Documentation of Dask](https://docs.dask.org/en/stable/)
+5. [Vaex in Github](https://github.com/vaexio/vaex)
+6. [Documentation of Vaex](https://vaex.readthedocs.io/en/latest/)
 
 ## Contribution 🛠️  <a name = "contribution"> </a>
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
