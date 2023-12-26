@@ -981,7 +981,6 @@ PySpark excels in:
 - **PySpark** is the go-to choice for big data processing, providing scalability and performance for large-scale distributed computing.
 
 ## 8. References and Future Work <a name = "future"></a>
-## 8. References and Future Work <a name = "future"></a>
 **References:**
 1. [Datatable Documentation](https://datatable.readthedocs.io/en/latest/)
 2. [PySpark (GitHub)](https://github.com/apache/spark/tree/master/python/pyspark)
@@ -993,7 +992,9 @@ PySpark excels in:
 3. Explore additional tools and libraries that seamlessly integrate with each framework to facilitate data visualization and interactive exploration.
 4. Utilize machine learning techniques on the dataset to evaluate how well the libraries perform modeling and prediction tasks.
 5. Investigate strategies for optimizing and implementing best practices in each library to enhance overall performance.
-   
+
+This project serves as an initial evaluation of different big data processing libraries. There is a need for further exploration to fully understand the strengths and limitations of each library and determine the most suitable option for diverse large data processing needs.
+
 ## 9. Contributions<a name = "contribution"></a>
 
 
