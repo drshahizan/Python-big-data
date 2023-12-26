@@ -29,7 +29,7 @@
 </div>
 
 <br><br>
-## Exploratory Data Analysis and Visualization
+## Answering Question
 <div align="center">
   
 | Question | Pandas (s) | Dask (s) | Koalas (s) |
@@ -44,7 +44,7 @@
 </div>
 
 
-
+<br><hr>
 
 
 | **Library** | **Strengths** | **Considerations** |
