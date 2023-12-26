@@ -1095,6 +1095,42 @@ Time Consumed: 30.4 s
 
 ## 7.0 Conclusion <a name = "conclusion"></a>
 
+**Pandas:**
+**Advantages:**
+
+* Ease of Use: Pandas has a user-friendly and intuitive API, making it easy for beginners to get started with data analysis.
+* Rich Functionality: It provides a wide range of functions for data manipulation, cleaning, and analysis.
+* Ecosystem: Pandas has a large and active community, which means there is extensive documentation and a wealth of resources available.
+
+**Disadvantages:**
+
+* In-Memory Limitations: Pandas is designed for in-memory data processing, so it may struggle with large datasets that don't fit into RAM.
+* Limited Parallelism: Pandas lacks built-in support for parallel processing and distributed computing.
+
+
+**Dask:**
+**Advantages:**
+
+* Scalability: Dask is designed to scale from a single machine to a cluster of machines, allowing it to handle larger-than-memory datasets.
+* Familiar API: It provides a Pandas-like API, making it easier for Pandas users to transition to Dask.
+
+**Disadvantages:**
+
+* Learning Curve: While Dask's API is similar to Pandas, working with distributed computing and understanding Dask's delayed execution can have a learning curve.
+* Overhead: Introducing Dask for small datasets or tasks may incur unnecessary overhead.
+
+**Vaex:**
+**Advantages:**
+
+* High Performance: Vaex is optimized for speed and is designed to handle large datasets efficiently.
+* Memory-Mapped: It uses a memory-mapped approach for out-of-core processing, allowing it to handle datasets larger than available RAM.
+* Lazy Evaluation: Vaex employs lazy evaluation, which can lead to optimized computations.
+  
+**Disadvantages:**
+
+* Limited Ecosystem: Vaex, while powerful, has a smaller user base compared to Pandas and Dask, which might result in a more limited ecosystem and community support.
+* Does not have much built-in function: Vaex does not have many built-in function for plotting the graph for visualization. Users need to convert the Dataframe to Pandas in order to plot graph.
+
 
 ## Contribution 🛠️  <a name = "contribution"> </a>
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
