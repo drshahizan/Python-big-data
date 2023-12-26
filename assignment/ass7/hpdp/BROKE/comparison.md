@@ -1,6 +1,6 @@
 # Performance Comparison: Pandas vs Dask vs Koalas
 
-# Data Cleaning Performance Benchmark
+## Data Cleaning Performance Benchmark
 
 | **Cleaning Operation**                 | **Pandas (s)** | **Dask (s)** | **Koalas (s)** |
 |----------------------------------------|----------------|--------------|----------------|
@@ -10,6 +10,7 @@
 | Identifying Duplicate Rows            | 8.34           | 0            | 8.34           |
 | Drop Duplicate Column                 | 6.68           | 0            | 0.973          |
 
+![Graph]()
 
 
 
