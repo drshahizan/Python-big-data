@@ -561,6 +561,13 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 | 4.1.7. Review Cleaning    | 3 min 1 sec | 7 min 13 sec | 2.51 sec |
 | 4.1.8. Convert to String  | 3 min 19 sec | - | - |
 
+**Summary:**
+- Modin: Suitable for large-scale data, consistently efficient in parallel computing.
+
+- Dask: Sturdy distributed computing that performs well with datasets larger than memory but at different time consumption.
+
+- Vaex: High-performance data manipulation and analysis that executes a variety of operations quickly.
+
 
 ### 4.2. Exploratory Analysis and Visualization
 
@@ -723,6 +730,10 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 | 4.2.4. Explore Number of Classes Influence| 1 min 20 sec    | 3 min 14 sec           | 4.17 sec   |
 | 4.2.5. Understand Heights of Prices        | 3 min 5 sec     | 1 min 14 sec           | 4.34 sec   |
 
+**Summary:**
+- Modin: Efficient in many operations, but some analyses take longer than others.
+- Dask: Strong distributed computing capabilities, but it takes different amounts of time.
+- Vaex: Regularly exhibits rapid data analysis, especially for tasks involving computation and exploration.
 
 ### 4.3. Asking and Answering Questions
 
