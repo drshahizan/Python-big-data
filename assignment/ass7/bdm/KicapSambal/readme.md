@@ -27,7 +27,7 @@ Don't forget to hit the :star: if you like this repo.
 
 #### Library 2 - Dask
 * [📖 Google Colab link ](https://colab.research.google.com/drive/109Y45VwyKn1rjc3C2iPIvSTRhpo-7mBU)
-* [💻 Ipynb File ]()
+* [💻 Ipynb File ](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/bdm/KicapSambal/Dask.ipynb)
 
 #### Library 3 - Vaex
 * [📖 Google Colab link ](https://colab.research.google.com/drive/1THNZELX7qW0no0en5jawfsGRPSOc10D_?usp=drive_link)
