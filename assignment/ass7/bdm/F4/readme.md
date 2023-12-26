@@ -33,6 +33,10 @@ Don't forget to hit the :star: if you like this repo.
 * [📖 Google Colab link ](https://colab.research.google.com/drive/1afUFyHf4D7LZBm73q6li9Wjmvq08XbfA?usp=sharing)
 * [💻 Ipynb File ](./F4_Assignment7_library_3_[_Vaex_].ipynb)
 
+#### Comparison
+* [📖 Google Colab link ](https://colab.research.google.com/drive/1fvaRDWu5FQ-qArO9tLeuKBvYy2cheNRM?usp=sharing)
+* [Comparison](./comparison.md)
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
 
