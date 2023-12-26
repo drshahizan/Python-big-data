@@ -16,13 +16,15 @@ Don't forget to hit the :star: if you like this repo.
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
 | NUR KHUZAIRIE ZAKWAN BIN MOHD ZAMRI | A21EC0112 |  Conclusion
+| NUR SHUHADA SAFIAH BINTI AYOB | A21EC0114 | Library 1: Modin
+| WAN AMIRUL HAFIQ BIN WAN HUZAINI | A21EC0141 | Library 2: Pandas
 | IKMAL BIN KHAIRULEZUAN | A21EC0186 | Library 3: Dask
-| NUR SHUHADA SAFIAH BINTI AYOB | A21EC0114 | Library 2: Modin
-| WAN AMIRUL HAFIQ BIN WAN HUZAINI | A21EC0141 | Library 1: Pandas
+
+
 
 ## [Template: Project big data](compare_big_data.ipynb)
 ### 📂 Folder content:
-* [📖 Pandas](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/KHUCHIN/pandas/ASS7_PANDAS.ipynb)
+* [📖 Pandas](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/KHUCHIN/library_2.ipynb)
 * [📖 Modin]()
 * [📖 Dask](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/KHUCHIN/library_3.ipynb)
 * [📖 Conclusion]()
