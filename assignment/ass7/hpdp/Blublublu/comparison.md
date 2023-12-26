@@ -685,9 +685,40 @@ Time Consumed:
 
 Library 3: **Vaex**
 ```ruby
+# Convert the dataframe to pandas to plot the graph
+pandas_df = df.to_pandas_df()
 
+# Select rows from the DataFrame where the status is between 1 and 3.
+Delayedflights = pandas_df[(pandas_df.STATUS >= 1) &(pandas_df.STATUS < 3)]
+sns.distplot(Delayedflights['ARR_DELAY'])
+
+# Show the plot
+plt.show()
 ```
-Time Consumed: 
+Time Consumed: 7.76 s
+
+```ruby
+# Convert the dataframe to pandas to plot the graph
+pandas_df = df.to_pandas_df()
+
+# Concert datatype of FL_DATE to datetime
+pandas_df['FL_DATE'] = pd.to_datetime(pandas_df['FL_DATE'])
+
+# Set up subplots
+fig, ax = plt.subplots(1, 2, figsize=(20, 8))
+
+# Average delay by month
+pandas_df['ARR_DELAY'].groupby(pandas_df['FL_DATE'].dt.month).mean().plot(ax=ax[0])
+ax[0].set_title('Average delay by month')
+
+# Number of minutes delayed by month
+pandas_df['ARR_DELAY'].groupby(pandas_df['FL_DATE'].dt.month).sum().plot(ax=ax[1])
+ax[1].set_title('Number of minutes delayed by month')
+
+# Show the plot
+plt.show()
+```
+Time Consumed: 5.99 s
 
 #### 4. Delay reasons - We will going to explore the causes of flights delays.
 Library 1: **Pandas**
@@ -711,9 +742,22 @@ Time Consumed: 37.1 s
 
 Library 3: **Vaex**
 ```ruby
+import datetime as dt
 
+# Create a new DataFrame 'df2'
+df2 = Delayedflights.filter(['FL_DATE', 'CARRIER_DELAY', 'LATE_AIRCRAFT_DELAY', 'NAS_DELAY', 'WEATHER_DELAY', 'SECURITY_DELAY'], axis=1)
+
+# Convert datatype of 'FL_DATE' datetime
+df2['FL_DATE'] = pd.to_datetime(df2['FL_DATE'])  
+
+# Group the data by month and summing up the delay types for each month.
+df2 = df2.groupby(df2['FL_DATE'].dt.month)[['CARRIER_DELAY', 'LATE_AIRCRAFT_DELAY', 'NAS_DELAY', 'WEATHER_DELAY', 'SECURITY_DELAY']].sum().plot()
+
+# Format of the plot
+df2.legend(loc='upper center', bbox_to_anchor=(0.5, 1.25), ncol=3, fancybox=True, shadow=True)
+plt.show()
 ```
-Time Consumed: 
+Time Consumed: 759 ms
 
 #### 5. Relationship between variables - We will going to explore the relationships between thses variables, especially on the causes of the dalayed flights.
 Library 1: **Pandas**
@@ -755,9 +799,24 @@ Time Consumed:
 
 Library 3: **Vaex**
 ```ruby
+# Create a new DataFrame 'delay_pd' containingthe specified columns
+cols = ['ARR_DELAY', 'CARRIER_DELAY', 'LATE_AIRCRAFT_DELAY', 'NAS_DELAY', 'WEATHER_DELAY', 'SECURITY_DELAY']
+delay_pd = Delayedflights[cols]
 
+# Plot the graph
+sns.pairplot(delay_pd, height=2.5)
+plt.show()
 ```
-Time Consumed: 
+Time Consumed: 1min 22s
+
+```ruby
+# Count the occurrences of each unique value in the 'OP_CARRIER' column
+df['OP_CARRIER'].value_counts().plot.bar()
+
+plt.title('Delay Distribution by Carrier')
+plt.show()
+```
+Time Consumed: 2.08 s
 
 ### 6.0 Asking and Answering Questions <a name = "6-asking-answering"></a>
 #### Q1: What percentage of flights experienced delays or cancellations?
@@ -791,9 +850,19 @@ Time Consumed:
 
 Library 3: **Vaex**
 ```ruby
+# Convert the dataframe to pandas to plot the graph
+pandas_df = df.to_pandas_df()
 
+# Calculate the percentage of delayed flights
+delayed_percentage = (pandas_df['ARR_DELAY'].notnull().sum() / len(pandas_df)) * 100
+
+# Calculate the percentage of cancelled flights
+cancelled_percentage = (pandas_df['CANCELLATION_CODE'].notnull().sum() / len(pandas_df)) * 100
+
+print(f"Percentage of delayed flights: {delayed_percentage:.2f}%")
+print(f"Percentage of cancelled flights: {cancelled_percentage:.2f}%")
 ```
-Time Consumed: 
+Time Consumed: 5.07 s
 
 #### Q2: How do taxi-out and taxi-in times relate to overall delays?
 Library 1: **Pandas**
@@ -820,9 +889,17 @@ Time Consumed:
 
 Library 3: **Vaex**
 ```ruby
+# Convert the dataframe to pandas to plot the graph
+pandas_df = df.to_pandas_df()
 
+# Scatter plot to analyze the relationship between taxi-out time and arrival delay
+plt.scatter(pandas_df['TAXI_OUT'], pandas_df['ARR_DELAY'], alpha=0.5)
+plt.xlabel('Taxi-Out Time')
+plt.ylabel('Arrival Delay')
+plt.title('Relationship between Taxi-Out Time and Arrival Delay')
+plt.show()
 ```
-Time Consumed:
+Time Consumed: 29 s
 
 #### Q3: Are there specific months or seasons when flight cancellations are more frequent?
 Library 1: **Pandas**
@@ -859,9 +936,23 @@ Time Consumed:
 
 Library 3: **Vaex**
 ```ruby
+# Convert the dataframe to pandas to plot the graph
+pandas_df = df.to_pandas_df()
 
+# Assuming df is your Pandas DataFrame
+pandas_df['Month'] = pandas_df['FL_DATE'].dt.month
+
+# Count the number of cancellations per month
+cancellations_by_month = pandas_df['CANCELLATION_CODE'].notnull().groupby(pandas_df['Month']).sum()
+
+# Plot the results
+cancellations_by_month.plot(kind='bar')
+plt.xlabel('Month')
+plt.ylabel('Number of Cancellations')
+plt.title('Monthly Analysis of Flight Cancellations')
+plt.show()
 ```
-Time Consumed: 
+Time Consumed: 5.84 s
 
 #### Q4: Do delays vary between daytime and nighttime flights?
 Library 1: **Pandas**
@@ -893,9 +984,19 @@ Time Consumed:
 
 Library 3: **Vaex**
 ```ruby
+# Convert the dataframe to pandas to plot the graph
+pandas_df = df.to_pandas_df()
 
+pandas_df['Daytime'] = (pandas_df['CRS_DEP_TIME'] >= 600) & (pandas_df['CRS_DEP_TIME'] < 1800)
+
+# Create a boxplot to compare delays during daytime and nighttime
+sns.boxplot(x='Daytime', y='ARR_DELAY', data=pandas_df)
+plt.xlabel('Daytime vs. Nighttime')
+plt.ylabel('Arrival Delay')
+plt.title('Comparison of Arrival Delays: Daytime vs. Nighttime')
+plt.show()
 ```
-Time Consumed: 
+Time Consumed: 6.95 s
 
 #### Q5: Is there a correlation between the air time of a flight and the arrival delay?
 Library 1: **Pandas**
@@ -922,9 +1023,17 @@ Time Consumed:
 
 Library 3: **Vaex**
 ```ruby
+# Convert the dataframe to pandas to plot the graph
+pandas_df = df.to_pandas_df()
 
+# Scatter plot to analyze the relationship between air time and arrival delay
+plt.scatter(pandas_df['AIR_TIME'], pandas_df['ARR_DELAY'], alpha=0.5)
+plt.xlabel('Air Time')
+plt.ylabel('Arrival Delay')
+plt.title('Relationship between Air Time and Arrival Delay')
+plt.show()
 ```
-Time Consumed: 
+Time Consumed: 28.4 s
 
 #### Q6: At what times of the day do delays occur most frequently?
 Library 1: **Pandas**
@@ -965,9 +1074,24 @@ Time Consumed:
 
 Library 3: **Vaex**
 ```ruby
+# Convert the dataframe to pandas to plot the graph
+pandas_df = df.to_pandas_df()
 
+# Extract the hour from the scheduled departure time
+pandas_df['Hour'] = pandas_df['CRS_DEP_TIME'] // 100
+
+# Group by hour and calculate the average arrival delay
+average_delay_by_hour = pandas_df.groupby('Hour')['ARR_DELAY'].mean()
+
+# Plotting
+plt.figure(figsize=(12, 6))
+average_delay_by_hour.plot(marker='o')
+plt.xlabel('Hour of the Day')
+plt.ylabel('Average Arrival Delay (minutes)')
+plt.title('Hourly Analysis of Arrival Delays')
+plt.show()
 ```
-Time Consumed: 
+Time Consumed: 4.9 s
 
 
 ## 7.0 Conclusion <a name = "conclusion"></a>
