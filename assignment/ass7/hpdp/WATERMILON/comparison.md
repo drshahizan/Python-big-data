@@ -26,23 +26,38 @@
 ### Table of Contents
 + [1. Introduction](#intro)
 + [2. Dataset Selection](#dataset_selection)
-+ [3. Data Acquisition](#data_acquisition)
-  + [3.1. Import Dataset](#import_data)
-+ [4. Setting Up the Environment](#setup_environment)
-  + [4.1. Install Necessary Tools & Libraries](#install_lib) 
-+ [5. Data Preprocessing](#dataset_preprocessing)
-  + [5.1. Data Exploration](#data_explore)
-  + [5.2. Data Cleaning and Handling](#data_clean)
-    + [5.2.1. Handle Missing Values](#missing_value)
-    + [5.2.2. Handle Duplicated](#handle_dup)
-    + [5.2.3. Handle Datatypes](#handle_dt)
-    + [5.2.4. Column 'price'](#price)
-+ [6. Exploratory Data Analysis](#eda)
-  + [6.1. Summary Statistics](#sum_stat)
-  + [6.2. Data Visualization](#data_visual)
-  + [6.3. Data Exploration](#data_explore_eda)
-  + [6.4. Feature Engineering](#fe)
-+ [7. Conclusion](#conclusion)
+  + [2.1. About the Dataset](#about_data)
++ [3. About the Libraries Chosen](#about_lib)
+  + [3.1. Modin](#modin_lib)
+  + [3.2. Dask](#dask_lib)
+  + [3.3. Vaex](#vaex_lib)
++ [4. Comparative Analysis of Libraries](#comp_analysis)
+  + [4.1. Data Cleaning and Preprocessing](#41-data-cleaning-and-preprocessing)
+    + [4.1.1. Dataset Loading](#411-dataset-loading)
+    + [4.1.2. Observe the Information of Dataframe](#412-observe-the-information-of-dataframe)
+    + [4.1.3. Removes the Specified Row/Column](#413-removes-the-specified-rowcolumn-transaction_unique_identifier--record_status---monthly_file_only)
+    + [4.1.4. Calculate the Percentage of Missing Values](#414-calculate-the-percentage-of-missing-values)
+    + [4.1.5. Drops Additional Columns](#415-drops-additional-columns)
+    + [4.1.6. Replace the Missing Values](#416-replace-the-missing-values)
+    + [4.1.7. Review the Cleaning Results](#417-review-the-cleaning-results)
+    + [4.1.8. Convert All Object Columns to String Type](#418-convert-all-object-columns-to-string-type)
+    + [4.1.9. Comparison of Time Consumed](#419-comparison-of-time-consumed)
+
+  + [4.2. Exploratory Analysis and Visualization](#42-exploratory-analysis-and-visualization)
+    + [4.2.1. Data Observation](#421-data-observation)
+    + [4.2.2. Coefficient of Skewness for the Property Prices](#422-coefficient-of-skewness-for-the-property-prices)
+    + [4.2.3. Exploring Property Prices specifically in Greater London](#423-exploring-property-prices-specifically-in-greater-london)
+    + [4.2.4. Explore How Number of Classes Influence Property Prices by using Bar Chart](#424-explore-how-number-of-classes-influence-property-prices-by-using-bar-chart)
+    + [4.2.5. Understand the Heights of Prices](#425-understand-the-heights-of-prices)
+
+  + [4.3. Asking and Answering Questions](#43-asking-and-answering-questions)
+    + [4.3.1. To what degree is the price distribution skewed?](#431-to-what-degree-is-the-price-distribution-skewed)
+    + [4.3.2. Does the country where the property is located significantly influence its price?](#432-does-the-country-where-the-property-is-located-significantly-influence-its-price)
+    + [4.3.3. How does the district affect the price and its dispersion in property?](#433-how-does-the-district-affect-the-price-and-its-dispersion-in-property)
+    + [4.3.4. How does the combination of PPDCategory_Type and Old/New property status influence property prices?](#434-how-does-the-combination-of-ppdcategory_type-and-oldnew-property-status-influence-property-prices)
+    + [4.3.5. What is the trend in property prices over time?](#435-what-is-the-trend-in-property-prices-over-time)
+    + [4.3.6. How does the price of property vary based on different property types over time?](#436-how-does-the-price-of-property-vary-based-on-different-property-types-over-time)
++ [5. Conclusion](#conclusion)
 + [Contributions](#contribution)
 
 ## 1. Introduction <a name = "intro"></a>
@@ -60,7 +75,7 @@ In this assignment 7, we examine many facets of data analysis such as loading da
 
 ## 2. Dataset Selection <a name = "dataset_selection"></a>
 
-### 2.1. About the Dataset
+### 2.1. About the Dataset <a name = "about_data"></a>
 
 This dataset offers a comprehensive overview of property sales in England and Wales, drawing data from the HM Land Registry, a key source endorsed by the UK government. It serves as a valuable resource for analysts, researchers, and businesses, providing in-depth insights into property transactions, sale prices, and property characteristics. The records span from January 1995 to the latest monthly data, encompassing various transaction types, including residential and commercial properties.
 
@@ -90,7 +105,7 @@ Analysts and businesses can leverage this dataset to discern market trends, asse
 
 For assignment 7 that regarding "Comparative Analysis of Data Analysis Libraries", our group have choose three libraries which are Modin, Dask and Vaex.
 
-### 3.1. Modin
+### 3.1. Modin <a name = "modin_lib"></a>
 
 <a target="_blank" href="https://colab.research.google.com/github/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/WATERMILON/modin.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
@@ -157,7 +172,7 @@ Modin's default backend is dependent on other programs, like Dask. Handling thes
 1. [Modin in Github](https://github.com/modin-project/modin)
 2. [Documentation of Modin](https://modin.readthedocs.io/en/stable/)
 
-### 3.2. Dask
+### 3.2. Dask <a name = "dask_lib"></a>
 
 <a target="_blank" href="https://colab.research.google.com/github/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/WATERMILON/dask.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
@@ -223,7 +238,7 @@ Compared to debugging single-node computations, debugging Dask computations can 
 1. [Dask in Github](https://github.com/dask/dask)
 2. [Documentation of Dask](https://docs.dask.org/en/stable/)
 
-### 3.3. Vaex
+### 3.3. Vaex <a name = "vaex_lib"></a>
 
 <a target="_blank" href="https://colab.research.google.com/github/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/WATERMILON/vaex.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
