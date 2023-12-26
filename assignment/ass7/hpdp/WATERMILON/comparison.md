@@ -37,7 +37,7 @@
     + [4.1.2. Observe the Information of Dataframe](#observe-the-information-of-dataframe)
     + [4.1.3. Removes the Specified Row/Column](#removes-the-specified-rowcolumn-1)
     + [4.1.4. Calculate the Percentage of Missing Values](#calculate-the-percentage-of-missing-values)
-    + [4.1.5. Drops Additional Columns](#drops-additional-columns)
+    + [4.1.5. Removes the Specified Row/Column](#drops-additional-columns)
     + [4.1.6. Replace the Missing Values](#replace-the-missing-values)
     + [4.1.7. Review the Cleaning Results](#review-the-cleaning-results)
     + [4.1.8. Convert All Object Columns to String Type](#convert-all-object-columns-to-string-type)
@@ -49,6 +49,7 @@
     + [4.2.3. Exploring Property Prices specifically in Greater London](#exploring-property-prices-specifically-in-greater-london)
     + [4.2.4. Explore How Number of Classes Influence Property Prices by using Bar Chart](#explore-how-number-of-classes-influence-property-prices-by-using-bar-chart)
     + [4.2.5. Understand the Heights of Prices](#understand-the-heights-of-prices)
+    + [4.2.6. Comparison of Time Consumed](#comparison-of-time-consumed-1)
 
   + [4.3. Asking and Answering Questions](#asking-and-answering-questions)
     + [4.3.1. To what degree is the price distribution skewed?](#to-what-degree-is-the-price-distribution-skewed)
@@ -330,9 +331,9 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
 ## 4. Comparative Analysis of Libraries <a name = "comp_analysis"></a>
 
-### 4.1. Data Preparation and Cleaning
+### 4.1. Data Preparation and Cleaning <a name = "data-cleaning-and-preprocessing"></a>
 
-#### 4.1.1. Dataset Loading
+#### 4.1.1. Dataset Loading <a name = "dataset-loading"></a>
 
 1. **Modin:**
    
@@ -373,7 +374,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 3 minutes 55 seconds
 
-#### 4.1.2. Observe the Information of Dataframe
+#### 4.1.2. Observe the Information of Dataframe <a name = "observe-the-information-of-dataframe"></a>
 
 1. **Modin:**
 
@@ -400,7 +401,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
    Time Consumed: 17.5 milliseconds
    
 
-#### 4.1.3. Removes the Specified Row/Column ("Transaction_unique_identifier" & "Record_Status - monthly_file_only")
+#### 4.1.3. Removes the Specified Row/Column ("Transaction_unique_identifier" & "Record_Status - monthly_file_only") <a name = "removes-the-specified-rowcolumn-1"></a>
 
 1. **Modin:**
 
@@ -427,7 +428,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 1.09 milliseconds
 
-#### 4.1.4. Calculate the Percentage of Missing Values
+#### 4.1.4. Calculate the Percentage of Missing Values <a name = "calculate-the-percentage-of-missing-values"></a>
 
 1. **Modin:**
 
@@ -455,7 +456,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 2.6 seconds
 
-#### 4.1.5. Removes the Specified Row/Column ("SAON" & "Locality")
+#### 4.1.5. Removes the Specified Row/Column ("SAON" & "Locality") <a name = "drops-additional-columns"></a>
 
 1. **Modin:**
 
@@ -483,7 +484,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
    Time Consumed: 2.32 milliseconds
    
 
-#### 4.1.6. Replace the Missing Values
+#### 4.1.6. Replace the Missing Values <a name = "replace-the-missing-values"></a>
 
 1. **Modin:**
 
@@ -511,7 +512,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 6.29 milliseconds
 
-#### 4.1.7. Review the Cleaning Results
+#### 4.1.7. Review the Cleaning Results <a name = "review-the-cleaning-results"></a>
 
 1. **Modin:**
 
@@ -539,7 +540,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 2.51 seconds
 
-#### 4.1.8. Convert All Object Columns to String Type
+#### 4.1.8. Convert All Object Columns to String Type <a name = "convert-all-object-columns-to-string-type"></a>
 
 1. **Modin:**
 
@@ -563,7 +564,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: -
 
-#### 4.1.9. Comparison of Time Consumed:
+#### 4.1.9. Comparison of Time Consumed <a name = "‎comparison-of-time-consumed"></a>
 
 | Operation/Analysis | Modin | Dask | Vaex |
 |--------------------|-------|------|------|
@@ -584,9 +585,9 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 - Vaex: High-performance data manipulation and analysis that executes a variety of operations quickly.
 
 
-### 4.2. Exploratory Analysis and Visualization
+### 4.2. Exploratory Analysis and Visualization <a name = "‎exploratory-analysis-and-visualization"></a>
 
-#### 4.2.1. Data Observation
+#### 4.2.1. Data Observation <a name = "‎data-observation"></a>
 
 1. **Modin:**
 
@@ -612,7 +613,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 5.76 seconds
 
-#### 4.2.2. Coefficient of Skewness for the Property Prices
+#### 4.2.2. Coefficient of Skewness for the Property Prices <a name = "‎coefficient-of-skewness-for-the-property-prices"></a>
 
 1. **Modin:**
 
@@ -643,7 +644,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 16.7 seconds
 
-#### 4.2.3. Exploring Property Prices specifically in Greater London
+#### 4.2.3. Exploring Property Prices specifically in Greater London <a name = "‎exploring-property-prices-specifically-in-greater-london"></a>
 
 1. **Modin:**
 
@@ -670,7 +671,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 2.62 seconds
 
-#### 4.2.4. Explore How Number of Classes Influence Property Prices by using Bar Chart
+#### 4.2.4. Explore How Number of Classes Influence Property Prices by using Bar Chart <a name = "‎explore-how-number-of-classes-influence-property-prices-by-using-bar-chart"></a>
 
 1. **Modin:**
 
@@ -706,7 +707,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 4.17 seconds
 
-#### 4.2.5. Understand the Heights of Prices
+#### 4.2.5. Understand the Heights of Prices <a name = "‎understand-the-heights-of-prices"></a>
 
 1. **Modin:**
 
@@ -735,7 +736,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 4.34 seconds
 
-#### 4.2.6. Comparison of Time Consumed:
+#### 4.2.6. Comparison of Time Consumed <a name = "‎comparison-of-time-consumed-1"></a>
 
 | Operation/Analysis                        | Modin           | Dask                  | Vaex           |
 |-------------------------------------------|-----------------|-----------------------|----------------|
