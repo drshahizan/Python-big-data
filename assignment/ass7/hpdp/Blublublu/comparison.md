@@ -444,9 +444,9 @@ Time Consumed: 4.26 s
 
 Library 3: **Vaex**
 ```ruby
-
+df.head(20)
 ```
-Time Consumed: 
+Time Consumed: 1.68 ms
 
 ### 5.0 Exploratory Analysis and Visualization <a name = "5-eda"></a>
 #### 1. Summarize the flights - We will see the percentage of flights that have delayed and cancelled.
@@ -497,9 +497,34 @@ Time Consumed: 1min 9s
 
 Library 3: **Vaex**
 ```ruby
+# Convert the dataframe to pandas to plot the graph
+pandas_df = df.to_pandas_df()
 
+# Create a DataFrame with 'STATUS' column
+status_df = pd.DataFrame(pandas_df['STATUS'])
+
+# Plotting Pie Chart
+plt.figure(figsize=(16, 8))
+plt.subplot(1, 2, 1)
+status_counts = status_df['STATUS'].value_counts()
+status_counts.plot.pie(
+    explode=[0.05, 0.05, 0.05, 0, 0],
+    autopct='%1.1f%%',
+    shadow=True
+)
+plt.title('Flight Status Distribution')
+plt.ylabel('')
+
+# Plotting Bar Chart
+plt.subplot(1, 2, 2)
+status_counts.plot.bar(figsize=(16, 8))
+plt.title('Flight Status Distribution')
+
+plt.show()
+
+print('Status represents whether the flight was on time (0), slightly delayed (1), highly delayed (2), diverted (3), or cancelled (4)')
 ```
-Time Consumed: 
+Time Consumed: 3.98 s
 
 #### 2. Cancelled flights - We are going to investigate the relationship of cancelled flights and the reason behind. We will view the result of analysis through graph by visualization.
 Library 1: **Pandas**
@@ -567,9 +592,49 @@ Time Consumed:
 
 Library 3: **Vaex**
 ```ruby
+# Convert the dataframe to pandas to plot the graph
+pandas_df = df.to_pandas_df()
 
+# Select cancelled flights
+CancelFlights = pandas_df[(pandas_df.STATUS == 4)]
+
+# Create subplots
+f, ax = plt.subplots(1, 2, figsize=(20, 8))
+
+# Generate a pie chart of cancellation codes
+pd.DataFrame(CancelFlights['CANCELLATION_CODE']).value_counts().plot.pie(
+    explode=[0.05, 0.05, 0.05, 0.05],
+    autopct='%1.1f%%',
+    ax=ax[0],
+    shadow=True
+)
+ax[0].set_ylabel('')
+
+# Generate a bar chart of cancellation codes
+pd.DataFrame(CancelFlights['CANCELLATION_CODE']).value_counts().plot.bar(figsize=(8, 6), ax=ax[1])
+
+# Show the plots
+plt.show()
+
+# Print legend explaining cancellation codes
+print('A = carrier, B = weather, C = NAS, D = security')
 ```
-Time Consumed:
+Time Consumed: 4.33 s
+
+```ruby
+import datetime as dt
+
+# Convert the dataframe to pandas to plot the graph
+pandas_df = df.to_pandas_df()
+
+# Select cancelled flights
+CancelFlights = pandas_df[(pandas_df.STATUS == 4)]
+
+# Group by month and plot the count of cancelled flights
+CancelFlights['CANCELLATION_CODE'].groupby(CancelFlights['FL_DATE'].dt.month).count().plot()
+plt.show()
+```
+Time Consumed: 4.52 s
 
 ####  3. Delayed flights - We will explore the facts and insights about the delayed flights
 Library 1: **Pandas**
