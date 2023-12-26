@@ -21,9 +21,9 @@ Group Name : <b>BERUK</b>
 
 <br>
 
-📄 [Dask](https://github.com/drshahizan/Python_EDA/blob/main/assignment/ass3/hpdp/BERUK/ass3.ipynb) <br>
-📄 [Koalas](https://github.com/drshahizan/Python_EDA/blob/main/assignment/ass3/hpdp/BERUK/ass3.ipynb) <br>
-📄 [Pandas](https://github.com/drshahizan/Python_EDA/blob/main/assignment/ass3/hpdp/BERUK/report.md) <br>
+📄 [Dask]() <br>
+📄 [Koalas]() <br>
+📄 [Pandas]() <br>
 📄 [Comparison.md](https://github.com/drshahizan/Python_EDA/blob/main/assignment/ass3/hpdp/BERUK/report.md) <br>
 📄 [readme.md](https://github.com/drshahizan/Python_EDA/blob/main/assignment/ass7/hpdp/BROKE/report.md) <br>
 
