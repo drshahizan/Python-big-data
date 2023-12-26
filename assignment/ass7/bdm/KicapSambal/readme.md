@@ -30,8 +30,8 @@ Don't forget to hit the :star: if you like this repo.
 * [💻 Ipynb File ]()
 
 #### Library 3 - Vaex
-* [📖 Google Colab link ]()
-* [💻 Ipynb File ]()
+* [📖 Google Colab link ](https://colab.research.google.com/drive/1THNZELX7qW0no0en5jawfsGRPSOc10D_?usp=drive_link)
+* [💻 Ipynb File ](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/bdm/KicapSambal/Vaex.ipynb)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
