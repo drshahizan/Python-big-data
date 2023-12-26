@@ -206,7 +206,7 @@ Library 1: **Pandas**
 ```ruby
 df.dtypes
 ```
-Time Consumed: 321 µs
+Time Consumed: 372 µs
 
 Library 2: **Dask**
 ```ruby
@@ -226,7 +226,7 @@ Library 1: **Pandas**
 ```ruby
 df.head(10)
 ```
-Time Consumed: 158 µs
+Time Consumed: 271 µs
 
 Library 2: **Dask**
 ```ruby
@@ -246,7 +246,7 @@ Library 1: **Pandas**
 ```ruby
 df.describe()
 ```
-Time Consumed: 6.23 s
+Time Consumed: 9.46 s
 
 Library 2: **Dask**
 ```ruby
@@ -265,7 +265,7 @@ Library 1: **Pandas**
 ```ruby
 df.info()
 ```
-Time Consumed: 50.7 ms
+Time Consumed: 14.2 ms
 
 Library 2: **Dask**
 ```ruby
@@ -284,7 +284,7 @@ Library 1: **Pandas**
 ```ruby
 df.isna().sum()
 ```
-Time Consumed: 11.7 s
+Time Consumed: 5.98 s
 
 Library 2: **Dask**
 ```ruby
@@ -314,7 +314,7 @@ f, ax = plt.subplots(figsize=(12, 9))
 sns.heatmap(corrmat, vmax=.8, square=True, xticklabels=corrmat.columns, yticklabels=corrmat.columns)
 plt.show()
 ```
-Time Consumed: 10.04 s
+Time Consumed: 13.98 s
 
 Library 2: **Dask**
 ```ruby
@@ -345,7 +345,7 @@ Library 1: **Pandas**
 df['FL_DATE'] = pd.to_datetime(df['FL_DATE'])
 df.dtypes
 ```
-Time Consumed: 594 ms
+Time Consumed: 989 ms
 
 Library 2: **Dask**
 ```ruby
@@ -366,7 +366,7 @@ Library 1: **Pandas**
 ```ruby
 len(df)
 ```
-Time Consumed: 28.6 µs
+Time Consumed: 33.9 µs
 
 Library 2: **Dask**
 ```ruby
@@ -385,7 +385,7 @@ Library 1: **Pandas**
 ```ruby
 df['STATUS'] =df['ARR_DELAY'].apply(lambda x: 0 if x <= 15 else 1 if x <= 30 else 2 if x <= 60 else 3 if x <= 120 else 4)
 ```
-Time Consumed: 1.99 s
+Time Consumed: 5.11 s
 
 Library 2: **Dask**
 ```ruby
@@ -404,7 +404,7 @@ Library 1: **Pandas**
 ```ruby
 df = df.drop(columns=['DEP_DELAY', 'ARR_TIME','CRS_ARR_TIME', 'ACTUAL_ELAPSED_TIME', 'CRS_ELAPSED_TIME', 'DIVERTED','CANCELLED','DISTANCE','OP_CARRIER_FL_NUM','Unnamed: 27'])
 ```
-Time Consumed: 231 ms
+Time Consumed: 573 ms
 
 Library 2: **Dask**
 ```ruby
@@ -433,7 +433,7 @@ Library 1: **Pandas**
 ```ruby
 df.head(20)
 ```
-Time Consumed: 282 µs
+Time Consumed: 316 µs
 
 Library 2: **Dask**
 ```ruby
@@ -475,7 +475,7 @@ plt.show()
 
 print('Status represents whether the flight was on time (0), slightly delayed (1), highly delayed (2), diverted (3), or cancelled (4)')
 ```
-Time Consumed: 446 ms
+Time Consumed: 540 ms
 
 Library 2: **Dask**
 ```ruby
@@ -552,7 +552,7 @@ plt.show()
 # Print legend explaining cancellation codes
 print('A = carrier, B = weather, C = NAS, D = security')
 ```
-Time Consumed: 512 ms
+Time Consumed: 564 ms
 
 ```ruby
 import datetime as dt
@@ -564,7 +564,7 @@ CancelFlights = df[(df.STATUS == 4)]
 CancelFlights['CANCELLATION_CODE'].groupby(CancelFlights['FL_DATE'].dt.month).count().plot()
 plt.show()
 ```
-Time Consumed: 335 ms
+Time Consumed: 413 ms
 
 Library 2: **Dask**
 ```ruby
@@ -642,7 +642,7 @@ Delayedflights = df[(df.STATUS >= 1) &(df.STATUS < 3)]
 sns.distplot(Delayedflights['ARR_DELAY'])
 plt.show()
 ```
-Time Consumed: 2.75 s
+Time Consumed: 4.11 s
 ```ruby
 df['FL_DATE'] = pd.to_datetime(df['FL_DATE'])
 
@@ -660,7 +660,7 @@ ax[1].set_title('Number of minutes delayed by month')
 # Show the plot
 plt.show()
 ```
-Time Consumed: 991 ms
+Time Consumed:  2.26 s
 
 Library 2: **Dask**
 ```ruby
@@ -728,7 +728,7 @@ df2 = df2.groupby(df2['FL_DATE'].dt.month)[['CARRIER_DELAY', 'LATE_AIRCRAFT_DELA
 df2.legend(loc='upper center', bbox_to_anchor=(0.5, 1.25), ncol=3, fancybox=True, shadow=True)
 plt.show()
 ```
-Time Consumed: 261 ms
+Time Consumed: 562 ms
 
 Library 2: **Dask**
 ```ruby
@@ -766,13 +766,13 @@ delay_pd = Delayedflights[cols]
 sns.pairplot(delay_pd, height=2.5)
 plt.show()
 ```
-Time Consumed: 49.4 s
+Time Consumed: 1min 25s
 ```ruby
 df['OP_CARRIER'].value_counts().plot.bar()
 plt.title('Delay Distribution by Carrier')
 plt.show()
 ```
-Time Consumed: 673 ms
+Time Consumed: 1.38 s
 
 Library 2: **Dask**
 ```ruby
@@ -830,7 +830,7 @@ cancelled_percentage = (df['CANCELLATION_CODE'].notnull().sum() / len(df)) * 100
 print(f"Percentage of delayed flights: {delayed_percentage:.2f}%")
 print(f"Percentage of cancelled flights: {cancelled_percentage:.2f}%")
 ```
-Time Consumed: 149 ms
+Time Consumed: 256 ms
 
 Library 2: **Dask**
 ```ruby
@@ -873,7 +873,7 @@ plt.ylabel('Arrival Delay')
 plt.title('Relationship between Taxi-Out Time and Arrival Delay')
 plt.show()
 ```
-Time Consumed: 13 s
+Time Consumed: 20.3 s
 
 Library 2: **Dask**
 ```ruby
@@ -915,7 +915,7 @@ plt.ylabel('Number of Cancellations')
 plt.title('Monthly Analysis of Flight Cancellations')
 plt.show()
 ```
-Time Consumed: 1.02 s
+Time Consumed: 1.45 s
 
 Library 2: **Dask**
 ```ruby
@@ -965,7 +965,7 @@ plt.ylabel('Arrival Delay')
 plt.title('Comparison of Arrival Delays: Daytime vs. Nighttime')
 plt.show()
 ```
-Time Consumed: 1.73 s
+Time Consumed: 3.13 s
 
 Library 2: **Dask**
 ```ruby
@@ -1007,7 +1007,7 @@ plt.ylabel('Arrival Delay')
 plt.title('Relationship between Air Time and Arrival Delay')
 plt.show()
 ```
-Time Consumed: 12.9 s
+Time Consumed: 21.1 s
 
 Library 2: **Dask**
 ```ruby
@@ -1051,7 +1051,7 @@ plt.ylabel('Average Arrival Delay (minutes)')
 plt.title('Hourly Analysis of Arrival Delays')
 plt.show()
 ```
-Time Consumed: 283 ms
+Time Consumed: 490 ms
 
 Library 2: **Dask**
 ```ruby
