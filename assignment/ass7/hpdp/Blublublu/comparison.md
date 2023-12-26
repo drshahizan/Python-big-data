@@ -1094,6 +1094,32 @@ plt.show()
 Time Consumed: 30.4 s
 
 ## 7.0 Result of Comparison Between Libraries <a name = "7-result"></a>
+| Task                                        | Pandas Time (s) | Dask Time (s) | Vaex Time (s) |
+|---------------------------------------------|------------------|----------------|---------------|
+| **Dataset Loading**                         |                  |                |               |
+| Load dataset                                | 50.2             | 132            | 0.108         |
+| **Explore Dataset**                         |                  |                |               |
+| Check datatypes                             | 0.000372         | 0.000307       | 0.00185       |
+| Display first 10 rows                       | 0.000271         | 3.28           | 0.00282       |
+| Describe dataset                            | 9.46             | 44.8           | 9.52          |
+| Info about dataset                          | 0.0142           | 0.00263        | 0.0325        |
+| Check missing data                          | 5.98             | 27.7           | 1.7           |
+| Correlation heatmap                         | 13.98            | 109            | 34.8          |
+| Convert 'FL_DATE' to datetime format        | 0.989            | 0.0114         | 0.0571        |
+| Return number of rows                       | 3.39e-05         | 24             | 0.000219      |
+| Create 'STATUS' column                      | 5.11             | 0.0952         | 0.000736      |
+| Drop unnecessary column                     | 0.573            | 0.234          | 0.0063        |
+| Display first 20 rows                       | 0.000316         | 3.01           | 0.00171       |
+| **Exploratory Analysis and Visualization**  |                  |                |               |
+| Flight status distribution                  | 0.54             | 70             | 18.5          |
+| Cancelled flights - Cancellation codes      | 0.564            | 66             | 19.4          |
+| Delayed flights - Arrival delay distribution| 4.11             | 0.00836        | 22.1          |
+| Delay reasons - Delay types distribution    | 0.562            | 33             | 0.89          |
+| Pairplot and carrier distribution           | 85               | 113            | 90            |
+| **Asking and Answering Questions**           |                  |                |               |
+| Percentage of delayed/cancelled flights     | 0.256            | 131            | 27.2          |
+| Relationship taxi-out, taxi-in, and delays  | 20.3             | 83             | 9.38          |
+| Busiest day of the week for flights          | 0.328            | 2.08           | 0.798         |
 
 Through comparing the time consumed for the three libraries, Vaex generally performs tasks with high efficiency, often comparable to or even faster than Dask, and significantly faster than Pandas in many cases. Dask shows good performance for parallelized computing but tends to be slower than Vaex for many tasks. Pandas is often slower than Dask and Vaex, especially for large datasets, but remains a reliable and widely used library.
 
