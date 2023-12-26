@@ -18,21 +18,25 @@ Don't forget to hit the :star: if you like this repo.
 |4.|SOO WAN YING|A20EC0227|
 
 ## Table of Content
-+ [Introduction](#introduction)
-+ [Dataset Selection](#dataset-selection)
-+ [Library Chosen](#library-chosen)
-  + [Pandas](#pandas)
-  + [DASK](#dask)
-  + [Vaex](#vaex)
-+ [Comparison Between Libraries](#comparison-libraries)
-  + [Installation of Libraries](#installation)
-  + [Dataset Loading](#loading)
++ [1.0 Introduction](#1-introduction)
++ [2.0 Dataset Selection](#2-dataset-selection)
++ [3.0 Library Chosen](#3-library-chosen)
+  + [3.1 Pandas](#31-pandas)
+  + [3.2 Dask](#32-dask)
+  + [3.3 Vaex](#33-vaex)
++ [4.0 Comparison Between Libraries](#4-comparison-between-libraries)
+  + [4.1 Installation of Libraries](#41-installation)
+  + [4.2 Dataset Loading](#42-loading)
+  + [4.3 Explore Dataset](#43-explore)
+    + [4.3.1 Check the Datatypes](#431-check-the-datatypes)
+    + [4.3.2 Display the first 10 rows of the dataset](#432-display-the-first-10-rows-of-the-dataset)
+
 + [Conclusion](#conclusion)
 
-## Introduction <a name = "introduction"></a>
+## Introduction <a name = "1-introduction"></a>
 In this project, we're exploring and analyzing the [Airline Delay Analysis](https://www.kaggle.com/datasets/sherrytp/airline-delay-analysis?select=airline+delay+analysis) dataset from Kaggle. This dataset contains a lot of information about airline flights, including dates, airlines, delays at departure and arrival, reasons for delays, and other operational details. Our main goal in this project is to use the pandas library, a powerful tool in Python for working with data, to thoroughly investigate and understand this airline delay dataset. The project aims to uncover insights into various facets of airline operations, including on-time performance, operational metrics, and delay resolution.
 
-## Dataset Selection <a name = "dataset-selection"></a>
+## 2.0 Dataset Selection <a name = "2-dataset-selection"></a>
 ### **Airline Delay Analysis**
 
 **Dataset used**: [Airline Delay Analysis](https://www.kaggle.com/datasets/sherrytp/airline-delay-analysis)
@@ -64,9 +68,9 @@ In this project, we're exploring and analyzing the [Airline Delay Analysis](http
 | LATE_AIRCRAFT_DELAY  | Delay attributed to a previous flight using the same aircraft arriving late.                      |
 | STATUS               | The status of the flight.                                                                         |
 
-## Library Chosen <a name = "library-chosen"></a>
+## 3.0 Library Chosen <a name = "3-library-chosen"></a>
 This document presents an exploratory data analysis (EDA) on a dataset using three different libraries: Pandas, Dask, and Vaex. The goal is to compare the performance of these libraries in terms of time execution for typical EDA tasks.
-### Pandas <a name = "pandas"></a>
+### 3.1 Pandas <a name = "31-pandas"></a>
 1. Pandas:
 - Description:
   - Pandas is a powerful and widely used data manipulation library for Python. It provides easy-to-use data structures, such as DataFrame, for handling and analyzing structured data.
@@ -86,7 +90,7 @@ This document presents an exploratory data analysis (EDA) on a dataset using thr
 - Website: [Pandas](https://pandas.pydata.org/)
 
 
-### DASK <a name = "dask"></a>
+### 3.2 Dask <a name = "32-dask"></a>
 - Description:
   - Dask is a parallel computing library designed to enable parallel and distributed computing in Python. It extends the functionality of Pandas to handle larger-than-memory datasets.
   - Dask operates seamlessly with existing Python libraries and integrates well with Pandas, NumPy, and other scientific computing tools.
@@ -104,7 +108,7 @@ This document presents an exploratory data analysis (EDA) on a dataset using thr
 - Website: [Dask](https://www.dask.org/)
 
 
-### Vaex <a name = "vaex"></a>
+### 3.3 Vaex <a name = "33-vaex"></a>
 - Description:
   - Vaex is a high-performance Python library designed for handling and analyzing large datasets. It is particularly focused on lazy, out-of-core computation to efficiently process data that doesn't fit into memory.
   - Vaex aims to provide a DataFrame-like interface while optimizing for performance.
@@ -121,9 +125,9 @@ This document presents an exploratory data analysis (EDA) on a dataset using thr
 
 - Website: [Vaex](https://vaex.io/)
 
-## Comparison Between Libraries <a name = "comparison-libraries"></a>
+## 4.0 Comparison Between Libraries <a name = "4-comparison-between-libraries"></a>
 
-### Installation of Libaries <a name = "installation"></a>
+### 4.1 Installation of Libraries <a name = "41-installation"></a>
 Library 1: **Pandas**
 - Installing the Pandas package:
 ```ruby
@@ -150,7 +154,7 @@ Library 3: **Vaex**
 import vaex
 ```
 
-### Dataset Loading <a name = "loading"></a>
+### 4.2 Dataset Loading <a name = "42-loading"></a>
 Library 1: **Pandas**
 ```ruby
 from google.colab import files
@@ -186,8 +190,8 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-### Explore Dataset <a name = "explore"></a>
-#### Check the Datatypes
+### 4.3 Explore Dataset <a name = "43-explore"></a>
+#### 4.3.1 Check the Datatypes <a name = "431-check-the-datatypes"></a>
 Library 1: **Pandas**
 ```ruby
 df.dtypes
@@ -207,7 +211,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### Display the first 10 rows of the dataset
+#### 4.3.2 Display the first 10 rows of the dataset <a name = "432-display-the-first-10-rows-of-the-dataset"></a>
 Library 1: **Pandas**
 ```ruby
 df.head(10)
@@ -227,7 +231,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### Obtain description of the dataset
+#### 4.3.3 Obtain description of the dataset <a name = "433-obtain-description-of-the-dataset"></a>
 Library 1: **Pandas**
 ```ruby
 df.describe()
@@ -246,7 +250,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### Obtain information of the dataset
+#### 4.3.4 Obtain information of the dataset <a name = "434-obtain-information-of-the-dataset"></a>
 Library 1: **Pandas**
 ```ruby
 df.info()
@@ -265,7 +269,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### Check missing data
+#### 4.3.5 Check missing data <a name = "435-check-missing-data"></a>
 Library 1: **Pandas**
 ```ruby
 df.isna().sum()
@@ -284,7 +288,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### Identifying Multicollinearity and Variable Selection
+#### 4.3.6 Identifying Multicollinearity and Variable Selection <a name = "436-identifying-multicollinearity-and-variable-selection"></a>
 Library 1: **Pandas**
 ```ruby
 import matplotlib.pyplot as plt
@@ -314,7 +318,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### Converting the 'FL_DATE' column to datetime format
+#### 4.3.7  Converting the 'FL_DATE' column to datetime format <a name = "437-converting-column-to-datetime-format"></a>
 Library 1: **Pandas**
 ```ruby
 df['FL_DATE'] = pd.to_datetime(df['FL_DATE'])
@@ -335,7 +339,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### Return number of rows
+#### 4.3.8   Return number of rows <a name = "438-return-number-of-rows"></a>
 Library 1: **Pandas**
 ```ruby
 len(df)
@@ -354,7 +358,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### Create a new column to represent the status of the flight
+#### 4.3.9 Create a new column to represent the status of the flight <a name = "439-create-a-new-column"></a>
 Library 1: **Pandas**
 ```ruby
 df['STATUS'] =df['ARR_DELAY'].apply(lambda x: 0 if x <= 15 else 1 if x <= 30 else 2 if x <= 60 else 3 if x <= 120 else 4)
@@ -373,7 +377,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### Replace values in the 'CANCELLATION_CODE' column
+#### 4.3.10 Replace values in the 'CANCELLATION_CODE' column <a name = "4310-replace-values"></a>
 Library 1: **Pandas**
 ```ruby
 df['CANCELLATION_CODE'].replace(['A', 'B', 'C', 'D'], [0, 1, 2, 3])
@@ -392,7 +396,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### Drop unnecessary column
+#### 4.3.11 Drop unnecessary column <a name = "4311-drop-unnecessary-column"></a>
 Library 1: **Pandas**
 ```ruby
 df = df.drop(columns=['DEP_DELAY', 'ARR_TIME','CRS_ARR_TIME', 'ACTUAL_ELAPSED_TIME', 'CRS_ELAPSED_TIME', 
@@ -421,7 +425,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### Display first 20 rows of the dataset
+#### 4.3.12 Display first 20 rows of the dataset <a name = "4312-display-first-20-rows"></a>
 Library 1: **Pandas**
 ```ruby
 df.head(20)
