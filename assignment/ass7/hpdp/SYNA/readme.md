@@ -19,9 +19,9 @@ Don't forget to hit the :star: if you like this repo.
 | YASMEEN NATASHA BINTI HAFIZ SHAHREL | A21EC0147 | Vaex
 
 ### 📂 Folder content:
-* [📖 library_1.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/ASSIGNMENT7_MODIN_SYNA.ipynb)
-* [📖 library_2.ipynb]()
-* [📖 library_3.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/ASSIGNMENT7_PySpark_SYNA.ipynb)
+* [📖 library_1.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/ASSIGNMENT7_PySpark_SYNA.ipynb)
+* [📖 library_2.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/library_2.ipynb)
+* [📖 library_3.ipynb]()
 * [📖 comparison.md]()
 
 
