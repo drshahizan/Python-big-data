@@ -566,7 +566,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: -
 
-#### 4.1.9. Comparison of Time Consumed <a name = "‎comparison"></a>
+#### 4.1.9. Comparison of Time Consumed <a name = "comparison"></a>
 
 | Operation/Analysis | Modin | Dask | Vaex |
 |--------------------|-------|------|------|
