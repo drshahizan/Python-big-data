@@ -20,7 +20,7 @@ Don't forget to hit the :star: if you like this repo.
 
 ### 📂 Folder content:
 * [📖 Pandas](./pandas.ipynb)
-* [📖 Dask](./dask.ipynb)
+* [📖 Dask](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/HANI/library_2.ipynb)
 * [📖 Modin](./modin.ipynb)
 * [📖 Comparision Libraries](./compare_bd.md)
 
