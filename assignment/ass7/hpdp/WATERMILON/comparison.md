@@ -49,7 +49,7 @@
     + [4.2.3. Exploring Property Prices specifically in Greater London](#exploring-property-prices-specifically-in-greater-london)
     + [4.2.4. Explore How Number of Classes Influence Property Prices by using Bar Chart](#explore-how-number-of-classes-influence-property-prices-by-using-bar-chart)
     + [4.2.5. Understand the Heights of Prices](#‎understand-the-heights-of-prices)
-    + [4.2.6. Comparison of Time Consumed](#comparison1)
+    + [4.2.6. Comparison of Time Consumed](#‎comparison1)
 
   + [4.3. Asking and Answering Questions](#asking-and-answering-questions)
     + [4.3.1. To what degree is the price distribution skewed?](#q1)
