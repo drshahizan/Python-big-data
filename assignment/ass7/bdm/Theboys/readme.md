@@ -20,9 +20,9 @@ Don't forget to hit the :star: if you like this repo.
 |Wu Jiaming | MCS221033 |
 |Liu Kaiyuan | MCS231020|
 
-- Library 1 - [Pandas](./Pandas.ipynb)
-- Library 2 - [Vaex](./Modin.ipynb)
-- Library 3 - [Dask](./Dask.ipynb)
+- Library 1 - [Pandas](./Theboys_Assignment_7_Pandas.ipynb)
+- Library 2 - [Vaex](./Theboys_Assignment7_Vaex.ipynb)
+- Library 3 - [Dask](./Theboys_Assignment7_Dask.ipynb)
 - Comparison - [Comparison](./comparison.md)
 
 ## Contribution 🛠️
