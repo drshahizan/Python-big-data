@@ -1,4 +1,4 @@
-<a href="https://github.com/drshahizan/HPDP/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/HPDP" alt="Stars Badge"/></a>
+n<a href="https://github.com/drshahizan/HPDP/stargazers"><img src="https://img.shields.io/github/stars/drshahizan/HPDP" alt="Stars Badge"/></a>
 <a href="https://github.com/drshahizan/HPDP/network/members"><img src="https://img.shields.io/github/forks/drshahizan/HPDP" alt="Forks Badge"/></a>
 <a href="https://github.com/drshahizan/HPDP/pulls"><img src="https://img.shields.io/github/issues-pr/drshahizan/HPDP" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/drshahizan/HPDP"><img src="https://img.shields.io/github/issues/drshahizan/HPDP" alt="Issues Badge"/></a>
@@ -44,7 +44,7 @@
   + [6.3 What is the relation between fermentation time and alcohol content?](#q3)
   + [6.4 Which ingredient ratio is associated with the highest total sales?](#q4)
   + [6.5 What is the average loss during brewing, fermentation, and bottling/kegging for each beer style?](#q5)
-+ [7. Inferences and Conclusion](#conclusion)
++ [7. Inferences and Conclusion](#inference)
 + [8. References and Future Work](#future)
 + [9. Contributions](#contribution)
 
@@ -927,7 +927,7 @@ plt.show()
 - Memory usage: 201.6640625 MB
 - Computation Time: 56.94319486618042 seconds
 
-## 7. Inferences and Conclusion <a name = "conclusion"></a>
+## 7. Inferences and Conclusion <a name = "inference"></a>
 
 ### 1. Pandas:
 **Strengths:**
