@@ -43,7 +43,7 @@
     + [4.1.8. Convert All Object Columns to String Type](#convert-all-object-columns-to-string-type)
     + [4.1.9. Comparison of Time Consumed](#comparison)
 
-  + [4.2. Exploratory Analysis and Visualization](#exploratory-analysis-and-visualization)
+  + [4.2. Exploratory Analysis and Visualization](#‎exploratory-analysis-and-visualization)
     + [4.2.1. Data Observation](#data-observation)
     + [4.2.2. Coefficient of Skewness for the Property Prices](#coefficient-of-skewness-for-the-property-prices)
     + [4.2.3. Exploring Property Prices specifically in Greater London](#exploring-property-prices-specifically-in-greater-london)
