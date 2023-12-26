@@ -421,6 +421,271 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
+#### Display first 20 rows of the dataset
+Library 1: **Pandas**
+```ruby
+df.head(20)
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+ddf.head(20)
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+### Exploratory Analysis and Visualization
+#### 1. Summarize the flights - We will see the percentage of flights that have delayed and cancelled.
+Library 1: **Pandas**
+```ruby
+# Create a DataFrame with 'STATUS' column
+status_df = pd.DataFrame(df['STATUS'])
+
+# Plotting Pie Chart
+plt.figure(figsize=(16, 8))
+plt.subplot(1, 2, 1)
+status_counts = status_df['STATUS'].value_counts()
+status_counts.plot.pie(
+    explode=[0.05, 0.05, 0.05, 0, 0],
+    autopct='%1.1f%%',
+    shadow=True
+)
+plt.title('Flight Status Distribution')
+plt.ylabel('')
+
+# Plotting Bar Chart
+plt.subplot(1, 2, 2)
+status_counts.plot.bar(figsize=(16, 8))
+plt.title('Flight Status Distribution')
+
+plt.show()
+
+print('Status represents whether the flight was on time (0), slightly delayed (1), highly delayed (2), diverted (3), or cancelled (4)')
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+f,ax=plt.subplots(1,2,figsize=(50,30))
+pd.DataFrame(ddf['STATUS']).value_counts().plot.pie(explode=[0.05,0.05,0.05,0,0],autopct='%1.1f%%',ax=ax[0],shadow=True)
+ax[0].set_title('Status')
+ax[0].set_ylabel('')
+pd.DataFrame(ddf['STATUS']).value_counts().plot.bar(figsize=(8,6), ax=ax[1])
+ax[1].set_title('Status')
+plt.show()
+
+print('Status represents wether the flight was on time (0), slightly delayed (1), highly delayed (2), diverted (3), or cancelled (4)')
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+#### 2. Cancelled flights - We are going to investigate the relationship of cancelled flights and the reason behind. We will view the result of analysis through graph by visualization.
+Library 1: **Pandas**
+```ruby
+# Select cancelled flights
+CancelFlights = df[(df.STATUS == 4)]
+
+# Create subplots
+f, ax = plt.subplots(1, 2, figsize=(20, 8))
+
+# Generate a pie chart of cancellation codes
+pd.DataFrame(CancelFlights['CANCELLATION_CODE']).value_counts().plot.pie(
+    explode=[0.05, 0.05, 0.05, 0.05],
+    autopct='%1.1f%%',
+    ax=ax[0],
+    shadow=True
+)
+ax[0].set_ylabel('')
+
+# Generate a bar chart of cancellation codes
+pd.DataFrame(CancelFlights['CANCELLATION_CODE']).value_counts().plot.bar(figsize=(8, 6), ax=ax[1])
+
+# Show the plots
+plt.show()
+
+# Print legend explaining cancellation codes
+print('A = carrier, B = weather, C = NAS, D = security')
+```
+Time Consumed: 
+
+```ruby
+import datetime as dt
+
+# Select cancelled flights
+CancelFlights = df[(df.STATUS == 4)]
+
+# Group by month and plot the count of cancelled flights
+CancelFlights['CANCELLATION_CODE'].groupby(CancelFlights['FL_DATE'].dt.month).count().plot()
+plt.show()
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+CancFlights = ddf[(ddf.STATUS == 4)]
+
+f,ax=plt.subplots(1,2,figsize=(20,8))
+pd.DataFrame(CancFlights['CANCELLATION_CODE']).value_counts().plot.pie(explode=[0.05,0.05,0.05,0.05],autopct='%1.1f%%',ax=ax[0],shadow=True)
+ax[0].set_ylabel('')
+pd.DataFrame(CancFlights['CANCELLATION_CODE']).value_counts().plot.bar(figsize=(8,6), ax=ax[1])
+plt.show()
+
+print('A = carrier, B = weather, C = NAS, D=security')
+```
+Time Consumed: 
+
+```ruby
+import datetime as dt
+CancFlights = ddf[(ddf.STATUS == 4)]
+#CancFlights['FL_DATE'] = pd.to_datetime(CancFlights['FL_DATE'])
+CancFlights['CANCELLATION_CODE'].groupby(CancFlights['FL_DATE'].dt.month).count().compute().plot()
+plt.show()
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed:
+
+####  3. Delayed flights - We will explore the facts and insights about the delayed flights
+Library 1: **Pandas**
+```ruby
+Delayedflights = df[(df.STATUS >= 1) &(df.STATUS < 3)]
+sns.distplot(Delayedflights['ARR_DELAY'])
+plt.show()
+```
+Time Consumed: 
+```ruby
+df['FL_DATE'] = pd.to_datetime(df['FL_DATE'])
+
+# Set up subplots
+fig, ax = plt.subplots(1, 2, figsize=(20, 8))
+
+# Average delay by month
+df['ARR_DELAY'].groupby(df['FL_DATE'].dt.month).mean().plot(ax=ax[0])
+ax[0].set_title('Average delay by month')
+
+# Number of minutes delayed by month
+df['ARR_DELAY'].groupby(df['FL_DATE'].dt.month).sum().plot(ax=ax[1])
+ax[1].set_title('Number of minutes delayed by month')
+
+# Show the plot
+plt.show()
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+Delayedflights = ddf[(ddf.STATUS >= 1) &(ddf.STATUS < 3)]
+```
+Time Consumed: 
+```ruby
+sns.distplot(Delayedflights['ARR_DELAY'])
+plt.show()
+```
+Time Consumed: 
+```ruby
+f,ax=plt.subplots(1,2,figsize=(20,8))
+Delayedflights['ARR_DELAY'].groupby(Delayedflights['FL_DATE'].dt.month).mean().compute().plot(ax=ax[0])
+ax[0].set_title('Average delay by month')
+Delayedflights['ARR_DELAY'].groupby(Delayedflights['FL_DATE'].dt.month).sum().compute().plot(ax=ax[1])
+ax[1].set_title('Number of minutes delayed by month')
+plt.show()
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+#### 4. Delay reasons - We will going to explore the causes of flights delays.
+Library 1: **Pandas**
+```ruby
+df2 = Delayedflights.filter(['FL_DATE', 'CARRIER_DELAY', 'LATE_AIRCRAFT_DELAY', 'NAS_DELAY', 'WEATHER_DELAY', 'SECURITY_DELAY'], axis=1)
+df2['FL_DATE'] = pd.to_datetime(df2['FL_DATE'])  # Convert 'FL_DATE' to Pandas datetime format if not already done
+df2 = df2.groupby(df2['FL_DATE'].dt.month)[['CARRIER_DELAY', 'LATE_AIRCRAFT_DELAY', 'NAS_DELAY', 'WEATHER_DELAY', 'SECURITY_DELAY']].sum().plot()
+df2.legend(loc='upper center', bbox_to_anchor=(0.5, 1.25), ncol=3, fancybox=True, shadow=True)
+plt.show()
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+df2 = Delayedflights.compute().filter(['FL_DATE','CARRIER_DELAY', 'LATE_AIRCRAFT_DELAY', 'NAS_DELAY', 'WEATHER_DELAY', 'SECURITY_DELAY'], axis=1)
+df2 = df2.groupby(df2['FL_DATE'].dt.month)['CARRIER_DELAY', 'LATE_AIRCRAFT_DELAY', 'NAS_DELAY', 'WEATHER_DELAY', 'SECURITY_DELAY'].sum().plot()
+df2.legend(loc='upper center', bbox_to_anchor=(0.5, 1.25), ncol=3, fancybox=True, shadow=True)
+plt.show()
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+#### 5. Relationship between variables - We will going to explore the relationships between thses variables, especially on the causes of the dalayed flights.
+Library 1: **Pandas**
+```ruby
+cols = ['ARR_DELAY', 'CARRIER_DELAY', 'LATE_AIRCRAFT_DELAY', 'NAS_DELAY', 'WEATHER_DELAY', 'SECURITY_DELAY']
+delay_pd = Delayedflights[cols]
+sns.pairplot(delay_pd, height=2.5)
+plt.show()
+```
+Time Consumed: 
+```ruby
+df['OP_CARRIER'].value_counts().plot.bar()
+plt.title('Delay Distribution by Carrier')
+plt.show()
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+sns.set()
+cols = ['ARR_DELAY', 'CARRIER_DELAY', 'LATE_AIRCRAFT_DELAY', 'NAS_DELAY', 'WEATHER_DELAY', 'SECURITY_DELAY']
+delay_pd = Delayedflights[cols].compute()
+sns.pairplot(delay_pd, size = 2.5)
+plt.show()
+```
+Time Consumed: 
+
+```ruby
+ddf['OP_CARRIER'].value_counts().compute()
+```
+Time Consumed: 
+
+```ruby
+ddf['OP_CARRIER'].value_counts().compute().plot.bar()
+plt.title('Delay Distribution by Carrier')
+```
+Time Consumed: 
+
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
 ## Conclusion <a name = "conclusion"></a>
 
 
