@@ -192,7 +192,7 @@ dtype_spec = {'CANCELLATION_CODE': 'object'}
 # Read the CSV file with dtype specification
 ddf = dd.read_csv(file_path, dtype=dtype_spec)
 ```
-Time Consumed: 
+Time Consumed: 347 µs
 
 Library 3: **Vaex**
 ```ruby
@@ -233,7 +233,7 @@ Library 2: **Dask**
 first_10_rows = ddf.head(10)
 print(first_10_rows)
 ```
-Time Consumed: 
+Time Consumed: 3.9 s
 
 Library 3: **Vaex**
 ```ruby 
@@ -252,7 +252,7 @@ Library 2: **Dask**
 ```ruby
 ddf.describe().compute()
 ```
-Time Consumed: 
+Time Consumed: 47.2 s
 
 Library 3: **Vaex**
 ```ruby
@@ -271,7 +271,7 @@ Library 2: **Dask**
 ```ruby
 ddf.info()
 ```
-Time Consumed: 
+Time Consumed: 3.85 ms
 
 Library 3: **Vaex**
 ```ruby
@@ -290,7 +290,7 @@ Library 2: **Dask**
 ```ruby
 ddf.isna().sum().compute()
 ```
-Time Consumed: 
+Time Consumed: 29.8 s
 
 Library 3: **Vaex**
 ```ruby
@@ -320,7 +320,7 @@ f, ax = plt.subplots(figsize=(12, 9))
 sns.heatmap(corrmat, vmax=.8, square=True, xticklabels=corrmat.columns, yticklabels=corrmat.columns);
 plt.show()
 ```
-Time Consumed: 
+Time Consumed: 1min 58s
 
 Library 3: **Vaex**
 ```ruby
@@ -341,7 +341,7 @@ Library 2: **Dask**
 ddf['FL_DATE'] = ddf['FL_DATE'].astype('datetime64[ns]')
 ddf.dtypes
 ```
-Time Consumed: 
+Time Consumed: 21.8 ms
 
 Library 3: **Vaex**
 ```ruby
@@ -360,7 +360,7 @@ Library 2: **Dask**
 ```ruby
 ddf.shape[0].compute()
 ```
-Time Consumed: 
+Time Consumed: 23.9 s
 
 Library 3: **Vaex**
 ```ruby
@@ -379,7 +379,7 @@ Library 2: **Dask**
 ```ruby
 ddf['STATUS'] = ddf['ARR_DELAY'].apply(lambda x: 0 if x <= 15 else 1 if x <= 30 else 2 if x <= 60 else 3 if x <= 120 else 4)
 ```
-Time Consumed: 
+Time Consumed: 30.2 ms
 
 Library 3: **Vaex**
 ```ruby
@@ -427,7 +427,7 @@ Library 2: **Dask**
 ```ruby
 ddf.head(20)
 ```
-Time Consumed: 
+Time Consumed: 4.26 s
 
 Library 3: **Vaex**
 ```ruby
@@ -480,7 +480,7 @@ plt.show()
 
 print('Status represents wether the flight was on time (0), slightly delayed (1), highly delayed (2), diverted (3), or cancelled (4)')
 ```
-Time Consumed: 
+Time Consumed: 1min 9s
 
 Library 3: **Vaex**
 ```ruby
@@ -541,7 +541,7 @@ plt.show()
 
 print('A = carrier, B = weather, C = NAS, D=security')
 ```
-Time Consumed: 
+Time Consumed: 1min 8s
 
 ```ruby
 import datetime as dt
@@ -589,7 +589,7 @@ Library 2: **Dask**
 ```ruby
 Delayedflights = ddf[(ddf.STATUS >= 1) &(ddf.STATUS < 3)]
 ```
-Time Consumed: 
+Time Consumed: 4.73 ms
 ```ruby
 sns.distplot(Delayedflights['ARR_DELAY'])
 plt.show()
@@ -629,7 +629,7 @@ df2 = df2.groupby(df2['FL_DATE'].dt.month)['CARRIER_DELAY', 'LATE_AIRCRAFT_DELAY
 df2.legend(loc='upper center', bbox_to_anchor=(0.5, 1.25), ncol=3, fancybox=True, shadow=True)
 plt.show()
 ```
-Time Consumed: 
+Time Consumed: 37.1 s
 
 Library 3: **Vaex**
 ```ruby
