@@ -96,12 +96,12 @@ import pandas as pd
 Dask is a parallel computing library designed to scale Python workflows. Dask is capable at handling large datasets that don't fit into memory by providing parallel processing capabilities and enabling distributed computing. Dask seamlessly integrates with existing Python libraries, offering DataFrame and Array abstractions that mimic Pandas and NumPy structures. By splitting computations into smaller tasks and utilizing parallelism, Dask can efficiently manages computations across multiple cores or even clusters, enabling the processing of datasets too large.
 
 Install Dask:
-```
+```python
 !pip install dask
 ```
 
 Importing Dask library:
-```
+```python
 import dask.dataframe as dd
 ```
 
@@ -110,11 +110,11 @@ import dask.dataframe as dd
 Polars dataFrame library that is written in Rust which shares similarities with Pandas but mainly on elevating the memory efficiency performance. Polars library is designed to handle large-scale data processing, offering a high-performance alternative to Pandas. Polars leverages the scalability of Rust and performance benefits while providing a Pandas-like unique environment. This enables users who are familiar with pandas to perform data manipulations and transformations more efficiently. Polars’ query engine leverages Apache Arrow to execute vectorized queries. Where is exploits the power for columnar data processing, reducing memory overhead and enhancing computational speed for various operations
 
 Install Polars:
-```
+```python
 !pip install polars
 ```
 Importing Polars library:
-```
+```python
 import polars as pl
 ```
   
