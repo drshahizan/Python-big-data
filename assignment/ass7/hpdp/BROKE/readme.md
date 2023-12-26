@@ -10,7 +10,7 @@
 # Assignment 7: Comparison between libraries
 
 ## Your profile
-Group Name : <b>BERUK</b>
+Group Name : <b>BROKE</b>
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
