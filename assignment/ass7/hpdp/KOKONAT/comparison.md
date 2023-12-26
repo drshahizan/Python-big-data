@@ -939,11 +939,11 @@ plt.show()
 - **Limited Scalability:** Pandas is not designed for distributed computing, making it less suitable for large datasets that don't fit into memory.
 - **Performance:** Performance can be a concern for large datasets, and certain operations might be slow compared to other big data tools.
 
-### 2. Data Table:
+### 2. Datatable:
 **Strengths:**
-- **High Performance:** Data Table is built for performance, making it efficient for large datasets.
+- **High Performance:** Datatable is built for performance, making it efficient for large datasets.
 - **Memory Efficiency:** It's designed to handle datasets that are too large to fit into memory efficiently.
-- **Data Manipulation:** Data Table provides a powerful set of tools for data manipulation and transformation.
+- **Data Manipulation:** Datatable provides a powerful set of tools for data manipulation and transformation.
 
 **Weaknesses:**
 - **Learning Curve:** Data Table may have a steeper learning curve compared to Pandas for new users.
@@ -965,8 +965,8 @@ Pandas is best suited for:
 - Exploratory data analysis on small to medium-sized datasets.
 - Prototyping and quick analysis where distributed computing is not necessary.
 
-### 2. Data Table:
-Data Table is well-suited for:
+### 2. Datatable:
+Datatable is well-suited for:
 - Large datasets that do not fit into memory.
 - Performance-critical data manipulation tasks.
 
@@ -977,7 +977,7 @@ PySpark excels in:
 
 ### Conclusion:
 - **Pandas** is excellent for smaller datasets and is widely used in the data science community for its simplicity.
-- **Data Table** shines in scenarios where memory efficiency and high performance are crucial, making it suitable for large datasets.
+- **Datatable** shines in scenarios where memory efficiency and high performance are crucial, making it suitable for large datasets.
 - **PySpark** is the go-to choice for big data processing, providing scalability and performance for large-scale distributed computing.
 
 ## 8. References and Future Work <a name = "future"></a>
