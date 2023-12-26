@@ -58,7 +58,7 @@
     + [4.3.4. How does the combination of PPDCategory_Type and Old/New property status influence property prices?](#how-does-the-combination-of-ppdcategory_type-and-oldnew-property-status-influence-property-prices)
     + [4.3.5. What is the trend in property prices over time?](#what-is-the-trend-in-property-prices-over-time)
     + [4.3.6. How does the price of property vary based on different property types over time?](#how-does-the-price-of-property-vary-based-on-different-property-types-over-time)
-+ [5. Conclusion](#conclusion)
++ [5. Inferences and Conclusion](#conclusion)
 + [Contributions](#contribution)
 
 ## 1. Introduction <a name = "intro"></a>
@@ -344,7 +344,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
     data = pd.read_csv("/content/202304.csv", header = None, names = colnames, parse_dates = ["Date_of_Transfer"])
     ```
 
-    Time Consumed: 3 minutes 35 seconds
+    Time Consumed: 3 minutes 23 seconds
 
 2. **Dask:**
    
@@ -409,7 +409,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
     data.drop(["Transaction_unique_identifier", "Record_Status - monthly_file_only"], axis = 1, inplace = True)
     ```
 
-   Time Consumed: 31.5 milliseconds
+   Time Consumed: 22.3 milliseconds
 
 2. **Dask:**
 
@@ -436,7 +436,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
     data.isna().sum() / data.shape[0]
     ```
 
-   Time Consumed: 1.51 seconds
+   Time Consumed: 53.6 seconds
 
 2. **Dask:**
 
@@ -464,7 +464,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
     data.drop(["SAON", "Locality"], axis = 1, inplace = True)
     ```
 
-   Time Consumed: 6.47 milliseconds
+   Time Consumed: 11.5 milliseconds
 
 2. **Dask:**
 
@@ -492,7 +492,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
     data.fillna({"postcode" : "UNK", "PAON" : 0, "Street" : "UNK"}, inplace = True)
     ```
 
-   Time Consumed: 229 milliseconds
+   Time Consumed: 723 milliseconds
 
 2. **Dask:**
 
@@ -520,7 +520,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
     data.isna().sum() / data.shape[0]
     ```
 
-   Time Consumed: 3 minutes 1 seconds
+   Time Consumed: 39.2 seconds
 
 2. **Dask:**
 
@@ -550,7 +550,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
     data[colnames] = data.astype( { col : str for col in colnames} )[colnames]
     ```
 
-   Time Consumed: 3 minutes 19 seconds
+   Time Consumed: 4 minutes 52 seconds
 
 2. **Dask:**
 
@@ -568,14 +568,14 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
 | Operation/Analysis | Modin | Dask | Vaex |
 |--------------------|-------|------|------|
-| 4.1.1. Dataset Loading    | 3 min 35 sec | 50.5 ms | 3 min 55 sec |
+| 4.1.1. Dataset Loading    | 3 min 23 sec | 50.5 ms | 3 min 55 sec |
 | 4.1.2. Dataframe Info     | 1 min 57 sec | 4.36 ms | 17.5 ms |
-| 4.1.3. Drop Columns       | 31.5 ms | 11.6 ms | 1.09 ms |
-| 4.1.4. Missing Values %   | 1.51 sec | 6 min 23 sec | 2.6 sec |
-| 4.1.5. Drop Columns       | 6.47 ms | 7.41 ms | 2.32 ms |
-| 4.1.6. Replace Missing    | 229 ms | 12.2 ms | 6.29 ms |
-| 4.1.7. Review Cleaning    | 3 min 1 sec | 7 min 13 sec | 2.51 sec |
-| 4.1.8. Convert to String  | 3 min 19 sec | - | - |
+| 4.1.3. Drop Columns       | 22.3 ms | 11.6 ms | 1.09 ms |
+| 4.1.4. Missing Values %   | 53.6 sec | 6 min 23 sec | 2.6 sec |
+| 4.1.5. Drop Columns       | 11.5 ms | 7.41 ms | 2.32 ms |
+| 4.1.6. Replace Missing    | 723 ms | 12.2 ms | 6.29 ms |
+| 4.1.7. Review Cleaning    | 39.2 sec | 7 min 13 sec | 2.51 sec |
+| 4.1.8. Convert to String  | 4 min 52 sec | - | - |
 
 **Summary:**
 - Modin: Suitable for large-scale data, consistently efficient in parallel computing.
@@ -897,7 +897,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
     sns.lineplot(data = data.sample(frac = 0.1), x = "year", y = "price", hue = "month")
     ```
 
-   Time Consumed: -
+   Time Consumed: 9 minutes 18 seconds
 
 2. **Dask:**
 
@@ -941,8 +941,25 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 34.3 seconds
 
+#### 4.3.7. Comparison of Time Consumed <a name = "‎comparison-of-time-consumed-2"></a>
 
-## 5. Conclusion <a name = "conclusion"></a>
+| Operation/Analysis                                         | Modin          | Dask          | Vaex          |
+|------------------------------------------------------------|----------------|---------------|---------------|
+| 4.3.1. Skewness of Price Distribution                       | 1 min 25 sec   | 1 min 6 sec   | 1.32 sec      |
+| 4.3.2. Influence of Property Location on Price              | 4 min 5 sec    | 2 min 33 sec  | 58.7 sec      |
+| 4.3.3. District's Effect on Price and Dispersion            | 4 min 16 sec   | 1 min 4 sec   | 1.64 sec      |
+| 4.3.4. Influence of PPDCategory_Type and Old/New on Prices  | 3 min 5 sec    | 1 min 15 sec  | 2.62 sec      |
+| 4.3.5. Trend in Property Prices Over Time                   | 9 min 18 sec   | 2 min 15 sec  | 40.7 sec      |
+| 4.3.6. Variation in Property Prices Based on Property Type  | 4 min 37 sec   | 2 min 19 sec  | 34.3 sec      |
+
+**Summary:**
+
+- Although modin is effective in some situations, its performance varies depending on the analysis.
+- In various operations, Modin is slower than Dask in terms of performance.
+- Vaex constantly performs better, particularly in computation- and exploration-intensive analyses.
+
+
+## 5. Inferences and Conclusion <a name = "conclusion"></a>
 
 
 ## Contribution 🛠️  <a name = "contribution"> </a>
