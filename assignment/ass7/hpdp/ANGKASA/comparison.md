@@ -137,10 +137,10 @@ Dask is a parallel computing library in Python that seamlessly integrates with p
 <div align="center">
   
 | No. | Libraries | Time taken (seconds) |
-||| Pandas | Vaex | Dask |
-|1.| Pandas | 47.67546 |
-|2.| Vaex |  |
-|3.| Dask | 0.03214 |
+| | | Pandas | Vaex | Dask |
+|1.| Mean | 47.67546 | 4.55 | 3.77 |
+|2.| Average |  | 4.76 | 7.01 |
+|3.| Histogram | 0.03214 | 66 | 77.2 |
   
 </div>
 
