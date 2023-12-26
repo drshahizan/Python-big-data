@@ -26,8 +26,8 @@ Don't forget to hit the :star: if you like this repo.
 * [💻 Ipynb File ](./F4_Assignment7_library_3_[_Pandas_].ipynb)
 
 ### Library 2 - Modin
-* [📖 Google Colab link ]()
-* [💻 Ipynb File ]()
+* [📖 Google Colab link ](https://colab.research.google.com/drive/12AfE-y8QdH8kAw6xtv9PaLglSbdjNTJ7?usp=sharing)
+* [💻 Ipynb File ](./F4_Assignment7_library_2[Modin].ipynb)
 
 #### Library 3 - Vaex
 * [📖 Google Colab link ](https://colab.research.google.com/drive/1afUFyHf4D7LZBm73q6li9Wjmvq08XbfA?usp=sharing)
