@@ -17,15 +17,16 @@ Don't forget to hit the :star: if you like this repo.
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-|Mikhail Bin Yaasin              |   A21EC0053   |  Comparison  |
+|Mikhail Bin Yaasin              |   A21EC0053   |  Pandas Only and Comparison  |
 |Muhammad Farhan Bin Ibrahim             | A21EC0072     |  Dask  |
 |Muhammad Fikri Bin Sharunazim              |  A21EC0075    |   Modin |
 | Muhammad Adam Fahmi Bin Mohd Taufiq              |  A21EC0061    |  Vaex  |
 
 ### 📂 Folder content:
-* [📖 Dask ](dask.ipynb)
-* [📖 Modin ](modin.ipynb)
-* [📖 Vaex ](vaex.ipynb)  
+* [📖 Pandas Only ](PandasOnly.ipynb)
+* [📖 Dask ](Dask.ipynb)
+* [📖 Modin ](Modin.ipynb)
+* [📖 Vaex ](Vaex.ipynb)  
 * [📖 Comparison](comparison.md)
 
 
