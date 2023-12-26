@@ -22,16 +22,16 @@
 + [2. Dataset Selection](#dataset_selection)
 + [3. Data Acquisition](#data_acquisition)
 + [4. Data Preparation and Cleaning](#data_prep)
-  + [4.1. Install necessary library](#library)
-  + [4.2. Load the dataset](#data_loading)
-  + [4.3. Display the first five rows](#rows)
-  + [4.4. Explore the number of rows & columns](#num_rows)
-  + [4.5 Handling Missing Value](#missing_value)
-  + [4.6. Column type](#column_type)
-  + [4.7. Number of unique values per columns](#unique)
+  + [4.1 Install necessary library](#library)
+  + [4.2 Load the dataset](#data_loading)
+  + [4.3 Display the first five rows](#rows)
+  + [4.4 Explore the number of rows & columns](#num_rows)
+  + [4.5 Column type](#column_type)
+  + [4.6 Handling Missing Value](#missing_value)
+  + [4.7 Number of unique values per columns](#unique)
 + [5. Exploratory Data Analysis](#eda)
-  + [5.1. Summary Statistics](#sum_stat)
-  + [5.2. Data Visualization](#data_visual)
+  + [5.1 Summary Statistics](#sum_stat)
+  + [5.2 Data Visualization](#data_visual)
     + [5.2.1 Total Volume Produced by Beer Style](#total_volume)
     + [5.2.2 Average Fermentation Time by Beer Style](#avg)
     + [5.2.3 Fermentation Time by Beer Style](#fermentation_time)
@@ -206,28 +206,7 @@ print(f"Number of Columns: {num_columns}")
 - Memory usage: 115.92578125 MB
 - Computation Time: 5.4734203815460205 seconds
 
-### 4.5 Handling Missing Value <a name = "missing_value"></a>
-Library 1: **Pandas**
-
-Library 2: **Datatable**
-```ruby
-# Check for missing values using countna() in datatable
-missing_values = dt_df.countna()
-print("Missing values per column:")
-print(missing_values.to_pandas().transpose())
-```
-- Memory usage: 1636.37890625 MB
-- Computation Time: 1.212653636932373 seconds
-  
-Library 3: **PySpark**
-```ruby
-missing_values = brewery_df.select([F.count(F.when(F.col(c).isNull(), c)).alias(c) for c in brewery_df.columns])
-missing_values.show()
-```
-- Memory usage: 115.92578125 MB
-- Computation Time: 45.46979260444641 seconds
-
-### 4.6 Column type <a name = "column_type"></a>
+### 4.5 Column type <a name = "column_type"></a>
 Library 1: **Pandas**
 
 Library 2: **Datatable**
@@ -253,6 +232,27 @@ for col_name, col_type in column_types:
 ```
 - Memory usage: 100.83203125 MB
 - Computation Time: 0.01815199851989746 seconds
+  
+### 4.6 Handling Missing Value <a name = "missing_value"></a>
+Library 1: **Pandas**
+
+Library 2: **Datatable**
+```ruby
+# Check for missing values using countna() in datatable
+missing_values = dt_df.countna()
+print("Missing values per column:")
+print(missing_values.to_pandas().transpose())
+```
+- Memory usage: 1636.37890625 MB
+- Computation Time: 1.212653636932373 seconds
+  
+Library 3: **PySpark**
+```ruby
+missing_values = brewery_df.select([F.count(F.when(F.col(c).isNull(), c)).alias(c) for c in brewery_df.columns])
+missing_values.show()
+```
+- Memory usage: 115.92578125 MB
+- Computation Time: 45.46979260444641 seconds
 
 ### 4.7 Number of unique values per columns <a name = "unique"></a>
 Library 1: **Pandas**
@@ -357,9 +357,8 @@ total_volume_by_style = brewery_df.groupBy("Beer_Style").agg(sum("Volume_Produce
 # Show the result
 total_volume_by_style.show()
 ```
-Memory usage: 201.609375 MB
-
-Computation Time: 15.084449291229248 seconds
+- Memory usage: 201.609375 MB
+- Computation Time: 15.084449291229248 seconds
 
 #### 5.2.2  Average Fermentation Time by Beer Stylee  <a name = "avg"></a>
 Library 1: **Pandas**
@@ -856,9 +855,8 @@ highest_sales_ratio = total_sales_by_ratio.orderBy(col("Total_Sales").desc()).fi
 
 print(f"The ingredient ratio associated with the highest total sales is: {highest_sales_ratio}")
 ```
-Memory usage: 196.4296875 MB
-
-Computation Time: 38.24022150039673 seconds
+- Memory usage: 196.4296875 MB
+- Computation Time: 38.24022150039673 seconds
 
 ### 6.5 What is the average loss during brewing, fermentation, and bottling/kegging for each beer style?<a name = "q5"></a>
 Library 1: **Pandas**
