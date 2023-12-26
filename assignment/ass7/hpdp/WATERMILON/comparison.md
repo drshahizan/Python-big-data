@@ -961,6 +961,45 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
 ## 5. Inferences and Conclusion <a name = "conclusion"></a>
 
+The Modin, Dask, and Vaex comparison highlights certain strengths and weaknesses in the field of data analysis libraries, especially with regard to speed and performance.
+
+1. **Modin**
+
+Strengths:
+
+- When data preprocessing and cleaning are the main priorities, Modin performs exceptionally well.
+- With an interface that is similar, it makes the transition simple for users who are already familiar with pandas.
+
+Weaknesses:
+
+- Modin's performance varies depending on the analysis, and it might not always beat competing libraries.
+- When handling distributed computing tasks and large-scale datasets, it might encounter some limitations.
+
+2. **Dask**
+
+Strengths:
+
+- Dask is a reliable option for managing massive datasets since it excels in distributed computing.
+- It functions well in tasks requiring computation and parallel processing.
+
+Weaknesses:
+
+- Although Dask is scalable, users switching from Pandas may find Modin to be more user-friendly.
+- In certain scenarios, the performance gains are significant; however, its benefits might not be as strong in other analyses.
+
+3. **Vaex**
+
+Strengths:
+
+- Vaex is notable for its outstanding performance, particularly in computational and exploratory tasks.
+- Through its lazy evaluation approach, it quickly provides insights and handles large datasets with efficiency.
+
+Weaknesses:
+
+- The learning curve for Vaex might be higher for users who are used to working with traditional pandas workflows.
+- Vaex is very efficient, but for tasks requiring less computation or with smaller datasets, its features might be too much.
+
+In conclusion, we do think that Vaex is a great option and best library for computationally demanding tasks and big datasets because it continuously exhibits superior performance. Dask provides scalability advantages and performs well in distributed computing scenarios. Modin shows inconsistent performance and might not always be the best option for extensive and computationally demanding analyses, even though it is appropriate for some use cases. The size of the dataset, the particular requirements of the analysis, and the desire for a smooth transition from conventional pandas workflows should all be taken into account when choosing one of these libraries.
 
 ## Contribution 🛠️  <a name = "contribution"> </a>
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
