@@ -690,6 +690,217 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
+### Asking and Answering Questions
+#### Q1: What percentage of flights experienced delays or cancellations?
+Library 1: **Pandas**
+```ruby
+# Calculate the percentage of delayed flights
+delayed_percentage = (df['ARR_DELAY'].notnull().sum() / len(df)) * 100
+
+# Calculate the percentage of cancelled flights
+cancelled_percentage = (df['CANCELLATION_CODE'].notnull().sum() / len(df)) * 100
+
+print(f"Percentage of delayed flights: {delayed_percentage:.2f}%")
+print(f"Percentage of cancelled flights: {cancelled_percentage:.2f}%")
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+import dask.dataframe as dd
+
+# Calculate the percentage of delayed flights
+delayed_percentage = (ddf['ARR_DELAY'].notnull().sum() / len(ddf)).compute() * 100
+
+# Calculate the percentage of cancelled flights
+cancelled_percentage = (ddf['CANCELLATION_CODE'].notnull().sum() / len(ddf)).compute() * 100
+
+print(f"Percentage of delayed flights: {delayed_percentage:.2f}%")
+print(f"Percentage of cancelled flights: {cancelled_percentage:.2f}%")
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+#### Q2: How do taxi-out and taxi-in times relate to overall delays?
+Library 1: **Pandas**
+```ruby
+# Scatter plot to analyze the relationship between taxi-out time and arrival delay
+plt.scatter(df['TAXI_OUT'], df['ARR_DELAY'], alpha=0.5)
+plt.xlabel('Taxi-Out Time')
+plt.ylabel('Arrival Delay')
+plt.title('Relationship between Taxi-Out Time and Arrival Delay')
+plt.show()
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+# Scatter plot to analyze the relationship between taxi-out time and arrival delay
+plt.scatter(ddf['TAXI_OUT'].compute(), ddf['ARR_DELAY'].compute(), alpha=0.5)
+plt.xlabel('Taxi-Out Time')
+plt.ylabel('Arrival Delay')
+plt.title('Relationship between Taxi-Out Time and Arrival Delay')
+plt.show()
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed:
+
+#### Q3: Are there specific months or seasons when flight cancellations are more frequent?
+Library 1: **Pandas**
+```ruby
+df['Month'] = df['FL_DATE'].dt.month
+
+# Count the number of cancellations per month
+cancellations_by_month = df['CANCELLATION_CODE'].notnull().groupby(df['Month']).sum()
+
+# Plot the results
+cancellations_by_month.plot(kind='bar')
+plt.xlabel('Month')
+plt.ylabel('Number of Cancellations')
+plt.title('Monthly Analysis of Flight Cancellations')
+plt.show()
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+ddf['Month'] = ddf['FL_DATE'].dt.month
+
+# Count the number of cancellations per month
+cancellations_by_month = ddf['CANCELLATION_CODE'].notnull().groupby(ddf['Month']).sum()
+
+# Plot the results
+cancellations_by_month.compute().plot(kind='bar')
+plt.xlabel('Month')
+plt.ylabel('Number of Cancellations')
+plt.title('Monthly Analysis of Flight Cancellations')
+plt.show()
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+#### Q4: Do delays vary between daytime and nighttime flights?
+Library 1: **Pandas**
+```ruby
+df['Daytime'] = (df['CRS_DEP_TIME'] >= 600) & (df['CRS_DEP_TIME'] < 1800)
+
+# Create a boxplot to compare delays during daytime and nighttime
+sns.boxplot(x='Daytime', y='ARR_DELAY', data=df)
+plt.xlabel('Daytime vs. Nighttime')
+plt.ylabel('Arrival Delay')
+plt.title('Comparison of Arrival Delays: Daytime vs. Nighttime')
+plt.show()
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+ddf['Daytime'] = (ddf['CRS_DEP_TIME'] >= 600) & (ddf['CRS_DEP_TIME'] < 1800)
+
+# Create a boxplot to compare delays during daytime and nighttime
+sns.boxplot(x='Daytime', y='ARR_DELAY', data=ddf.compute())
+plt.xlabel('Daytime vs. Nighttime')
+plt.ylabel('Arrival Delay')
+plt.title('Comparison of Arrival Delays: Daytime vs. Nighttime')
+plt.show()
+
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+#### Q5: Is there a correlation between the air time of a flight and the arrival delay?
+Library 1: **Pandas**
+```ruby
+# Scatter plot to analyze the relationship between air time and arrival delay
+plt.scatter(df['AIR_TIME'], df['ARR_DELAY'], alpha=0.5)
+plt.xlabel('Air Time')
+plt.ylabel('Arrival Delay')
+plt.title('Relationship between Air Time and Arrival Delay')
+plt.show()
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+# Scatter plot to analyze the relationship between air time and arrival delay
+plt.scatter(ddf['AIR_TIME'].compute(), ddf['ARR_DELAY'].compute(), alpha=0.5)
+plt.xlabel('Air Time')
+plt.ylabel('Arrival Delay')
+plt.title('Relationship between Air Time and Arrival Delay')
+plt.show()
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+#### Q6: At what times of the day do delays occur most frequently?
+Library 1: **Pandas**
+```ruby
+# Extract the hour from the scheduled departure time
+df['Hour'] = df['CRS_DEP_TIME'] // 100
+
+# Group by hour and calculate the average arrival delay
+average_delay_by_hour = df.groupby('Hour')['ARR_DELAY'].mean()
+
+# Plotting
+plt.figure(figsize=(12, 6))
+average_delay_by_hour.plot(marker='o')
+plt.xlabel('Hour of the Day')
+plt.ylabel('Average Arrival Delay (minutes)')
+plt.title('Hourly Analysis of Arrival Delays')
+plt.show()
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+# Extract the hour from the scheduled departure time
+ddf['Hour'] = ddf['CRS_DEP_TIME'] // 100
+
+# Group by hour and calculate the average arrival delay
+average_delay_by_hour = ddf.groupby('Hour')['ARR_DELAY'].mean().compute()
+
+# Plotting
+plt.figure(figsize=(12, 6))
+average_delay_by_hour.plot(marker='o')
+plt.xlabel('Hour of the Day')
+plt.ylabel('Average Arrival Delay (minutes)')
+plt.title('Hourly Analysis of Arrival Delays')
+plt.show()
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+
 ## Conclusion <a name = "conclusion"></a>
 
 
