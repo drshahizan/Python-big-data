@@ -126,7 +126,7 @@ Dask is a parallel computing library in Python that seamlessly integrates with p
 | No. | Libraries | Time taken (seconds) |
 |---|---|---|
 |1.| Pandas | 47.67546 |
-|2.| Vaex |  |
+|2.| Vaex | 1.43051+- |
 |3.| Dask | 0.03214 |
   
 </div>
@@ -138,9 +138,9 @@ Dask is a parallel computing library in Python that seamlessly integrates with p
   
 | No. | Operation | Pandas Time (seconds) | Vaex Time (seconds) | Dask Time (seconds) |
 | --- | --- | --- | --- | --- |
-| 1. | Compute statistic summaries | 1.16429 |  | 146.04489 |
-| 2. | Facet Grid | 0.88007 |  | 147.20021 |
-| 3. | Histogram | 1.64682 |  | 147.05568 |
+| 1. | Compute statistic summaries | 1.16429 | 5.03063 | 146.04489 |
+| 2. | Facet Grid | 0.88007 | - | 147.20021 |
+| 3. | Histogram | 1.64682 | 8.82148 | 147.05568 |
  
 </div>
 
@@ -152,7 +152,7 @@ Dask is a parallel computing library in Python that seamlessly integrates with p
 | No. | Libraries | Memory use (GB) |
 |---|---|---|
 |1.| Pandas | 0.27385 |
-|2.| Vaex |  |
+|2.| Vaex | 0.325 |
 |3.| Dask | 0.74580 |
  
 </div>
