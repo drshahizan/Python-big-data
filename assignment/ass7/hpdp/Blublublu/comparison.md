@@ -1119,7 +1119,12 @@ Time Consumed: 30.4 s
 | **Asking and Answering Questions**           |                  |                |               |
 | Percentage of delayed/cancelled flights     | 0.256            | 131            | 27.2          |
 | Relationship taxi-out, taxi-in, and delays  | 20.3             | 83             | 9.38          |
-| Busiest day of the week for flights          | 0.328            | 2.08           | 0.798         |
+| Flight Cancellations by Month             | 1.45              | 33.5            | 32.4        |
+| Delays Comparison (Daytime vs. Nighttime) | 3.13            | 38.1 s            | 32.3           |
+| Air Time vs. Arrival Delay                | 21.1              | 153s          | 56.7           |
+| Hourly Analysis of Arrival Delays        | 0.490            | 34.6       | 30.4            |
+
+
 
 Through comparing the time consumed for the three libraries, Vaex generally performs tasks with high efficiency, often comparable to or even faster than Dask, and significantly faster than Pandas in many cases. Dask shows good performance for parallelized computing but tends to be slower than Vaex for many tasks. Pandas is often slower than Dask and Vaex, especially for large datasets, but remains a reliable and widely used library.
 
