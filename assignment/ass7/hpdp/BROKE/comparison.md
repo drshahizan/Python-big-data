@@ -29,6 +29,19 @@
 </div>
 
 <br><br>
+## Exploratory Data Analysis and Visualization
+<div align="center">
+  
+| Question | Pandas (s) | Dask (s) | Koalas (s) |
+|--------------------|------------|----------|------------|
+| Question1          | 9.06       | 5.96     | 5.96       |
+| Question2          | 9.06       | 7.15     | 7.15       |
+| Question3          | 8.34       | 8.11     | 8.11       |
+| Question4          | 7.22       | 7.32     | 5.22       |
+
+
+<img src="https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/BROKE/images/download.png" alt="Alt text" width="700"/>
+</div>
 
 
 
