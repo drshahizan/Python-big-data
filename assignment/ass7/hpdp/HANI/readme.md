@@ -21,7 +21,7 @@ Don't forget to hit the :star: if you like this repo.
 ### 📂 Folder content:
 * [📖 Pandas](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/HANI/library_1.ipynb)
 * [📖 Dask](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/HANI/library_2.ipynb)
-* [📖 Modin](./modin.ipynb)
+* [📖 Modin](./library_3.ipynb)
 * [📖 Comparision Libraries](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/HANI/compare_bd.md)
 
 
