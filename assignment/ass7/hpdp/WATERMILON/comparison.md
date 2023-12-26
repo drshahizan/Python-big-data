@@ -615,7 +615,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 5.76 seconds
 
-#### 4.2.2. Coefficient of Skewness for the Property Prices <a name = "‎coefficient-of-skewness-for-the-property-prices"></a>
+#### 4.2.2. Coefficient of Skewness for the Property Prices <a name = "coefficient-of-skewness-for-the-property-prices"></a>
 
 1. **Modin:**
 
