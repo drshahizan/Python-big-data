@@ -192,7 +192,7 @@ dtype_spec = {'CANCELLATION_CODE': 'object'}
 # Read the CSV file with dtype specification
 ddf = dd.read_csv(file_path, dtype=dtype_spec)
 ```
-Time Consumed: 57.4 s
+Time Consumed: 2min 12s
 
 Library 3: **Vaex**
 ```ruby
@@ -212,7 +212,7 @@ Library 2: **Dask**
 ```ruby
 ddf.dtypes
 ```
-Time Consumed: 229 µs
+Time Consumed: 307 µs
 
 Library 3: **Vaex**
 ```ruby
@@ -233,7 +233,7 @@ Library 2: **Dask**
 first_10_rows = ddf.head(10)
 print(first_10_rows)
 ```
-Time Consumed: 2.36 s
+Time Consumed: 3.28 s
 
 Library 3: **Vaex**
 ```ruby 
@@ -252,7 +252,7 @@ Library 2: **Dask**
 ```ruby
 ddf.describe().compute()
 ```
-Time Consumed: 45.6 s
+Time Consumed: 44.8 s
 
 Library 3: **Vaex**
 ```ruby
@@ -271,7 +271,7 @@ Library 2: **Dask**
 ```ruby
 ddf.info()
 ```
-Time Consumed: 2.38 ms
+Time Consumed: 2.63 ms
 
 Library 3: **Vaex**
 ```ruby
@@ -290,7 +290,7 @@ Library 2: **Dask**
 ```ruby
 ddf.isna().sum().compute()
 ```
-Time Consumed: 37.9 s
+Time Consumed: 27.7 s
 
 Library 3: **Vaex**
 ```ruby
@@ -325,7 +325,7 @@ f, ax = plt.subplots(figsize=(12, 9))
 sns.heatmap(corrmat, vmax=.8, square=True, xticklabels=corrmat.columns, yticklabels=corrmat.columns);
 plt.show()
 ```
-Time Consumed: 2min 19s
+Time Consumed: 1min 49s
 
 Library 3: **Vaex**
 ```ruby
@@ -352,7 +352,7 @@ Library 2: **Dask**
 ddf['FL_DATE'] = ddf['FL_DATE'].astype('datetime64[ns]')
 ddf.dtypes
 ```
-Time Consumed: 10.7 ms
+Time Consumed: 11.4 ms
 
 Library 3: **Vaex**
 ```ruby
@@ -372,7 +372,7 @@ Library 2: **Dask**
 ```ruby
 ddf.shape[0].compute()
 ```
-Time Consumed: 33.8 s
+Time Consumed: 24 s
 
 Library 3: **Vaex**
 ```ruby
@@ -391,7 +391,7 @@ Library 2: **Dask**
 ```ruby
 ddf['STATUS'] = ddf['ARR_DELAY'].apply(lambda x: 0 if x <= 15 else 1 if x <= 30 else 2 if x <= 60 else 3 if x <= 120 else 4)
 ```
-Time Consumed: 23.5 ms
+Time Consumed: 95.2 ms
 
 Library 3: **Vaex**
 ```ruby
@@ -419,7 +419,7 @@ ddf = ddf.drop("DISTANCE",1)
 ddf = ddf.drop("OP_CARRIER_FL_NUM",1)
 ddf = ddf.drop("Unnamed: 27",1) #Empty
 ```
-Time Consumed:  103 ms
+Time Consumed:  234 ms
 
 Library 3: **Vaex**
 ```ruby
@@ -439,7 +439,7 @@ Library 2: **Dask**
 ```ruby
 ddf.head(20)
 ```
-Time Consumed: 103 ms
+Time Consumed: 3.01 s
 
 Library 3: **Vaex**
 ```ruby
@@ -492,7 +492,7 @@ plt.show()
 
 print('Status represents wether the flight was on time (0), slightly delayed (1), highly delayed (2), diverted (3), or cancelled (4)')
 ```
-Time Consumed: 1min 25s
+Time Consumed: 1min 10s
 
 Library 3: **Vaex**
 ```ruby
@@ -578,7 +578,7 @@ plt.show()
 
 print('A = carrier, B = weather, C = NAS, D=security')
 ```
-Time Consumed: 1min 24s
+Time Consumed: 1min 6s
 
 ```ruby
 import datetime as dt
@@ -666,7 +666,7 @@ Library 2: **Dask**
 ```ruby
 Delayedflights = ddf[(ddf.STATUS >= 1) &(ddf.STATUS < 3)]
 ```
-Time Consumed: 8.42 ms
+Time Consumed: 8.36 ms
 ```ruby
 sns.distplot(Delayedflights['ARR_DELAY'])
 plt.show()
@@ -737,7 +737,7 @@ df2 = df2.groupby(df2['FL_DATE'].dt.month)['CARRIER_DELAY', 'LATE_AIRCRAFT_DELAY
 df2.legend(loc='upper center', bbox_to_anchor=(0.5, 1.25), ncol=3, fancybox=True, shadow=True)
 plt.show()
 ```
-Time Consumed: 42.7 s
+Time Consumed: 33 s
 
 Library 3: **Vaex**
 ```ruby
@@ -787,7 +787,7 @@ Time Consumed: 1min 53s
 ```ruby
 ddf['OP_CARRIER'].value_counts().compute()
 ```
-Time Consumed: 
+Time Consumed: 33.3 s
 
 ```ruby
 ddf['OP_CARRIER'].value_counts().compute().plot.bar()
@@ -845,7 +845,7 @@ cancelled_percentage = (ddf['CANCELLATION_CODE'].notnull().sum() / len(ddf)).com
 print(f"Percentage of delayed flights: {delayed_percentage:.2f}%")
 print(f"Percentage of cancelled flights: {cancelled_percentage:.2f}%")
 ```
-Time Consumed: 2min 49s
+Time Consumed: 2min 11s
 
 Library 3: **Vaex**
 ```ruby
@@ -884,7 +884,7 @@ plt.ylabel('Arrival Delay')
 plt.title('Relationship between Taxi-Out Time and Arrival Delay')
 plt.show()
 ```
-Time Consumed: 1min 43s
+Time Consumed: 1min 23s
 
 Library 3: **Vaex**
 ```ruby
@@ -931,7 +931,7 @@ plt.ylabel('Number of Cancellations')
 plt.title('Monthly Analysis of Flight Cancellations')
 plt.show()
 ```
-Time Consumed: 43.9 s
+Time Consumed: 33.5 s
 
 Library 3: **Vaex**
 ```ruby
@@ -979,7 +979,7 @@ plt.title('Comparison of Arrival Delays: Daytime vs. Nighttime')
 plt.show()
 
 ```
-Time Consumed: 45.6 s
+Time Consumed: 38.1 s
 
 Library 3: **Vaex**
 ```ruby
@@ -1018,7 +1018,7 @@ plt.ylabel('Arrival Delay')
 plt.title('Relationship between Air Time and Arrival Delay')
 plt.show()
 ```
-Time Consumed: 1min 49s
+Time Consumed: 1min 33s
 
 Library 3: **Vaex**
 ```ruby
@@ -1069,7 +1069,7 @@ plt.ylabel('Average Arrival Delay (minutes)')
 plt.title('Hourly Analysis of Arrival Delays')
 plt.show()
 ```
-Time Consumed: 43.9 s
+Time Consumed: 34.6 s
 
 Library 3: **Vaex**
 ```ruby
