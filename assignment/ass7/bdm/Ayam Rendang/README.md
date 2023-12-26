@@ -22,13 +22,13 @@ Don't forget to hit the :star: if you like this repo.
 ### 📂 Google Colab file:
 
 #### Library 1 - Pandas
-* [📖 Google Colab link ]()
+* [📖 Google Colab link ](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/bdm/Ayam%20Rendang/Assignment7_Ayam_Rendang_(Pandas_BigData)_Thanen.ipynb)
 
 #### Library 2 - Modin
-* [📖 Google Colab link ]()
+* [📖 Google Colab link ](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/bdm/Ayam%20Rendang/Modin.ipynb)
 
 #### Library 3 - Vaex
-* [📖 Google Colab link ](https://colab.research.google.com/drive/1THNZELX7qW0no0en5jawfsGRPSOc10D_?usp=drive_link)
+* [📖 Google Colab link ](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/bdm/Ayam%20Rendang/Vaex.ipynb)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
