@@ -33,6 +33,9 @@ Don't forget to hit the :star: if you like this repo.
 * [📖 Google Colab link ](https://colab.research.google.com/drive/1THNZELX7qW0no0en5jawfsGRPSOc10D_?usp=drive_link)
 * [💻 Ipynb File ](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/bdm/KicapSambal/Vaex.ipynb)
 
+### Report Comparison
+* [📖 Google Colab link ]([https://colab.research.google.com/drive/109Y45VwyKn1rjc3C2iPIvSTRhpo-7mBU](https://colab.research.google.com/drive/12Bri5GWMzlu02DHm433SM9OvtrCTc_xl#scrollTo=_DfIn2PKJnx2)
+
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/Python_EDA/issues) for any improvements, suggestions or errors in the content.
 
