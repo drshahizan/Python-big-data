@@ -155,7 +155,7 @@ Library 1: **Pandas**
 df = pd.read_csv('brewery_data_complete_extended.csv')
 ```
 - Memory usage: 1525.8790283203125 MB
-- Computation Time: 1.5300000768547761e-06 seconds
+- Computation Time: 1.3050000120529148e-06 seconds
 
 Library 2: **Datatable**
 ```ruby
@@ -204,8 +204,8 @@ Library 1: **Pandas**
 print("Number of rows:", df.shape[0])
 print("Number of columns:", df.shape[1])
 ```
-- Memory usage: 3939.359375 MB
-- Computation Time: 0.0010416507720947266 seconds
+- Memory usage: 2811.2109375 MB
+- Computation Time: 0.009906291961669922 seconds
 
 Library 2: **Datatable**
 ```ruby
