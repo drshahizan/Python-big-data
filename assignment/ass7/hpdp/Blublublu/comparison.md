@@ -41,7 +41,8 @@ Don't forget to hit the :star: if you like this repo.
     + [4.3.11 Display First 20 Rows of the Dataset](#4311-display-first-20-rows)
 + [5.0 Exploratory Analysis and Visualization](#5-eda)
 + [6.0 Asking and Answering Questions](#6-asking-answering)
-+ [7.0 Conclusion](#conclusion)
++ [7.0 Result of Comparison Between Libraries](#7-result)
++ [8.0 Conclusion](#8-conclusion)
 
 ## Introduction <a name = "1-introduction"></a>
 In this project, we're exploring and analyzing the [Airline Delay Analysis](https://www.kaggle.com/datasets/sherrytp/airline-delay-analysis?select=airline+delay+analysis) dataset from Kaggle. This dataset contains a lot of information about airline flights, including dates, airlines, delays at departure and arrival, reasons for delays, and other operational details. Our main goal in this project is to use the pandas library, a powerful tool in Python for working with data, to thoroughly investigate and understand this airline delay dataset. The project aims to uncover insights into various facets of airline operations, including on-time performance, operational metrics, and delay resolution.
@@ -1092,8 +1093,11 @@ plt.show()
 ```
 Time Consumed: 30.4 s
 
+## 7.0 Result of Comparison Between Libraries <a name = "7-result"></a>
 
-## 7.0 Conclusion <a name = "conclusion"></a>
+Through comparing the time consumed for the three libraries, Vaex generally performs tasks with high efficiency, often comparable to or even faster than Dask, and significantly faster than Pandas in many cases. Dask shows good performance for parallelized computing but tends to be slower than Vaex for many tasks. Pandas is often slower than Dask and Vaex, especially for large datasets, but remains a reliable and widely used library.
+
+## 8.0 Conclusion <a name = "8-conclusion"></a>
 
 **Pandas:**
 
