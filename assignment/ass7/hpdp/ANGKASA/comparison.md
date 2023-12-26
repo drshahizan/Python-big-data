@@ -131,7 +131,7 @@ Dask is a parallel computing library in Python that seamlessly integrates with p
   
 </div>
 
-- Computation time
+- Computation time 📊
   - Computation time, also known as execution time or runtime, refers to the time it takes for a computer program or algorithm to complete its execution. It is a critical metric in evaluating the efficiency and performance of software, and it is often measured in seconds, milliseconds, or microseconds. Below is the comparison between the computation time for each library for the calculation and visualization:
 
 <div align="center">
@@ -144,7 +144,7 @@ Dask is a parallel computing library in Python that seamlessly integrates with p
  
 </div>
 
-- Memory Usage
+- Memory Usage 📤
   - Memory usage refers to the amount of computer memory (RAM - Random Access Memory) that a program or process utilizes at a specific time. Memory is a critical resource in computing, and how efficiently it is managed can significantly impact the performance and responsiveness of a system. Below is the comparison between the memory usage for each library after the data is loaded into dataframe and has done some computation and visualization for which we will use a histogram as our sample: 
 
 <div align="center">
