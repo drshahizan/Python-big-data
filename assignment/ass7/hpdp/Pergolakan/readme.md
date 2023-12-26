@@ -18,13 +18,15 @@ Don't forget to hit the :star: if you like this repo.
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
 |Mikhail Bin Yaasin              |   A21EC0053   |  Comparison  |
-|Muhammad Farhan Bin Ibrahim             | A21EC0072     |  Pandas  |
+|Muhammad Farhan Bin Ibrahim             | A21EC0072     |  Dask  |
 |Muhammad Fikri Bin Sharunazim              |  A21EC0075    |   Modin |
 | Muhammad Adam Fahmi Bin Mohd Taufiq              |  A21EC0061    |  Vaex  |
 
 ### 📂 Folder content:
-* [📖 Assignment 7 ](compare_bigdata.ipynb)
-* [📖 Assignment 7 Mardown](ass7.md)
+* [📖 Dask ](dask.ipynb)
+* [📖 Modin ](modix.ipynb)
+* [📖 Vaex ](vaex.ipynb)  
+* [📖 Comparison](comparison.md)
 
 
 ## Contribution 🛠️
