@@ -673,7 +673,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 2.62 seconds
 
-#### 4.2.4. Explore How Number of Classes Influence Property Prices by using Bar Chart <a name = "‎explore-how-number-of-classes-influence-property-prices-by-using-bar-chart"></a>
+#### 4.2.4. Explore How Number of Classes Influence Property Prices by using Bar Chart <a name = "explore-how-number-of-classes-influence-property-prices-by-using-bar-chart"></a>
 
 1. **Modin:**
 
