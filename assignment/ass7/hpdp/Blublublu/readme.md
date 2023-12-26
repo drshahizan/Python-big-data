@@ -10,7 +10,7 @@ Don't forget to hit the :star: if you like this repo.
 # Assignment 7: Comparison between libraries
 
 **Group Name: Blublublu**
-<img align="right" alt="kokonat" width="400" src="![image](https://github.com/drshahizan/Python-big-data/assets/106257072/bfa5c817-b881-43b1-8bbd-b3023ac85beb)
+<img align="right" alt="blublublu" width="400" src="![image](https://github.com/drshahizan/Python-big-data/assets/106257072/f3266725-68a3-4af0-9cf4-faed4f15e4aa)
 ">
 
 **Group Members**
