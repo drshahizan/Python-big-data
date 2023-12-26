@@ -589,7 +589,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
 ### 4.2. Exploratory Analysis and Visualization <a name = "‎exploratory-analysis-and-visualization"></a>
 
-#### 4.2.1. Data Observation <a name = "‎data-observation"></a>
+#### 4.2.1. Data Observation <a name = "data-observation"></a>
 
 1. **Modin:**
 
