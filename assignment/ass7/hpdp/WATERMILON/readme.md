@@ -22,6 +22,7 @@
 * [💻 Library 2 - Dask](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/WATERMILON/dask.ipynb)
 * [💻 Library 3 - Vaex](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/WATERMILON/vaex.ipynb)
 * [📝 Comparision](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/WATERMILON/comparison.md)
+* [📝 readme](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/WATERMILON/readme.md)
 
 ## Contribution 🛠️
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
