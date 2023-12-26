@@ -24,7 +24,7 @@ Don't forget to hit the :star: if you like this repo.
 ### 📂 Folder content:
 * [📖 Pandas](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/KHUCHIN/pandas/ASS7_PANDAS.ipynb)
 * [📖 Modin]()
-* [📖 Dask]()
+* [📖 Dask](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/KHUCHIN/dask/KHUCHIN_Assignment7_Dask.ipynb)
 * [📖 Conclusion]()
 
 
