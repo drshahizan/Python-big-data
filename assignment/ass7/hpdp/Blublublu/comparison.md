@@ -284,6 +284,143 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
+#### Identifying Multicollinearity and Variable Selection
+Library 1: **Pandas**
+```ruby
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+corrmat = df.corr()
+f, ax = plt.subplots(figsize=(12, 9))
+sns.heatmap(corrmat, vmax=.8, square=True, xticklabels=corrmat.columns, yticklabels=corrmat.columns)
+plt.show()
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+import matplotlib.pyplot as plt
+import seaborn as sns
+corrmat = ddf.corr()
+f, ax = plt.subplots(figsize=(12, 9))
+sns.heatmap(corrmat, vmax=.8, square=True, xticklabels=corrmat.columns, yticklabels=corrmat.columns);
+plt.show()
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+#### Converting the 'FL_DATE' column to datetime format
+Library 1: **Pandas**
+```ruby
+df['FL_DATE'] = pd.to_datetime(df['FL_DATE'])
+df.dtypes
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+ddf['FL_DATE'] = ddf['FL_DATE'].astype('datetime64[ns]')
+ddf.dtypes
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+#### Return number of rows
+Library 1: **Pandas**
+```ruby
+len(df)
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+ddf.shape[0].compute()
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+#### Create a new column to represent the status of the flight
+Library 1: **Pandas**
+```ruby
+df['STATUS'] =df['ARR_DELAY'].apply(lambda x: 0 if x <= 15 else 1 if x <= 30 else 2 if x <= 60 else 3 if x <= 120 else 4)
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+ddf['STATUS'] = ddf['ARR_DELAY'].apply(lambda x: 0 if x <= 15 else 1 if x <= 30 else 2 if x <= 60 else 3 if x <= 120 else 4)
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+#### Replace values in the 'CANCELLATION_CODE' column
+Library 1: **Pandas**
+```ruby
+df['CANCELLATION_CODE'].replace(['A', 'B', 'C', 'D'], [0, 1, 2, 3])
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+ddf['CANCELLATION_CODE'].replace(['A', 'B', 'C', 'D'], [0, 1, 2, 3])
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+#### Drop unnecessary column
+Library 1: **Pandas**
+```ruby
+df = df.drop(columns=['DEP_DELAY', 'ARR_TIME','CRS_ARR_TIME', 'ACTUAL_ELAPSED_TIME', 'CRS_ELAPSED_TIME', 
+                      'DIVERTED','CANCELLED','DISTANCE','OP_CARRIER_FL_NUM','Unnamed: 27'])
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+ddf = ddf.drop("DEP_DELAY",1)
+ddf = ddf.drop("ARR_TIME",1)
+ddf = ddf.drop("CRS_ARR_TIME",1)
+ddf = ddf.drop("ACTUAL_ELAPSED_TIME",1)
+ddf = ddf.drop("CRS_ELAPSED_TIME",1)
+ddf = ddf.drop("DIVERTED",1)
+ddf = ddf.drop("CANCELLED",1)
+ddf = ddf.drop("DISTANCE",1)
+ddf = ddf.drop("OP_CARRIER_FL_NUM",1)
+ddf = ddf.drop("Unnamed: 27",1) #Empty
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
 ## Conclusion <a name = "conclusion"></a>
 
 
