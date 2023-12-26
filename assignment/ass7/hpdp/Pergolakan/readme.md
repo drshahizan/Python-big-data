@@ -17,7 +17,7 @@ Don't forget to hit the :star: if you like this repo.
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-|Mikhail Bin Yaasin              |   A21EC0053   |   All  |
+|Mikhail Bin Yaasin              |   A21EC0053   |  Comparison  |
 |Muhammad Farhan Bin Ibrahim             | A21EC0072     |  Pandas  |
 |Muhammad Fikri Bin Sharunazim              |  A21EC0075    |   Modin |
 | Muhammad Adam Fahmi Bin Mohd Taufiq              |  A21EC0061    |  Vaex  |
