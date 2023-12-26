@@ -198,7 +198,7 @@ Library 3: **Vaex**
 ```ruby
 df = vaex.from_csv('airline delay analysis/2018.csv', convert=True)
 ```
-Time Consumed: 23.5 ms
+Time Consumed: 108 ms
 
 ### 4.3 Explore Dataset <a name = "43-explore"></a>
 #### 4.3.1 Check the Datatypes <a name = "431-check-the-datatypes"></a>
@@ -219,7 +219,7 @@ Library 3: **Vaex**
 # Check the datatypes
 df.dtypes
 ```
-Time Consumed: 1.81 ms
+Time Consumed: 1.85 ms
 
 #### 4.3.2 Display the first 10 rows of the dataset <a name = "432-display-the-first-10-rows-of-the-dataset"></a>
 Library 1: **Pandas**
@@ -239,7 +239,7 @@ Library 3: **Vaex**
 ```ruby 
 df.head(10)
 ```
-Time Consumed: 2.78 ms
+Time Consumed: 2.82 ms
 
 #### 4.3.3 Obtain Description of the Dataset <a name = "433-obtain-description-of-the-dataset"></a>
 Library 1: **Pandas**
@@ -258,7 +258,7 @@ Library 3: **Vaex**
 ```ruby
 df.describe()
 ```
-Time Consumed: 9.84 s
+Time Consumed: 9.52 s
 
 #### 4.3.4 Obtain Information of the Dataset <a name = "434-obtain-information-of-the-dataset"></a>
 Library 1: **Pandas**
@@ -277,7 +277,7 @@ Library 3: **Vaex**
 ```ruby
 df.info()
 ```
-Time Consumed: 28 ms
+Time Consumed: 32.5 ms
 
 #### 4.3.5 Check Missing Data <a name = "435-check-missing-data"></a>
 Library 1: **Pandas**
@@ -301,7 +301,7 @@ for col in df.column_names:
 s = pd.Series(data=count_na, index=df.column_names).sort_values(ascending=True)
 s
 ```
-Time Consumed: 1.55 s
+Time Consumed: 1.7 s
 
 #### 4.3.6 Identifying Multicollinearity and Variable Selection <a name = "436-identifying-multicollinearity-and-variable-selection"></a>
 Library 1: **Pandas**
@@ -337,7 +337,7 @@ f, ax = plt.subplots(figsize=(12, 9))
 sns.heatmap(corrmat, vmax=.8, square=True, xticklabels=corrmat.columns, yticklabels=corrmat.columns)
 plt.show()
 ```
-Time Consumed: 16.9 s
+Time Consumed: 34.8 s
 
 #### 4.3.7 Converting the 'FL_DATE' Column to Datetime Format <a name = "437-converting-column-to-datetime-format"></a>
 Library 1: **Pandas**
@@ -359,7 +359,7 @@ Library 3: **Vaex**
 df['FL_DATE'] = df['FL_DATE'].astype('datetime64[ns]')
 df.dtypes
 ```
-Time Consumed: 15.5 ms
+Time Consumed: 57.1 ms
 
 #### 4.3.8 Return Number of Rows <a name = "438-return-number-of-rows"></a>
 Library 1: **Pandas**
@@ -378,7 +378,7 @@ Library 3: **Vaex**
 ```ruby
 len(df)
 ```
-Time Consumed: 33 µs
+Time Consumed: 219 µs
 
 #### 4.3.9 Create a New Column to Represent the Status of the Flight <a name = "439-create-a-new-column"></a>
 Library 1: **Pandas**
@@ -397,7 +397,7 @@ Library 3: **Vaex**
 ```ruby
 df['STATUS'] =df['ARR_DELAY'].apply(lambda x: 0 if x <= 15 else 1 if x <= 30 else 2 if x <= 60 else 3 if x <= 120 else 4)
 ```
-Time Consumed: 723 µs
+Time Consumed: 736 µs
 
 #### 4.3.10 Drop Unnecessary Column <a name = "4310-drop-unnecessary-column"></a>
 Library 1: **Pandas**
@@ -426,7 +426,7 @@ Library 3: **Vaex**
 columns_to_drop = ['ARR_TIME', 'DEP_DELAY','CRS_ARR_TIME', 'ACTUAL_ELAPSED_TIME', 'CRS_ELAPSED_TIME', 'DIVERTED', 'CANCELLED', 'DISTANCE', 'OP_CARRIER_FL_NUM', 'Unnamed: 27']
 df = df.drop(columns_to_drop)
 ```
-Time Consumed: 4.63 ms
+Time Consumed: 6.3 ms
 
 #### 4.3.11 Display First 20 Rows of the Dataset <a name = "4311-display-first-20-rows"></a>
 Library 1: **Pandas**
@@ -445,7 +445,7 @@ Library 3: **Vaex**
 ```ruby
 df.head(20)
 ```
-Time Consumed: 1.68 ms
+Time Consumed: 1.71 ms
 
 ### 5.0 Exploratory Analysis and Visualization <a name = "5-eda"></a>
 #### 1. Summarize the flights - We will see the percentage of flights that have delayed and cancelled.
@@ -523,7 +523,7 @@ plt.show()
 
 print('Status represents whether the flight was on time (0), slightly delayed (1), highly delayed (2), diverted (3), or cancelled (4)')
 ```
-Time Consumed: 3.98 s
+Time Consumed: 18.5 s
 
 #### 2. Cancelled flights - We are going to investigate the relationship of cancelled flights and the reason behind. We will view the result of analysis through graph by visualization.
 Library 1: **Pandas**
@@ -618,7 +618,7 @@ plt.show()
 # Print legend explaining cancellation codes
 print('A = carrier, B = weather, C = NAS, D = security')
 ```
-Time Consumed: 4.33 s
+Time Consumed: 19.4 s
 
 ```ruby
 import datetime as dt
@@ -633,7 +633,7 @@ CancelFlights = pandas_df[(pandas_df.STATUS == 4)]
 CancelFlights['CANCELLATION_CODE'].groupby(CancelFlights['FL_DATE'].dt.month).count().plot()
 plt.show()
 ```
-Time Consumed: 4.52 s
+Time Consumed: 19.2 s
 
 ####  3. Delayed flights - We will explore the facts and insights about the delayed flights
 Library 1: **Pandas**
@@ -694,7 +694,7 @@ sns.distplot(Delayedflights['ARR_DELAY'])
 # Show the plot
 plt.show()
 ```
-Time Consumed: 7.76 s
+Time Consumed: 22.1 s
 
 ```ruby
 # Convert the dataframe to pandas to plot the graph
@@ -717,7 +717,7 @@ ax[1].set_title('Number of minutes delayed by month')
 # Show the plot
 plt.show()
 ```
-Time Consumed: 5.99 s
+Time Consumed: 19.8 s
 
 #### 4. Delay reasons - We will going to explore the causes of flights delays.
 Library 1: **Pandas**
@@ -756,7 +756,7 @@ df2 = df2.groupby(df2['FL_DATE'].dt.month)[['CARRIER_DELAY', 'LATE_AIRCRAFT_DELA
 df2.legend(loc='upper center', bbox_to_anchor=(0.5, 1.25), ncol=3, fancybox=True, shadow=True)
 plt.show()
 ```
-Time Consumed: 759 ms
+Time Consumed: 890 ms
 
 #### 5. Relationship between variables - We will going to explore the relationships between thses variables, especially on the causes of the dalayed flights.
 Library 1: **Pandas**
@@ -806,7 +806,7 @@ delay_pd = Delayedflights[cols]
 sns.pairplot(delay_pd, height=2.5)
 plt.show()
 ```
-Time Consumed: 1min 22s
+Time Consumed: 1min 30s
 
 ```ruby
 # Count the occurrences of each unique value in the 'OP_CARRIER' column
@@ -815,7 +815,7 @@ df['OP_CARRIER'].value_counts().plot.bar()
 plt.title('Delay Distribution by Carrier')
 plt.show()
 ```
-Time Consumed: 2.08 s
+Time Consumed: 2.53 s
 
 ### 6.0 Asking and Answering Questions <a name = "6-asking-answering"></a>
 #### Q1: What percentage of flights experienced delays or cancellations?
@@ -861,7 +861,7 @@ cancelled_percentage = (pandas_df['CANCELLATION_CODE'].notnull().sum() / len(pan
 print(f"Percentage of delayed flights: {delayed_percentage:.2f}%")
 print(f"Percentage of cancelled flights: {cancelled_percentage:.2f}%")
 ```
-Time Consumed: 5.07 s
+Time Consumed: 27.2 s
 
 #### Q2: How do taxi-out and taxi-in times relate to overall delays?
 Library 1: **Pandas**
@@ -898,7 +898,7 @@ plt.ylabel('Arrival Delay')
 plt.title('Relationship between Taxi-Out Time and Arrival Delay')
 plt.show()
 ```
-Time Consumed: 29 s
+Time Consumed: 58.1 s
 
 #### Q3: Are there specific months or seasons when flight cancellations are more frequent?
 Library 1: **Pandas**
@@ -951,7 +951,7 @@ plt.ylabel('Number of Cancellations')
 plt.title('Monthly Analysis of Flight Cancellations')
 plt.show()
 ```
-Time Consumed: 5.84 s
+Time Consumed: 32.4 s
 
 #### Q4: Do delays vary between daytime and nighttime flights?
 Library 1: **Pandas**
@@ -995,7 +995,7 @@ plt.ylabel('Arrival Delay')
 plt.title('Comparison of Arrival Delays: Daytime vs. Nighttime')
 plt.show()
 ```
-Time Consumed: 6.95 s
+Time Consumed: 32.3 s
 
 #### Q5: Is there a correlation between the air time of a flight and the arrival delay?
 Library 1: **Pandas**
@@ -1032,7 +1032,7 @@ plt.ylabel('Arrival Delay')
 plt.title('Relationship between Air Time and Arrival Delay')
 plt.show()
 ```
-Time Consumed: 28.4 s
+Time Consumed: 56.7 s
 
 #### Q6: At what times of the day do delays occur most frequently?
 Library 1: **Pandas**
@@ -1090,7 +1090,7 @@ plt.ylabel('Average Arrival Delay (minutes)')
 plt.title('Hourly Analysis of Arrival Delays')
 plt.show()
 ```
-Time Consumed: 4.9 s
+Time Consumed: 30.4 s
 
 
 ## 7.0 Conclusion <a name = "conclusion"></a>
