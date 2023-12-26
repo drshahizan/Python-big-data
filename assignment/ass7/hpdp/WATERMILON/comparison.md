@@ -41,7 +41,7 @@
     + [4.1.6. Replace the Missing Values](#replace-the-missing-values)
     + [4.1.7. Review the Cleaning Results](#review-the-cleaning-results)
     + [4.1.8. Convert All Object Columns to String Type](#convert-all-object-columns-to-string-type)
-    + [4.1.9. Comparison of Time Consumed](#comparison-of-time-consumed)
+    + [4.1.9. Comparison of Time Consumed](#comparison)
 
   + [4.2. Exploratory Analysis and Visualization](#exploratory-analysis-and-visualization)
     + [4.2.1. Data Observation](#data-observation)
@@ -49,7 +49,7 @@
     + [4.2.3. Exploring Property Prices specifically in Greater London](#exploring-property-prices-specifically-in-greater-london)
     + [4.2.4. Explore How Number of Classes Influence Property Prices by using Bar Chart](#explore-how-number-of-classes-influence-property-prices-by-using-bar-chart)
     + [4.2.5. Understand the Heights of Prices](#understand-the-heights-of-prices)
-    + [4.2.6. Comparison of Time Consumed](#comparison-of-time-consumed-1)
+    + [4.2.6. Comparison of Time Consumed](#comparison1)
 
   + [4.3. Asking and Answering Questions](#asking-and-answering-questions)
     + [4.3.1. To what degree is the price distribution skewed?](#q1)
@@ -58,7 +58,7 @@
     + [4.3.4. How does the combination of PPDCategory_Type and Old/New property status influence property prices?](#q4)
     + [4.3.5. What is the trend in property prices over time?](#q5)
     + [4.3.6. How does the price of property vary based on different property types over time?](#q6)
-    + [4.3.7. Comparison of Time Consumed](#comparison-of-time-consumed-2)
+    + [4.3.7. Comparison of Time Consumed](#comparison2)
 + [5. Inferences and Conclusion](#conclusion)
 + [6. References](#references)
 + [Contributions](#contribution)
@@ -566,7 +566,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: -
 
-#### 4.1.9. Comparison of Time Consumed <a name = "‎comparison-of-time-consumed"></a>
+#### 4.1.9. Comparison of Time Consumed <a name = "‎comparison"></a>
 
 | Operation/Analysis | Modin | Dask | Vaex |
 |--------------------|-------|------|------|
@@ -738,7 +738,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 4.34 seconds
 
-#### 4.2.6. Comparison of Time Consumed <a name = "‎comparison-of-time-consumed-1"></a>
+#### 4.2.6. Comparison of Time Consumed <a name = "‎comparison1"></a>
 
 | Operation/Analysis                        | Modin           | Dask                  | Vaex           |
 |-------------------------------------------|-----------------|-----------------------|----------------|
@@ -943,7 +943,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 34.3 seconds
 
-#### 4.3.7. Comparison of Time Consumed <a name = "‎comparison-of-time-consumed-2"></a>
+#### 4.3.7. Comparison of Time Consumed <a name = "‎comparison2"></a>
 
 | Operation/Analysis                                         | Modin          | Dask          | Vaex          |
 |------------------------------------------------------------|----------------|---------------|---------------|
