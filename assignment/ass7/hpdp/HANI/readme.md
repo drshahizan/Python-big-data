@@ -19,7 +19,7 @@ Don't forget to hit the :star: if you like this repo.
 | MUHAMMAD HARITH HAKIM BIN OTHMAN | A21EC0205 | Comparison & Summarization |
 
 ### 📂 Folder content:
-* [📖 Pandas](./pandas.ipynb)
+* [📖 Pandas](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/HANI/library_1.ipynb)
 * [📖 Dask](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/HANI/library_2.ipynb)
 * [📖 Modin](./modin.ipynb)
 * [📖 Comparision Libraries](./compare_bd.md)
