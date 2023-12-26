@@ -1,7 +1,8 @@
 # Performance Comparison: Pandas vs Dask vs Koalas
 
 ## Data Cleaning Performance Benchmark
-
+<div align="center">
+  
 | **Cleaning Operation**                 | **Pandas (s)** | **Dask (s)** | **Koalas (s)** |
 |----------------------------------------|----------------|--------------|----------------|
 | Data Type Optimization                | 8.11           | 0            | 8.58           |
@@ -9,13 +10,24 @@
 | Missing Value Replacement             | 9.06           | 0            | 7.63           |
 | Identifying Duplicate Rows            | 8.34           | 0            | 8.34           |
 | Drop Duplicate Column                 | 6.68           | 0            | 0.973          |
+</div>
 
 ![Alt text](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/BROKE/images/download.png)
+<br><br>
 
+## Data Cleaning Performance Benchmark
+<div align="center">
+  
+| Cleaning Operation | Pandas (s) | Dask (s) | Koalas (s) |
+|--------------------|------------|----------|------------|
+| Chart1             | 9.06       | 5.96     | 5.96       |
+| Chart2             | 9.06       | 7.15     | 7.15       |
+| Chart3             | 8.34       | 8.11     | 8.11       |
 
+</div>
 
-
-
+![Alt text](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/BROKE/images/download.png)
+<br><br>
 
 
 
