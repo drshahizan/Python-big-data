@@ -10,6 +10,11 @@ Don't forget to hit the :star: if you like this repo.
 # Assignment 7: Comparison between libraries
 
 **Group Name: Blublublu**
+<img align="right" alt="kokonat" width="400" src="![image](https://github.com/drshahizan/Python-big-data/assets/106257072/bfa5c817-b881-43b1-8bbd-b3023ac85beb)
+">
+
+**Group Members**
+
 |NO.|NAME|MATRICS NO.|LIBRARY|
 |---|---|---|---|
 |1.|ANG YI QIN|A21EC0163| Dask|
