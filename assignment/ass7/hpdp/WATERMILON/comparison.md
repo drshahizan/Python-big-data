@@ -47,6 +47,16 @@
 
 ## 1. Introduction <a name = "intro"></a>
 
+In order to drive decision-making processes across a variety of industries, it is essential to extract meaningful insights from large and complex datasets through data analysis. There is an increasing need for effective and scalable data analysis tools as datasets get bigger and more complex. We explore and examine the features of three well-known data analysis libraries which are Modin, Dask and Vaex in assignment 7.
+
+**Modin:** Modin is a cutting-edge library designed to seamlessly replace pandas and enable parallel and distributed computing in data analysis applications. It seeks to mitigate the drawbacks caused by pandas's single-threaded architecture, offering users a smooth transition and dramatically increasing performance on larger datasets.
+
+**Dask:** Dask is a flexible and dynamic approach to data analysis that is intended for handling larger-than-memory datasets and parallel computing. Dask makes it simple for users to scale their computations from a single machine to a cluster of machines by utilizing parallelization. Because of this, it is a strong option for jobs requiring distributed computing and scalability.
+
+**Vaex:** Vaex sets itself apart with its emphasis on high-performance data visualization and analysis. Designed for massive tabular datasets, Vaex processes billions of rows per second with efficiency. Vaex offers a quick and interactive exploratory data analysis experience with its memory-efficient design.
+
+In this assignment 7, we examine many facets of data analysis such as loading datasets, observing information, managing missing values, and investigating particular facets of the data. Hence, time consumed on these tasks is used to examine each library's performance and identify its strengths and weaknesses.
+
 
 ## 2. Dataset Selection <a name = "dataset_selection"></a>
 
