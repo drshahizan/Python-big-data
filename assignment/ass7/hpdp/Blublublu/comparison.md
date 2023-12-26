@@ -1096,6 +1096,7 @@ Time Consumed: 30.4 s
 ## 7.0 Conclusion <a name = "conclusion"></a>
 
 **Pandas:**
+
 **Advantages:**
 
 * Ease of Use: Pandas has a user-friendly and intuitive API, making it easy for beginners to get started with data analysis.
@@ -1109,6 +1110,7 @@ Time Consumed: 30.4 s
 
 
 **Dask:**
+
 **Advantages:**
 
 * Scalability: Dask is designed to scale from a single machine to a cluster of machines, allowing it to handle larger-than-memory datasets.
@@ -1120,6 +1122,7 @@ Time Consumed: 30.4 s
 * Overhead: Introducing Dask for small datasets or tasks may incur unnecessary overhead.
 
 **Vaex:**
+
 **Advantages:**
 
 * High Performance: Vaex is optimized for speed and is designed to handle large datasets efficiently.
