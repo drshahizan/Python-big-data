@@ -9,8 +9,6 @@ Don't forget to hit the :star: if you like this repo.
 
 # Assignment 7: Comparison between libraries
 
-## [Template: Project big data](compare_big_data.ipynb)
-
 ![alt text](pergolakan2.jpg?raw=true)
 
 ### Group Members
@@ -21,6 +19,9 @@ Don't forget to hit the :star: if you like this repo.
 |Muhammad Farhan Bin Ibrahim             | A21EC0072     |  Dask  |
 |Muhammad Fikri Bin Sharunazim              |  A21EC0075    |   Modin |
 | Muhammad Adam Fahmi Bin Mohd Taufiq              |  A21EC0061    |  Vaex  |
+
+
+In this Assignment, we will compare 3 libraries (Dask, Modin and Vaex) with tradisional way of handling big data (using Pandas Only)
 
 ### 📂 Folder content:
 * [📖 Pandas Only ](PandasOnly.ipynb)
