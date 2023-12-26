@@ -3,13 +3,14 @@
 ## Data Cleaning Performance Benchmark
 <div align="center">
   
-| **Cleaning Operation**                 | **Pandas (s)** | **Dask (s)** | **Koalas (s)** |
-|----------------------------------------|----------------|--------------|----------------|
-| Data Type Optimization                | 8.11           | 0            | 8.58           |
-| Dropping Rows with Significant NaN    | 8.34           | 0            | 7.87           |
-| Missing Value Replacement             | 9.06           | 0            | 7.63           |
-| Identifying Duplicate Rows            | 8.34           | 0            | 8.34           |
-| Drop Duplicate Column                 | 6.68           | 0            | 0.973          |
+| Cleaning Operation                        | Pandas (µs) | Dask (µs) | Koalas (µs) |
+|-------------------------------------------|------------|----------|------------|
+| Data Type Optimization                    | 8.11       | 0        | 8.58       |
+| Dropping Rows with Significant NaN        | 8.34       | 8.34     | 7.87       |
+| Missing Value Replacement                 | 9.06       | 61.1     | 7.63       |
+| Identifying Duplicate Rows                | 8.34       | 0        | 8.34       |
+| Drop Duplicate Column                     | 6.68       | 8.11     | 0.973      |
+
 
 
 <img src="https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/BROKE/images/download.png" alt="Alt text" width="700"/>
