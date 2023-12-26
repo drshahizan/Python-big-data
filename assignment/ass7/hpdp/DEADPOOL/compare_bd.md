@@ -78,19 +78,21 @@ As the file is zipped, we will have to unzip it to extract the dataset from the 
 
 ## About Libraries
 [Pandas]( https://pandas.pydata.org/)
+
 Pandas one of the powerful and popular library within the Python ecosystem. It serve as a foundational tool which is widely used for data manipulation, analysis, and exploration. The library provides a robust arsenal of tools tailored for handling structured data and time-series data, predominantly through its versatile DataFrame objects. What sets Pandas apart is its conventional, offering a user-friendly interface coupled with a rich array of functionalities. From data ingestion to cleaning, manipulation, and in-depth analysis, Pandas empowers users with comprehensive tools, making complex operations more accessible and enabling efficient exploration and understanding of diverse datasets. 
 
 Install Pandas:
-```
+```bash
 !pip install pandas
 ```
 
 Importing Pandas library:
-```
+```bash
 import pandas as pd
 ```
   
 [Dask](https://www.dask.org/)
+
 Dask is a parallel computing library designed to scale Python workflows. Dask is capable at handling large datasets that don't fit into memory by providing parallel processing capabilities and enabling distributed computing. Dask seamlessly integrates with existing Python libraries, offering DataFrame and Array abstractions that mimic Pandas and NumPy structures. By splitting computations into smaller tasks and utilizing parallelism, Dask can efficiently manages computations across multiple cores or even clusters, enabling the processing of datasets too large.
 
 Install Dask:
@@ -104,6 +106,7 @@ import dask.dataframe as dd
 ```
 
 [Polars](https://pola.rs/)
+
 Polars dataFrame library that is written in Rust which shares similarities with Pandas but mainly on elevating the memory efficiency performance. Polars library is designed to handle large-scale data processing, offering a high-performance alternative to Pandas. Polars leverages the scalability of Rust and performance benefits while providing a Pandas-like unique environment. This enables users who are familiar with pandas to perform data manipulations and transformations more efficiently. Polars’ query engine leverages Apache Arrow to execute vectorized queries. Where is exploits the power for columnar data processing, reducing memory overhead and enhancing computational speed for various operations
 
 Install Polars:
