@@ -23,5 +23,8 @@
 
 
 ### 📂 Folder content:
-* [📖 Comparison between libraries ]()
+* [📖 Pandas](library_1.ipynb)
+* [📖 Datatable](library_2.ipynb)
+* [📖 PySpark](library_3.ipynb)
+* [📖 Comparison between libraries ](comparison.md)
 
