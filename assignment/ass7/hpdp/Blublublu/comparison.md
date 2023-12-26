@@ -192,7 +192,7 @@ dtype_spec = {'CANCELLATION_CODE': 'object'}
 # Read the CSV file with dtype specification
 ddf = dd.read_csv(file_path, dtype=dtype_spec)
 ```
-Time Consumed: 347 µs
+Time Consumed: 57.4 s
 
 Library 3: **Vaex**
 ```ruby
@@ -212,7 +212,7 @@ Library 2: **Dask**
 ```ruby
 ddf.dtypes
 ```
-Time Consumed: 
+Time Consumed: 229 µs
 
 Library 3: **Vaex**
 ```ruby
@@ -233,7 +233,7 @@ Library 2: **Dask**
 first_10_rows = ddf.head(10)
 print(first_10_rows)
 ```
-Time Consumed: 3.9 s
+Time Consumed: 2.36 s
 
 Library 3: **Vaex**
 ```ruby 
@@ -252,7 +252,7 @@ Library 2: **Dask**
 ```ruby
 ddf.describe().compute()
 ```
-Time Consumed: 47.2 s
+Time Consumed: 45.6 s
 
 Library 3: **Vaex**
 ```ruby
@@ -271,7 +271,7 @@ Library 2: **Dask**
 ```ruby
 ddf.info()
 ```
-Time Consumed: 3.85 ms
+Time Consumed: 2.38 ms
 
 Library 3: **Vaex**
 ```ruby
@@ -290,7 +290,7 @@ Library 2: **Dask**
 ```ruby
 ddf.isna().sum().compute()
 ```
-Time Consumed: 29.8 s
+Time Consumed: 37.9 s
 
 Library 3: **Vaex**
 ```ruby
@@ -320,7 +320,7 @@ f, ax = plt.subplots(figsize=(12, 9))
 sns.heatmap(corrmat, vmax=.8, square=True, xticklabels=corrmat.columns, yticklabels=corrmat.columns);
 plt.show()
 ```
-Time Consumed: 1min 58s
+Time Consumed: 2min 19s
 
 Library 3: **Vaex**
 ```ruby
@@ -341,7 +341,7 @@ Library 2: **Dask**
 ddf['FL_DATE'] = ddf['FL_DATE'].astype('datetime64[ns]')
 ddf.dtypes
 ```
-Time Consumed: 21.8 ms
+Time Consumed: 10.7 ms
 
 Library 3: **Vaex**
 ```ruby
