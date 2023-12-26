@@ -24,9 +24,9 @@ Don't forget to hit the :star: if you like this repo.
 
 ## [Template: Project big data](compare_big_data.ipynb)
 ### 📂 Folder content:
-* [📖 Pandas](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/KHUCHIN/library_3.ipynb)
-* [📖 Modin](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/KHUCHIN/library_2.ipynb)
-* [📖 Dask](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/KHUCHIN/library_1.ipynb)
+* [📖 Pandas](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/KHUCHIN/library_2.ipynb)
+* [📖 Modin](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/KHUCHIN/library_1.ipynb)
+* [📖 Dask](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/KHUCHIN/library_3.ipynb)
 * [📖 Conclusion](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/KHUCHIN/comparison.md)
 
 
