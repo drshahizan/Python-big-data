@@ -1134,9 +1134,7 @@ Time Consumed: 30.4 s
 * Limited Ecosystem: Vaex, while powerful, has a smaller user base compared to Pandas and Dask, which might result in a more limited ecosystem and community support.
 * Does not have much built-in function: Vaex does not have many built-in function for plotting the graph for visualization. Users need to convert the Dataframe to Pandas in order to plot graph.
 
-In conclusion, Pandas, with its user-friendly and expressive API, is an excellent choice for small to medium-sized datasets where ease of use is a priority. Dask, on the other hand, shines in scenarios demanding scalability and parallel/distributed computing, making it ideal for handling larger-than-memory datasets efficiently. If high-performance analytics on large in-memory datasets is crucial, and the benefits of memory-mapping are sought after, Vaex stands out with its optimized speed and efficient processing capabilities. Each library caters to specific needs in the data analysis landscape, providing users with tailored solutions based on the scale and performance requirements of their datasets.
-
-
+In conclusion, Pandas, with its user-friendly and expressive API, is an excellent choice for small to medium-sized datasets where ease of use is a priority. Dask, on the other hand, shines in scenarios dealing with really big datasets and need to do things at the same time on different parts of the data. It's great for making things faster. If high-performance analytics on large in-memory datasets is needed, Vaex is good because it's built to handle that, especially when the data doesn't fit into the computer's memory. Each one has its own strengths for different situations in data analysis.
 
 ## Contribution 🛠️  <a name = "contribution"> </a>
 Please create an [Issue](https://github.com/drshahizan/HPDP/issues) for any improvements, suggestions or errors in the content.
