@@ -420,7 +420,7 @@ ddf = ddf.drop("DISTANCE",1)
 ddf = ddf.drop("OP_CARRIER_FL_NUM",1)
 ddf = ddf.drop("Unnamed: 27",1) #Empty
 ```
-Time Consumed: 
+Time Consumed:  103 ms
 
 Library 3: **Vaex**
 ```ruby
