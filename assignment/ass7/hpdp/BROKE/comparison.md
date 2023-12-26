@@ -10,7 +10,7 @@
 | Identifying Duplicate Rows            | 8.34           | 0            | 8.34           |
 | Drop Duplicate Column                 | 6.68           | 0            | 0.973          |
 
-![Alt text](assignment/ass7/hpdp/BROKE/images/download.png)
+![Alt text](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/BROKE/images/download.png)
 
 
 
