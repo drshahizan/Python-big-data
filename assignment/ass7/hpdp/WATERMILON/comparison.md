@@ -60,7 +60,7 @@
     + [4.3.6. How does the price of property vary based on different property types over time?](#q6)
     + [4.3.7. Comparison of Time Consumed](#comparison2)
 + [5. Inferences and Conclusion](#conclusion)
-+ [6. References](#references)
++ [6. References](#referenceslast)
 + [Contributions](#contribution)
 
 ## 1. Introduction <a name = "intro"></a>
@@ -1003,7 +1003,7 @@ Weaknesses:
 
 In conclusion, we do think that Vaex is a great option and best library for computationally demanding tasks and big datasets because it continuously exhibits superior performance. Dask provides scalability advantages and performs well in distributed computing scenarios. Modin shows inconsistent performance and might not always be the best option for extensive and computationally demanding analyses, even though it is appropriate for some use cases. The size of the dataset, the particular requirements of the analysis, and the desire for a smooth transition from conventional pandas workflows should all be taken into account when choosing one of these libraries.
 
-## 6. References <a name = "references"></a>
+## 6. References <a name = "referenceslast"></a>
 
 1. [Modin in Github](https://github.com/modin-project/modin)
 2. [Documentation of Modin](https://modin.readthedocs.io/en/stable/)
