@@ -10,12 +10,12 @@ Don't forget to hit the :star: if you like this repo.
 # Assignment 7: Comparison between libraries
 
 **Group Name: Blublublu**
-|No.|NAME|MATRICS NO.|
-|---|---|---|
-|1.|ANG YI QIN|A20EC0163|
-|2.|LAU YEE CHI|A21EC0042|
-|3.|LIEW YVONNE|A21EC0045|
-|4.|SOO WAN YING|A20EC0227|
+|NO.|NAME|MATRICS NO.|LIBRARY|
+|---|---|---|---|
+|1.|ANG YI QIN|A21EC0163| Dask|
+|2.|LAU YEE CHI|A21EC0042|Dask|
+|3.|LIEW YVONNE|A21EC0045|Vaex|
+|4.|SOO WAN YING|A21EC0227|Pandas|
 
 ## Table of Content
 + [1.0 Introduction](#1-introduction)
@@ -30,8 +30,18 @@ Don't forget to hit the :star: if you like this repo.
   + [4.3 Explore Dataset](#43-explore)
     + [4.3.1 Check the Datatypes](#431-check-the-datatypes)
     + [4.3.2 Display the first 10 rows of the dataset](#432-display-the-first-10-rows-of-the-dataset)
-
-+ [Conclusion](#conclusion)
+    + [4.3.3 Obtain Description of the Dataset](#433-obtain-description-of-the-dataset)
+    + [4.3.4 Obtain Information of the Dataset](#434-obtain-information-of-the-dataset)
+    + [4.3.5 Check Missing Data](#435-check-missing-data)
+    + [4.3.6 Identifying Multicollinearity and Variable Selection](#436-identifying-multicollinearity-and-variable-selection)
+    + [4.3.7 Converting the 'FL_DATE' Column to Datetime Format](#437-converting-column-to-datetime-format)
+    + [4.3.8 Return Number of Rows](#438-return-number-of-rows)
+    + [4.3.9 Create a New Column to Represent the Status of the Flight](#439-create-a-new-column)
+    + [4.3.10 Drop Unnecessary Column](#4310-drop-unnecessary-column)
+    + [4.3.11 Display First 20 Rows of the Dataset](#4311-display-first-20-rows)
++ [5.0 Exploratory Analysis and Visualization](#5-eda)
++ [6.0 Asking and Answering Questions](#6-asking-answering)
++ [7.0 Conclusion](#conclusion)
 
 ## Introduction <a name = "1-introduction"></a>
 In this project, we're exploring and analyzing the [Airline Delay Analysis](https://www.kaggle.com/datasets/sherrytp/airline-delay-analysis?select=airline+delay+analysis) dataset from Kaggle. This dataset contains a lot of information about airline flights, including dates, airlines, delays at departure and arrival, reasons for delays, and other operational details. Our main goal in this project is to use the pandas library, a powerful tool in Python for working with data, to thoroughly investigate and understand this airline delay dataset. The project aims to uncover insights into various facets of airline operations, including on-time performance, operational metrics, and delay resolution.
@@ -231,7 +241,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### 4.3.3 Obtain description of the dataset <a name = "433-obtain-description-of-the-dataset"></a>
+#### 4.3.3 Obtain Description of the Dataset <a name = "433-obtain-description-of-the-dataset"></a>
 Library 1: **Pandas**
 ```ruby
 df.describe()
@@ -250,7 +260,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### 4.3.4 Obtain information of the dataset <a name = "434-obtain-information-of-the-dataset"></a>
+#### 4.3.4 Obtain Information of the Dataset <a name = "434-obtain-information-of-the-dataset"></a>
 Library 1: **Pandas**
 ```ruby
 df.info()
@@ -269,7 +279,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### 4.3.5 Check missing data <a name = "435-check-missing-data"></a>
+#### 4.3.5 Check Missing Data <a name = "435-check-missing-data"></a>
 Library 1: **Pandas**
 ```ruby
 df.isna().sum()
@@ -318,7 +328,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### 4.3.7  Converting the 'FL_DATE' column to datetime format <a name = "437-converting-column-to-datetime-format"></a>
+#### 4.3.7 Converting the 'FL_DATE' Column to Datetime Format <a name = "437-converting-column-to-datetime-format"></a>
 Library 1: **Pandas**
 ```ruby
 df['FL_DATE'] = pd.to_datetime(df['FL_DATE'])
@@ -339,7 +349,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### 4.3.8   Return number of rows <a name = "438-return-number-of-rows"></a>
+#### 4.3.8 Return Number of Rows <a name = "438-return-number-of-rows"></a>
 Library 1: **Pandas**
 ```ruby
 len(df)
@@ -358,7 +368,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### 4.3.9 Create a new column to represent the status of the flight <a name = "439-create-a-new-column"></a>
+#### 4.3.9 Create a New Column to Represent the Status of the Flight <a name = "439-create-a-new-column"></a>
 Library 1: **Pandas**
 ```ruby
 df['STATUS'] =df['ARR_DELAY'].apply(lambda x: 0 if x <= 15 else 1 if x <= 30 else 2 if x <= 60 else 3 if x <= 120 else 4)
@@ -377,26 +387,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### 4.3.10 Replace values in the 'CANCELLATION_CODE' column <a name = "4310-replace-values"></a>
-Library 1: **Pandas**
-```ruby
-df['CANCELLATION_CODE'].replace(['A', 'B', 'C', 'D'], [0, 1, 2, 3])
-```
-Time Consumed: 
-
-Library 2: **Dask**
-```ruby
-ddf['CANCELLATION_CODE'].replace(['A', 'B', 'C', 'D'], [0, 1, 2, 3])
-```
-Time Consumed: 
-
-Library 3: **Vaex**
-```ruby
-
-```
-Time Consumed: 
-
-#### 4.3.11 Drop unnecessary column <a name = "4311-drop-unnecessary-column"></a>
+#### 4.3.10 Drop Unnecessary Column <a name = "4310-drop-unnecessary-column"></a>
 Library 1: **Pandas**
 ```ruby
 df = df.drop(columns=['DEP_DELAY', 'ARR_TIME','CRS_ARR_TIME', 'ACTUAL_ELAPSED_TIME', 'CRS_ELAPSED_TIME', 
@@ -425,7 +416,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-#### 4.3.12 Display first 20 rows of the dataset <a name = "4312-display-first-20-rows"></a>
+#### 4.3.11 Display First 20 Rows of the Dataset <a name = "4311-display-first-20-rows"></a>
 Library 1: **Pandas**
 ```ruby
 df.head(20)
@@ -444,7 +435,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-### Exploratory Analysis and Visualization
+### 5.0 Exploratory Analysis and Visualization <a name = "5-eda"></a>
 #### 1. Summarize the flights - We will see the percentage of flights that have delayed and cancelled.
 Library 1: **Pandas**
 ```ruby
@@ -690,7 +681,7 @@ Library 3: **Vaex**
 ```
 Time Consumed: 
 
-### Asking and Answering Questions
+### 6.0 Asking and Answering Questions <a name = "6-asking-answering"></a>
 #### Q1: What percentage of flights experienced delays or cancellations?
 Library 1: **Pandas**
 ```ruby
@@ -901,7 +892,7 @@ Library 3: **Vaex**
 Time Consumed: 
 
 
-## Conclusion <a name = "conclusion"></a>
+## 7.0 Conclusion <a name = "conclusion"></a>
 
 
 ## Contribution 🛠️  <a name = "contribution"> </a>
