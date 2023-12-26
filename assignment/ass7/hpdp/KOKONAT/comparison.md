@@ -122,6 +122,10 @@ uploaded = files.upload()
 
 ### 4.1 Install necessary library <a name = "library"></a>
 Library 1: **Pandas**
+- Import pandas:
+```ruby
+import pandas as pd
+```
 
 Library 2: **Datatable**
 
@@ -147,6 +151,11 @@ from pyspark.sql.types import StringType, DoubleType
 ```
 ### 4.2 Load the dataset <a name = "data_loading"></a>
 Library 1: **Pandas**
+```ruby
+df = pd.read_csv('brewery_data_complete_extended.csv')
+```
+- Memory usage: 1525.8790283203125 MB
+- Computation Time: 1.5300000768547761e-06 seconds
 
 Library 2: **Datatable**
 ```ruby
@@ -169,6 +178,11 @@ brewery_df = load_data()
 
 ### 4.3 Display the first five rows <a name = "rows"></a>
 Library 1: **Pandas**
+```ruby
+df.head(5)
+```
+- Memory usage: 0.000885009765625 MB
+- Computation Time: 2.8520000228127174e-06 seconds
 
 Library 2: **Datatable**
 ```ruby
@@ -186,6 +200,12 @@ brewery_df.show(5, truncate=False)
 
 ### 4.4 Explore the number of rows & columns <a name = "num_rows"></a>
 Library 1: **Pandas**
+```ruby
+print("Number of rows:", df.shape[0])
+print("Number of columns:", df.shape[1])
+```
+- Memory usage: 3939.359375 MB
+- Computation Time: 0.0010416507720947266 seconds
 
 Library 2: **Datatable**
 ```ruby
@@ -208,6 +228,14 @@ print(f"Number of Columns: {num_columns}")
 
 ### 4.5 Column type <a name = "column_type"></a>
 Library 1: **Pandas**
+```ruby
+column_types = df.dtypes
+print("\nData types of each column:\n")
+for column, column_type in column_types.items():
+    print(f"{column}: {column_type}")
+```
+- Memory usage: 2811.2109375 MB
+- Computation Time: 0.009453058242797852 seconds
 
 Library 2: **Datatable**
 ```ruby
@@ -235,6 +263,12 @@ for col_name, col_type in column_types:
   
 ### 4.6 Handling Missing Value <a name = "missing_value"></a>
 Library 1: **Pandas**
+```ruby
+handling_missing_code = df.isnull().sum()
+print(handling_missing_code)
+```
+- Memory usage: 2811.2109375 MB
+- Computation Time: 9.36748719215393 seconds
 
 Library 2: **Datatable**
 ```ruby
@@ -256,6 +290,11 @@ missing_values.show()
 
 ### 4.7 Number of unique values per columns <a name = "unique"></a>
 Library 1: **Pandas**
+```ruby
+df.nunique()
+```
+- Memory usage: 2812.5 MB
+- Computation Time: 50.357383012771606 seconds
 
 Library 2: **Datatable**
 ```ruby
@@ -281,6 +320,11 @@ for col_name, unique_count in unique_values:
 
 ### 5.1  Summary Statistics  <a name = "sum_stat"></a>
 Library 1: **Pandas**
+```ruby
+df.describe()
+```
+- Memory usage: 2844.78125 MB
+- Computation Time: 8.186732530593872 seconds
 
 Library 2: **Datatable**
 ```ruby
@@ -313,6 +357,27 @@ Computation Time: 196.83882665634155 seconds
 
 #### 5.2.1  Total Volume Produced by Beer Style  <a name = "total_volume"></a>
 Library 1: **Pandas**
+```ruby
+sales_by_style = df.groupby('Beer_Style')['Volume_Produced'].sum().reset_index()
+sales_by_style = sales_by_style.sort_values(by='Volume_Produced', ascending=False)
+
+colors = sns.color_palette('viridis', len(sales_by_style))
+
+plt.figure(figsize=(12, 6))
+bars = plt.bar(sales_by_style['Beer_Style'], sales_by_style['Volume_Produced'], color=colors)
+plt.xlabel('Beer Style')
+plt.ylabel('Volume_Produced')
+plt.title('Total Volume_Produced by Beer Style')
+plt.xticks(rotation=0)  # Rotate x-axis labels for better readability
+
+for bar in bars:
+    yval = bar.get_height()
+    plt.text(bar.get_x() + bar.get_width()/2, yval + 500, round(yval, 2), ha='center', va='bottom')
+plt.ticklabel_format(style='plain', axis='y')
+plt.show()
+```
+- Memory usage: 3986.7890625 MB
+- Computation Time: 1.1808910369873047 seconds
 
 Library 2: **Datatable**
 ```ruby
@@ -362,7 +427,22 @@ total_volume_by_style.show()
 
 #### 5.2.2  Average Fermentation Time by Beer Stylee  <a name = "avg"></a>
 Library 1: **Pandas**
+```ruby
+fermentation_by_style = df.groupby('Beer_Style')['Fermentation_Time'].mean().reset_index()
+fermentation_by_style = fermentation_by_style.sort_values(by='Fermentation_Time', ascending=False)
 
+plt.figure(figsize=(12, 6))
+line = sns.lineplot(x='Beer_Style', y='Fermentation_Time', data=fermentation_by_style, marker='o', color='blue')
+plt.xlabel('Beer Style')
+plt.ylabel('Fermentation Time')
+plt.title('Average Fermentation Time by Beer Style')
+plt.xticks(rotation=0)
+
+plt.show()
+```
+- Memory usage: 3987.87109375 MB
+- Computation Time: 1.2894868850708008 seconds
+  
 Library 2: **Datatable**
 ```ruby
 # Calculate average fermentation time by beer style
@@ -410,7 +490,17 @@ average_fermentation_time_by_style.show()
 
 #### 5.2.3  Fermentation Time by Beer Style  <a name = "fermentation_time"></a>
 Library 1: **Pandas**
-
+```ruby
+plt.figure(figsize=(12, 6))
+sns.boxplot(x='Beer_Style', y='Fermentation_Time', data=df)
+plt.title('Boxplot of Fermentation Time by Beer Style')
+plt.xlabel('Beer Style')
+plt.ylabel('Fermentation Time')
+plt.show()
+```
+- Memory usage: 3988.90234375 MB
+- Computation Time: 7.583525896072388 seconds
+  
 Library 2: **Datatable**
 ```ruby
 # Create a boxplot using Seaborn
@@ -455,7 +545,20 @@ plt.show()
 
 #### 5.2.4 Correlation between the Fermentation_Time, Temperature, pH_Level, Gravity, and Quality_Score <a name = "corr"></a>
 Library 1: **Pandas**
+```ruby
+cor = ['Fermentation_Time', 'Temperature', 'pH_Level', 'Gravity', 'Quality_Score']
+df_cor = df[cor]
 
+correlation = df_cor.corr()
+
+plt.figure(figsize=(10, 8))
+sns.heatmap(correlation, annot=True, cmap="coolwarm", fmt=".4f", linewidths=.5)
+plt.title('Correlation Heatmap')
+plt.show()
+```
+- Memory usage: 3990.30859375 MB
+- Computation Time: 4.137321949005127 seconds
+  
 Library 2: **Datatable**
 ```ruby
 # Define the columns for which correlation is to be calculated
@@ -508,7 +611,22 @@ plt.show()
 
 #### 5.2.4  Total Sales by Beer Style <a name = "sales"></a>
 Library 1: **Pandas**
+```ruby
+sales_by_style = df.groupby('Beer_Style')['Total_Sales'].sum().reset_index()
+sales_by_style = sales_by_style.sort_values(by='Total_Sales', ascending=True)
 
+plt.figure(figsize=(12, 6))
+line2 = sns.lineplot(x='Beer_Style', y='Total_Sales', data=sales_by_style, marker='o', color='blue')
+plt.xlabel('Beer Style')
+plt.ylabel('Total Sales')
+plt.title('Total Sales by Beer Style')
+plt.xticks(rotation=0)
+
+plt.show()
+```
+- Memory usage: 3991.08203125 MB
+- Computation Time: 1.4941904544830322 seconds
+  
 Library 2: **Datatable**
 ```ruby
 # Group by Beer_Style and calculate the total sales for each style
@@ -574,7 +692,29 @@ plt.show()
 
 #### 5.2.5  Total Loss by Beer Style <a name = "loss"></a>
 Library 1: **Pandas**
+```ruby
+result = df.groupby('Beer_Style').agg({
+    'Loss_During_Brewing': 'sum',
+    'Loss_During_Fermentation': 'sum',
+    'Loss_During_Bottling_Kegging': 'sum'
+}).reset_index()
 
+plt.figure(figsize=(12, 6))
+sns.lineplot(x='Beer_Style', y='Loss_During_Brewing', data=result, label='Loss During Brewing', color='blue')
+sns.lineplot(x='Beer_Style', y='Loss_During_Fermentation', data=result, label='Loss During Fermentation', color='green')
+sns.lineplot(x='Beer_Style', y='Loss_During_Bottling_Kegging', data=result, label='Loss During Bottling Kegging', color='orange')
+
+plt.xlabel('Beer Style')
+plt.ylabel('Total Loss')
+plt.title('Total Loss by Beer Style')
+plt.xticks(rotation=0, ha='right')  
+plt.legend()
+
+plt.show()
+```
+- Memory usage: 3991.85546875 MB
+- Computation Time: 1.1857013702392578 seconds
+  
 Library 2: **Datatable**
 ```ruby
 # Group by Beer_Style and calculate the total loss for each category
@@ -644,7 +784,34 @@ plt.show()
 
 ### 6.1 Which beer style has the highest average quality score?<a name = "q1"></a>
 Library 1: **Pandas**
+```ruby
+average_quality_by_style = df.groupby('Beer_Style')['Quality_Score'].mean().reset_index()
 
+# Find the beer style with the highest average quality score
+highest_quality_beer = average_quality_by_style.loc[average_quality_by_style['Quality_Score'].idxmax(), 'Beer_Style']
+
+# Plot a bar graph
+plt.figure(figsize=(12, 6))
+bar_plot = sns.barplot(x='Beer_Style', y='Quality_Score', data=average_quality_by_style, palette='viridis')
+plt.title('Average Quality Score by Beer Style')
+plt.xlabel('Beer Style')
+plt.ylabel('Average Quality Score')
+plt.xticks(rotation=45, ha='right')
+
+# Highlight the beer style with the highest average quality score
+plt.axvline(x=average_quality_by_style[average_quality_by_style['Beer_Style'] == highest_quality_beer].index[0],
+            color='red', linestyle='--', label=f'Highest Quality Beer: {highest_quality_beer}')
+plt.legend()
+
+# Add labels for every bar
+for index, value in enumerate(average_quality_by_style['Quality_Score']):
+    plt.text(index, value, f'{value:.4f}', ha='center', va='bottom')
+
+plt.show()
+```
+- Memory usage: 3994.765625 MB
+- Computation Time: 1.6493182182312012 seconds
+  
 Library 2: **Datatable**
 ```ruby
 # Group by Beer_Style and calculate the mean Quality_Score for each beer style
@@ -710,7 +877,26 @@ Computation Time: 26.092206239700317 seconds
 
 ### 6.2 What is the total volume produced for each location? <a name = "q2"></a>
 Library 1: **Pandas**
+```ruby
+total_volume_by_location = df.groupby('Location')['Volume_Produced'].sum()
+colors = plt.cm.Set3(np.linspace(0, 1, len(total_volume_by_location)))
+plt.figure(figsize=(20, 6))
+bars = total_volume_by_location.plot(kind='bar', color=colors)
+plt.title('Total Volume Produced by Location')
+plt.xlabel('Location')
+plt.ylabel('Total Volume Produced')
+plt.xticks(rotation=45, ha='right')
 
+# Add labels for each bar
+for bar in bars.patches:
+    yval = bar.get_height()
+    plt.text(bar.get_x() + bar.get_width()/2, yval + 50, round(yval, 2), ha='center', va='bottom')
+
+plt.show()
+```
+- Memory usage: 3995.53515625 MB
+- Computation Time: 1.0970861911773682 seconds
+  
 Library 2: **Datatable**
 ```ruby
 # Calculate the total volume produced by location using datatable
@@ -773,7 +959,18 @@ plt.show()
 
 ### 6.3 What is the relation between fermentation time and alcohol content?<a name = "q3"></a>
 Library 1: **Pandas**
+```ruby
+plt.figure(figsize=(8, 6))
+sns.lineplot(x='Fermentation_Time', y='Alcohol_Content', data=df, color='green')
+plt.title('Line Plot: Fermentation Time vs Alcohol Content')
+plt.xlabel('Fermentation Time')
+plt.ylabel('Alcohol Content')
+plt.show()
 
+```
+- Memory usage: 3996.8046875 MB
+- Computation Time: 501.99929666519165 seconds
+  
 Library 2: **Datatable**
 ```ruby
 # Convert the datatable frame to a pandas DataFrame
@@ -825,7 +1022,14 @@ plt.show()
 
 ### 6.4 Which ingredient ratio is associated with the highest total sales?<a name = "q4"></a>
 Library 1: **Pandas**
+```ruby
+highest_sales_ratio = df.groupby('Ingredient_Ratio')['Total_Sales'].sum().idxmax()
+print(f"The ingredient ratio associated with the highest total sales is: {highest_sales_ratio}")
 
+```
+- Memory usage: 3996.8046875 MB
+- Computation Time: 0.7371337413787842 seconds
+  
 Library 2: **Datatable**
 ```ruby
 # Group by Ingredient_Ratio and calculate the total sales for each ratio using datatable
@@ -860,7 +1064,26 @@ print(f"The ingredient ratio associated with the highest total sales is: {highes
 
 ### 6.5 What is the average loss during brewing, fermentation, and bottling/kegging for each beer style?<a name = "q5"></a>
 Library 1: **Pandas**
+```ruby
+average_loss_by_style = df.groupby('Beer_Style').agg({
+    'Loss_During_Brewing': 'mean',
+    'Loss_During_Fermentation': 'mean',
+    'Loss_During_Bottling_Kegging': 'mean'
+})
 
+plt.figure(figsize=(12, 6))
+sns.lineplot(data=average_loss_by_style.T, marker='o')
+plt.title('Average Loss by Beer Style')
+plt.xlabel('Loss Category')
+plt.ylabel('Average Loss')
+plt.xticks(rotation=45, ha='right')
+plt.legend(title='Beer Style', bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.show()
+
+```
+- Memory usage: 3997.57421875 MB
+- Computation Time: 1.7633934020996094 seconds
+  
 Library 2: **Datatable**
 ```ruby
 # Group by Beer_Style and calculate the mean loss for each category
