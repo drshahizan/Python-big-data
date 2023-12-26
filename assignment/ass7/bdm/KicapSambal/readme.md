@@ -26,7 +26,7 @@ Don't forget to hit the :star: if you like this repo.
 * [💻 Ipynb File ](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/bdm/KicapSambal/Pandas.ipynb)
 
 #### Library 2 - Dask
-* [📖 Google Colab link ]()
+* [📖 Google Colab link ](https://colab.research.google.com/drive/109Y45VwyKn1rjc3C2iPIvSTRhpo-7mBU)
 * [💻 Ipynb File ]()
 
 #### Library 3 - Vaex
