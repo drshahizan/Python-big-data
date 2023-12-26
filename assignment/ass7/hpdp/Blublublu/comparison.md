@@ -19,14 +19,15 @@ Don't forget to hit the :star: if you like this repo.
 
 ## Table of Content
 + [Introduction](#introduction)
-- [Dataset Selection](#dataset-selection)
-- [Library Chosen](#library-chosen)
-  - [Pandas](#pandas)
-  - [DASK](#dask)
-  - [Vaex](#vaex)
-- [Comparison Between Libraries](#comparison-libraries)
-  - [Installation of Libraries](#installation)
-- [Conclusion](#conclusion)
++ [Dataset Selection](#dataset-selection)
++ [Library Chosen](#library-chosen)
+  + [Pandas](#pandas)
+  + [DASK](#dask)
+  + [Vaex](#vaex)
++ [Comparison Between Libraries](#comparison-libraries)
+  + [Installation of Libraries](#installation)
+  + [Dataset Loading](#loading)
++ [Conclusion](#conclusion)
 
 ## Introduction <a name = "introduction"></a>
 In this project, we're exploring and analyzing the [Airline Delay Analysis](https://www.kaggle.com/datasets/sherrytp/airline-delay-analysis?select=airline+delay+analysis) dataset from Kaggle. This dataset contains a lot of information about airline flights, including dates, airlines, delays at departure and arrival, reasons for delays, and other operational details. Our main goal in this project is to use the pandas library, a powerful tool in Python for working with data, to thoroughly investigate and understand this airline delay dataset. The project aims to uncover insights into various facets of airline operations, including on-time performance, operational metrics, and delay resolution.
@@ -125,28 +126,163 @@ This document presents an exploratory data analysis (EDA) on a dataset using thr
 ### Installation of Libaries <a name = "installation"></a>
 Library 1: **Pandas**
 - Installing the Pandas package:
-```
+```ruby
 !pip install pandas
 ```
 
 Library 2: **Dask**
 - Installing the Dask package:
-```
+```ruby
 !pip install "dask[complete]"
 ```
 - Importing the Dask library:
-```
+```ruby
 import dask.dataframe as dd
 ```
+
 Library 3: **Vaex**
 - Installing the Vaex package:
-```
+```ruby
 !pip install vaex
 ```
 - Importing the Vaex library:
-```
+```ruby
 import vaex
 ```
+
+### Dataset Loading <a name = "loading"></a>
+Library 1: **Pandas**
+```ruby
+from google.colab import files
+
+# Load the dataset
+file_path = '/content/airline-delay-analysis/airline delay analysis/2018.csv'
+df = pd.read_csv(file_path, encoding='ISO-8859-1')
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+import dask.dataframe as dd
+import opendatasets as od
+
+# Download the dataset
+od.download("https://www.kaggle.com/datasets/sherrytp/airline-delay-analysis")
+
+# Specify the file path
+file_path = "/content/airline-delay-analysis/airline delay analysis/2018.csv"
+
+# Specify dtype for the problematic column
+dtype_spec = {'CANCELLATION_CODE': 'object'}
+
+# Read the CSV file with dtype specification
+ddf = dd.read_csv(file_path, dtype=dtype_spec)
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+### Explore Dataset <a name = "explore"></a>
+#### Check the Datatypes
+Library 1: **Pandas**
+```ruby
+df.dtypes
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+ddf.dtypes
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+# Check the datatypes
+
+```
+Time Consumed: 
+
+#### Display the first 10 rows of the dataset
+Library 1: **Pandas**
+```ruby
+df.head(10)
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+first_10_rows = ddf.head(10)
+print(first_10_rows)
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby 
+
+```
+Time Consumed: 
+
+#### Obtain description of the dataset
+Library 1: **Pandas**
+```ruby
+df.describe()
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+ddf.describe().compute()
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+#### Obtain information of the dataset
+Library 1: **Pandas**
+```ruby
+df.info()
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+ddf.info()
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
+
+#### Check missing data
+Library 1: **Pandas**
+```ruby
+df.isna().sum()
+```
+Time Consumed: 
+
+Library 2: **Dask**
+```ruby
+ddf.isna().sum().compute()
+```
+Time Consumed: 
+
+Library 3: **Vaex**
+```ruby
+
+```
+Time Consumed: 
 
 ## Conclusion <a name = "conclusion"></a>
 
