@@ -173,7 +173,7 @@ from google.colab import files
 file_path = '/content/airline-delay-analysis/airline delay analysis/2018.csv'
 df = pd.read_csv(file_path, encoding='ISO-8859-1')
 ```
-Time Consumed: 22.576s
+Time Consumed: 50.2s
 
 Library 2: **Dask**
 ```ruby
