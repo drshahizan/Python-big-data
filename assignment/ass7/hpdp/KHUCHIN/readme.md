@@ -18,7 +18,7 @@ Don't forget to hit the :star: if you like this repo.
 | NUR KHUZAIRIE ZAKWAN BIN MOHD ZAMRI | A21EC0112 |  Conclusion
 | NUR SHUHADA SAFIAH BINTI AYOB | A21EC0114 | Library 1: Modin
 | WAN AMIRUL HAFIQ BIN WAN HUZAINI | A21EC0141 | Library 2: Pandas
-| IKMAL BIN KHAIRULEZUAN | A21EC0186 | Library 3: Dask
+| IKMAL BIN KHAIRULEZUAN | A21EC0186 | Library 3: Dask 
 
 
 
