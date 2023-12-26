@@ -10,17 +10,18 @@ Don't forget to hit the :star: if you like this repo.
 # Assignment 7: Comparison between libraries
 
 **Group Name: Blublublu**
-|No.|NAME|MATRICS NO.|
-|---|---|---|
-|1.|ANG YI QIN|A20EC0163|
-|2.|LAU YEE CHI|A21EC0042|
-|3.|LIEW YVONNE|A21EC0045|
-|4.|SOO WAN YING|A20EC0227|
+|NO.|NAME|MATRICS NO.|LIBRARY|
+|---|---|---|---|
+|1.|ANG YI QIN|A21EC0163| Dask|
+|2.|LAU YEE CHI|A21EC0042|Dask|
+|3.|LIEW YVONNE|A21EC0045|Vaex|
+|4.|SOO WAN YING|A21EC0227|Pandas|
+
 
 ### 📂 Folder content:
-* Pandas - [📖 library_1.ipynb]()
+* Pandas - [📖 library_1.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/Blublublu/library_1.ipynb)
 * DASK - [📖 library_2.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/Blublublu/library_2.ipynb)
-* Vaex - [📖 library_3.ipynb]()
+* Vaex - [📖 library_3.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/Blublublu/library_3.ipynb)
 * Comparison - [📖 comparison.md](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/Blublublu/comparison.md)
 
 ## Contribution 🛠️
