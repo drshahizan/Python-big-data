@@ -8,11 +8,7 @@
 Don't forget to hit the :star: if you like this repo.
 
 # Assignment 7: Comparison between libraries
-
-## [Template: Project big data](compare_big_data.ipynb)
-
-
-### Group Name: SYNA
+## Group Name: SYNA
 ### Group Members
 
 | Name                                     | Matrix Number | Task |
