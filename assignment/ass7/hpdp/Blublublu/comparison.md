@@ -192,13 +192,13 @@ dtype_spec = {'CANCELLATION_CODE': 'object'}
 # Read the CSV file with dtype specification
 ddf = dd.read_csv(file_path, dtype=dtype_spec)
 ```
-Time Consumed: 57.4 s
+Time Consumed: 347 µs
 
 Library 3: **Vaex**
 ```ruby
-
+df = vaex.from_csv('airline delay analysis/2018.csv', convert=True)
 ```
-Time Consumed: 
+Time Consumed: 23.5 ms
 
 ### 4.3 Explore Dataset <a name = "43-explore"></a>
 #### 4.3.1 Check the Datatypes <a name = "431-check-the-datatypes"></a>
@@ -212,14 +212,14 @@ Library 2: **Dask**
 ```ruby
 ddf.dtypes
 ```
-Time Consumed: 229 µs
+Time Consumed: 
 
 Library 3: **Vaex**
 ```ruby
 # Check the datatypes
-
+df.dtypes
 ```
-Time Consumed: 
+Time Consumed: 1.81 ms
 
 #### 4.3.2 Display the first 10 rows of the dataset <a name = "432-display-the-first-10-rows-of-the-dataset"></a>
 Library 1: **Pandas**
@@ -233,13 +233,13 @@ Library 2: **Dask**
 first_10_rows = ddf.head(10)
 print(first_10_rows)
 ```
-Time Consumed: 2.36 s
+Time Consumed: 3.9 s
 
 Library 3: **Vaex**
 ```ruby 
-
+df.head(10)
 ```
-Time Consumed: 
+Time Consumed: 2.78 ms
 
 #### 4.3.3 Obtain Description of the Dataset <a name = "433-obtain-description-of-the-dataset"></a>
 Library 1: **Pandas**
@@ -252,13 +252,13 @@ Library 2: **Dask**
 ```ruby
 ddf.describe().compute()
 ```
-Time Consumed: 45.6 s
+Time Consumed: 47.2 s
 
 Library 3: **Vaex**
 ```ruby
-
+df.describe()
 ```
-Time Consumed: 
+Time Consumed: 9.84 s
 
 #### 4.3.4 Obtain Information of the Dataset <a name = "434-obtain-information-of-the-dataset"></a>
 Library 1: **Pandas**
@@ -271,13 +271,13 @@ Library 2: **Dask**
 ```ruby
 ddf.info()
 ```
-Time Consumed: 2.38 ms
+Time Consumed: 3.85 ms
 
 Library 3: **Vaex**
 ```ruby
-
+df.info()
 ```
-Time Consumed: 
+Time Consumed: 28 ms
 
 #### 4.3.5 Check Missing Data <a name = "435-check-missing-data"></a>
 Library 1: **Pandas**
@@ -290,13 +290,18 @@ Library 2: **Dask**
 ```ruby
 ddf.isna().sum().compute()
 ```
-Time Consumed: 37.9 s
+Time Consumed: 29.8 s
 
 Library 3: **Vaex**
 ```ruby
+count_na = []  # to count the missing value per column
+for col in df.column_names:
+    count_na.append(df[col].isna().sum().item())
 
+s = pd.Series(data=count_na, index=df.column_names).sort_values(ascending=True)
+s
 ```
-Time Consumed: 
+Time Consumed: 1.55 s
 
 #### 4.3.6 Identifying Multicollinearity and Variable Selection <a name = "436-identifying-multicollinearity-and-variable-selection"></a>
 Library 1: **Pandas**
@@ -320,13 +325,19 @@ f, ax = plt.subplots(figsize=(12, 9))
 sns.heatmap(corrmat, vmax=.8, square=True, xticklabels=corrmat.columns, yticklabels=corrmat.columns);
 plt.show()
 ```
-Time Consumed: 2min 19s
+Time Consumed: 1min 58s
 
 Library 3: **Vaex**
 ```ruby
+import matplotlib.pyplot as plt
+import seaborn as sns
 
+corrmat = df.to_pandas_df().corr()
+f, ax = plt.subplots(figsize=(12, 9))
+sns.heatmap(corrmat, vmax=.8, square=True, xticklabels=corrmat.columns, yticklabels=corrmat.columns)
+plt.show()
 ```
-Time Consumed: 
+Time Consumed: 16.9 s
 
 #### 4.3.7 Converting the 'FL_DATE' Column to Datetime Format <a name = "437-converting-column-to-datetime-format"></a>
 Library 1: **Pandas**
@@ -341,13 +352,14 @@ Library 2: **Dask**
 ddf['FL_DATE'] = ddf['FL_DATE'].astype('datetime64[ns]')
 ddf.dtypes
 ```
-Time Consumed: 10.7 ms
+Time Consumed: 21.8 ms
 
 Library 3: **Vaex**
 ```ruby
-
+df['FL_DATE'] = df['FL_DATE'].astype('datetime64[ns]')
+df.dtypes
 ```
-Time Consumed: 
+Time Consumed: 15.5 ms
 
 #### 4.3.8 Return Number of Rows <a name = "438-return-number-of-rows"></a>
 Library 1: **Pandas**
@@ -364,9 +376,9 @@ Time Consumed: 23.9 s
 
 Library 3: **Vaex**
 ```ruby
-
+len(df)
 ```
-Time Consumed: 
+Time Consumed: 33 µs
 
 #### 4.3.9 Create a New Column to Represent the Status of the Flight <a name = "439-create-a-new-column"></a>
 Library 1: **Pandas**
@@ -383,9 +395,9 @@ Time Consumed: 30.2 ms
 
 Library 3: **Vaex**
 ```ruby
-
+df['STATUS'] =df['ARR_DELAY'].apply(lambda x: 0 if x <= 15 else 1 if x <= 30 else 2 if x <= 60 else 3 if x <= 120 else 4)
 ```
-Time Consumed: 
+Time Consumed: 723 µs
 
 #### 4.3.10 Drop Unnecessary Column <a name = "4310-drop-unnecessary-column"></a>
 Library 1: **Pandas**
@@ -412,9 +424,10 @@ Time Consumed:
 
 Library 3: **Vaex**
 ```ruby
-
+columns_to_drop = ['ARR_TIME', 'DEP_DELAY','CRS_ARR_TIME', 'ACTUAL_ELAPSED_TIME', 'CRS_ELAPSED_TIME', 'DIVERTED', 'CANCELLED', 'DISTANCE', 'OP_CARRIER_FL_NUM', 'Unnamed: 27']
+df = df.drop(columns_to_drop)
 ```
-Time Consumed: 
+Time Consumed: 4.63 ms
 
 #### 4.3.11 Display First 20 Rows of the Dataset <a name = "4311-display-first-20-rows"></a>
 Library 1: **Pandas**
