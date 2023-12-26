@@ -49,30 +49,30 @@ The User Score Dataset enables various analyses and insights into user interacti
 To begin accessing Kaggle datasets within Google Colab, start by visiting your Kaggle account. Within your account settings, navigate to the API section. If there's a previous token, ensure to invalidate it by selecting "Expire API Token." Following this, generate a new API token by clicking on "Create New API Token." This action will automatically download a 'kaggle.json' file, which contains your credentials, to your local machine.
 
 Now moving back to the project file in Google Colab, we will install the kaggle library:
-```
+```python
 !pip install kaggle
 ```
 
 The next code will upload files from your local machine to the Google Colab Notebook. It will locate and upload the 'kaggle.json' file that you downloaded earlier from Kaggle:
-```
+```python
 from google.colab import files
 files.upload()
 ```
 
 Once uploaded, proceed by running the subsequent commands in another code cell within Google Colab. These commands install the Kaggle package, create the necessary directory, allocate the 'kaggle.json' file into it, and adjust permissions for security:
-```
+```python
 !mkdir -p ~/.kaggle
 !cp kaggle.json ~/.kaggle/
 !chmod 600 ~/.kaggle/kaggle.json
 ```
 
 To download the dataset, execute code with actual Kaggle username and dataset name that is selected:
-```
+```python
 ! kaggle datasets download -d dbdmobile/myanimelist-dataset
 ```
 
 As the file is zipped, we will have to unzip it to extract the dataset from the file downloaded:
-```
+```python
 ! unzip myanimelist-dataset.zip
 ```
 
@@ -82,12 +82,12 @@ As the file is zipped, we will have to unzip it to extract the dataset from the 
 Pandas one of the powerful and popular library within the Python ecosystem. It serve as a foundational tool which is widely used for data manipulation, analysis, and exploration. The library provides a robust arsenal of tools tailored for handling structured data and time-series data, predominantly through its versatile DataFrame objects. What sets Pandas apart is its conventional, offering a user-friendly interface coupled with a rich array of functionalities. From data ingestion to cleaning, manipulation, and in-depth analysis, Pandas empowers users with comprehensive tools, making complex operations more accessible and enabling efficient exploration and understanding of diverse datasets. 
 
 Install Pandas:
-```bash
+```python
 !pip install pandas
 ```
 
 Importing Pandas library:
-```bash
+```python
 import pandas as pd
 ```
   
