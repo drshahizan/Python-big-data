@@ -10,7 +10,7 @@ Don't forget to hit the :star: if you like this repo.
 # Assignment 7: Comparison between libraries
 
 **Group Name: Blublublu**
-<img align="right" alt="blublublu" width="400" src="">
+<img align="right" alt="blublublu" width="400" src="blublublu.jpg">
 
 
 **Group Members**
