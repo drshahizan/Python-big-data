@@ -24,7 +24,7 @@ Don't forget to hit the :star: if you like this repo.
 
 ### 📂 Folder content:
 * [📖 Dask ](dask.ipynb)
-* [📖 Modin ](modix.ipynb)
+* [📖 Modin ](modin.ipynb)
 * [📖 Vaex ](vaex.ipynb)  
 * [📖 Comparison](comparison.md)
 
