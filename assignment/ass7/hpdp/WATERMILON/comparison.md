@@ -41,7 +41,7 @@
     + [4.1.6. Replace the Missing Values](#replace-the-missing-values)
     + [4.1.7. Review the Cleaning Results](#review-the-cleaning-results)
     + [4.1.8. Convert All Object Columns to String Type](#convert-all-object-columns-to-string-type)
-    + [4.1.9. Comparison of Time Consumed](#‎comparison)
+    + [4.1.9. Comparison of Time Consumed](#comparison)
 
   + [4.2. Exploratory Analysis and Visualization](#‎exploratory-analysis-and-visualization)
     + [4.2.1. Data Observation](#data-observation)
