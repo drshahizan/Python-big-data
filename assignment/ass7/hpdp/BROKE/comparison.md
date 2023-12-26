@@ -16,7 +16,7 @@
 </div>
 <br><br>
 
-## Data Cleaning Performance Benchmark
+## Exploratory Data Analysis and Visualization
 <div align="center">
   
 | chart | Pandas (s) | Dask (s) | Koalas (s) |
