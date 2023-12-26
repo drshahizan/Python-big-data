@@ -52,12 +52,12 @@
     + [4.2.6. Comparison of Time Consumed](#comparison-of-time-consumed-1)
 
   + [4.3. Asking and Answering Questions](#asking-and-answering-questions)
-    + [4.3.1. To what degree is the price distribution skewed?](#to-what-degree-is-the-price-distribution-skewed)
-    + [4.3.2. Does the country where the property is located significantly influence its price?](#does-the-country-where-the-property-is-located-significantly-influence-its-price)
-    + [4.3.3. How does the district affect the price and its dispersion in property?](#how-does-the-district-affect-the-price-and-its-dispersion-in-property)
-    + [4.3.4. How does the combination of PPDCategory_Type and Old/New property status influence property prices?](#how-does-the-combination-of-ppdcategory_type-and-oldnew-property-status-influence-property-prices)
-    + [4.3.5. What is the trend in property prices over time?](#what-is-the-trend-in-property-prices-over-time)
-    + [4.3.6. How does the price of property vary based on different property types over time?](#how-does-the-price-of-property-vary-based-on-different-property-types-over-time)
+    + [4.3.1. To what degree is the price distribution skewed?](#q1)
+    + [4.3.2. Does the country where the property is located significantly influence its price?](#q2)
+    + [4.3.3. How does the district affect the price and its dispersion in property?](#q3)
+    + [4.3.4. How does the combination of PPDCategory_Type and Old/New property status influence property prices?](#q4)
+    + [4.3.5. What is the trend in property prices over time?](#q5)
+    + [4.3.6. How does the price of property vary based on different property types over time?](#q6)
     + [4.3.7. Comparison of Time Consumed](#comparison-of-time-consumed-2)
 + [5. Inferences and Conclusion](#conclusion)
 + [6. References](#references)
@@ -753,9 +753,9 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 - Dask: Strong distributed computing capabilities, but it takes different amounts of time.
 - Vaex: Regularly exhibits rapid data analysis, especially for tasks involving computation and exploration.
 
-### 4.3. Asking and Answering Questions
+### 4.3. Asking and Answering Questions <a name = "asking-and-answering-questions"></a>
 
-#### 4.3.1. To what degree is the price distribution skewed?
+#### 4.3.1. To what degree is the price distribution skewed? <a name = "q1"></a>
 
 1. **Modin:**
 
@@ -782,7 +782,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 1.32 seconds
 
-#### 4.3.2. Does the country where the property is located significantly influence its price?
+#### 4.3.2. Does the country where the property is located significantly influence its price? <a name = "q2"></a>
 
 1. **Modin:**
 
@@ -818,7 +818,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 58.7 seconds
 
-#### 4.3.3. How does the district affect the price and its dispersion in property?
+#### 4.3.3. How does the district affect the price and its dispersion in property? <a name = "q3"></a>
 
 1. **Modin:**
 
@@ -850,7 +850,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 1.64 seconds
 
-#### 4.3.4. How does the combination of PPDCategory_Type and Old/New property status influence property prices?
+#### 4.3.4. How does the combination of PPDCategory_Type and Old/New property status influence property prices? <a name = "q4"></a>
 
 1. **Modin:**
 
@@ -891,7 +891,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 2.62 seconds
 
-#### 4.3.5. What is the trend in property prices over time?
+#### 4.3.5. What is the trend in property prices over time? <a name = "q5"></a>
 
 1. **Modin:**
 
@@ -917,7 +917,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 40.7 seconds
    
-#### 4.3.6. How does the price of property vary based on different property types over time?
+#### 4.3.6. How does the price of property vary based on different property types over time? <a name = "q6"></a>
 
 1. **Modin:**
 
