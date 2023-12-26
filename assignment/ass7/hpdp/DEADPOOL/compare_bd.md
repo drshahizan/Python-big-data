@@ -16,25 +16,46 @@
 1. [Introduction](#introduction)
 2. [Dataset Selection](#dataset-selection)
 3. [Downloading Dataset](#downloading-dataset)
-4. [About Libraries](#about-libraries)
+4. [Installing Libraries](#installing-libraries)
     1. [Pandas](#pandas)
     2. [Dask](#dask)
     3. [Polars](#polars)
-6. [Comparative Analysis](#comparative-analysis)
-    1. [Data Collection](#data-collection)
-    2. [Data Analysis](#data-analysis)
-7. [Inference and Conclusion](#Inference-and-conclusion)
-8. [Reference](#reference)
+5. [Data Preparation and Cleaning](#data-preparation-and-cleaning)
+    1. [Loading Dataset](#comparative-analysis)
+    2. [Explore the number of rows & columns, ranges of values etc.](#dask)
+    3. [Handle missing, incorrect and invalid data](#polars)
+    4. [Comparative Analysis](#comparative-analysis)
+6. [Exploratory Analysis and Visualization](#exploratory-analysis-and-visualization)
+    1. [Distribution of Ratings](#histogram)
+    2. [Top 10 Rated Anime Titles](#dask)
+    3. [Number of Ratings per User](#polars)
+    4. [Distribution of Ratings by Anime](#polars)
+    5. [User engaement](#polars)
+    6. [Average Rating Distribution per User](#polars)
+    7. [Top 10 Most Rated Anime Titles](#polars)
+    8. [Boxplot of Rating Deviation from User Average](#boxplot)
+    9. [Number of Ratings per Anime vs. Average Anime Rating](#scatterplot)
+    10. [Boxplot of Rating Deviation from User Average](#polars)
+    11. [Comparative Analysis](#comparative-analysis)
+7. [Asking and Answering Questions](#asking-and-answering-questions)
+    1. [What are the top-rated anime titles?](#comparative-analysis)
+    2. [How many unique users and anime titles are in the dataset?](#dask)
+    3. [What is the distribution of ratings given by users?](#polars)
+    4. [Who are the top users with the most rated anime?](#comparative-analysis)
+    5. [How many users have rated the same anime title?](#comparative-analysis)
+    6. [Comparative Analysis](#comparative-analysis)
+8. [Inference and Conclusion](#inference-and-conclusion)
+9. [Reference](#reference)
 
 
 ## Introduction
-In this assignment 7, it is a challenge for our group as we delve into working with datasets exceeding 1GB in size with Google Colab. Our primary objective revolves around conducting comprehensive exploratory data analysis (EDA) and employing various data operations to extract insights from our selected dataset. To accomplish this, we'll be exploring 3 useful library tools that are functioned for handling large-scale datasets in python. This assignment involves investigating and assessing the efficiency of these tools in terms of their impact on data collection, manipulation, and the overall extraction of insights from these expansive datasets. By involving different libraries and studying the performance, we aim to uncover how each tool's functionalities and optimizations influence the efficiency of our data operations, providing valuable insights into their respective strengths and limitations in handling substantial volumes of data.
+In this assignment 7, it is a challenge for our group as we delve into working with datasets exceeding 1GB in size with Google Colab. Our primary objective revolves around conducting comprehensive exploratory data analysis (EDA) and employing various data operations to extract insights from our selected dataset. To accomplish this, we'll be exploring 3 useful library tools which are Pandas, Dask and Polars that are functioned for handling large-scale datasets in python. This assignment involves investigating and assessing the efficiency of these tools in terms of their impact on data collection, manipulation, and the overall extraction of insights from these expansive datasets. By involving different libraries and studying the performance, we aim to uncover how each tool's functionalities and optimizations influence the efficiency of our data operations, providing valuable insights into their respective strengths and limitations in handling substantial volumes of data.
 
 
 ## Dataset Selection
 The dataset our group had chosen is [Anime Dataset 2023](https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset?select=users-score-2023.csv) sourced from Kaggle. This dataset comprises data of 3 csv files, totalling over 70 million records and encompassing 44 columns, resulting in a data size exceeding 8.0GB. For this assignment the one file that we will be using is users-score-2023.csv
 
-Columns and description from the User Score Dataset
+Column features and description from the User Score Dataset
 | Column    | Description                                      |
 |-----------|--------------------------------------------------|
 | user_id   | Unique ID for each user.                          |
@@ -76,7 +97,8 @@ As the file is zipped, we will have to unzip it to extract the dataset from the 
 ! unzip myanimelist-dataset.zip
 ```
 
-## About Libraries
+
+## Installing Libraries
 [Pandas]( https://pandas.pydata.org/)
 
 Pandas one of the powerful and popular library within the Python ecosystem. It serve as a foundational tool which is widely used for data manipulation, analysis, and exploration. The library provides a robust arsenal of tools tailored for handling structured data and time-series data, predominantly through its versatile DataFrame objects. What sets Pandas apart is its conventional, offering a user-friendly interface coupled with a rich array of functionalities. From data ingestion to cleaning, manipulation, and in-depth analysis, Pandas empowers users with comprehensive tools, making complex operations more accessible and enabling efficient exploration and understanding of diverse datasets. 
@@ -117,7 +139,319 @@ Importing Polars library:
 ```python
 import polars as pl
 ```
+
+## Data Preparation and Cleaning
+
+### Loading dataset
+
+Pandas :
+```python
+df = pd.read_csv('users-score-2023.csv')
+```
+
+Dask : 
+```python
+ddf = dd.read_csv('users-score-2023.csv')
+```
+to trigger the computation on Dask Dataframe:
+```python
+dask_df= ddf.compute()
+```
+
+Polars : 
+```python
+pol_df = pl.read_csv('users-score-2023.csv')
+```
+
+|    | Pandas      |Dask    |Polars     |
+|-----------|--------------|--------------|--------------|
+| Computation Time (sec) | 16.34       |0.08      |6.49      |
+| Memory Usage (MB) | 0     |0      |0     |
+
+
+### Explore the number of rows & columns, ranges of values etc
+
+* General Statistics
+
+Pandas :
+```python
+df.describe()
+```
+
+Dask : 
+```python
+dask_df.describe()
+```
+
+Polars : 
+```python
+pol_df.describe()
+```
+
+|    | Pandas      |Dask    |Polars     |
+|-----------|--------------|--------------|--------------|
+| Computation Time (sec) | 3.67     |3.15     |6.25     |
+| Memory Usage (MB) |8300.44   |8300.44  | 8297.64    |
+
+
+* Number of rows and column
+
+Pandas :
+```python
+df.shape
+```
+
+Dask : 
+```python
+dask_df.shape
+```
+
+Polars : 
+```python
+pol_df.shape
+```
+
+|    | Pandas      |Dask    |Polars     |
+|-----------|--------------|--------------|--------------|
+| Computation Time (sec) | 0     |0      |0     |
+| Memory Usage (MB) | 6031.90   |8291.49   | 8291.49  |
+
+### Handle missing, incorrect and invalid data
+* Check duplicates
+Pandas :
+```python
+df.drop_duplicates(inplace=True)
+```
+
+Dask : 
+```python
+df.drop_duplicates()
+```
+
+Polars : 
+```python
+pol_df.describe()
+```
+
+* Check Number of Null values
+Pandas :
+```python
+df.isnull().sum()
+```
+
+Dask : 
+```python
+dask_df.isna().sum()
+```
+
+Polars : 
+```python
+pol_df.null_count()
+```
+
+ ## Exploratory Analysis and Visualization
+
+* Top 10 Rated Anime Titles
   
+Pandas :
+```python
+top_rated_anime = df.groupby('Anime Title')['rating'].mean().sort_values(ascending=False).head(10)
+print('Top 10 Rated Anime Titles:')
+print(top_rated_anime)
+```
+
+Dask : 
+```python
+client = Client()
+avg_ratings = df.groupby('Anime Title')['rating'].mean()
+top_rated = avg_ratings.nlargest(10)
+plt.figure(figsize=(12, 8))
+sns.barplot(x=top_rated.values, y=top_rated.index, palette='viridis')
+plt.title('Top Rated Anime')
+plt.xlabel('Average Rating')
+plt.ylabel('Anime Title')
+plt.show()
+client.close()
+```
+
+Polars : 
+```python
+grouped_df = pol_df.groupby('Anime Title').agg(pl.col('rating').mean().alias('average_rating'))
+top_rated_anime = grouped_df.sort('average_rating', descending=True).head(10)
+print('Top 10 Rated Anime Titles:')
+print(top_rated_anime)
+```
+
+* Number of Ratings per Anime vs. Average Anime Rating
+  
+Pandas :
+```python
+plt.figure(figsize=(12, 8))
+sns.scatterplot(x='num_ratings_anime', y='avg_anime_rating', data=df)
+plt.title('Number of Ratings per Anime vs. Average Anime Rating')
+plt.xlabel('Number of Ratings per Anime')
+plt.ylabel('Average Anime Rating')
+plt.show()
+```
+
+Dask : 
+```python
+client = Client()
+agg_data = df.groupby('anime_id')['rating'].agg(['mean', 'count'])
+agg_data.columns = ['Average Rating', 'Number of Ratings']
+plt.figure(figsize=(10, 6))
+plt.scatter(agg_data['Number of Ratings'], agg_data['Average Rating'], alpha=0.5)
+plt.title('Correlation between Number of Ratings and Average Rating')
+plt.xlabel('Number of Ratings')
+plt.ylabel('Average Rating')
+plt.grid(True)
+plt.show()
+client.close()
+```
+
+Polars : 
+```python
+plt.figure(figsize=(12, 8))
+sns.scatterplot(x='num_rating_anime', y='average_anime_rating', data=pan_df)
+plt.title('Number of Ratings per Anime vs. Average Anime Rating')
+plt.xlabel('Number of Ratings per Anime')
+plt.ylabel('Average Anime Rating')
+plt.show()
+```
+
+    
+## Asking and Answering Questions
+
+* What are the top-rated anime titles?
+   
+Pandas :
+```python
+top_anime = df.groupby('Anime Title')['rating'].mean().sort_values(ascending=False).head(10)
+print(top_anime)
+```
+
+Dask : 
+```python
+client = Client()
+agg_data = df.groupby('anime_id')['rating'].agg(['mean', 'count'])
+agg_data.columns = ['Average Rating', 'Number of Ratings']
+plt.figure(figsize=(10, 6))
+plt.scatter(agg_data['Number of Ratings'], agg_data['Average Rating'], alpha=0.5)
+plt.title('Correlation between Number of Ratings and Average Rating')
+plt.xlabel('Number of Ratings')
+plt.ylabel('Average Rating')
+plt.grid(True)
+plt.show()
+client.close()
+```
+
+Polars : 
+```python
+top_anime = pol_df.groupby('Anime Title').agg(pl.col('rating').mean().alias('average_
+print(top_anime)
+```
+
+* How many unique users and anime titles are in the dataset?
+
+Pandas :
+```python
+unique_users = df['user_id'].nunique()
+unique_anime_titles = df['Anime Title'].nunique()
+
+print(f"Unique Users: {unique_users}")
+print(f"Unique Anime Titles: {unique_anime_titles}")
+```
+
+Dask : 
+```python
+client = Client()
+unique_users = df["user_id"].nunique()
+unique_animes = df["anime_id"].nunique()
+
+table = PrettyTable()
+table.field_names = ["Category", "Count"]
+
+table.add_row(["Unique Users", unique_users])
+table.add_row(["Unique Animes", unique_animes])
+
+print(table)
+client.close()
+```
+
+Polars : 
+```python
+unique_users = pol_df['user_id'].n_unique()
+unique_anime_titles = pol_df['Anime Title'].n_unique()
+
+print(f"Unique Users: {unique_users}")
+print(f"Unique Anime Titles: {unique_anime_titles}")
+```
+
+* What is the distribution of ratings given by users?
+Pandas :
+```python
+import matplotlib.pyplot as plt
+
+plt.hist(df['rating'], bins=5, edgecolor='black')
+plt.title('Distribution of Ratings')
+plt.xlabel('Rating')
+plt.ylabel('Frequency')
+plt.show()
+```
+
+Dask : 
+```python
+client = Client()
+
+plt.figure(figsize=(10, 6))
+sns.histplot(df['rating'], bins=5)
+plt.title(f'Distribution of Rating')
+plt.xlabel('rating')
+plt.ylabel('Frequency')
+plt.show()
+
+client.close()
+```
+
+Polars : 
+```python
+plt.hist(pan_df['rating'], bins=5, edgecolor='black')
+plt.title('Distribution of Ratings')
+plt.xlabel('Rating')
+plt.ylabel('Frequency')
+plt.show()
+```
+
+* Who are the top users with the most rated anime?
+  
+Pandas :
+```python
+top_users = df['user_id'].value_counts().head(10)
+print(top_users)
+```
+
+Dask : 
+```python
+client = Client()
+
+top_10_users = df['Username'].value_counts().head(10)
+plt.figure(figsize=(10, 6))
+sns.barplot(x=top_10_users.index, y=top_10_users.values, palette='viridis')
+plt.title('Top 10 Users with the Most Ratings')
+plt.xlabel('Username')
+plt.ylabel('Number of Ratings')
+plt.xticks(rotation=45, ha='right')
+plt.show()
+
+client.close()
+```
+
+Polars : 
+```python
+top_users = pol_df['user_id'].value_counts().head(10)
+print(top_users)
+```
+
 
 ## Comparative Analysis
 
