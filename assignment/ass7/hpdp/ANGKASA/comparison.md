@@ -159,7 +159,7 @@ Dask is a parallel computing library in Python that seamlessly integrates with p
 
 ## Conclusion: **Comparison between Pandas, Vaex, and Dask**
 
-### 1)**Memory Usage:** 
+### 1) **Memory Usage:** 
 
 **Pandas:**
 Efficient for small to medium-sized datasets that fit into memory.
@@ -173,7 +173,7 @@ Handles large datasets efficiently through lazy evaluation and out-of-core compu
 Provides memory efficiency through chunked processing.
 Optimized for larger-than-memory datasets, utilizing lazy evaluation and out-of-core computing.
 
-### 2)**Scalability:**
+### 2) **Scalability:**
 
 **Pandas:**
 Limited scalability for large datasets due to memory constraints.
@@ -187,7 +187,7 @@ Lazy evaluation and out-of-core computing contribute to efficient scalability.
 Scales seamlessly for parallel and distributed computing.
 Suited for handling extremely large datasets beyond the capacity of a single machine.
 
-### 3)**Ease of Use:**
+### 3) **Ease of Use:**
 
 **Pandas:**
 Extremely user-friendly and widely adopted in the data science community.
@@ -201,7 +201,7 @@ May require additional understanding of lazy evaluation concepts for efficient u
 Familiar pandas-like syntax simplifies adoption.
 The learning curve for users new to parallel or distributed computing.
 
-### 4)**Performance:**
+### 4) **Performance:**
 
 **Pandas:**
 Performs well for smaller datasets.
@@ -215,7 +215,7 @@ Takes advantage of lazy evaluation and out-of-core computing for efficient proce
 Balances performance and scalability, providing parallel and distributed computing.
 Efficient for handling extremely large datasets.
 
-### 5)**Community and Documentation:**
+### 5) **Community and Documentation:**
 
 **Pandas:**
 Well-established with a large and active community.
