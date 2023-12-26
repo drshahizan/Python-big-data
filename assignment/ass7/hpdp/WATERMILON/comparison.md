@@ -646,7 +646,7 @@ Vaex is effective for a wide range of numerical operations, but it may not be as
 
    Time Consumed: 16.7 seconds
 
-#### 4.2.3. Exploring Property Prices specifically in Greater London <a name = "‎exploring-property-prices-specifically-in-greater-london"></a>
+#### 4.2.3. Exploring Property Prices specifically in Greater London <a name = "exploring-property-prices-specifically-in-greater-london"></a>
 
 1. **Modin:**
 
