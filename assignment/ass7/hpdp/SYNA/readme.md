@@ -13,15 +13,15 @@ Don't forget to hit the :star: if you like this repo.
 
 | Name                                     | Matrix Number | Task |
 | :---------------------------------------- | :-------------: | ------------- |
-| SARAH WARDINA BINTI RAFIDIN | A21EC0128 | Comparison
-| NURUNNAJWA BINTI ZULKIFLI | A21EC0121 | PySpark
+| SARAH WARDINA BINTI RAFIDIN | A21EC0128 | Dask
+| NURUNNAJWA BINTI ZULKIFLI | A21EC0121 | PySpark & Comparison
 | ALYA DAMIA BINTI HUZAIMY | A21EC0159 | Modin 
-| YASMEEN NATASHA BINTI HAFIZ SHAHREL | A21EC0147 | Dask
+| YASMEEN NATASHA BINTI HAFIZ SHAHREL | A21EC0147 | Comparison
 
 ### 📂 Folder content:
 * [📖 library_1.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/ASSIGNMENT7_PySpark_SYNA.ipynb)
 * [📖 library_2.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/ASSIGNMENT7_MODIN_SYNA.ipynb)
-* [📖 library_3.ipynb]()
+* [📖 library_3.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/ASSIGNMENT7_Dask_SYNA.ipynb)
 * [📖 comparison.md]()
 
 
