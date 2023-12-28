@@ -302,7 +302,24 @@ Time taken to load data: 7.2479248046875e-05 seconds
 
 ```
 
-## Summary of comparison
+## Summary of Time Measurements - Modin vs PySpark vs Dask
+
+
+| Metric                    | Modin Execution Time (seconds) | PySpark Execution Time (seconds) | Dask Execution Time (seconds) |
+|---------------------------|---------------------------------|----------------------------------|--------------------------------|
+| **Loading Data**          | 5.72e-05                        | 7.25e-05                         | N/A                            |
+| **Handling Missing Values**| 8.58e-06                        | 8.11e-06                         | N/A                            |
+| **Removing Duplicate Rows**| 9.30e-06                        | 5.12e-02                         | N/A                            |
+| **Standardize/Normalize Data** | N/A                           | N/A                              | N/A                            |
+| **Select Relevant Columns** | 8.82e-06                       | 8.34e-06                         | N/A                            |
+| **Compute Statistics (DepDelayMinutes)** | 8.34e-06             | 1.36e-05                         | N/A                            |
+| **Compute Statistics (ArrDelayMinutes)** | 1.05e-05             | 1.05e-05                         | N/A                            |
+| **Select 10,000 Rows**     | 8.34e-06                        | 8.34e-06                         | N/A                            |
+| **Create Heatmap**         | 8.11e-06                        | 8.11e-06                         | N/A                            |
+| **Correlation Analysis**   | 9.06e-06                        | 9.06e-06                         | N/A                            |
+| **Create Barchart**        | 8.34e-06                        | 8.34e-06                         | N/A                            |
+
+
 
 ## Conclusion
 
