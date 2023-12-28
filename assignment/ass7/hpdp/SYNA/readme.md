@@ -16,11 +16,11 @@ Don't forget to hit the :star: if you like this repo.
 | SARAH WARDINA BINTI RAFIDIN | A21EC0128 | Comparison
 | NURUNNAJWA BINTI ZULKIFLI | A21EC0121 | PySpark
 | ALYA DAMIA BINTI HUZAIMY | A21EC0159 | Modin 
-| YASMEEN NATASHA BINTI HAFIZ SHAHREL | A21EC0147 | Vaex
+| YASMEEN NATASHA BINTI HAFIZ SHAHREL | A21EC0147 | Dask
 
 ### 📂 Folder content:
 * [📖 library_1.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/ASSIGNMENT7_PySpark_SYNA.ipynb)
-* [📖 library_2.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/library_2.ipynb)
+* [📖 library_2.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/ASSIGNMENT7_MODIN_SYNA.ipynb)
 * [📖 library_3.ipynb]()
 * [📖 comparison.md]()
 
