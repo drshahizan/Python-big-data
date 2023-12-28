@@ -29,7 +29,7 @@ The primary objective is to compare various aspects of the dataset processing pi
 
 1. **PySpark**
 
-**Loading data**
+- **Loading data**
  ``` python
 import time
 
@@ -53,7 +53,7 @@ print(f"Time taken to load data: {elapsed_time} seconds")
  ```
 Time taken to load data: 7.2479248046875e-05 seconds
 
-**Handling Missing Values**
+- **Handling Missing Values**
  ``` python
 %time
 from pyspark.sql.functions import mean
@@ -65,20 +65,42 @@ for col in numeric_cols:
     mean_value = data.select(mean(col)).collect()[0][0]
     data = data.withColumn(col, when(data[col].isNull(), mean_value).otherwise(data[col]))
  ```
+CPU times: user 4 µs, sys: 0 ns, total: 4 µs
+Wall time: 8.11 µs
 
-**Remove Duplicate Rows **
+- **Remove Duplicate Rows **
  ``` python
 # Drop duplicates based on all columns
-%time
+# Drop duplicates based on all columns
+import time
+
+# Record the start time
+start_time = time.time()
+
+# Drop duplicate rows
 data = data.dropDuplicates()
+
+# Record the end time
+end_time = time.time()
+
+# Calculate the elapsed time
+elapsed_time = end_time - start_time
+
+# Display the time taken to drop duplicates
+print(f"Time taken to drop duplicates: {elapsed_time} seconds")
  ```
-**Select Relevant Columns**
+Time taken to drop duplicates: 0.0511932373046875 seconds
+
+- **Select Relevant Columns**
 ``` python
 %time
 selected_columns = ["Airline", "Origin", "Dest", "Cancelled", "DepDelayMinutes", "ArrDelayMinutes", "Year"]
 selected_data = data.select(selected_columns)
  ```
-**Compute mean, median, standard deviation, minimum, and maximum for "DepDelayMinutes" and "ArrDelayMinutes" **
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 8.34 µs
+
+- **Compute mean, median, standard deviation, minimum, and maximum for "DepDelayMinutes" and "ArrDelayMinutes" **
 
 ``` python
 %time
@@ -94,7 +116,8 @@ summary_statistics = selected_data.agg(
 # Display the summary statistics
 summary_statistics.show()
  ```
-
+CPU times: user 8 µs, sys: 0 ns, total: 8 µs
+Wall time: 13.6 µs
 
 ``` python
 %time
@@ -107,7 +130,10 @@ summary_statistics = selected_data.agg(
     F.max("ArrDelayMinutes").alias("Max_ArrDelayMinutes")
 )
  ```
-**Selected 10,000 rows**
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 10.5 µs
+
+- **Selected 10,000 rows**
 
 ``` python
 %time
@@ -117,7 +143,10 @@ selected_data = selected_data.sample(False, 0.1, seed=42)  # 0.1 corresponds to 
 # Display the sampled data
 selected_data.show()
  ```
-**Create heatmap of selected data**
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 8.34 µs
+
+- **Create heatmap of selected data**
 ``` python
 %time
 import seaborn as sns
@@ -135,8 +164,10 @@ sns.heatmap(correlation_matrix, annot=True, cmap="coolwarm", fmt=".2f", linewidt
 plt.title('Correlation Heatmap')
 plt.show()
 ```
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 8.11 µs
 
-**Correlation between "DepDelayMinutes" and "ArrDelayMinutes"** 
+- **Correlation between "DepDelayMinutes" and "ArrDelayMinutes"** 
 
 ``` python
 %time
@@ -154,8 +185,10 @@ plt.xlabel('Departure Delay Minutes')
 plt.ylabel('Arrival Delay Minutes')
 plt.show()
 ```
+CPU times: user 6 µs, sys: 0 ns, total: 6 µs
+Wall time: 9.06 µs
 
-**Create barchart visualization** 
+- **Create barchart visualization** 
 ``` python
 %time
 # Find the top 5 most popular origins and destinations
@@ -166,12 +199,117 @@ top_5_destinations = selected_data.groupBy("Dest").count().orderBy(F.desc("count
 top_5_origins.show()
 top_5_destinations.show()
 ```
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 8.34 µs
 
 3. **Modin**
 
+- **Loading data**
+ ``` python
 
-4. **Dask**
+ ```
 
+
+- **Handling Missing Values**
+ ``` python
+
+ ```
+
+- **Remove Duplicate Rows **
+ ``` python
+
+ ```
+- **Select Relevant Columns**
+``` python
+
+ ```
+- **Compute mean, median, standard deviation, minimum, and maximum for "DepDelayMinutes" and "ArrDelayMinutes" **
+
+``` python
+
+
+
+
+ ```
+
+
+``` python
+
+ ```
+- **Selected 10,000 rows**
+
+``` python
+
+ ```
+- **Create heatmap of selected data**
+``` python
+
+```
+
+- **Correlation between "DepDelayMinutes" and "ArrDelayMinutes"** 
+
+``` python
+
+```
+
+- **Create barchart visualization** 
+``` python
+
+```
+
+5. **Dask**
+- **Loading data**
+ ``` python
+
+
+ ```
+Time taken to load data: 7.2479248046875e-05 seconds
+
+- **Handling Missing Values**
+ ``` python
+
+ ```
+
+- **Remove Duplicate Rows **
+ ``` python
+
+ ```
+- **Select Relevant Columns**
+``` python
+
+ ```
+- **Compute mean, median, standard deviation, minimum, and maximum for "DepDelayMinutes" and "ArrDelayMinutes" **
+
+``` python
+
+ ```
+
+
+``` python
+
+ ```
+- **Selected 10,000 rows**
+
+``` python
+
+ ```
+- **Create heatmap of selected data**
+``` python
+
+```
+
+- **Correlation between "DepDelayMinutes" and "ArrDelayMinutes"** 
+
+``` python
+
+```
+
+- **Create barchart visualization** 
+``` python
+
+```
+
+## Summary of comparison
 
 ## Conclusion
 
