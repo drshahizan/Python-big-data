@@ -18,9 +18,9 @@
 |BAKUNGA BRONSON             |   MCS232006   |  
 
 ### 📂 Folder content:
-* [💻 Library 1](https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass7/bdm/Avengers/library_1.ipynb)
-* [💻 Library 2](https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass7/bdm/Avengers/library_2.ipynb)
-* [💻 Library 3](https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass7/bdm/Avengers/library_3.ipynb)
+* [💻 Pandas](https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass7/bdm/Avengers/Pandas.ipynb)
+* [💻 Modin](https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass7/bdm/Avengers/Modin.ipynb)
+* [💻 Vaex](https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass7/bdm/Avengers/Vaex.ipynb)
 * [💻 Comparison Report](https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass7/bdm/Avengers/comparison.md)
 
 ## Contribution 🛠️
