@@ -206,56 +206,49 @@ Wall time: 8.34 µs
 
 - **Loading data**
  ``` python
-
+%time
+!pip install modin[ray]
+import modin.pandas as pd
+df = pd.read_csv("/content/drive/My Drive/Combined_Flights_2022.csv")
  ```
-
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.72 µs
 
 - **Handling Missing Values**
  ``` python
-
+%time
+print(df.isnull().sum())
  ```
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 8.58 µs
 
 - **Remove Duplicate Rows **
  ``` python
-
+df = df.drop_duplicates()
+# Display the modified DataFrame
+df.head()
  ```
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 9.3 µs
+
 - **Select Relevant Columns**
 ``` python
-
+%time
+print(df['Airline'].value_counts())
+print(df['Origin'].value_counts())
+print(df['Dest'].value_counts())
  ```
-- **Compute mean, median, standard deviation, minimum, and maximum for "DepDelayMinutes" and "ArrDelayMinutes" **
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 8.82 µs
 
+- **Create visualization** 
 ``` python
-
-
-
-
- ```
-
-
-``` python
-
- ```
-- **Selected 10,000 rows**
-
-``` python
-
- ```
-- **Create heatmap of selected data**
-``` python
-
+%time
+df.hist(bins=20, figsize=(15, 10))
+plt.show()
 ```
-
-- **Correlation between "DepDelayMinutes" and "ArrDelayMinutes"** 
-
-``` python
-
-```
-
-- **Create barchart visualization** 
-``` python
-
-```
+CPU times: user 4 µs, sys: 1 µs, total: 5 µs
+Wall time: 9.54 µs
 
 5. **Dask**
 - **Loading data**
