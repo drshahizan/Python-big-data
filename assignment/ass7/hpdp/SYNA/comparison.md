@@ -25,6 +25,14 @@ The primary objective is to compare various aspects of the dataset processing pi
 9. **Correlation Analysis:** Evaluating the time spent on analyzing the correlation between "DepDelayMinutes" and "ArrDelayMinutes."
 10. **Creating a Barchart Visualization:** Analysis of the time required for creating a barchart visualization.
 
+## Explanation for timing metrics:
+
+1. Wall Time: The total time elapsed during the execution of the code. It includes the time the CPU spent on the code as well as any time the CPU was waiting for external resources (such as I/O operations).
+
+2. CPU Times: The total time spent by the CPU executing the code. It is further broken down into user time (time spent in user-mode code) and system time (time spent in kernel-mode code).
+
+4. Total Time: The sum of user and system time, representing the total CPU time consumed by the code
+
 ## Libraries Used 
 
 1. **PySpark**
