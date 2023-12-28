@@ -76,7 +76,7 @@ for col in numeric_cols:
 CPU times: user 4 µs, sys: 0 ns, total: 4 µs
 Wall time: 8.11 µs
 
-- **Remove Duplicate Rows **
+-  **Remove Duplicate Rows **
  ``` python
 # Drop duplicates based on all columns
 # Drop duplicates based on all columns
