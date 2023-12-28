@@ -39,7 +39,7 @@ The primary objective is to compare various aspects of the dataset processing pi
 
 ## Libraries Used 
 
-1. **PySpark**
+### **PySpark**
 
 - **Loading data**
  ``` python
@@ -214,7 +214,9 @@ top_5_destinations.show()
 CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
 Wall time: 8.34 µs
 
-3. **Modin**
+------
+
+### **Modin**
 
 - **Loading data**
  ``` python
@@ -262,7 +264,9 @@ plt.show()
 CPU times: user 4 µs, sys: 1 µs, total: 5 µs
 Wall time: 9.54 µs
 
-5. **Dask**
+---
+
+### **Dask**
 - **Loading data**
  ``` python
 
