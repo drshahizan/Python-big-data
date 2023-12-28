@@ -2,6 +2,10 @@
 
 ## Introduction
 
+We choose [Flight Status Prediction 2022](https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022?select=Combined_Flights_2022.csv).
+
+<img width="779" alt="Screenshot 2023-12-29 013152" src="https://github.com/drshahizan/Python-big-data/assets/89633522/1cfe7e29-4964-4c82-9dd8-000b3cbdb91e">
+
 This report presents an analysis of the *Flight Status Prediction 2022* dataset, encompassing comprehensive flight information, including airline cancellations and delays, dating back to January 2022.
 
 ## Key Columns
