@@ -19,7 +19,7 @@ Don't forget to hit the :star: if you like this repo.
 | YASMEEN NATASHA BINTI HAFIZ SHAHREL | A21EC0147 | Comparison
 
 ### 📂 Folder content:
-* [📖 library_1.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/ASSIGNMENT7_PySpark_SYNA.ipynb)
+* [📖 library_1.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/ASSIGNMENT7_PySpark_SYNA_.ipynb)
 * [📖 library_2.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/ASSIGNMENT7_MODIN_SYNA.ipynb)
 * [📖 library_3.ipynb](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass7/hpdp/SYNA/ASSIGNMENT7_Dask_SYNA.ipynb)
 * [📖 comparison.md]()
