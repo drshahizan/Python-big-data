@@ -19,7 +19,7 @@
 
 ### 📂 Folder content:
 * [💻 Pandas](https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass7/bdm/Avengers/Pandas.ipynb)
-* [💻 Modin](https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass7/bdm/Avengers/Modin.ipynb)
+* [💻 Modin](https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass7/bdm/Avengers/Modin(Ray).ipynb)
 * [💻 Vaex](https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass7/bdm/Avengers/Vaex.ipynb)
 * [💻 Comparison Report](https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass7/bdm/Avengers/comparison.md)
 
