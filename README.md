@@ -41,6 +41,7 @@ This topic delves into the challenges encountered when using Pandas, a popular P
 - [Data Science Case Studies: Solved using Python](https://thecleverprogrammer.com/2021/02/19/data-science-case-studies-solved-using-python/)
 - [10 Real World Data Science Case Studies Projects with Example](https://www.projectpro.io/article/data-science-case-studies-projects-with-examples-and-solutions/519)
 - [Top 8 Data Science Case Studies for Data Science Enthusiasts](https://www.knowledgehut.com/blog/data-science/top-data-science-case-studies)
+- [Big Data in Practice: How 45 Successful Companies Used Big Data Analytics to Deliver Extraordinary Results](https://github.com/drshahizan/Python-big-data/blob/main/images/Big%20Data%20in%20Practice.pdf)
 
 ## Lab
 
