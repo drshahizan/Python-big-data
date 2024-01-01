@@ -24,15 +24,8 @@
     * [Loading Dataset](#comparative-analysis)
     * [Explore the number of rows & columns, ranges of values etc.](#dask)
     * [Handle missing, incorrect and invalid data](#polars)
-    * [Comparative Analysis](#comparative-analysis)
 6. [Exploratory Analysis and Visualization](#exploratory-analysis-and-visualization)
-    * [Top 10 Rated Anime Titles](#dask)
-    * [Number of Ratings per Anime vs. Average Anime Rating](#polars)
 7. [Asking and Answering Questions](#asking-and-answering-questions)
-    * [What are the top-rated anime titles?](#comparative-analysis)
-    * [How many unique users and anime titles are in the dataset?](#dask)
-    * [What is the distribution of ratings given by users?](#polars)
-    * [Who are the top users with the most rated anime?](#comparative-analysis)
 8. [Inference and Conclusion](#inference-and-conclusion)
 9. [Reference](#reference)
 
@@ -88,9 +81,9 @@ As the file is zipped, we will have to unzip it to extract the dataset from the 
 
 
 ## Installing Libraries
-[Pandas]( https://pandas.pydata.org/)
+Pandas
 
-Pandas one of the powerful and popular library within the Python ecosystem. It serve as a foundational tool which is widely used for data manipulation, analysis, and exploration. The library provides a robust arsenal of tools tailored for handling structured data and time-series data, predominantly through its versatile DataFrame objects. What sets Pandas apart is its conventional, offering a user-friendly interface coupled with a rich array of functionalities. From data ingestion to cleaning, manipulation, and in-depth analysis, Pandas empowers users with comprehensive tools, making complex operations more accessible and enabling efficient exploration and understanding of diverse datasets. 
+[Pandas]( https://pandas.pydata.org/) is one of the powerful and popular library within the Python ecosystem. It serve as a foundational tool which is widely used for data manipulation, analysis, and exploration. The library provides a robust arsenal of tools tailored for handling structured data and time-series data, predominantly through its versatile DataFrame objects. What sets Pandas apart is its conventional, offering a user-friendly interface coupled with a rich array of functionalities. From data ingestion to cleaning, manipulation, and in-depth analysis, Pandas empowers users with comprehensive tools, making complex operations more accessible and enabling efficient exploration and understanding of diverse datasets. 
 
 Install Pandas:
 ```python
@@ -101,10 +94,10 @@ Importing Pandas library:
 ```python
 import pandas as pd
 ```
-  
-[Dask](https://www.dask.org/)
 
-Dask is a parallel computing library designed to scale Python workflows. Dask is capable at handling large datasets that don't fit into memory by providing parallel processing capabilities and enabling distributed computing. Dask seamlessly integrates with existing Python libraries, offering DataFrame and Array abstractions that mimic Pandas and NumPy structures. By splitting computations into smaller tasks and utilizing parallelism, Dask can efficiently manages computations across multiple cores or even clusters, enabling the processing of datasets too large.
+Dask
+
+[Dask](https://www.dask.org/) is a parallel computing library designed to scale Python workflows. Dask is capable at handling large datasets that don't fit into memory by providing parallel processing capabilities and enabling distributed computing. Dask seamlessly integrates with existing Python libraries, offering DataFrame and Array abstractions that mimic Pandas and NumPy structures. By splitting computations into smaller tasks and utilizing parallelism, Dask can efficiently manages computations across multiple cores or even clusters, enabling the processing of datasets too large.
 
 Install Dask:
 ```python
@@ -116,9 +109,9 @@ Importing Dask library:
 import dask.dataframe as dd
 ```
 
-[Polars](https://pola.rs/)
+Polars
 
-Polars dataFrame library that is written in Rust which shares similarities with Pandas but mainly on elevating the memory efficiency performance. Polars library is designed to handle large-scale data processing, offering a high-performance alternative to Pandas. Polars leverages the scalability of Rust and performance benefits while providing a Pandas-like unique environment. This enables users who are familiar with pandas to perform data manipulations and transformations more efficiently. Polars’ query engine leverages Apache Arrow to execute vectorized queries. Where is exploits the power for columnar data processing, reducing memory overhead and enhancing computational speed for various operations
+[Polars](https://pola.rs/) is a dataFrame library that is written in Rust which shares similarities with Pandas but mainly works on the memory efficiency performance. It is designed to handle large-scale of data, offering a high-performance alternative to Pandas. Polars leverages the scalability of Rust and performance benefits while providing a Pandas-like unique environment. This aspect will aid users who are familiar with pandas to perform data manipulations and transformations more efficiently. The query engine within Polars uses Apache Arrow to execute vectorized queries, where it also exploits the power for columnar data processing, reducing memory overhead and enhancing computational speed for various operations
 
 Install Polars:
 ```python
@@ -206,7 +199,9 @@ pol_df.shape
 | Memory Usage (MB) | 6031.90   |8291.49   | 8291.49  |
 
 ### Handle missing, incorrect and invalid data
+
 * Check duplicates
+  
 Pandas :
 ```python
 df.drop_duplicates(inplace=True)
@@ -445,21 +440,32 @@ print(top_users)
 
 ## Comparative Analysis
 
-## Inference and Conclusion
 Pandas:
-Pandas remains a go-to library for data manipulation and analysis in scenarios where datasets comfortably fit within memory limits. Its ease of use, rich functionalities, and widespread adoption make it ideal for smaller to moderately sized datasets, enabling seamless exploratory data analysis, cleaning, and manipulation.
+Pandas remains a primary library for data manipulation and analysis in scenarios where datasets comfortably fit within memory limits. Its ease of use, rich functionalities, and widespread adoption make it ideal for smaller to moderately sized datasets, enabling seamless exploratory data analysis, cleaning, and manipulation.
 
 Dask:
 Dask's strength lies in its ability to handle datasets larger than available memory by leveraging parallel and distributed computing. It excels in scalability and performance, allowing operations on larger-than-memory datasets efficiently. Dask is particularly beneficial for scalable data processing and machine learning tasks.
 
 Polars:
-Polars, optimized for performance and memory efficiency, presents an alternative to Pandas with faster execution, especially for large-scale data processing. Its columnar data processing and Rust-based architecture offer advantages in speed and memory usage. Polars suits scenarios demanding high-speed computation and memory efficiency, potentially outperforming Pandas in specific use cases with substantial datasets.
+Polars, optimized for performance and memory efficiency, presents an alternative to Pandas, especially when dealing with large-scale of data. Its columnar data processing and Rust-based architecture offer advantages in speed and memory usage. Polars suits scenarios demanding high-speed computation and enhanced memory efficiency, potentially outperforming Pandas in specific use cases with certain datasets.
 
-Overall Summary:
-Scalability: Dask and Polars outperform Pandas when handling larger-than-memory datasets due to their distributed computing or memory-efficient designs.
-Performance: While Pandas is robust for smaller datasets, Dask and Polars provide enhanced performance and efficiency for big data scenarios.
-Usability: Pandas maintains its user-friendly interface, making it accessible for beginners and suitable for smaller tasks. Dask and Polars require familiarity with distributed computing or columnar processing paradigms but offer substantial performance benefits for large-scale operations.
-Choosing among these libraries hinges on the specific use case, dataset size, and the balance between ease of use and performance requirements. Each tool has its strengths, and understanding their nuances aids in selecting the most suitable one for a given data analysis or manipulation task in the context of dataset size and available computational resources.
+
+* Scalability:
+
+Dask and Polars outperform Pandas when handling larger-than-memory datasets due to their distributed computing or memory-efficient designs.
+
+* Performance: 
+
+We can observe that Pandas is suitable for smaller datasets, Dask and Polars provide more upgraded performance and efficiency on larger scale datasets.
+
+* Usability: 
+
+Pandas maintains its user-friendly interface, making it a foundational library for beginners and suitable when dealing with smaller datasets. Dask and Polars require familiarity with parallel computing or columnar processing but provides essential performance benefits for large-scale data operations.
+
+
+## Inference and Conclusion
+
+Overall, choosing among these libraries requires the understanding on the specific use case, dataset size, and the balance between ease of use and performance requirements. Each of the library tool worked on throughout this project has its own capabilities, strengths, and understanding their benefits aids in selecting the most suitable one for a given data analysis or manipulation task in the context of dataset size and available computational resources.
 
 
 ## Reference
