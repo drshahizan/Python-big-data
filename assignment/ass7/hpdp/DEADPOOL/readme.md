@@ -22,10 +22,10 @@ Don't forget to hit the :star: if you like this repo.
 
 ## [Template: Project big data](compare_big_data.ipynb)
 ### 📂 Folder content:
-* [📖 Assignment 7]()
 * [📖 POLARS.ipynb](ASSIGNMENT7_POLARS.ipynb)
 * [📖 PANDAS.ipynb](Assignment7_Pandas.ipynb)
 * [📖 DASK.ipynb](Library_2.ipynb)
+* [📖 COMPARISON.md](compare_bd.md)
 
 
 ## Contribution 🛠️
