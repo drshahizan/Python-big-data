@@ -11,3 +11,9 @@ The assignment entails a comprehensive comparison of libraries optimized for big
 | AYAZ RAHMAN BHUIYAN    | MCS231023       |
 |MUSAB IBNE AHMAD  | MCS231017        | 
 | HUSSEIN YUSUF SHEIKH MOHAMED   | MCS231024       |
+
+
+- Library 1 - [Pandas](./RAM_Assignment_7_Pandas.ipynb)
+- Library 3 - [Dask](./RAM_Assignment_7_Dask.ipynb)
+- Library 3 - [Vaex](./RAM_Assignment_7_Vaex.ipynb)
+- Comparison - [Comparison](./comparison.md)
