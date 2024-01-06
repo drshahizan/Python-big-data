@@ -47,7 +47,7 @@ In this assignment, you will explore the management of big data processing in da
 
 | No | Group |  File | Dataset | AI |
 | -----: |  ------ | :-----: |  ----- | -----: |  
-| 0. | Sample  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | 
+| 0. | Sample  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | |100|
 | 1. | Thruth Seeker|  <a href="./Thruth Seeker/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Property Listings for 5 South American Countries | 0 |
 | 2. | Kicap  |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/Kicap" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Restaurant reviews |
 | 3. | F2  |  <a href="./F2/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Brewery Operations and Market Analysis |
