@@ -75,7 +75,7 @@ Good luck with your assignment! If you have any questions or need help, don't he
 
 | Team | Library 1 | Library 2 | Library 3 | Dataset |  File | AI |
 | ----- | ----- | ------ | ------ |  ------ | :------: | ------: | 
-| Sample | Pandas | Dask | Koalas | Air Flight Analysis | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
+| Sample | Pandas | Dask | Koalas | Air Flight Analysis | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > | 100 |
 | Avengers | Pandas | Modin | Vaex | [Amazon Book Reviews](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews) | <a href="./Avengers/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
 | Truth Archive | Pandas | Dask |Modin  | [2019 Airline Delays w/Weather and Airport Detail](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations) | <a href="./Thruth%20Archive/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > | 33 |
 | RAM | Pandas | Dask |Vaex  | [Water Quality Prediction](https://www.kaggle.com/datasets/mitanshuchakrawarty/water-quality-prediction) | <a href="./RAM/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > |
