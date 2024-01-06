@@ -45,10 +45,10 @@ In this assignment, you will explore the management of big data processing in da
 
 🚀 This assignment needs to be done in pairs (2 persons/group). Teamwork is essential for this assignment. Please complete the Google Sheets page with your group information [**here**](https://docs.google.com/spreadsheets/d/1WJWrzrGmfC0z5CmTYCGmlkKa7_byYOoxlU0MTg7pRrk/edit#gid=524983437). Please update your group information:
 
-| No | Group |  File | Dataset | 
-| -----: |  ------ | :-----: |  ----- |  
+| No | Group |  File | Dataset | AI |
+| -----: |  ------ | :-----: |  ----- | -----: |  
 | 0. | Sample  |  <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | 
-| 1. | Thruth Seeker|  <a href="./Thruth Seeker/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Property Listings for 5 South American Countries |
+| 1. | Thruth Seeker|  <a href="./Thruth Seeker/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Property Listings for 5 South American Countries | 0 |
 | 2. | Kicap  |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/Kicap" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Restaurant reviews |
 | 3. | F2  |  <a href="./F2/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Brewery Operations and Market Analysis |
 | 4. | F1  |  <a href="./F1/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Game Recommendations on Steam |
