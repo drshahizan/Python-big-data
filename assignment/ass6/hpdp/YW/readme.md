@@ -16,7 +16,7 @@ Don't forget to hit the :star: if you like this repo.
 |SARAH WARDINA BINTI RAFIDIN           | A21EC0128   | Assignment 6 |
 
 ### 📂 Folder content:
-* [💻 Assignment 6](https://colab.research.google.com/drive/1CEjRs6PWwwIfE9BtyxmksPAc3yQbpLqr#scrollTo=1jxd4Q7y55jS)
+* [💻 Assignment 6](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/hpdp/YW/ASSIGNMENT6_YW.ipynb)
 * [💻 Report]()
 
 ## Contribution 🛠️
