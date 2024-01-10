@@ -59,7 +59,7 @@ In this assignment, you will explore the management of big data processing in da
 | 9. | Ayam Rendang 1 |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/Ayam%20Rendang%201"><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Iowa Liquor Sales Dataset |
 | 10. | Equinox |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/Equinox" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Steam Reviews Dataset |
 | 11. | Homelander |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/Homelander" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Flight Delay and Cancellation Dataset (2019-2023) | 0 |
-| 12. | AM |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/AM" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Water Quality Prediction](https://www.kaggle.com/datasets/mitanshuchakrawarty/water-quality-prediction) |
+| 12. | AM |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/AM" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Water Quality Prediction](https://www.kaggle.com/datasets/mitanshuchakrawarty/water-quality-prediction) | 9 |
 
 
 ### 3. Academic Integrity
