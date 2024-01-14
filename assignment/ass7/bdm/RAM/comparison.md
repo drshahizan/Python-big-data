@@ -12,28 +12,27 @@
 
 ## Introduction
 
-There are a plethora of Python libraries that focus on certain aspects of data analysis and manipulation, two of the most fundamental operations in data science. This report reviews three popular data analysis and manipulation libraries, Vaex, Pandas, and Dask, in a succinct yet thorough manner. The project will compare and review libraries.
-
+There are numerous Python libraries that specialise in various aspects of data analysis and manipulation, which are crucial operations in data science. This report provides a concise yet comprehensive review of three widely used data analysis and manipulation libraries: Vaex, Pandas, and Dask. 
 
 ### Pandas
 
-Pandas is often employed with small to medium-sized memory-capable datasets. It's mostly used for dataset analysis, modification, and cleansing.
+Pandas is commonly used for handling datasets that can fit into memory, typically ranging from small to medium in size. It is primarily utilised for analysing, modifying, and cleansing datasets.
 
 
-#### The advantages and drawbacks of using Pandas
+#### The pros and cons of using Pandas
 
 **Advantages**:
 
 **1. Data Representation:**
-Pandas' two-dimensional DataFrame object simplifies data processing and analysis. The tool supports several data types and has easy indexing and column manipulation.
+Pandas is commonly used for handling datasets that can fit into memory, typically ranging from small to medium in size. It is primarily utilised for analysing, modifying, and cleansing datasets.
 
 
 **2. Increased Efficiency:**
-Pandas' straightforward and complete syntax lets users do more with less code. The tool simplifies data processing and analysis by offering pre-established procedures and removes human coding.
+Pandas' syntax is simple and comprehensive, allowing users to accomplish more with less code. The tool streamlines data processing and analysis by providing pre-established procedures and eliminating the need for manual coding.
 
 
 **3. Efficiently Handles Large Datasets:**
-Pandas is optimized for huge datasets, although it may still have performance concerns. Pandas efficiently process and analyses massive data sets without sacrificing capabilities.
+Pandas is designed to handle large datasets efficiently, although there may still be some performance considerations to keep in mind. Pandas excels at processing and analysing massive data sets while maintaining its impressive capabilities.
 
 
 **Drawbacks**:
