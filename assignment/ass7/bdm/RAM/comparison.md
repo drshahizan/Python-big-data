@@ -14,9 +14,11 @@
 
 Data manipulation and analysis are essential in data science, and various Python libraries specialize in various aspects of these tasks. This report aims to present a concise and detailed analysis of three widely recognized libraries, Pandas, Dask, and Vaex, which are commonly used for data manipulation and analysis. The report will offer an overview of these libraries and conduct a comparison analysis between them.
 
+
 ### Pandas
 
 Pandas is mainly used for datasets of small to medium size that can be stored in computer memory. It is frequently used to modify, cleanse, and analyze data.
+
 
 #### The advantages and drawbacks of using Pandas
 
@@ -111,7 +113,6 @@ Writing complex queries in Vaex might be less intuitive compared to Pandas, as V
 ## Comparative Analysis
 
 ### Execution Time
-
 
 In the execution time analysis, Pandas outperformed Vaex and Dask, completing the task in a notably shorter time frame (4 s). Pandas, optimized for in-memory processing, excel with smaller to medium-sized datasets that fit into memory. Dask, designed for parallel and distributed computing, showed a moderately longer execution time (21 s), reflecting its ability to handle larger-than-memory datasets efficiently. Vaex, which had the most extended duration (46.30 s), is designed for processing big datasets that cannot fit in memory, and the increased execution time can be attributed to the intrinsic additional time required for reading and processing data in this manner. The most suitable library to use relies on the individual attributes and scale of the dataset. Pandas provide fast performance for jobs that can be handled in memory. Still, Dask and Vaex give more significant advantages for enormous datasets requiring distributed or out-of-core processing.
 
