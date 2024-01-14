@@ -3,7 +3,7 @@
 ### Group Name: RAM
 
 ### Group Members
-| Name                             | Matrix Number |
+| Name                             | Matric Number |
 | :------------------------------- | :-------------:|
 |MOHAMMED RAZA ASFAK CHIDIMAR | MCS231004|
 |AYAZ RAHMAN BHUIYAN |MCS231023 |
