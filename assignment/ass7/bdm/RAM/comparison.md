@@ -12,71 +12,76 @@
 
 ## Introduction
 
-Data manipulation and analysis are essential in data science, and various Python libraries specialize in various aspects of these tasks. This report aims to present a concise and detailed analysis of three widely recognized libraries, Pandas, Dask, and Vaex, which are commonly used for data manipulation and analysis. The report will offer an overview of these libraries and conduct a comparison analysis between them.
+In data science, data manipulation and analysis are fundamental operations, and numerous Python libraries cater to distinct facets of these activities. The objective of this report is to provide a brief yet comprehensive evaluation of three widely acknowledged libraries, namely Vaex, Pandas, and Dask, which are frequently employed in the analysis and manipulation of data. A comparison analysis and an overview of these libraries will be included in the report.
 
 
 ### Pandas
 
-Pandas is mainly used for datasets of small to medium size that can be stored in computer memory. It is frequently used to modify, cleanse, and analyze data.
-
+Pandas is primarily applied to relatively small to mid-sized datasets that are memory-capable. It is widely used for data cleansing, modification, and analysis of datasets.
 
 #### The advantages and drawbacks of using Pandas
 
 **Advantages**:
 
 **1. Data Representation:**
-Data Representation: Pandas offers a DataFrame object, a structured data format with two dimensions that allow straightforward manipulation and data analysis. The tool provides user-friendly indexing and column manipulation features and is compatible with various data types.
+Data Representation: The DataFrame object provided by Pandas is a two-dimensional structured data format that facilitates easy data manipulation and analysis. The application supports a wide range of data types and offers indexing and column manipulation capabilities that are intuitive for users.
 
 
 **2. Increased Efficiency:**
-Pandas provides a brief and comprehensive syntax, helping users to execute more with minimal code. The tool offers extensive pre-built algorithms and methods for manipulating and analyzing data, minimizing human coding requirements, and enhancing efficiency.
+Pandas offers a concise and all-encompassing syntax, enabling users to accomplish more with minimal code. The application provides a wide range of pre-established algorithms and techniques for data manipulation and analysis, thereby reducing the need for manual coding and improving overall efficiency.
 
 
 **3. Efficiently Handles Large Datasets:**
-Pandas has been optimized to manage large datasets effectively but may have some performance constraints. Pandas offers efficient processing and analysis of large data sets while maintaining full functionality.
+While Pandas has been optimized for efficient management of enormous datasets, it may still be subject to performance limitations. Pandas maintains full functionality while facilitating the efficient processing and analysis of massive data collections.
 
 
 **Drawbacks**:
 
 **1. Memory Usage:**
-Pandas can consume significant memory, particularly when handling massive datasets. Performing the task of loading and handling extensive quantities of data can require significant memory resources, which might be a limitation in settings with restricted memory capacity.
+Pandas has the potential to consume memory, especially when dealing with enormous datasets significantly. Executing the operation of importing and managing substantial volumes of data can necessitate considerable memory resources, potentially posing a constraint in environments with limited memory capacity.
 
 
 **2. Performance Constraints:**
-Although Pandas has efficient data processing capabilities, some operations may show slower performance when compared to lower-level libraries such as NumPy. Pandas might not offer the same level of performance as specialized libraries or custom implementations for activities that require a lot of processing power.
+While Pandas possesses effective data processing capabilities, certain operations may exhibit reduced efficacy in comparison to libraries operating at a lower level, such as NumPy. Processing-intensive tasks for which Pandas may not provide the same level of performance as specialized libraries or custom implementations.
 
 
 **3. Limited Support for Real-Time Data:**
-Pandas is mainly intended for manipulating clean, organized datasets. It may not be optimal for handling real-time data or analyzing streaming data when other specialized tools or libraries may be more appropriate.
+Pandas is designed primarily for the manipulation of organized, tidy datasets. When analyzing streaming data or managing real-time data, alternative specialized tools or libraries might be more suitable.
 
 
 ### Dask
 
-Dask is engineered explicitly to execute computations in parallel and handle large-scale data processing. It is well-suited for handling more significant datasets than the available RAM and allows users to perform concurrent operations on large datasets.
+Dask has been purposefully designed to perform computations in parallel and effectively manage the processing of large-scale data. Users are granted the capability to execute concurrent operations on sizable datasets, making it highly suitable for managing datasets that exceed the capacity of the RAM.
 
 
 #### The advantages and drawbacks of using Pandas
 
 **Advantages**:
 
-**1. Easy to use:** Dask effortlessly interfaces with well-known libraries such as Pandas and NumPy, offering a seamless transition for Python users. By using the Dask equivalents of libraries such as Pandas, one can easily replace them in the API to perform simultaneous processing with few code modifications.
+**1. Easy to use:**
+Dask integrates seamlessly with widely recognized tools, including NumPy and Pandas, providing Python users with a smooth transition. By substituting the Dask equivalents for libraries like Pandas in the API, it is possible to execute concurrent processing with minimal alterations to the code.
 
 
-**2. Scalability:** Dask provides seamless scalability, supporting single-machine deployments and extensive clusters with thousands of processing cores. It optimally utilizes the available resources, whether on the computer or in a system with distributed computing.
+**2. Scalability:** 
+Dask supports single-machine deployments as well as extensive clusters comprising thousands of processing processors, thereby ensuring seamless scalability. It utilizes the available resources in a distributed computing system or on an individual computer.
 
 
-**3. Flexibility:** Dask provides a variety of collections such as DataFrames, Arrays, Bags, and Datasets, enabling you to select the most suitable option for your data and task. Additionally, it supports a range of functions, such as filtering, aggregating, and employing machine learning methods.
+**3. Flexibility:**
+Dask offers an extensive selection of collections, including DataFrames, Arrays, Bags, and Datasets, from which you can choose the one that best fits your data and task requirements. In addition, a variety of operations are supported, including aggregation, filtering, and the application of machine learning techniques.
 
 
 **Drawbacks**:
 
-**1. Overhead:** Dask incurs additional computational costs compared to single-threaded execution, mainly when working with tiny datasets. The advantages of parallelization may not exceed the additional costs for specific jobs.
+**1. Overhead:**
+Compared to single-threaded execution, Dask incurs additional computational costs, particularly when working with small datasets. In certain cases, the benefits of parallelization might not outweigh the additional expenses.
 
 
-**2. Limited functionalities:** Dask does not have the same capabilities as specialized large data processing frameworks like Spark. For example, the SQL engine of the system is currently being developed, as is its interface with other environments.
+**2. Limited functionalities:** 
+In contrast to Spark, Dask lacks the functionalities of specialized frameworks designed for large-scale data processing. For instance, the SQL engine and interface with the external environments of the system are both under development at the moment.
 
 
-**3. Constrained stateful operations:** Dask collections are primarily unchangeable, indicating that altering existing data is impossible. This might provide a challenge for some workflow patterns.
+**3. Constrained stateful operations:** 
+Dask collections are primarily unchangeable, indicating that altering existing data is impossible. This might provide a challenge for some workflow patterns.
 
 
 ### Vaex
