@@ -1,13 +1,17 @@
-# Water Quality Prediction - Assignment 6 
+# Assignment 6: Mastering Big Data Handling
 
-<a target="_blank" href="https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/AM/AM_Assignment_6.ipynb">
+<a target="_blank" href="https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/HR/big_data.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-| Name                                     | Matrix Number |
-| :---------------------------------------- | :-------------: |
-| Ayaz Rahman Bhuiyan           |MCS231023      |
-| Musab Ibne Ahmad              |MCS231017      |
+
+
+## Group Members:
+
+| Name          | Matric Number  | 
+| ------------- | -------------- | 
+|MOHAMMED RAZA ASFAK CHIDIMAR     | MCS231004       | 
+| HUSSEIN YUSUF SHEIKH MOHAMED   | MCS231024       |
 
 **Five strategies to handle the big dataset**
 
