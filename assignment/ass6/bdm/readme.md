@@ -52,7 +52,7 @@ In this assignment, you will explore the management of big data processing in da
 | 2. | Kicap  |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/Kicap" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Restaurant reviews |
 | 3. | F2  |  <a href="./F2/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Brewery Operations and Market Analysis |
 | 4. | F1  |  <a href="./F1/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Game Recommendations on Steam | 9 |
-| 5. | HR  |  <a href="./HR/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Newyork Taxi Trip Data](https://www.kaggle.com/datasets/microize/newyork-yellow-taxi-trip-data-2020-2019) | 12 |
+| 5. | HR  |  <a href="./HR/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | [Newyork Taxi Trip Data](https://www.kaggle.com/datasets/microize/newyork-yellow-taxi-trip-data-2020-2019) | 0 |
 | 6. | Sambal  |  <a href="https://github.com/drshahizan/Python-big-data/tree/main/assignment/ass6/bdm/Sambal" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | 2019 Airline Delays w/Weather and Airport Detail |
 | 7. | Daging Salai  |  <a href="./Daging Salai/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | TripAdvisor Hotel Reviews |
 | 8. | Avengers |  <a href="./Avengers/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" ></a> | Amazon Book Reviews | 19 |
