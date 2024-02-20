@@ -16,7 +16,7 @@
 | Wu Jiaming               |MCS221033      |
 
 ### 📂 Folder content:
-* [💻 Assignment 6](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/Equinox/Equinox_Assignment6_ipynb%E2%80%9D.ipynb)
+* [💻 Assignment 6](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/Equinox/Equinox_Assignment6_ipynb.ipynb)
 * [💻 Report](https://github.com/drshahizan/Python-big-data/blob/main/assignment/ass6/bdm/Equinox/Big_data_report.md)
 
 1. **Pick a Big Dataset**: The chosen Steam Reviews Dataset(1GB) for our Assignment 6 which is from kaggle. This dataset contains a collection of user reviews of video games in the Steam Store with a plethora of information about each review such as steam id, app id, playtime, the review text, like/dislike, timestamp of review created, timestamp of review updated, etc, scraped from the STEAM API. 
