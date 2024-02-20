@@ -73,8 +73,8 @@ Good luck with your assignment! If you have any questions or need help, don't he
 
 ## Submission
 
-| Team | Library 1 | Library 2 | Library 3 | Dataset |  File | AI |
-| ----- | ----- | ------ | ------ |  ------ | :------: | ------: | 
+| Team | Library 1 | Library 2 | Library 3 | Dataset |  File | 
+| ----- | ----- | ------ | ------ |  ------ | :------: | 
 | Sample | Pandas | Dask | Koalas | Air Flight Analysis | <a href="./sample/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > | 0 |
 | Avengers | Pandas | Modin | Vaex | [Amazon Book Reviews](https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews) | <a href="./Avengers/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > | 0 |
 | Truth Archive | Pandas | Dask |Modin  | [2019 Airline Delays w/Weather and Airport Detail](https://www.kaggle.com/datasets/threnjen/2019-airline-delays-and-cancellations) | <a href="./Thruth%20Archive/readme.md" ><img src="../../../images/answer.png" width="24px" height="24px" > | 33 |
